@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF6A"/>
+      <stop offset="100%" stop-color="#B8956A"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" fill="url(#bg)" rx="22"/>
+  <!-- 外圈铜钱环 -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity="0.3"/>
+  <!-- 泰卦 上坤(阴)下乾(阳) 天地交融 -->
+  <!-- 阴爻1 -->
+  <rect x="28" y="22" width="25" height="5" rx="1.5" fill="url(#gold)"/>
+  <rect x="60" y="22" width="8" height="5" rx="1.5" fill="url(#gold)"/>
+  <!-- 阴爻2 -->
+  <rect x="28" y="34" width="25" height="5" rx="1.5" fill="url(#gold)"/>
+  <rect x="60" y="34" width="8" height="5" rx="1.5" fill="url(#gold)"/>
+  <!-- 阴爻3 -->
+  <rect x="28" y="46" width="25" height="5" rx="1.5" fill="url(#gold)"/>
+  <rect x="60" y="46" width="8" height="5" rx="1.5" fill="url(#gold)"/>
+  <!-- 阳爻4 -->
+  <rect x="28" y="58" width="40" height="5" rx="1.5" fill="url(#gold)"/>
+  <!-- 阳爻5 -->
+  <rect x="28" y="70" width="40" height="5" rx="1.5" fill="url(#gold)"/>
+  <!-- 阳爻6 -->
+  <rect x="28" y="82" width="40" height="5" rx="1.5" fill="url(#gold)"/>
+</svg>

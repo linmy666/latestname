@@ -1,0 +1,4654 @@
+/* ============================================================
+   Latestname v1.0 — Apple Liquid Glass Design Language
+   Translucent Materials · Edge Specular · Adaptive Backdrop
+   ─────────────────────────────────────────────
+   © 2026 Latestname
+   ============================================================ */
+
+:root {
+  /* ===== Color System (Dark Default) ===== */
+  /* L0 — OLED Pure Black */
+  --bg: #000000;
+  --onyx-black: var(--bg);
+
+  /* L1 — Grouped Background */
+  --bg-grouped: #0B0B0F;
+
+  /* L2 — Surface (Frosted Glass) */
+  --surface: rgba(28, 28, 30, 0.72);
+  --surface-elevated: rgba(44, 44, 46, 0.72);
+  --onyx-surface: var(--surface);
+  --onyx-surface-2: var(--surface-elevated);
+  --onyx-black-light: var(--surface);
+  --onyx-black-soft: var(--surface-elevated);
+
+  /* L3 — Separator (Hairline) */
+  --separator: rgba(84, 84, 88, 0.36);
+  --separator-opaque: #2C2C2E;
+  --onyx-border: var(--separator);
+  --onyx-border-strong: rgba(84, 84, 88, 0.6);
+
+  /* L4 — Text (boosted opacity for readability over mesh gradients) */
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(235, 235, 245, 0.85);
+  --text-tertiary: rgba(235, 235, 245, 0.5);
+  --onyx-text: var(--text-primary);
+  --onyx-text-dim: var(--text-secondary);
+  --onyx-white: var(--text-primary);
+  --onyx-white-dim: var(--text-secondary);
+
+  /* L5 — Accent (Onyx Gold, refined — brighter for readability) */
+  --accent: #E8C97A;
+  --accent-bright: #F0DCAA;
+  --accent-dim: #B89A5A;
+  --onyx-gold: var(--accent);
+  --onyx-gold-bright: var(--accent-bright);
+  --onyx-gold-dim: var(--accent-dim);
+
+  /* Fortune Status Colors — brighter for dark mode readability */
+  --fortune-good: #E8C97A;
+  --fortune-bad: #FF8A7A;
+  --onyx-fortune-good: var(--fortune-good);
+  --onyx-fortune-bad: var(--fortune-bad);
+  --onyx-jade: var(--fortune-good);
+  --onyx-crimson: var(--fortune-bad);
+
+  /* ===== Typography (SF Pro Stack) ===== */
+  --font-system: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text',
+                 'Helvetica Neue', 'PingFang SC', 'Noto Sans SC', sans-serif;
+  --font-serif-en: 'New York', 'Iowan Old Style', 'Georgia', serif;
+  --font-serif-cn: 'Songti SC', 'STSong', 'Noto Serif SC', serif;
+  --font-mono: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
+  --font-base: var(--font-system);
+
+  /* ===== Spacing (8pt Grid) ===== */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2.5rem;    /* 40px */
+  --space-2xl: 4rem;     /* 64px */
+
+  /* ===== Corner Radius (Apple Scale) ===== */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 980px;
+
+  /* ===== Spring Easing (Apple-style) ===== */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ===== Shadows ===== */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.5);
+  
+  /* ===== 子界面专用变量 ===== */
+  --card-bg: rgba(28, 28, 30, 0.72);
+  --overlay-bg: #0a0a0f;
+  --surface-tint: rgba(255, 255, 255, 0.03);
+  --surface-tint-hover: rgba(184, 149, 106, 0.06);
+  --bar-track: rgba(255, 255, 255, 0.06);
+  --bar-inactive: rgba(255, 255, 255, 0.12);
+  --portrait-overlay: rgba(20, 20, 30, 0.95);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-system);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em; /* SF Pro slight negative tracking */
+}
+
+body {
+  background: var(--bg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* ===== Hairline Separator (Apple Style) ===== */
+.divider {
+  height: 0.5px;
+  background: var(--separator);
+  margin: var(--space-lg) 0;
+  border: none;
+}
+
+/* ===== Buttons ===== */
+button {
+  font-family: var(--font-system);
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  transition: all 0.2s var(--ease-smooth);
+  letter-spacing: -0.01em;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+/* Primary — White Filled Pill (Apple Style) */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.8rem;
+  background: var(--text-primary);
+  color: var(--bg);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  transition: all 0.25s var(--ease-smooth);
+  border: none;
+  min-height: 44px;
+}
+.btn-primary:hover:not(:disabled) {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+.btn-primary:active:not(:disabled) {
+  transform: scale(0.96);
+  transition: transform 0.1s;
+}
+
+/* Ghost — Outlined Pill */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.8rem;
+  background: transparent;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--separator);
+  transition: all 0.25s var(--ease-smooth);
+  min-height: 44px;
+}
+.btn-ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(84, 84, 88, 0.6);
+}
+.btn-ghost:active:not(:disabled) {
+  transform: scale(0.96);
+  transition: transform 0.1s;
+}
+
+/* ===== Inputs (Apple Style) ===== */
+input, textarea {
+  font-family: var(--font-system);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--separator);
+  color: var(--text-primary);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s var(--ease-smooth);
+  width: 100%;
+  letter-spacing: -0.01em;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 0 3px rgba(201, 169, 97, 0.12);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* ===== Scrollbar (Minimal) ===== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(84, 84, 88, 0.5);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(84, 84, 88, 0.8);
+}
+
+/* ===== Typography Hierarchy (SF Pro Style) ===== */
+.title-display {
+  font-family: var(--font-system);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.title-cn {
+  font-family: var(--font-serif-cn);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  font-family: var(--font-system);
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.body-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+
+.label {
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+/* ===== Card (Frosted Glass) ===== */
+.card {
+  background: var(--surface);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  margin: var(--space-md) 0;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Remove old gradient top-border */
+.card::before {
+  display: none;
+}
+
+/* Card hover interaction */
+.card-hover {
+  transition: transform 0.3s var(--ease-spring),
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: var(--shadow-md);
+}
+.card-hover:active {
+  transform: scale(0.98);
+}
+
+/* ===== Tags (Apple Pill Style) ===== */
+.tag {
+  display: inline-block;
+  padding: 0.25em 0.8em;
+  margin: 0.15em;
+  background: rgba(201, 169, 97, 0.12);
+  border: 0.5px solid rgba(201, 169, 97, 0.25);
+  border-radius: var(--radius-pill);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* ===== Color Utilities ===== */
+.text-gold { color: var(--accent); }
+.text-white { color: var(--text-primary); }
+.text-dim { color: var(--text-secondary); }
+.text-jade { color: var(--fortune-good); }
+.text-crimson { color: var(--fortune-bad); }
+
+/* ===== Animations (Spring-based) ===== */
+.fade-in {
+  animation: fadeIn 0.5s var(--ease-out) forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.route-fade {
+  animation: routeFadeIn 0.35s var(--ease-out) forwards;
+}
+@keyframes routeFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); text-shadow: 0 0 20px rgba(201, 169, 97, 0.3); }
+  50% { opacity: 1; transform: scale(1.15); text-shadow: 0 0 40px rgba(201, 169, 97, 0.5); }
+}
+
+/* Stagger Panel Entrance */
+.stagger-in {
+  animation: staggerFadeIn 0.5s var(--ease-out) forwards;
+  opacity: 0;
+  transform: translateY(16px);
+}
+@keyframes staggerFadeIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Breathing Circle (Clean, No Glow) ===== */
+.breath-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+.breath-circle::before {
+  content: '';
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  background: rgba(201, 169, 97, 0.04);
+  animation: shimmer 4s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.08); }
+}
+
+/* ============================================================
+   Light Theme (Apple Light Mode)
+   ============================================================ */
+:root[data-theme="light"] {
+  --bg: #F2F1ED;
+  --onyx-black: #F2F1ED;
+  --bg-grouped: #FFFFFF;
+  --surface: rgba(255, 255, 255, 0.85);
+  --surface-elevated: rgba(255, 255, 255, 0.95);
+  --onyx-surface: var(--surface);
+  --onyx-surface-2: var(--surface-elevated);
+  --onyx-black-light: var(--surface);
+  --onyx-black-soft: var(--surface-elevated);
+  --separator: rgba(0, 0, 0, 0.12);
+  --separator-opaque: #D1D1D6;
+  --onyx-border: var(--separator);
+  --onyx-border-strong: rgba(0, 0, 0, 0.2);
+  /* CRITICAL FIX: strong text colors for light mode contrast */
+  --text-primary: #1A1A1A;
+  --text-secondary: #2C2C2E;
+  --text-tertiary: #5A5A5C;
+  --onyx-text: #1A1A1A;
+  --onyx-text-dim: #2C2C2E;
+  --onyx-white: #1A1A1A;
+  --onyx-white-dim: #2C2C2E;
+  --accent: #7A5F2E;
+  --accent-bright: #9A7B3E;
+  --accent-dim: #5A4520;
+  --onyx-gold: #6B5530;
+  --onyx-gold-bright: #8B6F3A;
+  --onyx-gold-dim: #4A3A22;
+  --fortune-good: #4A7A3A;
+  --fortune-bad: #9B3D2E;
+  --onyx-fortune-good: #4A7A3A;
+  --onyx-fortune-bad: #9B3D2E;
+  --onyx-jade: #4A7A3A;
+  --onyx-crimson: #9B3D2E;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12);
+
+  /* ===== 子界面专用变量（日间模式） ===== */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --overlay-bg: #F2F1ED;
+  --surface-tint: rgba(0, 0, 0, 0.025);
+  --surface-tint-hover: rgba(122, 95, 46, 0.06);
+  --bar-track: rgba(0, 0, 0, 0.06);
+  --bar-inactive: rgba(0, 0, 0, 0.14);
+  --portrait-overlay: rgba(242, 241, 237, 0.95);
+}
+
+:root[data-theme="light"] body {
+  background: var(--bg);
+}
+
+:root[data-theme="light"] .card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="light"] input,
+:root[data-theme="light"] textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(60, 60, 67, 0.2);
+  color: #000;
+}
+
+:root[data-theme="light"] input:focus,
+:root[data-theme="light"] textarea:focus {
+  border-color: var(--accent);
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 3px rgba(139, 111, 74, 0.12);
+}
+
+:root[data-theme="light"] .btn-primary {
+  background: #000;
+  color: #FFF;
+}
+
+:root[data-theme="light"] .glass-btn-primary {
+  background: rgba(0, 0, 0, 0.88);
+  color: #fff;
+}
+:root[data-theme="light"] .glass-btn-primary:hover:not(:disabled) {
+  background: rgba(0, 0, 0, 1);
+}
+:root[data-theme="light"] .glass-nav {
+  background: rgba(245, 245, 247, 0.6);
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+/* ============================================================
+   Animation Toggle
+   ============================================================ */
+.no-animations .fade-in,
+.no-animations .breath-circle::before,
+.no-animations .stagger-in,
+.no-animations * {
+  animation: none !important;
+  transition: none !important;
+}
+.no-animations .fade-in {
+  opacity: 1 !important;
+}
+.no-animations .stagger-in {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* ============================================================
+   Markdown Render (AI Interpretation)
+   ============================================================ */
+.md-body {
+  font-family: var(--font-system);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+.md-body h1, .md-body h2, .md-body h3, .md-body h4 {
+  font-family: var(--font-system);
+  color: var(--text-primary);
+  margin: 1.4em 0 0.5em 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.md-body h1 { font-size: 1.4rem; }
+.md-body h2 { font-size: 1.2rem; }
+.md-body h3 { font-size: 1.05rem; }
+.md-body h4 { font-size: 1rem; color: var(--accent); }
+.md-body p { margin: 0.5em 0; }
+.md-body strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.md-body em {
+  color: var(--accent);
+  font-style: italic;
+}
+.md-body blockquote {
+  border-left: 3px solid var(--accent-dim);
+  padding-left: 1rem;
+  margin: 0.8em 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+.md-body ul, .md-body ol {
+  padding-left: 1.4rem;
+  margin: 0.5em 0;
+}
+.md-body li { margin: 0.25em 0; }
+.md-body hr {
+  border: none;
+  height: 0.5px;
+  background: var(--separator);
+  margin: 1.2em 0;
+}
+.md-body code {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  color: var(--accent);
+}
+.md-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0;
+  font-size: 0.9rem;
+}
+.md-body th, .md-body td {
+  border: 0.5px solid var(--separator);
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+.md-body th {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ============================================================
+   Theme Toggle (Clean Circle)
+   ============================================================ */
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0.5px solid var(--separator);
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s var(--ease-smooth);
+  flex-shrink: 0;
+  color: var(--text-secondary);
+}
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(84, 84, 88, 0.5);
+}
+
+/* ============================================================
+   3D Card Flip (Tarot)
+   ============================================================ */
+.card-3d-wrapper {
+  perspective: 1200px;
+  width: 100%;
+}
+.card-3d {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s var(--ease-spring);
+}
+.card-3d.flipped {
+  transform: rotateY(180deg);
+}
+.card-3d-face {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-3d-back {
+  transform: rotateY(180deg);
+}
+
+/* Yao drop animation */
+.yao-line {
+  animation: yaoDrop 0.5s var(--ease-spring) forwards;
+  opacity: 0;
+  transform: translateY(-20px) scale(0.85);
+}
+@keyframes yaoDrop {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ===== Particle Background ===== */
+.particles-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0;
+  animation: particleFloat 10s ease-in-out infinite;
+}
+@keyframes particleFloat {
+  0% { opacity: 0; transform: translateY(100vh) translateX(0) scale(0.3); }
+  10% { opacity: 0.15; }
+  90% { opacity: 0.1; }
+  100% { opacity: 0; transform: translateY(-10vh) translateX(var(--drift, 50px)) scale(0.8); }
+}
+
+/* ===== Bazi Pillars ===== */
+.bazi-pillar {
+  text-align: center;
+  padding: 0.8rem 0.5rem;
+  border: 0.5px solid var(--separator);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.2s var(--ease-smooth);
+}
+.bazi-pillar:hover {
+  border-color: rgba(84, 84, 88, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-1px);
+}
+.bazi-pillar .gan {
+  font-family: var(--font-serif-cn);
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 1;
+}
+.bazi-pillar .zhi {
+  font-family: var(--font-serif-cn);
+  font-size: 1.6rem;
+  color: var(--accent);
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 0.2rem;
+}
+.bazi-pillar .label-sm {
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  margin-top: 0.4rem;
+  font-weight: 600;
+}
+
+/* ===== Five Elements Bars ===== */
+.wuxing-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+.wuxing-bar .wx-name {
+  width: 1.5rem;
+  font-family: var(--font-serif-cn);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+.wuxing-bar .wx-track {
+  flex: 1;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.wuxing-bar .wx-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  animation: wxGrow 0.8s var(--ease-out) forwards;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+@keyframes wxGrow {
+  to { transform: scaleX(1); }
+}
+
+/* ===== Expand Panel ===== */
+.expand-panel {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s var(--ease-smooth), opacity 0.3s ease;
+  opacity: 0;
+}
+.expand-panel.open {
+  max-height: 600px;
+  opacity: 1;
+}
+
+/* ============================================================
+   v0.9: Apple-Style Components
+   ============================================================ */
+
+/* Example Question Chips */
+.example-chip {
+  display: inline-block;
+  padding: 0.45em 1em;
+  margin: 0.25em 0.25em 0 0;
+  border: 0.5px solid var(--separator);
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s var(--ease-smooth);
+  background: rgba(255, 255, 255, 0.03);
+  font-family: var(--font-system);
+}
+.example-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(201, 169, 97, 0.06);
+}
+.example-chip:active {
+  transform: scale(0.95);
+}
+
+/* Hexagram Thumbnail */
+.hex-thumb {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem;
+}
+.hex-thumb .wuxing-stripe {
+  width: 3px;
+  height: 48px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Confirm Modal (Apple Alert Style) */
+.confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+.confirm-modal {
+  background: var(--surface-elevated);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  animation: modalIn 0.3s var(--ease-spring);
+}
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Status Colors */
+.status-success { color: var(--accent-bright); }
+.status-error { color: var(--fortune-bad); }
+
+/* SVG Icon System */
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Fortune Score Bar (Apple Health Ring Style) */
+.score-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.score-bar .score-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s var(--ease-out);
+}
+
+/* ============================================================
+   v1.0 LIQUID GLASS — Core Material System
+   ============================================================ */
+
+/* L1 — Background mesh gradient (gives glass something to refract) */
+.mesh-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: #000;
+}
+
+/* Animated color blobs — the SOUL of liquid glass */
+.mesh-bg .blob {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.35;
+  mix-blend-mode: screen;
+  animation: blobDrift 25s ease-in-out infinite;
+}
+.mesh-bg .blob-1 {
+  background: #5B4BFF; /* indigo */
+  top: -8%; left: 0%;
+  animation-delay: 0s;
+  animation-duration: 28s;
+}
+.mesh-bg .blob-2 {
+  background: #9D5BFF; /* violet */
+  top: 35%; right: -5%;
+  animation-delay: -5s;
+  animation-duration: 32s;
+}
+.mesh-bg .blob-3 {
+  background: #FF8C5B; /* amber-coral */
+  bottom: -5%; left: 20%;
+  animation-delay: -10s;
+  animation-duration: 24s;
+}
+.mesh-bg .blob-4 {
+  background: #5BFFB0; /* mint */
+  top: 55%; right: 15%;
+  width: 500px; height: 500px;
+  opacity: 0.22;
+  animation-delay: -15s;
+  animation-duration: 30s;
+}
+.mesh-bg .blob-5 {
+  background: #FF5B9D; /* pink */
+  top: 15%; left: 35%;
+  width: 350px; height: 350px;
+  opacity: 0.15;
+  animation-delay: -8s;
+  animation-duration: 26s;
+}
+@keyframes blobDrift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(80px, -60px) scale(1.15); }
+  66% { transform: translate(-50px, 80px) scale(0.9); }
+}
+
+:root[data-theme="light"] .mesh-bg {
+  background: #F5F5F0;
+}
+:root[data-theme="light"] .mesh-bg .blob {
+  opacity: 0.15;
+  mix-blend-mode: multiply;
+}
+:root[data-theme="light"] .mesh-bg .blob-1 { background: #6B5BFF; }
+:root[data-theme="light"] .mesh-bg .blob-2 { background: #B06BFF; }
+:root[data-theme="light"] .mesh-bg .blob-3 { background: #FF9B6B; }
+:root[data-theme="light"] .mesh-bg .blob-4 { background: #6BFFC0; }
+
+/* L2 — Liquid Glass surface (base material) */
+.glass {
+  background: rgba(40, 40, 45, 0.55);
+  backdrop-filter: blur(30px) saturate(150%);
+  -webkit-backdrop-filter: blur(30px) saturate(150%);
+  border: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+}
+/* Specular edge highlight — simulates curved glass edge */
+.glass::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.03) 15%,
+    transparent 40%,
+    transparent 60%,
+    rgba(255, 255, 255, 0.02) 85%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  mix-blend-mode: screen;
+  opacity: 0.8;
+}
+:root[data-theme="light"] .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+:root[data-theme="light"] .glass::after {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.4) 15%,
+    transparent 40%,
+    transparent 60%,
+    rgba(255, 255, 255, 0.3) 85%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+}
+
+/* L3 — Strong Glass (cards, modals) */
+.glass-strong {
+  background: rgba(35, 35, 40, 0.7);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+}
+:root[data-theme="light"] .glass-strong {
+  background: rgba(252, 252, 254, 0.75);
+}
+
+/* L4 — Ultra-thin glass (nav, toolbars) */
+.glass-thin {
+  background: rgba(28, 28, 30, 0.5);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+:root[data-theme="light"] .glass-thin {
+  background: rgba(242, 242, 247, 0.5);
+}
+
+/* Glass Card — liquid interaction */
+.glass-card {
+  background: rgba(40, 40, 45, 0.45);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 0 0 0.5px rgba(255, 255, 255, 0.04),
+    0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s var(--ease-spring),
+              background 0.3s ease,
+              border-color 0.2s ease,
+              box-shadow 0.3s ease;
+}
+.glass-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.02) 20%,
+    transparent 45%,
+    transparent 55%,
+    rgba(255, 255, 255, 0.03) 80%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  mix-blend-mode: screen;
+}
+.glass-card:hover {
+  background: rgba(55, 55, 60, 0.5);
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-3px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 0 0 0.5px rgba(255, 255, 255, 0.06),
+    0 16px 48px rgba(0, 0, 0, 0.4);
+}
+.glass-card:active {
+  transform: scale(0.98);
+  transition: transform 0.1s;
+}
+:root[data-theme="light"] .glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+:root[data-theme="light"] .glass-card:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Glass Nav Bar */
+.glass-nav {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.06);
+}
+.glass-nav::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.04) 0%,
+    transparent 100%
+  );
+}
+:root[data-theme="light"] .glass-nav {
+  background: rgba(242, 242, 247, 0.5);
+}
+
+/* Glass Input — reflective surface */
+.glass-input {
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 0.5px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: var(--radius-md) !important;
+  transition: all 0.3s var(--ease-smooth) !important;
+}
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.04), 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+:root[data-theme="light"] .glass-input {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+:root[data-theme="light"] .glass-input:focus {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03);
+}
+
+/* Glass Pill Button — primary (white liquid) */
+.glass-btn-primary {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #000;
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 0.8rem 2.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  min-height: 44px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s var(--ease-spring);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1), inset 0 0.5px 0 rgba(255, 255, 255, 0.5);
+}
+.glass-btn-primary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15), inset 0 0.5px 0 rgba(255, 255, 255, 0.6);
+}
+.glass-btn-primary:active:not(:disabled) {
+  transform: scale(0.96);
+  transition: transform 0.1s;
+}
+.glass-btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 50%;
+  border-radius: var(--radius-pill) var(--radius-pill) 0 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
+  pointer-events: none;
+}
+:root[data-theme="light"] .glass-btn-primary {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), inset 0 0.5px 0 rgba(255, 255, 255, 0.2);
+}
+:root[data-theme="light"] .glass-btn-primary:hover:not(:disabled) {
+  background: rgba(0, 0, 0, 1);
+}
+
+/* Glass Ghost Button — translucent outline */
+.glass-btn-ghost {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  color: var(--text-primary);
+  border: 0.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-pill);
+  padding: 0.8rem 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  min-height: 44px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s var(--ease-spring);
+}
+.glass-btn-ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+.glass-btn-ghost:active:not(:disabled) {
+  transform: scale(0.96);
+  transition: transform 0.1s;
+}
+
+/* Glass Chip / Tag */
+.glass-chip {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-pill);
+  color: var(--text-secondary);
+  padding: 0.3em 0.8em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s var(--ease-smooth);
+}
+.glass-chip:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+  color: var(--text-primary);
+}
+
+/* ===== Hero Orb — Liquid Glass Glow Element ===== */
+.hero-orb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 30% 20%,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(80, 70, 100, 0.15) 35%,
+    rgba(20, 20, 30, 0.25) 70%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 0.5px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    0 0 120px rgba(100, 80, 160, 0.15),
+    inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -30px 60px rgba(0, 0, 0, 0.4),
+    inset 0 0 80px rgba(255, 255, 255, 0.05);
+  animation: orbFloat 6s ease-in-out infinite;
+}
+@keyframes orbFloat {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-10px) scale(1.03); }
+}
+/* Specular highlight — top-left gloss */
+.hero-orb::before {
+  content: '';
+  position: absolute;
+  top: 6%;
+  left: 18%;
+  width: 65%;
+  height: 45%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255, 255, 255, 0.25), transparent 70%);
+  pointer-events: none;
+  filter: blur(2px);
+}
+/* Outer glow ring */
+.hero-orb::after {
+  content: '';
+  position: absolute;
+  inset: -30px;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(140, 100, 200, 0.12) 0%,
+    rgba(100, 80, 160, 0.06) 40%,
+    transparent 70%);
+  z-index: -1;
+  animation: orbGlow 5s ease-in-out infinite;
+}
+@keyframes orbGlow {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.15); }
+}
+/* Inner hexagram glow */
+.hero-orb > * {
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.3));
+  z-index: 1;
+}
+:root[data-theme="light"] .hero-orb {
+  background: radial-gradient(circle at 30% 20%,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(245, 240, 250, 0.8) 30%,
+    rgba(225, 220, 235, 0.6) 70%,
+    rgba(200, 195, 215, 0.4) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 30px 80px rgba(100, 80, 130, 0.12),
+    0 0 120px rgba(120, 100, 180, 0.08),
+    inset 0 2px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -30px 60px rgba(200, 195, 215, 0.4);
+}
+
+/* ===== Liquid Ripple (button press) ===== */
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  animation: ripple 0.6s ease-out;
+}
+
+/* ===== Scroll Reveal (Liquid entrance) ===== */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Stagger delays ===== */
+.stagger-1 { transition-delay: 0.08s; }
+.stagger-2 { transition-delay: 0.16s; }
+.stagger-3 { transition-delay: 0.24s; }
+.stagger-4 { transition-delay: 0.32s; }
+.stagger-5 { transition-delay: 0.4s; }
+.stagger-6 { transition-delay: 0.48s; }
+
+/* ============================================================
+   v0.3: HexagramSVG Color System + Animations
+   ============================================================ */
+
+/* Hexagram lines use currentColor → inherits from parent */
+.hero-orb svg {
+  color: var(--text-primary);
+}
+.hero-orb > * {
+  filter: drop-shadow(0 0 12px var(--accent-glow, rgba(212, 185, 122, 0.3)));
+}
+
+/* Result page hexagram — always readable, with gemstone glow */
+.card svg {
+  color: var(--text-primary);
+  filter: drop-shadow(0 0 10px var(--accent-glow, rgba(212, 185, 122, 0.4)));
+}
+
+/* === Animated hexagram entrance === */
+.hex-svg-animated .hex-line-group {
+  opacity: 0;
+  transform-origin: center;
+  animation: hexLineReveal 0.5s ease-out forwards;
+}
+.hex-svg-animated .hex-line-0 { animation-delay: 0.1s; }
+.hex-svg-animated .hex-line-1 { animation-delay: 0.2s; }
+.hex-svg-animated .hex-line-2 { animation-delay: 0.3s; }
+.hex-svg-animated .hex-line-3 { animation-delay: 0.4s; }
+.hex-svg-animated .hex-line-4 { animation-delay: 0.5s; }
+.hex-svg-animated .hex-line-5 { animation-delay: 0.6s; }
+
+@keyframes hexLineReveal {
+  from {
+    opacity: 0;
+    transform: scaleX(0.3) translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1) translateX(0);
+  }
+}
+
+/* Changing line dot pulse */
+.hex-dot-pulse {
+  animation: hexDotPulse 2s ease-in-out infinite;
+}
+@keyframes hexDotPulse {
+  0%, 100% { opacity: 0.6; r: 3; }
+  50% { opacity: 1; r: 4.5; }
+}
+
+/* === Light mode: hexagram lines must be dark === */
+:root[data-theme="light"] .hero-orb svg,
+:root[data-theme="light"] .hero-orb > * {
+  color: #3A3A3C;
+}
+:root[data-theme="light"] .hero-orb > * {
+  filter: drop-shadow(0 0 8px rgba(180, 140, 60, 0.2));
+}
+:root[data-theme="light"] .card svg {
+  color: #3A3A3C;
+}
+
+/* === Light mode: hero orb visible darker ring === */
+:root[data-theme="light"] .hero-orb {
+  border-color: rgba(100, 80, 130, 0.25);
+  box-shadow:
+    0 30px 80px rgba(100, 80, 130, 0.15),
+    0 0 120px rgba(120, 100, 180, 0.1),
+    inset 0 2px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -30px 60px rgba(200, 195, 215, 0.5),
+    inset 0 0 40px rgba(180, 140, 60, 0.06);
+}
+
+/* ============================================================
+   v0.3: Premium Motion — glass hover lift, shimmer, etc.
+   ============================================================ */
+
+/* Glass card hover lift */
+.glass-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2),
+              0 0 0 1px var(--separator);
+}
+
+/* Card hover: subtle lift */
+.card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.35s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--separator));
+}
+
+/* Button shimmer on hover */
+.btn-primary, .btn-ghost {
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after, .btn-ghost::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  transition: left 0.5s ease;
+}
+.btn-primary:hover::after, .btn-ghost:hover::after {
+  left: 100%;
+}
+
+/* Hero orb slow rotation accent */
+.hero-orb svg {
+  animation: hexBreathe 8s ease-in-out infinite;
+}
+@keyframes hexBreathe {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+/* Mode tooltip arrow */
+.mode-tip::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: var(--surface);
+  border-top: 1px solid var(--separator);
+  border-left: 1px solid var(--separator);
+}
+
+/* Fortune chart curve draw animation */
+.glass-card svg path[stroke] {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: drawCurve 2s ease-out forwards;
+}
+@keyframes drawCurve {
+  to { stroke-dashoffset: 0; }
+}
+
+/* ============================================================
+   Latestname v1.1: 此刻之名动画
+   ============================================================ */
+@keyframes nameReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(15px) scale(0.85);
+    filter: blur(8px);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+/* ============================================================
+   v2.0: 卦格人格问卷 — MBTI式
+   ============================================================ */
+
+.quiz-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+/* 进度条 */
+.quiz-progress-bar-wrap {
+  margin-bottom: 2rem;
+}
+.quiz-progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-serif-cn);
+}
+.quiz-progress-bar {
+  height: 3px;
+  background: rgba(184,149,106,0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.quiz-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.4s cubic-bezier(0.32,0.72,0,1);
+  box-shadow: 0 0 8px rgba(184,149,106,0.4);
+}
+
+/* 维度进度药丸 */
+.quiz-dim-pills {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  flex-wrap: wrap;
+}
+.dim-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.15);
+  font-size: 0.7rem;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+.dim-pill.clear {
+  opacity: 1;
+  border-color: rgba(184,149,106,0.5);
+  box-shadow: 0 0 6px rgba(184,149,106,0.15);
+}
+.dim-pill-name {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.dim-pill-bars {
+  display: inline-flex;
+  width: 40px;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--bar-track);
+}
+.dim-bar-a { background: var(--accent); opacity: 0.8; transition: width 0.4s; }
+.dim-bar-b { background: var(--bar-inactive); transition: width 0.4s; }
+.dim-pill-winner {
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 1.2em;
+  text-align: center;
+}
+
+/* 题目卡片 */
+.quiz-card {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(184,149,106,0.15);
+}
+.quiz-card-enter {
+  animation: quizSlideIn 0.4s cubic-bezier(0.32,0.72,0,1);
+}
+.quiz-card-exit {
+  animation: quizSlideOut 0.3s cubic-bezier(0.32,0.72,0,1) forwards;
+}
+@keyframes quizSlideIn {
+  from { opacity: 0; transform: translateY(20px); filter: blur(8px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+@keyframes quizSlideOut {
+  from { opacity: 1; transform: translateY(0); filter: blur(0); }
+  to { opacity: 0; transform: translateY(-20px); filter: blur(8px); }
+}
+.quiz-question-id {
+  font-size: 0.7rem;
+  opacity: 0.4;
+  font-family: var(--font-mono);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1em;
+}
+.quiz-scenario {
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 1.8rem;
+  padding: 1rem 1.2rem;
+  background: var(--surface-tint);
+  border-radius: 12px;
+  border-left: 2px solid rgba(184,149,106,0.4);
+}
+
+/* 选项 */
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.15);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.32,0.72,0,1);
+  text-align: left;
+  font-family: inherit;
+  color: var(--text-primary);
+}
+.quiz-option:hover {
+  background: rgba(184,149,106,0.08);
+  border-color: rgba(184,149,106,0.4);
+  transform: translateX(4px);
+}
+.quiz-option:active {
+  transform: translateX(2px) scale(0.99);
+}
+.quiz-option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(184,149,106,0.12);
+  border: 1px solid rgba(184,149,106,0.25);
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  flex-shrink: 0;
+  transition: all 0.25s;
+}
+.quiz-option:hover .quiz-option-letter {
+  background: var(--accent);
+  color: white;
+  box-shadow: 0 0 12px rgba(184,149,106,0.3);
+}
+.quiz-option-text {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+/* ============================================================
+   卦格人格卡片 — 结果页
+   ============================================================ */
+.personality-card {
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.personality-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.personality-label {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+.personality-code-display {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.personality-trigram {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid rgba(184,149,106,0.25);
+  font-family: var(--font-serif-cn);
+}
+.personality-name {
+  font-family: var(--font-serif-cn);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright, #E0C893));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.personality-code-tag {
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-bottom: 0.8rem;
+}
+.personality-mbti {
+  color: var(--accent);
+  opacity: 0.8;
+}
+.personality-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* 维度得分 */
+.personality-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--surface-tint);
+  border-radius: 12px;
+}
+.personality-dim-row {
+  display: grid;
+  grid-template-columns: 50px 1fr auto 35px;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+.pd-label { opacity: 0.6; font-family: var(--font-serif-cn); }
+.pd-bar-wrap {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bar-track);
+}
+.pd-bar-a { background: var(--accent); opacity: 0.7; transition: width 0.6s; }
+.pd-bar-b { background: var(--bar-inactive); transition: width 0.6s; }
+.pd-winner { font-family: var(--font-serif-cn); font-weight: 600; color: var(--accent); white-space: nowrap; }
+.pd-conf { font-size: 0.7rem; opacity: 0.4; text-align: right; }
+
+/* 标签 */
+.personality-tabs {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(184,149,106,0.15);
+  padding-bottom: 0.5rem;
+}
+.ptab {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  background: transparent;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+}
+.ptab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  background: rgba(184,149,106,0.05);
+}
+.ptab-icon { font-size: 0.8rem; }
+
+.personality-body {
+  padding: 1rem 0.5rem;
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  animation: quizSlideIn 0.3s ease;
+}
+
+/* ============================================================
+   v2.1: Step 0 全屏入口 + 卦格选择器 + 长卷轴卡片
+   ============================================================ */
+
+/* --- Step 0 全屏覆盖层 --- */
+.step0-overlay {
+  position: relative;
+  z-index: 50;
+  display: block;
+  background: transparent;  /* 让主页面的渐变背景透过来，不另加卡片 */
+  animation: fadeIn 0.4s ease;
+  min-height: 100vh;
+  padding-top: 56px; /* nav height */
+  box-sizing: border-box;
+}
+/* gateway 页面 — 内容直接放在背景上，不再套大白卡片 */
+.step0-gateway {
+  position: relative;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 8rem);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+  animation: fadeInUp 0.6s ease;
+}
+.step0-bg-orb {
+  display: none;  /* 移除原有的伪卡背景层 */
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 卦象符号 SVG 锚点 — 加大 + 发光 + 呼吸 */
+.step0-trigram-symbol {
+  color: var(--accent);
+  opacity: 0.85;
+  margin-bottom: 2.5rem;
+  filter: drop-shadow(0 0 24px rgba(184, 149, 106, 0.45))
+          drop-shadow(0 0 8px rgba(184, 149, 106, 0.6));
+  animation: symbolFloat 4s ease-in-out infinite;
+}
+.step0-trigram-symbol svg {
+  width: 110px;
+  height: 110px;
+}
+@keyframes symbolFloat {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.85; }
+  50% { transform: translateY(-8px) scale(1.04); opacity: 1; }
+}
+
+.step0-label {
+  font-size: 0.7rem;
+  line-height: 2;
+  opacity: 0.4;
+  letter-spacing: 0.35em;
+  margin-bottom: 2rem;
+  font-family: var(--font-system);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.step0-title {
+  font-family: var(--font-serif-cn);
+  font-size: 3.8rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.3;
+}
+.step0-subtitle {
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 2;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+.step0-brand-line {
+  font-family: var(--font-serif-cn);
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  margin-top: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+/* --- 主路径大按钮 — 不再套大白卡片，直接作为视觉锚点 --- */
+.step0-paths {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 1rem;
+}
+.step0-path-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1.8rem 1.5rem;
+  background: rgba(255, 255, 255, 0.55);  /* 半透明白，融入背景 */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(184, 149, 106, 0.25);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.32,0.72,0,1);
+  font-family: inherit;
+  color: var(--text-primary);
+  width: 100%;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 8px 32px rgba(184, 149, 106, 0.12);
+}
+.step0-path-hero:hover {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(184, 149, 106, 0.45);
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 12px 48px rgba(184, 149, 106, 0.18);
+}
+.step0-hero-label {
+  font-family: var(--font-system);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  opacity: 0.7;
+  margin-bottom: 0.3rem;
+}
+.step0-hero-title {
+  font-family: var(--font-serif-cn);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.step0-hero-desc {
+  font-family: var(--font-serif-cn);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* --- 次路径：横向两个小卡 --- */
+.step0-path-secondary {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+.step0-path-mini {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1rem 0.5rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.08);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.32,0.72,0,1);
+  font-family: inherit;
+  color: var(--text-primary);
+}
+.step0-path-mini:hover {
+  background: var(--surface-tint-hover);
+  border-color: rgba(184,149,106,0.2);
+  transform: translateY(-1px);
+}
+.step0-mini-title {
+  font-family: var(--font-serif-cn);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.step0-mini-desc {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+}
+
+/* --- 做题包裹 --- */
+.step0-quiz-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem 1rem 3rem;
+}
+
+/* --- 返回按钮 --- */
+.step0-back-btn {
+  display: block;
+  margin: 1.5rem auto 0;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  opacity: 0.5;
+  cursor: pointer;
+  font-family: var(--font-serif-cn);
+  transition: opacity 0.2s;
+}
+.step0-back-btn:hover { opacity: 1; }
+
+/* --- Step 1: 问事 — 与叩玄统一 --- */
+.step1-section {
+  background: var(--overlay-bg);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  margin: 1rem 0;
+  border: 1px solid rgba(184,149,106,0.1);
+  animation: fadeInUp 0.6s ease;
+}
+.step1-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.step1-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  opacity: 0.6;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.step1-title {
+  font-family: var(--font-serif-cn);
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.step1-subtitle {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 2;
+  font-weight: 400;
+}
+.step1-subtitle-dim {
+  color: var(--text-tertiary);
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.step1-mode-row {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.step1-mode-card-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 130px;
+}
+.step1-mode-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1rem 0.8rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.1);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.32,0.72,0,1);
+  font-family: inherit;
+  color: var(--text-primary);
+  width: 100%;
+  box-sizing: border-box;
+}
+.step1-mode-card:hover {
+  background: var(--surface-tint-hover);
+  border-color: rgba(184,149,106,0.25);
+  transform: translateY(-2px);
+}
+.step1-mode-card.active {
+  background: linear-gradient(135deg, rgba(184,149,106,0.15), rgba(184,149,106,0.05));
+  border-color: rgba(184,149,106,0.4);
+  box-shadow: 0 4px 20px rgba(184,149,106,0.1);
+}
+.step1-mode-cn {
+  font-family: var(--font-serif-cn);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+.step1-mode-desc {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  opacity: 0.8;
+}
+
+.step1-textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid rgba(184,149,106,0.15);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  line-height: 1.8;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+.step1-textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.step1-textarea::placeholder {
+  color: var(--text-tertiary);
+  opacity: 0.5;
+}
+.step1-char-count {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  opacity: 0.5;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* --- 卦格对话伙伴（声音气泡）--- */
+.voice-intro-bubble {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.2rem 1.4rem;
+  margin: 1.5rem 0 1rem;
+  background: linear-gradient(135deg, rgba(184,149,106,0.08), rgba(184,149,106,0.02));
+  border: 1px solid rgba(184,149,106,0.15);
+  border-radius: 16px 16px 16px 4px;
+  position: relative;
+  animation: fadeInUp 0.6s ease 0.2s both;
+}
+.voice-intro-avatar {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(184,149,106,0.3);
+  background: var(--overlay-bg);
+}
+.voice-intro-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.voice-intro-content {
+  flex: 1;
+  min-width: 0;
+}
+.voice-intro-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+}
+.voice-intro-text {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* --- 卦格想问你的问题 --- */
+.voice-questions {
+  margin: 1rem 0 1.5rem;
+  animation: fadeInUp 0.6s ease 0.4s both;
+}
+.voice-questions-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+}
+.voice-questions-icon {
+  font-size: 1rem;
+  opacity: 0.6;
+}
+.voice-questions-title {
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  opacity: 0.7;
+}
+.voice-questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.voice-question-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.9rem 1rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.32,0.72,0,1);
+  font-family: inherit;
+  color: var(--text-primary);
+  text-align: left;
+  width: 100%;
+}
+.voice-question-item:hover {
+  background: linear-gradient(135deg, rgba(184,149,106,0.12), rgba(184,149,106,0.04));
+  border-color: rgba(184,149,106,0.3);
+  transform: translateX(4px);
+}
+.voice-question-num {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(184,149,106,0.15);
+  color: var(--accent);
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.voice-question-text {
+  flex: 1;
+  font-family: var(--font-serif-cn);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+.voice-question-arrow {
+  color: var(--accent);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  font-size: 1.1rem;
+}
+.voice-question-item:hover .voice-question-arrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+.voice-questions-hint {
+  margin-top: 0.8rem;
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  opacity: 0.5;
+  text-align: center;
+  font-style: italic;
+}
+
+/* --- 紧凑模式：卦格作为陪伴者 --- */
+.personality-companion {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.7rem 1rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.1);
+  border-radius: 12px;
+}
+.personality-companion-avatar {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1.5px solid rgba(184,149,106,0.25);
+  background: var(--overlay-bg);
+}
+.personality-companion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.personality-companion-info {
+  flex: 1;
+  min-width: 0;
+}
+.personality-companion-name {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: block;
+}
+.personality-companion-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
+  font-style: italic;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Step 1 卦格陪伴者横幅 --- */
+.step1-companion {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, rgba(184,149,106,0.1), rgba(184,149,106,0.04));
+  border: 1px solid rgba(184,149,106,0.18);
+  border-radius: 14px;
+  position: relative;
+}
+.step1-companion-avatar {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(184,149,106,0.3);
+  background: var(--overlay-bg);
+}
+.step1-companion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.step1-companion-body {
+  flex: 1;
+  min-width: 0;
+}
+.step1-companion-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.2rem;
+  flex-wrap: wrap;
+}
+.step1-companion-name {
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+}
+.step1-companion-status {
+  font-family: var(--font-system);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  opacity: 0.6;
+}
+.step1-companion-status::before {
+  content: '✦ ';
+  opacity: 0.7;
+}
+.step1-companion-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  opacity: 0.65;
+  font-style: italic;
+}
+.step1-companion-redo {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(184,149,106,0.2);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step1-companion-redo:hover {
+  background: var(--surface-tint-hover);
+  border-color: rgba(184,149,106,0.4);
+  transform: rotate(180deg);
+}
+
+/* --- Step 0 完成后的摘要 --- */
+.step0-result-summary {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: var(--surface-tint);
+  border-radius: 16px;
+  border: 1px solid rgba(184,149,106,0.12);
+  overflow: hidden;
+}
+.step0-summary-glow {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, rgba(184,149,106,0.08) 0%, transparent 70%);
+  filter: blur(25px);
+  pointer-events: none;
+}
+.step0-summary-label {
+  position: relative;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.8rem;
+}
+.step0-summary-trigrams {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+}
+.step0-trigram-chip {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(184,149,106,0.2);
+  font-family: var(--font-serif-cn);
+}
+.step0-summary-name {
+  position: relative;
+  font-family: var(--font-serif-cn);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  background: linear-gradient(135deg, var(--accent), #E0C893);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.step0-summary-code {
+  position: relative;
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-bottom: 0.4rem;
+}
+.step0-summary-slogan {
+  position: relative;
+  font-family: var(--font-serif-cn);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+.step0-redo {
+  position: relative !important;
+  font-size: 0.75rem;
+}
+
+/* --- 跳过提示 --- */
+.step0-skipped-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: var(--surface-tint);
+  border-radius: 12px;
+  border: 1px dashed rgba(184,149,106,0.15);
+  flex-wrap: wrap;
+}
+.step0-skip-text {
+  font-family: var(--font-serif-cn);
+  font-size: 0.8rem;
+  opacity: 0.5;
+  color: var(--text-secondary);
+}
+
+/* --- 卦格选择器 --- */
+.selector-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem 1rem 3rem;
+  animation: fadeInUp 0.4s ease;
+}
+.selector-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.selector-label {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+.selector-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  opacity: 0.6;
+}
+.selector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+.selector-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.8rem 0.5rem;
+  background: var(--surface-tint);
+  border: 1px solid rgba(184,149,106,0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-family: inherit;
+  color: var(--text-primary);
+}
+.selector-cell:hover {
+  background: rgba(184,149,106,0.06);
+  border-color: rgba(184,149,106,0.3);
+  transform: translateY(-2px);
+}
+.selector-cell.selected {
+  background: rgba(184,149,106,0.08);
+  border-color: rgba(184,149,106,0.5);
+  box-shadow: 0 0 12px rgba(184,149,106,0.15);
+}
+.selector-cell-name {
+  font-family: var(--font-serif-cn);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.selector-cell-code {
+  font-size: 0.65rem;
+  opacity: 0.5;
+}
+.selector-cell-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* --- 选择器详情卡片 --- */
+.selector-detail {
+  margin-bottom: 1.5rem;
+}
+.selector-detail-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.selector-detail-trigrams {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+}
+.selector-detail-name {
+  font-family: var(--font-serif-cn);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  background: linear-gradient(135deg, var(--accent), #E0C893);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.selector-detail-code {
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-bottom: 0.4rem;
+}
+.selector-detail-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+.selector-confirm-wrap {
+  text-align: center;
+  padding-top: 1rem;
+}
+.selector-confirm-btn {
+  padding: 0.8rem 2rem;
+}
+
+/* --- 长卷轴卡片（结果页+选择器共用） --- */
+.scroll-card {
+  position: relative;
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(184,149,106,0.12);
+  overflow: hidden;
+}
+
+.scroll-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(184,149,106,0.1);
+}
+.scroll-header-label {
+  font-size: 0.7rem;
+  opacity: 0.65;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+.scroll-trigrams {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.scroll-trigram-chip {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(184,149,106,0.2);
+  font-family: var(--font-serif-cn);
+}
+
+/* --- 推导链展示 — 让用户看见「卦格如何被算出」 --- */
+.scroll-derivation {
+  margin: 1.5rem 1rem;
+  padding: 1.2rem 1rem;
+  background: linear-gradient(135deg, rgba(184,149,106,0.06), rgba(184,149,106,0.02));
+  border: 1px solid rgba(184,149,106,0.18);
+  border-radius: 14px;
+  animation: fadeInUp 0.6s ease 0.15s both;
+}
+.scroll-derivation-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: var(--accent);
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.scroll-derivation-formula {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+.scroll-formula-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  background: rgba(255,255,255,0.45);
+  border: 1px solid rgba(184,149,106,0.2);
+  border-radius: 8px;
+  font-family: var(--font-serif-cn);
+  font-size: 0.78rem;
+}
+.scroll-formula-key {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+.scroll-formula-arrow {
+  color: var(--accent);
+  opacity: 0.6;
+  font-size: 0.7rem;
+}
+.scroll-formula-val {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.scroll-formula-plus {
+  color: var(--accent);
+  opacity: 0.5;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.scroll-formula-eq {
+  color: var(--accent);
+  opacity: 0.6;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0 0.2rem;
+}
+.scroll-formula-result {
+  font-family: var(--font-serif-cn);
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  background: rgba(184,149,106,0.15);
+  border: 1px solid rgba(184,149,106,0.35);
+  border-radius: 8px;
+}
+.scroll-formula-result strong {
+  font-weight: 800;
+  margin-left: 0.3rem;
+}
+.scroll-derivation-hint {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--text-tertiary);
+  opacity: 0.55;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.scroll-name {
+  font-family: var(--font-serif-cn);
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+.scroll-code {
+  font-size: 0.85rem;
+  opacity: 0.55;
+  margin-bottom: 0.4rem;
+}
+.scroll-slogan {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-style: italic;
+  opacity: 0.85;
+}
+
+/* --- 维度得分条 --- */
+.scroll-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--surface-tint);
+  border-radius: 12px;
+}
+.scroll-dim-row {
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed rgba(184,149,106,0.08);
+  font-size: 0.8rem;
+}
+.scroll-dim-row:last-child { border-bottom: none; }
+.scroll-dim-row-top {
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sd-label { opacity: 0.65; font-family: var(--font-serif-cn); }
+.sd-bar-wrap {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--bar-track);
+}
+.sd-bar-a { background: var(--accent); opacity: 0.6; transition: width 0.6s; }
+.sd-bar-b { background: var(--bar-inactive); transition: width 0.6s; }
+.sd-winner { font-family: var(--font-serif-cn); font-weight: 600; color: var(--accent); white-space: nowrap; font-size: 0.75rem; }
+
+/* 卦格对维度的吐槽 — 让卦格"开口"贯穿下半段 */
+.sd-comment {
+  margin-top: 0.5rem;
+  margin-left: 56px;
+  padding-left: 0.7rem;
+  border-left: 2px solid rgba(184,149,106,0.2);
+  font-family: var(--font-serif-cn);
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.sd-comment-name {
+  font-weight: 600;
+  color: var(--accent);
+  margin-right: 0.4rem;
+}
+.sd-comment-text {
+  opacity: 0.85;
+  font-style: italic;
+}
+
+/* --- 卷轴分节 --- */
+.scroll-section {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid rgba(184,149,106,0.06);
+}
+.scroll-section.last {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.scroll-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+.scroll-section-icon {
+  font-size: 1.1rem;
+  color: var(--accent);
+  opacity: 0.9;
+}
+.scroll-section-label {
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.1em;
+}
+.scroll-section-text {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: var(--text-primary);
+  opacity: 0.88;
+  padding-left: 1.4rem;
+  margin: 0;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- 卦格角色形象图 --- */
+.scroll-portrait-wrap {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -2rem -1.5rem 0;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+.scroll-portrait-img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.5));
+  animation: portraitFadeIn 0.8s ease;
+}
+.scroll-portrait-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, var(--portrait-overlay) 95%);
+  pointer-events: none;
+}
+@keyframes portraitFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- 选择器格子里的形象图 --- */
+.selector-cell-portrait {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+.selector-cell-img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+}
+
+/* --- 选择器详情顶部大形象图 --- */
+.selector-detail-portrait {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -2rem -1.5rem 0;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+.selector-detail-img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.5));
+}
+.selector-detail-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, var(--portrait-overlay) 95%);
+  pointer-events: none;
+}
+
+/* === 结果解读展示页 === */
+.step0-result-page {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem 1rem 3rem;
+  animation: fadeInUp 0.5s ease;
+}
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+.result-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 2rem;
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--bg);
+  background: linear-gradient(135deg, var(--accent), #D4B97A);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(184,149,106,0.3);
+}
+.result-share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(184,149,106,0.45);
+}
+.result-share-icon {
+  font-size: 1.1rem;
+}
+.result-continue-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--card-bg);
+  border: 1px solid rgba(184,149,106,0.25);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.result-continue-btn:hover {
+  border-color: var(--accent);
+  background: var(--surface-tint-hover);
+}
+.result-redo {
+  font-size: 0.82rem !important;
+  opacity: 0.4;
+}
+.result-redo:hover {
+  opacity: 0.7;
+}
+
+/* ============================================================
+   仪式化占卜流程 - 7 个新视图的样式
+   ============================================================ */
+
+/* 仪式通用背景 */
+.ritual-open-bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 25% 30%, rgba(255, 200, 180, 0.18), transparent 50%),
+    radial-gradient(circle at 75% 60%, rgba(180, 190, 230, 0.18), transparent 50%),
+    radial-gradient(circle at 50% 90%, rgba(220, 200, 160, 0.12), transparent 60%);
+  pointer-events: none;
+  z-index: -1;
+  animation: ritualBgBreathe 8s ease-in-out infinite;
+}
+@keyframes ritualBgBreathe {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.ritual-open,
+.coin-casting,
+.cast-reveal,
+.tarot-shuffle,
+.tarot-pick,
+.tarot-reveal {
+  position: relative;
+  min-height: calc(100vh - 56px);
+  padding: 3rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ritual-open-content,
+.coin-casting-content,
+.cast-reveal-content,
+.tarot-shuffle-content,
+.tarot-pick-content,
+.tarot-reveal-content {
+  position: relative;
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+}
+
+/* === 仪式开场 === */
+.ritual-open-companion {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 2.5rem;
+  background: rgba(184, 149, 106, 0.08);
+  border: 1px solid rgba(184, 149, 106, 0.2);
+  border-radius: 999px;
+}
+.ritual-open-companion-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1.5px solid rgba(184, 149, 106, 0.3);
+}
+.ritual-open-companion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ritual-open-companion-text { text-align: left; }
+.ritual-open-companion-label {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.ritual-open-companion-code {
+  font-family: var(--font-system);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  opacity: 0.7;
+}
+
+.ritual-open-question {
+  margin-bottom: 2.5rem;
+  padding: 1.2rem 1.5rem;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(184, 149, 106, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.ritual-open-question-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: var(--accent);
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+}
+.ritual-open-question-text {
+  font-family: var(--font-serif-cn);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.ritual-open-meditation {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1rem;
+}
+.ritual-open-meditation-icon {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  animation: candleFlicker 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 12px rgba(255, 180, 100, 0.5));
+}
+@keyframes candleFlicker {
+  0%, 100% { opacity: 0.95; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.ritual-open-meditation-text {
+  font-family: var(--font-serif-cn);
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  line-height: 2.2;
+  margin: 0;
+  letter-spacing: 0.15em;
+}
+.ritual-open-meditation-hint {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  letter-spacing: 0.05em;
+  margin-top: 0.8rem;
+  opacity: 0.7;
+}
+
+.ritual-open-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.ritual-open-begin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  color: #1a1a1a;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  box-shadow:
+    0 8px 32px rgba(184, 149, 106, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  transition: all 0.3s ease;
+}
+.ritual-open-begin-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 40px rgba(184, 149, 106, 0.4),
+    0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.ritual-open-begin-icon {
+  font-size: 1.2rem;
+}
+.ritual-open-back-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+.ritual-open-back-btn:hover { opacity: 1; }
+
+/* === 加载中 === */
+.casting-loading {
+  padding: 3rem 0;
+  text-align: center;
+}
+.casting-loading-orb {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(184, 149, 106, 0.6), transparent 70%);
+  animation: castingPulse 1.5s ease-in-out infinite;
+}
+@keyframes castingPulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.3); opacity: 1; }
+}
+.casting-loading-text {
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.15em;
+}
+
+/* === 抛铜钱 === */
+.coin-casting-header {
+  margin-bottom: 2rem;
+}
+.coin-casting-progress {
+  font-family: var(--font-system);
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+}
+.coin-casting-companion-voice,
+.cast-reveal-companion-voice,
+.tarot-shuffle-companion-voice,
+.tarot-pick-companion-voice,
+.tarot-reveal-companion-voice {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 1.5rem 0;
+  padding: 0.8rem 1.2rem;
+  background: rgba(184, 149, 106, 0.06);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  text-align: left;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.coin-display-area {
+  margin: 2.5rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.coin-stack {
+  display: flex;
+  gap: 0.8rem;
+  position: relative;
+}
+.coin-piece {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  perspective: 600px;
+  transition: transform 0.6s;
+}
+.coin-stack.throwing .coin-piece {
+  animation: coinSpin 1.2s cubic-bezier(0.4, 0, 0.6, 1);
+}
+@keyframes coinSpin {
+  0% { transform: rotateY(0) translateY(0); }
+  50% { transform: rotateY(720deg) translateY(-60px); }
+  100% { transform: rotateY(1440deg) translateY(0); }
+}
+.coin-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+}
+.coin-front {
+  background: radial-gradient(circle at 30% 30%, #f0d8a8, #b8945a);
+  border: 2px solid #8b6f3d;
+  box-shadow:
+    inset 0 0 12px rgba(139, 111, 61, 0.4),
+    0 4px 16px rgba(0, 0, 0, 0.2);
+}
+.coin-back {
+  background: radial-gradient(circle at 30% 30%, #d4a55a, #8b6f3d);
+  border: 2px solid #6b5530;
+  box-shadow:
+    inset 0 0 12px rgba(107, 85, 48, 0.4),
+    0 4px 16px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+.coin-yang,
+.coin-yin {
+  font-family: var(--font-serif-cn);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.coin-meditation-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.9;
+  margin: 1.5rem 0 2rem;
+  letter-spacing: 0.05em;
+}
+
+.coin-throw-btn {
+  padding: 0.9rem 3rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  color: #1a1a1a;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-serif-cn);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(184, 149, 106, 0.35);
+  transition: all 0.3s ease;
+}
+.coin-throw-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.coin-throw-btn:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(184, 149, 106, 0.45);
+}
+
+.coin-lines-accumulated {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(184, 149, 106, 0.15);
+}
+.coin-lines-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+.coin-lines-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.coin-line-display {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.3rem 0;
+  animation: fadeInUp 0.4s ease both;
+}
+.coin-line-name {
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  width: 60px;
+  text-align: right;
+}
+.coin-line-symbol {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.line-yang {
+  width: 48px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.line-yin {
+  display: flex;
+  gap: 6px;
+}
+.line-yin::before,
+.line-yin::after {
+  content: '';
+  display: block;
+  width: 21px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.coin-line-changing {
+  color: #FF8A7A;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* === 揭示卦象 === */
+.cast-reveal-hex {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(184, 149, 106, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+.cast-reveal-hex-label {
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+.cast-reveal-hex-svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 1rem 0;
+}
+.hexagram-line-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hexagram-line {
+  width: 100px;
+  height: 6px;
+  border-radius: 3px;
+}
+.hexagram-line.yang { background: var(--accent); }
+.hexagram-line.yin {
+  width: 100px;
+  height: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.hexagram-line.yin .hexagram-line-half {
+  display: block;
+  width: 42px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 3px;
+}
+.hexagram-line-row.changing .hexagram-line {
+  background: #FF8A7A !important;
+}
+.hexagram-line-row.changing .hexagram-line.yang { background: #FF8A7A !important; }
+.hexagram-line-row.changing .hexagram-line.yin .hexagram-line-half { background: #FF8A7A !important; }
+.cast-reveal-hex-name {
+  font-family: var(--font-serif-cn);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.15em;
+  margin-top: 0.8rem;
+}
+.cast-reveal-hex-juzge {
+  font-family: var(--font-serif-cn);
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-style: italic;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+.cast-reveal-changing {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 138, 122, 0.06);
+  border: 1px solid rgba(255, 138, 122, 0.2);
+  border-radius: 12px;
+}
+.cast-reveal-changing-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: #FF8A7A;
+  margin-bottom: 0.4rem;
+}
+.cast-reveal-changing-text {
+  font-family: var(--font-serif-cn);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FF8A7A;
+  letter-spacing: 0.15em;
+}
+.cast-reveal-changing-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+.cast-reveal-continue-btn {
+  margin-top: 1.5rem;
+  padding: 0.9rem 2.5rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  color: #1a1a1a;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(184, 149, 106, 0.35);
+  transition: all 0.3s ease;
+}
+.cast-reveal-continue-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(184, 149, 106, 0.45);
+}
+
+/* === 洗塔罗 === */
+.tarot-shuffle-deck {
+  margin: 2.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+.tarot-shuffle-stack {
+  position: relative;
+  width: 200px;
+  height: 140px;
+}
+.tarot-card-back-mini {
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  background: linear-gradient(135deg, #2a2520, #1a1a1a);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.6s ease;
+}
+.tarot-card-back-mini:nth-child(1) { transform: translateX(calc(-50% - 50px)) rotate(-8deg); top: 20px; }
+.tarot-card-back-mini:nth-child(2) { transform: translateX(calc(-50% - 25px)) rotate(-4deg); top: 22px; }
+.tarot-card-back-mini:nth-child(3) { transform: translateX(-50%) rotate(0deg); top: 25px; }
+.tarot-card-back-mini:nth-child(4) { transform: translateX(calc(-50% + 25px)) rotate(4deg); top: 22px; }
+.tarot-card-back-mini:nth-child(5) { transform: translateX(calc(-50% + 50px)) rotate(8deg); top: 20px; }
+.tarot-shuffle-stack.shuffled .tarot-card-back-mini {
+  animation: cardShuffle 1.2s ease-in-out;
+}
+@keyframes cardShuffle {
+  0%, 100% { transform: translateX(-50%) rotate(0deg) translateY(0); }
+  25% { transform: translateX(calc(-50% + 30px)) rotate(15deg) translateY(-20px); }
+  50% { transform: translateX(calc(-50% - 30px)) rotate(-15deg) translateY(20px); }
+  75% { transform: translateX(calc(-50% + 20px)) rotate(8deg) translateY(-10px); }
+}
+.tarot-shuffle-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin: 1.5rem 0;
+  letter-spacing: 0.1em;
+}
+.tarot-shuffle-btn {
+  padding: 0.9rem 3rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  color: #1a1a1a;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(184, 149, 106, 0.35);
+  transition: all 0.3s ease;
+}
+.tarot-shuffle-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(184, 149, 106, 0.45);
+}
+
+/* === 抽塔罗 === */
+.tarot-pick-progress {
+  font-family: var(--font-system);
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+}
+.tarot-pick-fan {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0 2rem;
+  height: 300px;
+}
+.tarot-pick-card {
+  position: absolute;
+  width: 110px;
+  height: 170px;
+  background: linear-gradient(160deg, #1a1510, #0d0a08 40%, #1a1510);
+  border: 2px solid rgba(184, 149, 106, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(184, 149, 106, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: bottom center;
+  animation: cardDeal 0.5s ease both;
+}
+@keyframes cardDeal {
+  0% { opacity: 0; transform: translateY(40px) scale(0.8) rotate(0deg); }
+  100% { opacity: 1; }
+}
+.tarot-pick-card:hover:not(.disabled):not(.picked) {
+  transform: translateY(-30px) scale(1.08) !important;
+  border-color: var(--accent-bright);
+  box-shadow:
+    0 0 32px rgba(184, 149, 106, 0.7),
+    0 0 60px rgba(184, 149, 106, 0.3),
+    0 12px 32px rgba(0, 0, 0, 0.5);
+  z-index: 100 !important;
+}
+.tarot-pick-card.disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+  filter: grayscale(0.8);
+}
+.tarot-pick-card.picked {
+  background: linear-gradient(160deg, #2a2015, #1a1208);
+  border-color: var(--accent-bright);
+  transform: translateY(-50px) scale(1.1) !important;
+  cursor: default;
+  box-shadow:
+    0 0 32px rgba(184, 149, 106, 0.6),
+    0 0 60px rgba(184, 149, 106, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.tarot-pick-card.picked .tp-diamond {
+  background: var(--accent-bright);
+  box-shadow: 0 0 16px var(--accent-bright), 0 0 32px rgba(184, 149, 106, 0.5);
+}
+.tarot-pick-card.picked .tarot-pick-card-ornament-top {
+  color: var(--accent-bright);
+  text-shadow: 0 0 12px var(--accent-bright);
+}
+.tarot-pick-card-back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.tarot-pick-card-pattern {
+  font-family: var(--font-serif-cn);
+  font-size: 2.5rem;
+  color: var(--accent);
+  text-shadow: 0 0 16px rgba(184, 149, 106, 0.5);
+}
+.tarot-pick-card.picked .tarot-pick-card-pattern {
+  color: #1a1a1a;
+  text-shadow: none;
+}
+.tarot-pick-label {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: rgba(184, 149, 106, 0.18);
+  padding: 0.25rem 0.9rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  border: 1px solid rgba(184, 149, 106, 0.3);
+}
+.tarot-pick-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  margin-top: 1rem;
+  letter-spacing: 0.15em;
+  opacity: 0.7;
+}
+
+/* === 揭示塔罗 === */
+.tarot-reveal-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.tarot-reveal-card-wrap {
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(184, 149, 106, 0.2);
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.6s ease both;
+}
+.tarot-reveal-position {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  opacity: 0.7;
+  margin-bottom: 0.6rem;
+}
+.tarot-reveal-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0.6rem 0;
+}
+.tarot-reveal-card-name {
+  font-family: var(--font-serif-cn);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.1em;
+}
+.tarot-reveal-card-en {
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  opacity: 0.7;
+}
+.tarot-reveal-card-status {
+  display: inline-block;
+  font-family: var(--font-serif-cn);
+  font-size: 0.8rem;
+  color: var(--accent);
+  padding: 0.15rem 0.6rem;
+  border: 1px solid rgba(184, 149, 106, 0.3);
+  border-radius: 999px;
+  margin-top: 0.4rem;
+  width: fit-content;
+}
+.tarot-reveal-card.reversed .tarot-reveal-card-status {
+  color: #FF8A7A;
+  border-color: rgba(255, 138, 122, 0.4);
+  background: rgba(255, 138, 122, 0.1);
+}
+.tarot-reveal-meaning {
+  font-family: var(--font-serif-cn);
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed rgba(184, 149, 106, 0.15);
+}
+.tarot-reveal-continue-btn {
+  margin-top: 1.5rem;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-bright));
+  color: #1a1a1a;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-serif-cn);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(184, 149, 106, 0.35);
+  transition: all 0.3s ease;
+}
+.tarot-reveal-continue-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(184, 149, 106, 0.45);
+}
+
+/* ============================================================
+   v4.0 VISUAL UPGRADE — 精美动画 + 牌面插画 + 3D 效果
+   ============================================================ */
+
+/* --- 漂浮粒子背景 --- */
+.ritual-open-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+.ritual-particle {
+  position: absolute;
+  bottom: -10px;
+  width: 4px;
+  height: 4px;
+  background: var(--accent-bright);
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 8px var(--accent-bright), 0 0 16px rgba(184, 149, 106, 0.3);
+  animation: floatUp linear infinite;
+}
+@keyframes floatUp {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 0.4; }
+  50% { opacity: 0.6; transform: translateY(-400px) translateX(20px); }
+  90% { opacity: 0.3; }
+  100% { transform: translateY(-800px) translateX(-10px); opacity: 0; }
+}
+
+/* --- 蜡烛火焰动画 --- */
+.candle-flame {
+  width: 20px;
+  height: 36px;
+  background: radial-gradient(ellipse at 50% 70%,
+    #FFD700 0%, #FFA500 30%, #FF6347 60%, transparent 100%);
+  border-radius: 50% 50% 20% 20% / 60% 60% 40% 40%;
+  margin: 0 auto;
+  position: relative;
+  filter: blur(1px);
+  animation: flicker 1.5s ease-in-out infinite alternate;
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.4),
+              0 0 40px rgba(255, 100, 0, 0.2);
+}
+.candle-flame::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 12px;
+  background: linear-gradient(to top, #2a2a2a, #555);
+  border-radius: 2px;
+}
+@keyframes flicker {
+  0%, 100% { transform: scale(1) rotate(-2deg); opacity: 0.9; }
+  25% { transform: scale(1.05) rotate(1deg); opacity: 1; }
+  50% { transform: scale(0.95) rotate(-1deg); opacity: 0.85; }
+  75% { transform: scale(1.02) rotate(2deg); opacity: 0.95; }
+}
+
+/* --- 塔罗揭示页升级：牌面图片 + 3D翻转 --- */
+.tarot-reveal-subtitle {
+  font-family: var(--font-serif-cn);
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  letter-spacing: 0.4em;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  opacity: 0.6;
+}
+.tarot-reveal-card-row {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+.tarot-reveal-card-art {
+  flex-shrink: 0;
+  width: 100px;
+  height: 174px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid var(--accent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3),
+              0 0 0 1px rgba(184, 149, 106, 0.2);
+  position: relative;
+  animation: cardFlipIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
+  transition: transform 0.3s ease;
+}
+.tarot-reveal-card-art:hover {
+  transform: scale(1.05);
+}
+.tarot-reveal-card-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.tarot-reveal-card-art.flipped {
+  position: relative;
+}
+.tarot-reveal-card-art.flipped::after {
+  content: '↻';
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 1.2rem;
+  color: #FF8A7A;
+  text-shadow: 0 0 8px rgba(255, 138, 122, 0.5);
+  z-index: 2;
+}
+@keyframes cardFlipIn {
+  0% {
+    transform: rotateY(180deg) scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: rotateY(0deg) scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+.tarot-reveal-card-info {
+  flex: 1;
+  min-width: 0;
+}
+.tarot-reveal-card-status.rev {
+  color: #FF8A7A;
+  border-color: rgba(255, 138, 122, 0.4);
+  background: rgba(255, 138, 122, 0.08);
+}
+.tarot-reveal-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+.tarot-reveal-keyword {
+  font-family: var(--font-serif-cn);
+  font-size: 0.72rem;
+  color: var(--accent);
+  background: rgba(184, 149, 106, 0.1);
+  border: 1px solid rgba(184, 149, 106, 0.2);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+/* --- 塔罗选牌页升级：精美牌背 + hover发光 --- */
+.tarot-pick-count {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent-bright);
+  font-family: var(--font-serif-cn);
+}
+.tarot-pick-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.tarot-pick-card-border {
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(184, 149, 106, 0.4);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 6px;
+}
+.tarot-pick-card-pattern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.95;
+}
+.tarot-pick-card-ornament-top {
+  font-size: 1rem;
+  color: var(--accent);
+  text-shadow: 0 0 8px rgba(184, 149, 106, 0.6);
+  letter-spacing: 0.2em;
+}
+.tarot-pick-card-ornament-bot {
+  font-size: 0.75rem;
+  color: var(--accent);
+  opacity: 0.6;
+  letter-spacing: 0.2em;
+}
+.tarot-pick-card-ornament-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.tp-line {
+  width: 36px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.7;
+}
+.tp-line:nth-child(2) { width: 48px; }
+.tarot-pick-card-ornament-center {
+  margin: 8px 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tp-diamond {
+  width: 22px;
+  height: 22px;
+  background: var(--accent);
+  transform: rotate(45deg);
+  box-shadow: 0 0 12px rgba(184, 149, 106, 0.7);
+  position: relative;
+}
+.tp-diamond::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: #0d0a08;
+}
+.tp-diamond::after {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  background: var(--accent-bright);
+  opacity: 0.9;
+  box-shadow: 0 0 6px var(--accent-bright);
+}
+
+/* --- 铜钱动画升级：3D掉落+旋转 --- */
+.coin-piece {
+  transition: transform 0.1s ease;
+}
+.coin-stack.throwing .coin-piece {
+  animation: coinToss 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+.coin-stack.throwing .coin-piece:nth-child(1) {
+  animation-delay: 0s;
+}
+.coin-stack.throwing .coin-piece:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.coin-stack.throwing .coin-piece:nth-child(3) {
+  animation-delay: 0.2s;
+}
+@keyframes coinToss {
+  0% {
+    transform: translateY(0) rotateX(0deg) rotateZ(0deg);
+  }
+  20% {
+    transform: translateY(-80px) rotateX(720deg) rotateZ(180deg);
+  }
+  40% {
+    transform: translateY(-120px) rotateX(1080deg) rotateZ(360deg);
+  }
+  60% {
+    transform: translateY(-60px) rotateX(1440deg) rotateZ(540deg);
+  }
+  80% {
+    transform: translateY(10px) rotateX(1620deg) rotateZ(630deg);
+  }
+  100% {
+    transform: translateY(0) rotateX(1800deg) rotateZ(720deg);
+  }
+}
+
+/* 卦象爻线绘制动画 */
+.hexagram-line-row {
+  animation: hexDrawIn 0.4s ease both;
+}
+.hexagram-line-row.changing {
+  animation: hexDrawInChanging 0.4s ease both;
+}
+@keyframes hexDrawIn {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes hexDrawInChanging {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scaleX(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+.hexagram-line-row.changing {
+  transform-origin: center;
+}
+
+/* 洗牌动画 */
+.tarot-shuffle-stack.shuffled {
+  animation: shuffleDone 0.8s ease;
+}
+@keyframes shuffleDone {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+.tarot-card-back-mini {
+  animation: shuffleCard 0.6s ease infinite alternate;
+}
+.tarot-card-back-mini:nth-child(2) { animation-delay: 0.1s; }
+.tarot-card-back-mini:nth-child(3) { animation-delay: 0.2s; }
+.tarot-card-back-mini:nth-child(4) { animation-delay: 0.3s; }
+.tarot-card-back-mini:nth-child(5) { animation-delay: 0.4s; }
+@keyframes shuffleCard {
+  0% { transform: translateX(-8px) rotate(-3deg); }
+  100% { transform: translateX(8px) rotate(3deg); }
+}
+
+/* Loading 取数动画 — 卦象旋转 */
+.casting-loading-spinner {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+.casting-loading-spinner::before,
+.casting-loading-spinner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  border-top-color: var(--accent-bright);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.casting-loading-spinner::after {
+  inset: 8px;
+  border-top-color: var(--accent);
+  animation: spin 1.5s linear infinite reverse;
+}
+.casting-loading-spinner-inner {
+  position: absolute;
+  inset: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--accent-bright);
+  text-shadow: 0 0 12px var(--accent-bright);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+/* 响应式：牌面图片在小屏幕缩小 */
+@media (max-width: 768px) {
+  .tarot-reveal-card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tarot-reveal-card-art {
+    width: 80px;
+    height: 139px;
+  }
+  .tarot-reveal-card-info {
+    text-align: center;
+    align-items: center;
+  }
+  .tarot-reveal-keywords {
+    justify-content: center;
+  }
+}
+
+/* 日间模式适配 */
+:root[data-theme="light"] .candle-flame {
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.3),
+              0 0 30px rgba(255, 100, 0, 0.15);
+}
+:root[data-theme="light"] .tp-diamond::before {
+  background: #F5F1E8;
+}
+:root[data-theme="light"] .ritual-particle {
+  opacity: 0.3;
+}
+
+/* ============================================================
+   v4.1 塔罗选牌横向展开 — 不拥挤 + 保留选牌交互
+   ============================================================ */
+.tarot-pick-spread {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0 1.5rem;
+  flex-wrap: wrap;
+}
+.tarot-spread-card {
+  position: relative;
+  width: 130px;
+  height: 200px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+  animation: spreadCardDeal 0.6s ease both;
+}
+@keyframes spreadCardDeal {
+  0% { opacity: 0; transform: translateY(30px) scale(0.85); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.tarot-spread-card:hover:not(.disabled):not(.picked) {
+  transform: translateY(-12px) scale(1.05);
+}
+.tarot-spread-card:hover:not(.disabled):not(.picked) .tarot-spread-card-body {
+  border-color: var(--accent-bright);
+  box-shadow: 0 0 24px rgba(184, 149, 106, 0.5),
+              0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.tarot-spread-card.next .tarot-spread-card-body {
+  border-color: var(--accent-bright);
+  box-shadow: 0 0 20px rgba(184, 149, 106, 0.4);
+  animation: nextPulse 2s ease-in-out infinite;
+}
+@keyframes nextPulse {
+  0%, 100% { box-shadow: 0 0 16px rgba(184, 149, 106, 0.3); }
+  50% { box-shadow: 0 0 28px rgba(184, 149, 106, 0.6); }
+}
+.tarot-spread-card.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  filter: grayscale(0.6);
+}
+.tarot-spread-card.picked {
+  cursor: default;
+}
+.tarot-spread-card.picked .tarot-spread-card-body {
+  border-color: var(--accent-bright);
+  background: linear-gradient(160deg, #2a2015, #1a1208);
+  box-shadow: 0 0 24px rgba(184, 149, 106, 0.5);
+}
+.tarot-spread-card.picked .tp-diamond {
+  background: var(--accent-bright);
+  box-shadow: 0 0 16px var(--accent-bright);
+}
+.tarot-spread-card.picked .tarot-spread-card-ornament-top {
+  color: var(--accent-bright);
+  text-shadow: 0 0 10px var(--accent-bright);
+}
+
+.tarot-spread-card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tarot-spread-card-position {
+  font-family: var(--font-serif-cn);
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  color: var(--accent);
+  opacity: 0.7;
+}
+.tarot-spread-card-body {
+  width: 100%;
+  height: 170px;
+  background: linear-gradient(160deg, #1a1510, #0d0a08 40%, #1a1510);
+  border: 2px solid rgba(184, 149, 106, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(184, 149, 106, 0.15);
+}
+.tarot-spread-card-border {
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(184, 149, 106, 0.3);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tarot-spread-card-pattern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.95;
+}
+.tarot-spread-card-ornament-top {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-shadow: 0 0 6px rgba(184, 149, 106, 0.5);
+}
+.tarot-spread-card-ornament-bot {
+  font-size: 0.7rem;
+  color: var(--accent);
+  opacity: 0.5;
+}
+.tarot-spread-card-ornament-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.tarot-spread-card-ornament-center {
+  margin: 4px 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tarot-spread-card-status {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  color: var(--accent-bright);
+  background: rgba(184, 149, 106, 0.15);
+  border: 1px solid rgba(184, 149, 106, 0.3);
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.tarot-spread-card-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  color: var(--accent-bright);
+  background: rgba(184, 149, 106, 0.12);
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  animation: hintBlink 1.5s ease-in-out infinite;
+}
+@keyframes hintBlink {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .tarot-pick-spread {
+    gap: 1rem;
+  }
+  .tarot-spread-card {
+    width: 95px;
+    height: 155px;
+  }
+  .tarot-spread-card-body {
+    height: 130px;
+  }
+}
+
+/* v4.1 结果页 TarotPanel 牌面插画 */
+.result-tarot-card {
+  animation: fadeInUp 0.5s ease both;
+}
+.result-tarot-card-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+.result-tarot-card-art {
+  flex-shrink: 0;
+  width: 80px;
+  height: 140px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid var(--accent);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.result-tarot-card-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.result-tarot-card-art.has-rev-mark::after {
+  content: '↻';
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-size: 1rem;
+  color: #FF8A7A;
+  text-shadow: 0 0 6px rgba(255, 138, 122, 0.5);
+  z-index: 2;
+}
+.result-tarot-card-info {
+  flex: 1;
+  min-width: 0;
+}
+@media (max-width: 600px) {
+  .result-tarot-card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .result-tarot-card-info {
+    text-align: center;
+  }
+}
+
+/* === v5: 分阶段选牌（过去N选一→现在N选一→未来N选一） === */
+.tarot-pick-progress-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0 1rem;
+}
+.tp-stage-dot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  opacity: 0.35;
+  transition: all 0.4s ease;
+}
+.tp-stage-dot.done { opacity: 0.6; }
+.tp-stage-dot.active { opacity: 1; transform: scale(1.1); }
+.tp-stage-dot.pending { opacity: 0.25; }
+.tp-stage-icon {
+  font-size: 1.3rem;
+  color: var(--onyx-gold);
+  line-height: 1;
+}
+.tp-stage-dot.done .tp-stage-icon { color: var(--onyx-gold-dim); }
+.tp-stage-label {
+  font-family: var(--font-serif-cn);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+}
+
+.tp-current-label {
+  text-align: center;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.tp-current-icon {
+  font-size: 1.5rem;
+  color: var(--onyx-gold);
+}
+.tp-current-text {
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.1em;
+}
+
+/* 候选牌排列 */
+.tp-candidates {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  perspective: 800px;
+}
+.tp-candidate-card {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  animation: cardDeal 0.6s ease both;
+  transition: transform 0.3s ease;
+}
+.tp-candidate-card:hover {
+  transform: translateY(-12px) scale(1.05);
+}
+.tp-candidate-card:hover .tp-candidate-inner {
+  box-shadow:
+    0 0 0 2px var(--onyx-gold),
+    0 12px 40px rgba(184, 149, 106, 0.4);
+}
+.tp-candidate-inner {
+  width: 120px;
+  height: 180px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, var(--onyx-black-light), var(--onyx-black-soft));
+  border: 1px solid var(--separator);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.tp-candidate-pattern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  opacity: 0.5;
+}
+.tp-candidate-ornament-top,
+.tp-candidate-ornament-bot {
+  font-size: 0.9rem;
+  color: var(--onyx-gold);
+}
+.tp-candidate-ornament-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.tp-cl {
+  width: 36px;
+  height: 1px;
+  background: var(--onyx-gold-dim);
+}
+.tp-candidate-ornament-center {
+  margin: 0.3rem 0;
+}
+.tp-cd {
+  width: 18px;
+  height: 18px;
+  background: var(--onyx-gold);
+  transform: rotate(45deg);
+  opacity: 0.6;
+  border-radius: 2px;
+}
+.tp-candidate-hint {
+  font-family: var(--font-serif-cn);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--text-secondary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.tp-candidate-card:hover .tp-candidate-hint {
+  opacity: 1;
+  color: var(--onyx-gold);
+}
+
+/* 已选阶段展示 */
+.tp-completed-row {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.tp-completed-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(184, 149, 106, 0.12);
+  border: 1px solid var(--onyx-gold-dim);
+  font-family: var(--font-serif-cn);
+  font-size: 0.75rem;
+  color: var(--onyx-gold);
+  letter-spacing: 0.1em;
+}
+.tp-completed-icon { font-size: 0.9rem; }
+
+@keyframes cardDeal {
+  from {
+    opacity: 0;
+    transform: translateY(40px) rotateY(45deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateY(0);
+  }
+}
+
+/* === v5: 金钱起卦 — 落地结果显示 === */
+.coin-piece.landed-yang {
+  transform: rotateY(0deg) !important;
+  animation: none !important;
+}
+.coin-piece.landed-yin {
+  transform: rotateY(180deg) !important;
+  animation: none !important;
+}
+.coin-piece.landed-yang .coin-front { opacity: 1; }
+.coin-piece.landed-yang .coin-back { opacity: 0; }
+.coin-piece.landed-yin .coin-front { opacity: 0; }
+.coin-piece.landed-yin .coin-back { opacity: 1; transform: rotateY(0deg); }
+
+.coin-result-text {
+  margin-top: 0;
+  padding: 1.5rem 2rem;
+  font-family: var(--font-serif-cn);
+  font-size: 1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.1em;
+  text-align: center;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.coin-result-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.coin-result-counts {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.coin-count-yang { color: var(--onyx-gold, #B8956A); font-weight: 600; }
+.coin-count-yin { color: var(--text-secondary); font-weight: 600; }
+.coin-count-sep { color: var(--text-secondary); opacity: 0.4; }
+
+.coin-result-symbol {
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.coin-result-symbol strong {
+  color: var(--onyx-gold, #B8956A);
+  font-size: 1.15rem;
+}
+
+.coin-type-name {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+.coin-result-text strong {
+  color: var(--onyx-gold);
+  font-size: 1.1rem;
+}
+.coin-changing-mark {
+  color: var(--onyx-crimson, #c85a3f);
+  font-weight: 700;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ============================================================
+   PersonalityRotator — Hero 区 16 卦格轮播动画
+   ============================================================ */
+.rotator-fade {
+  animation: rotatorFadeIn 0.6s ease-out both;
+  display: inline-block;
+}
+.rotator-fade-delayed {
+  animation: rotatorFadeUp 0.6s ease-out 0.15s both;
+}
+@keyframes rotatorFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+    filter: blur(2px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0) scale(1.01);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+@keyframes rotatorFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 0.85;
+    transform: translateY(0);
+  }
+}

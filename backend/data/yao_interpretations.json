@@ -1,0 +1,3203 @@
+{
+  "乾": [
+    {
+      "position": "初九",
+      "original_text": "潜龙勿用",
+      "modern_meaning": "龙潜伏在深渊之中，时机未到，不宜施展才华。",
+      "advice": "此时应沉心蓄力、打磨内功，切忌急于表现。厚积方能薄发。",
+      "modern_meaning_en": "A dragon lies hidden in the depths; the time has not yet come, unsuitable to display one's talents.",
+      "advice_en": "At this time, focus on gathering strength and honing inner skills. Avoid rushing to show off. Only by accumulating thoroughly can one achieve later."
+    },
+    {
+      "position": "九二",
+      "original_text": "见龙在田，利见大人",
+      "modern_meaning": "龙出现在田野上，初露锋芒，利于拜见贵人。",
+      "advice": "已有小成，应主动寻求导师或上级的认可与提携，把握崭露头角的窗口。",
+      "modern_meaning_en": "A dragon appears in the fields, showing initial talent, beneficial to meet with noble people.",
+      "advice_en": "Having achieved initial success, actively seek recognition and support from mentors or superiors. Seize the opportunity to stand out."
+    },
+    {
+      "position": "九三",
+      "original_text": "君子终日乾乾，夕惕若厉，无咎",
+      "modern_meaning": "整日勤勉不息，夜晚也保持警惕，虽有险境但终无灾祸。",
+      "advice": "处于关键过渡期，加倍努力并保持谨慎，祸患可消，平安过渡。",
+      "modern_meaning_en": "Diligent all day, vigilant at night. Though there are dangers, ultimately no misfortune.",
+      "advice_en": "In a critical transition period, work harder and remain cautious. Misfortune can be avoided for a safe passage."
+    },
+    {
+      "position": "九四",
+      "original_text": "或跃在渊，无咎",
+      "modern_meaning": "龙或腾跃而起，或潜于深渊，进退自如，没有灾祸。",
+      "advice": "面临重大抉择，无论进退都无大碍，关键是从容判断，择善而行。",
+      "modern_meaning_en": "A dragon may leap up or dive into the depths, free to advance or retreat, no misfortune.",
+      "advice_en": "Facing major choices, whether advancing or retreating is fine. The key is to judge calmly and choose what is right."
+    },
+    {
+      "position": "九五",
+      "original_text": "飞龙在天，利见大人",
+      "modern_meaning": "龙翱翔于天际，如日中天，是最辉煌的时刻。",
+      "advice": "已达最佳状态，大胆施展抱负，成就事业正当其时。广纳贤才，大展宏图。",
+      "modern_meaning_en": "A dragon soars in the sky, like the sun at its zenith — the most glorious moment.",
+      "advice_en": "Having reached optimal state, boldly pursue your ambitions. This is the right time to accomplish great things."
+    },
+    {
+      "position": "上九",
+      "original_text": "亢龙有悔",
+      "modern_meaning": "龙飞得过高，超过了极限，必将产生悔恨。",
+      "advice": "盛极而衰，切忌骄傲自满、刚愎自用。懂得适可而止，方能保全已有的成果。",
+      "modern_meaning_en": "A dragon flies too high, exceeding its limit, will certainly generate regret.",
+      "advice_en": "When things reach their extreme they reverse. Beware of arrogance and know when to stop to preserve what you have achieved."
+    }
+  ],
+  "坤": [
+    {
+      "position": "初六",
+      "original_text": "履霜，坚冰至",
+      "modern_meaning": "脚踩到秋霜，便知坚冰将至——见微知著。",
+      "advice": "留意细微征兆，提前防患于未然。小事不察，必酿大患。",
+      "modern_meaning_en": "Stepping on autumn frost, one knows ice will follow — seeing the small to understand the large.",
+      "advice_en": "Pay attention to subtle signs and prevent problems before they arise. Neglecting small matters will surely cause great trouble."
+    },
+    {
+      "position": "六二",
+      "original_text": "直方大，不习无不利",
+      "modern_meaning": "正直、方正、宽大，自然合乎正道，无所往而不利。",
+      "advice": "以真诚正直处事，不必刻意钻营，坦荡行事自然顺遂。",
+      "modern_meaning_en": "Upright, straightforward, generous — naturally aligned with correctness, nothing unfavorable wherever one goes.",
+      "advice_en": "Act with sincere integrity without scheming. Being open and honest will naturally bring success."
+    },
+    {
+      "position": "六三",
+      "original_text": "含章可贞，或从王事，无成有终",
+      "modern_meaning": "内含才华而不张扬，正道而行，从公办事不求居功，终有好结果。",
+      "advice": "才华内敛、不争功劳，默默耕耘，结果自然圆满。",
+      "modern_meaning_en": "Harboring talent without showing off, walking the correct path, working for the public without seeking credit — ultimately a good result.",
+      "advice_en": "Keep your talents hidden, don't fight for credit. Work quietly and the results will naturally be fulfilling."
+    },
+    {
+      "position": "六四",
+      "original_text": "括囊，无咎无誉",
+      "modern_meaning": "扎紧口袋，谨慎收敛，虽无赞誉也无过失。",
+      "advice": "收敛锋芒、谨言慎行，不求有功但求无过，平安度过即可。",
+      "modern_meaning_en": "Tie the bag tightly, be cautious and restrained. Though no praise, also no fault.",
+      "advice_en": "Keep a low profile, speak and act carefully. Don't seek merit, only seek to avoid fault. Pass through safely."
+    },
+    {
+      "position": "六五",
+      "original_text": "黄裳，元吉",
+      "modern_meaning": "穿着黄色下裳——中正谦逊之德，大吉大利。",
+      "advice": "以谦和柔德处世，内修中正，外显温和，诸事大吉。",
+      "modern_meaning_en": "Wearing yellow lower garments — the virtue of humility and central correctness. Greatly auspicious.",
+      "advice_en": "Conduct yourself with gentle virtue, cultivate inner correctness, show outer gentleness. Everything greatly auspicious."
+    },
+    {
+      "position": "上六",
+      "original_text": "龙战于野，其血玄黄",
+      "modern_meaning": "龙在旷野争斗，流出的血玄黄——阴阳冲突，两败俱伤。",
+      "advice": "矛盾已激化到不可调和的地步，需立刻退让止损，硬碰硬只会两败俱伤。",
+      "modern_meaning_en": "Dragons battle in the wild, blood flows black and yellow — yin and yang clash, both sides ruined.",
+      "advice_en": "The conflict has escalated to an irreconcilable level. Retreat immediately to stop losses. Only more damage will come from head-on collision."
+    }
+  ],
+  "屯": [
+    {
+      "position": "初九",
+      "original_text": "磐桓，利居贞，利建侯",
+      "modern_meaning": "徘徊不前，利于坚守正道，利于建立根基。",
+      "advice": "创业初期会有犹豫，不必急进，稳固根基、招揽人才方为上策。",
+      "modern_meaning_en": "Hesitating at the crossroads, not advancing or retreating. But the intention is upright, no fault.",
+      "advice_en": "Though uncertainty persists, maintain your correct direction. The opportunity will come; patience is wisdom."
+    },
+    {
+      "position": "六二",
+      "original_text": "屯如邅如，乘马班如。匪寇婚媾，女子贞不字，十年乃字",
+      "modern_meaning": "艰难徘徊，骑马回旋不前。来者不是贼寇而是求婚者，女子守正不轻易应允，十年后才许嫁。",
+      "advice": "好事多磨，时机不成熟不宜勉强。耐心等待，终会水到渠成。",
+      "modern_meaning_en": "Hesitant and wandering like a deer, the woman waits to marry, the man is delayed. Ten years then they finally marry.",
+      "advice_en": "Wait for the right timing. Though it takes long, perseverance will be rewarded."
+    },
+    {
+      "position": "六三",
+      "original_text": "即鹿无虞，惟入于林中，君子几不如舍，往吝",
+      "modern_meaning": "追逐鹿却没有向导，独自闯入密林，明智的人选择放弃，勉强前往会陷困境。",
+      "advice": "没有充分准备和引导的事不要冒进，懂得适时放手比盲目追逐更明智。",
+      "modern_meaning_en": "Going to hunt, no catch. Enter the wild, face danger. Better to return.",
+      "advice_en": "Don't pursue what is unattainable. Turn back before it's too late."
+    },
+    {
+      "position": "六四",
+      "original_text": "乘马班如，求婚媾，往吉，无不利",
+      "modern_meaning": "骑马回旋，主动去求婚，前往则吉，无所不利。",
+      "advice": "该主动出击时不要犹豫，放下身段积极争取，结果会出乎意料的好。",
+      "modern_meaning_en": "Going to marry, taking the girl. Small fortune, no major misfortune.",
+      "advice_en": "A small marriage or partnership brings modest fortune. Proceed with caution."
+    },
+    {
+      "position": "九五",
+      "original_text": "屯其膏，小贞吉，大贞凶",
+      "modern_meaning": "囤积恩泽而不施予，小事可吉，大事则凶。",
+      "advice": "资源有限时，小范围运作可以，但不可贪大求全，否则必有凶险。",
+      "modern_meaning_en": "Small mud — minor difficulty. The right person will help eventually.",
+      "advice_en": "A small obstacle, but help arrives. Don't give up hope."
+    },
+    {
+      "position": "上六",
+      "original_text": "乘马班如，泣血涟如",
+      "modern_meaning": "骑马徘徊，泪流如血——极度悲伤与无助。",
+      "advice": "已陷入困境的极点，需要彻底转变思路或寻求外援，独力难支。",
+      "modern_meaning_en": "Weeping blood, endless sorrow. Going nowhere brings great misfortune.",
+      "advice_en": "In deep distress, don't act rashly. Seek counsel and wait for change."
+    }
+  ],
+  "蒙": [
+    {
+      "position": "初六",
+      "original_text": "发蒙，利用刑人，用说桎梏，以往吝",
+      "modern_meaning": "启发蒙昧之人，利于用规则约束，使其摆脱束缚，但过分急进则不利。",
+      "advice": "教育或管理初期需要立规矩、明纪律，但不可操之过急，循序渐进。",
+      "modern_meaning_en": "Dispel confusion with proper teaching — great fortune.",
+      "advice_en": "Use correct methods to teach and guide. Establish rules and principles for growth."
+    },
+    {
+      "position": "九二",
+      "original_text": "包蒙吉，纳妇吉，子克家",
+      "modern_meaning": "包容蒙昧之人则吉，娶妻吉，儿子能治家——以宽厚之心待人，大吉。",
+      "advice": "以包容和耐心对待初学者或下属，温和引导，终有成就。",
+      "modern_meaning_en": "Surrounded by confusion, but the wise can discern. The woman is not taken as concubine — upright and correct.",
+      "advice_en": "Though surrounded by those in confusion, the wise maintain clarity. Don't compromise your principles."
+    },
+    {
+      "position": "六三",
+      "original_text": "勿用取女，见金夫，不有躬，无攸利",
+      "modern_meaning": "不宜娶此女——她见到有钱人就失了操守，娶来无所益。",
+      "advice": "警惕见异思迁、唯利是图的人，与这类人合作终将受损。",
+      "modern_meaning_en": "Do not marry this woman. She sees wealth and loses virtue. No benefit in taking her.",
+      "advice_en": "Don't pursue those who are easily swayed by wealth. Character matters more than material gains."
+    },
+    {
+      "position": "六四",
+      "original_text": "困蒙，吝",
+      "modern_meaning": "被困于蒙昧之中，因为远离老师与良师益友。",
+      "advice": "困于无知却不求上进，需要主动寻找导师和同道，打破困局。",
+      "modern_meaning_en": "Trapped in confusion, far from the wise — isolated and helpless.",
+      "advice_en": "Isolated from wise counsel, one falls into confusion. Seek guidance from those with wisdom."
+    },
+    {
+      "position": "六五",
+      "original_text": "童蒙，吉",
+      "modern_meaning": "如孩童般纯真求教，虚心好学，吉。",
+      "advice": "保持空杯心态，虚心求教，不耻下问，自然吉祥顺遂。",
+      "modern_meaning_en": "A childlike person, not yet ready to act. Returning brings blessing.",
+      "advice_en": "Immaturity is not yet ready for action. Wait and develop before proceeding."
+    },
+    {
+      "position": "上九",
+      "original_text": "击蒙，不利为寇，利御寇",
+      "modern_meaning": "以激烈手段打击蒙昧，不利于主动攻击，利于防御。",
+      "advice": "面对顽固的愚昧可以采取强硬手段，但只可用于防守自保，不可主动出击。",
+      "modern_meaning_en": "Strike down confusion. Going to war is auspicious, but restrain excess.",
+      "advice_en": "Take decisive action against confusion. Bold but measured response brings success."
+    }
+  ],
+  "需": [
+    {
+      "position": "初九",
+      "original_text": "需于郊，利用恒，无咎",
+      "modern_meaning": "在郊野等待，远离危险，保持恒心则无灾。",
+      "advice": "时机未到时安心等待，远离纷争，保持耐心，自然平安。",
+      "modern_meaning_en": "Waiting in the suburbs — distant from danger, no fault if upright.",
+      "advice_en": "Being far from the source of trouble is safe. Maintain correctness while waiting."
+    },
+    {
+      "position": "九二",
+      "original_text": "需于沙，小有言，终吉",
+      "modern_meaning": "在沙滩上等待，渐近水边有些口舌是非，但终归吉利。",
+      "advice": "虽有闲言碎语，不必介意，坚持正道，最终会被认可。",
+      "modern_meaning_en": "Waiting in the sand — small disputes arise, eventually good.",
+      "advice_en": "Minor difficulties appear during the wait. Patience overcomes these eventually."
+    },
+    {
+      "position": "九三",
+      "original_text": "需于泥，致寇至",
+      "modern_meaning": "在泥泞中等待，太靠近危险，招致贼寇到来。",
+      "advice": "身处险境而不自知，贪婪冒进招来祸患，应立刻退到安全地带。",
+      "modern_meaning_en": "Waiting in the mud — danger approaches, stay cautious.",
+      "advice_en": "Getting closer to the source of trouble. Be careful and avoid missteps."
+    },
+    {
+      "position": "六四",
+      "original_text": "需于血，出自穴",
+      "modern_meaning": "在血泊中等待，从陷穴中挣脱出来——深陷险境。",
+      "advice": "已身陷困境，冷静应对，寻找脱身之道，不可蛮干。",
+      "modern_meaning_en": "Waiting in the blood — emerge from the pit. Great fortune.",
+      "advice_en": "Through the ordeal, one emerges stronger. Great blessing follows endurance."
+    },
+    {
+      "position": "九五",
+      "original_text": "需于酒食，贞吉",
+      "modern_meaning": "在享用酒食中等待，以饮食养身养心，守正则吉。",
+      "advice": "在等待中享受生活、修养身心，保持愉悦的心态，好运自来。",
+      "modern_meaning_en": "Waiting in the cave. Great fortune comes.",
+      "advice_en": "Arriving at the destination, success is achieved."
+    },
+    {
+      "position": "上六",
+      "original_text": "入于穴，有不速之客三人来，敬之终吉",
+      "modern_meaning": "退入穴中，有三位不请自来的客人，恭敬以待，终归吉利。",
+      "advice": "面对突如其来的变故或不速之客，以礼相待、恭敬应对，可化险为夷。",
+      "modern_meaning_en": "Three guests arrive uninvited. Be patient and they will come. Ultimately good.",
+      "advice_en": "Unexpected help appears. Don't chase it; let it come naturally. Good fortune follows."
+    }
+  ],
+  "讼": [
+    {
+      "position": "初六",
+      "original_text": "不永所事，小有言，终吉",
+      "modern_meaning": "不把争讼的事做绝，虽有小口角，最终吉利。",
+      "advice": "有分歧见好就收，不要纠缠到底，适可而止方能化解纷争。",
+      "modern_meaning_en": "Not lingering in conflict, small disputes arise but resolve — no great misfortune.",
+      "advice_en": "Don't prolong disputes. Small conflicts can be resolved quickly. Avoid escalation."
+    },
+    {
+      "position": "九二",
+      "original_text": "不克讼，归而逋，其邑人三百户无眚",
+      "modern_meaning": "争讼不胜，逃回藏匿，他三百户的封邑免于灾祸。",
+      "advice": "打不赢的仗不要硬撑，及时撤退保全根本，退一步海阔天空。",
+      "modern_meaning_en": "Cannot win the dispute, retreat home. The fief of three hundred households is not lost.",
+      "advice_en": "Retreat from an unwinnable situation. Though pride may suffer, substance is preserved."
+    },
+    {
+      "position": "六三",
+      "original_text": "食旧德，贞厉，终吉。或从王事，无成",
+      "modern_meaning": "依靠旧有的德行过日子，虽有艰险但终吉。若参与政事，难有成就。",
+      "advice": "守住已有的基业和美德，不贪求新的事业，安分守己则平安。",
+      "modern_meaning_en": "Living on old virtues, continuing the family tradition. Neither praise nor blame.",
+      "advice_en": "Maintaining established ways brings stability. Neither glory nor shame, just continuity."
+    },
+    {
+      "position": "九四",
+      "original_text": "不克讼，复即命，渝，安贞吉",
+      "modern_meaning": "争讼不胜，回归本分，改变心态，安于正道则吉。",
+      "advice": "放弃无谓的争斗，回归正常生活，改变争强好胜的心态，平安是福。",
+      "modern_meaning_en": "Cannot win the dispute, returning to truth. Change heart, follow the correct path — good.",
+      "advice_en": "Accept defeat and return to virtue. Correct yourself and find the right way."
+    },
+    {
+      "position": "九五",
+      "original_text": "讼，元吉",
+      "modern_meaning": "争讼而得公平裁决，大吉。",
+      "advice": "如果正义在你这边，有理有据地去争取，公正的裁决有利于你。",
+      "modern_meaning_en": "Winning the dispute with fairness — greatly auspicious.",
+      "advice_en": "Prevailing through justice brings great success."
+    },
+    {
+      "position": "上九",
+      "original_text": "或锡之鞶带，终朝三褫之",
+      "modern_meaning": "即使因胜诉获得赏赐的官带，一天之内也会被三次剥夺。",
+      "advice": "靠争讼得来的名利终不长久，赢了官司输了人心，不值得。",
+      "modern_meaning_en": "Receiving a ceremonial belt from the ruler, but stripped three times in one day.",
+      "advice_en": "Honors received can be quickly lost. Don't become dependent on external validation."
+    }
+  ],
+  "师": [
+    {
+      "position": "初六",
+      "original_text": "师出以律，否臧，凶",
+      "modern_meaning": "军队出动必须有严明纪律，若无纪律则凶。",
+      "advice": "做事必须有章法和规矩，无组织无纪律的行动必败。",
+      "modern_meaning_en": "初六: 军队出动必须有严明纪律，若无纪律则凶。",
+      "advice_en": "Advice: 做事必须有章法和规矩，无组织无纪律的行动必败。"
+    },
+    {
+      "position": "九二",
+      "original_text": "在师中，吉，无咎，王三锡命",
+      "modern_meaning": "统帅中军，吉而无灾，君王三次嘉奖。",
+      "advice": "恪尽职守、公正指挥，会得到上级的认可和嘉奖。",
+      "modern_meaning_en": "九二: 统帅中军，吉而无灾，君王三次嘉奖。",
+      "advice_en": "Advice: 恪尽职守、公正指挥，会得到上级的认可和嘉奖。"
+    },
+    {
+      "position": "六三",
+      "original_text": "师或舆尸，凶",
+      "modern_meaning": "军队或许会大败而归、车载尸体——凶。",
+      "advice": "能力不足以担当重任，强行出头会酿成大祸，不如让贤。",
+      "modern_meaning_en": "六三: 军队或许会大败而归、车载尸体——凶。",
+      "advice_en": "Advice: 能力不足以担当重任，强行出头会酿成大祸，不如让贤。"
+    },
+    {
+      "position": "六四",
+      "original_text": "师左次，无咎",
+      "modern_meaning": "军队向左撤退驻扎，没有灾祸。",
+      "advice": "适时撤退是明智之举，保存实力，不与强敌硬拼。",
+      "modern_meaning_en": "六四: 军队向左撤退驻扎，没有灾祸。",
+      "advice_en": "Advice: 适时撤退是明智之举，保存实力，不与强敌硬拼。"
+    },
+    {
+      "position": "六五",
+      "original_text": "田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶",
+      "modern_meaning": "田中有禽兽，利于捕捉。长子统军可胜，弟子统军则败——用错人则凶。",
+      "advice": "用人是成败关键，选贤任能则胜，任人唯亲则败。",
+      "modern_meaning_en": "六五: 田中有禽兽，利于捕捉。长子统军可胜，弟子统军则败——用错人则凶。",
+      "advice_en": "Advice: 用人是成败关键，选贤任能则胜，任人唯亲则败。"
+    },
+    {
+      "position": "上六",
+      "original_text": "大君有命，开国承家，小人勿用",
+      "modern_meaning": "天子论功行赏，封邦建国，但不可重用小人。",
+      "advice": "胜利之后要论功行赏、分封利益，但务必远离小人，防止后患。",
+      "modern_meaning_en": "上六: 天子论功行赏，封邦建国，但不可重用小人。",
+      "advice_en": "Advice: 胜利之后要论功行赏、分封利益，但务必远离小人，防止后患。"
+    }
+  ],
+  "比": [
+    {
+      "position": "初六",
+      "original_text": "有孚比之，无咎。有孚盈缶，终来有它，吉",
+      "modern_meaning": "以诚信与人亲近，无灾。诚信如满溢的瓦罐，终会吸引他人来归，吉。",
+      "advice": "真诚是合作的基础，以诚待人，自然有人愿意追随。",
+      "modern_meaning_en": "初六: 以诚信与人亲近，无灾。诚信如满溢的瓦罐，终会吸引他人来归，吉。",
+      "advice_en": "Advice: 真诚是合作的基础，以诚待人，自然有人愿意追随。"
+    },
+    {
+      "position": "六二",
+      "original_text": "比之自内，正吉",
+      "modern_meaning": "从内心真诚亲近，守正则吉。",
+      "advice": "发自内心地与人建立关系，不是功利之交，而是真诚合作。",
+      "modern_meaning_en": "六二: 从内心真诚亲近，守正则吉。",
+      "advice_en": "Advice: 发自内心地与人建立关系，不是功利之交，而是真诚合作。"
+    },
+    {
+      "position": "六三",
+      "original_text": "比之匪人",
+      "modern_meaning": "亲近了不该亲近的人——交错朋友。",
+      "advice": "慎重择友，远离品行不端之人，否则会被拖累。",
+      "modern_meaning_en": "六三: 亲近了不该亲近的人——交错朋友。",
+      "advice_en": "Advice: 慎重择友，远离品行不端之人，否则会被拖累。"
+    },
+    {
+      "position": "六四",
+      "original_text": "外比之，贞吉",
+      "modern_meaning": "向外亲近贤明之人，守正则吉。",
+      "advice": "主动结交外部贤达，拓展人脉，但需选择正派之人。",
+      "modern_meaning_en": "六四: 向外亲近贤明之人，守正则吉。",
+      "advice_en": "Advice: 主动结交外部贤达，拓展人脉，但需选择正派之人。"
+    },
+    {
+      "position": "九五",
+      "original_text": "显比，王用三驱，失前禽。邑人不诫，吉",
+      "modern_meaning": "光明正大地亲近，如天子三面合围放走迎面来的猎物——来者不拒、去者不追。",
+      "advice": "以宽容大度的心胸对待人际关系，不强留、不强求，自然有贤者归附。",
+      "modern_meaning_en": "九五: 光明正大地亲近，如天子三面合围放走迎面来的猎物——来者不拒、去者不追。",
+      "advice_en": "Advice: 以宽容大度的心胸对待人际关系，不强留、不强求，自然有贤者归附。"
+    },
+    {
+      "position": "上六",
+      "original_text": "比之无首，凶",
+      "modern_meaning": "亲近他人却没有好的结果，因为没有明确方向和主导。",
+      "advice": "合作需要明确的主导者和方向，群龙无首必然失败。",
+      "modern_meaning_en": "上六: 亲近他人却没有好的结果，因为没有明确方向和主导。",
+      "advice_en": "Advice: 合作需要明确的主导者和方向，群龙无首必然失败。"
+    }
+  ],
+  "小畜": [
+    {
+      "position": "初九",
+      "original_text": "复自道，何其咎，吉",
+      "modern_meaning": "回归自己的正道，有什么灾祸呢？吉。",
+      "advice": "走偏了路要回头，及时纠正方向，平安无事。",
+      "modern_meaning_en": "初九: 回归自己的正道，有什么灾祸呢？吉。",
+      "advice_en": "Advice: 走偏了路要回头，及时纠正方向，平安无事。"
+    },
+    {
+      "position": "九二",
+      "original_text": "牵复，吉",
+      "modern_meaning": "与人携手回归正道，吉。",
+      "advice": "与志同道合者一起回归正途，互相扶持，事半功倍。",
+      "modern_meaning_en": "九二: 与人携手回归正道，吉。",
+      "advice_en": "Advice: 与志同道合者一起回归正途，互相扶持，事半功倍。"
+    },
+    {
+      "position": "九三",
+      "original_text": "舆说辐，夫妻反目",
+      "modern_meaning": "车轮辐条脱落，夫妻反目——内部矛盾导致分裂。",
+      "advice": "内部矛盾如不及时化解，会导致关系彻底破裂，需及早修补。",
+      "modern_meaning_en": "九三: 车轮辐条脱落，夫妻反目——内部矛盾导致分裂。",
+      "advice_en": "Advice: 内部矛盾如不及时化解，会导致关系彻底破裂，需及早修补。"
+    },
+    {
+      "position": "六四",
+      "original_text": "有孚，血去惕出，无咎",
+      "modern_meaning": "以诚信相待，化解了流血冲突和恐惧，无灾。",
+      "advice": "用真诚和信任化解敌意和猜忌，化干戈为玉帛。",
+      "modern_meaning_en": "六四: 以诚信相待，化解了流血冲突和恐惧，无灾。",
+      "advice_en": "Advice: 用真诚和信任化解敌意和猜忌，化干戈为玉帛。"
+    },
+    {
+      "position": "九五",
+      "original_text": "有孚挛如，富以其邻",
+      "modern_meaning": "以诚信紧密团结，与邻人共同富裕。",
+      "advice": "以诚信建立牢固的合作关系，互利共赢，共同发展。",
+      "modern_meaning_en": "九五: 以诚信紧密团结，与邻人共同富裕。",
+      "advice_en": "Advice: 以诚信建立牢固的合作关系，互利共赢，共同发展。"
+    },
+    {
+      "position": "上九",
+      "original_text": "既雨既处，尚德载，妇贞厉。月几望，君子征凶",
+      "modern_meaning": "雨已下过也停了，功德圆满但不可贪进。月亮将圆未圆，此时行动则凶。",
+      "advice": "目标已经达成，不可贪得无厌，见好就收方能长久。",
+      "modern_meaning_en": "上九: 雨已下过也停了，功德圆满但不可贪进。月亮将圆未圆，此时行动则凶。",
+      "advice_en": "Advice: 目标已经达成，不可贪得无厌，见好就收方能长久。"
+    }
+  ],
+  "履": [
+    {
+      "position": "初九",
+      "original_text": "素履，往无咎",
+      "modern_meaning": "以朴素本分的姿态前行，没有灾祸。",
+      "advice": "不浮夸、不虚饰，踏实本分地走好每一步，平安无虞。",
+      "modern_meaning_en": "初九: 以朴素本分的姿态前行，没有灾祸。",
+      "advice_en": "Advice: 不浮夸、不虚饰，踏实本分地走好每一步，平安无虞。"
+    },
+    {
+      "position": "九二",
+      "original_text": "履道坦坦，幽人贞吉",
+      "modern_meaning": "道路平坦宽广，安静淡泊的人守正则吉。",
+      "advice": "前途顺遂，但需保持平和淡泊的心态，不骄不躁。",
+      "modern_meaning_en": "九二: 道路平坦宽广，安静淡泊的人守正则吉。",
+      "advice_en": "Advice: 前途顺遂，但需保持平和淡泊的心态，不骄不躁。"
+    },
+    {
+      "position": "六三",
+      "original_text": "眇能视，跛能履，履虎尾，咥人，凶。武人为于大君",
+      "modern_meaning": "瞎子偏要看、跛子偏要走，踩到老虎尾巴被咬——凶。不自量力。",
+      "advice": "认清自己的能力和局限，做超出能力范围的事必然招祸。",
+      "modern_meaning_en": "六三: 瞎子偏要看、跛子偏要走，踩到老虎尾巴被咬——凶。不自量力。",
+      "advice_en": "Advice: 认清自己的能力和局限，做超出能力范围的事必然招祸。"
+    },
+    {
+      "position": "九四",
+      "original_text": "履虎尾，愬愬，终吉",
+      "modern_meaning": "踩到老虎尾巴，但小心谨慎、心怀畏惧，最终吉利。",
+      "advice": "身处险境时保持高度警惕和谨慎，虽危而可安。",
+      "modern_meaning_en": "九四: 踩到老虎尾巴，但小心谨慎、心怀畏惧，最终吉利。",
+      "advice_en": "Advice: 身处险境时保持高度警惕和谨慎，虽危而可安。"
+    },
+    {
+      "position": "九五",
+      "original_text": "夬履，贞厉",
+      "modern_meaning": "刚决果断地前行，虽有正道也有危险。",
+      "advice": "决策时虽需果断，但不可一意孤行，兼听则明。",
+      "modern_meaning_en": "九五: 刚决果断地前行，虽有正道也有危险。",
+      "advice_en": "Advice: 决策时虽需果断，但不可一意孤行，兼听则明。"
+    },
+    {
+      "position": "上九",
+      "original_text": "视履考祥，其旋元吉",
+      "modern_meaning": "回顾走过的路考察吉凶，返璞归真则大吉。",
+      "advice": "经常反思总结自己的行为和决策，及时调整，大吉大利。",
+      "modern_meaning_en": "上九: 回顾走过的路考察吉凶，返璞归真则大吉。",
+      "advice_en": "Advice: 经常反思总结自己的行为和决策，及时调整，大吉大利。"
+    }
+  ],
+  "泰": [
+    {
+      "position": "初九",
+      "original_text": "拔茅茹，以其汇，征吉",
+      "modern_meaning": "拔茅草连带根须一起拔出——同类相聚，出征吉利。",
+      "advice": "团结志同道合的人一起行动，齐心协力，事半功倍。",
+      "modern_meaning_en": "初九: 拔茅草连带根须一起拔出——同类相聚，出征吉利。",
+      "advice_en": "Advice: 团结志同道合的人一起行动，齐心协力，事半功倍。"
+    },
+    {
+      "position": "九二",
+      "original_text": "包荒，用冯河，不遐遗，朋亡，得尚于中行",
+      "modern_meaning": "胸怀宽广如渡大河，不遗弃远方之人，不结党营私，中道而行。",
+      "advice": "以包容大度处事，公正无私，不偏不倚，自有人助。",
+      "modern_meaning_en": "九二: 胸怀宽广如渡大河，不遗弃远方之人，不结党营私，中道而行。",
+      "advice_en": "Advice: 以包容大度处事，公正无私，不偏不倚，自有人助。"
+    },
+    {
+      "position": "九三",
+      "original_text": "无平不陂，无往不复，艰贞无咎。勿恤其孚，于食有福",
+      "modern_meaning": "没有永远的平坦也没有永远的不平，去者必复。在艰难中守正则无灾。",
+      "advice": "盛极必衰是自然规律，居安思危、在顺境中不忘艰险，方能长保平安。",
+      "modern_meaning_en": "九三: 没有永远的平坦也没有永远的不平，去者必复。在艰难中守正则无灾。",
+      "advice_en": "Advice: 盛极必衰是自然规律，居安思危、在顺境中不忘艰险，方能长保平安。"
+    },
+    {
+      "position": "六四",
+      "original_text": "翩翩，不富以其邻，不戒以孚",
+      "modern_meaning": "轻飘飘地下来，不独占财富与邻人分享，不设防而以诚信待人。",
+      "advice": "乐于分享、不独占利益，以信任取代防备，人际关系更加和谐。",
+      "modern_meaning_en": "六四: 轻飘飘地下来，不独占财富与邻人分享，不设防而以诚信待人。",
+      "advice_en": "Advice: 乐于分享、不独占利益，以信任取代防备，人际关系更加和谐。"
+    },
+    {
+      "position": "六五",
+      "original_text": "帝乙归妹，以祉元吉",
+      "modern_meaning": "帝乙嫁女，以谦下之德获得福祉，大吉。",
+      "advice": "居于高位而能谦逊待人，以柔德服众，福祉绵长。",
+      "modern_meaning_en": "六五: 帝乙嫁女，以谦下之德获得福祉，大吉。",
+      "advice_en": "Advice: 居于高位而能谦逊待人，以柔德服众，福祉绵长。"
+    },
+    {
+      "position": "上六",
+      "original_text": "城复于隍，勿用师，自邑告命，贞吝",
+      "modern_meaning": "城墙倾倒在干涸的护城河里——盛世转衰，不宜动武，自守则艰难。",
+      "advice": "形势逆转，不宜冒进或用强，收缩防守、减少开支，等待转机。",
+      "modern_meaning_en": "上六: 城墙倾倒在干涸的护城河里——盛世转衰，不宜动武，自守则艰难。",
+      "advice_en": "Advice: 形势逆转，不宜冒进或用强，收缩防守、减少开支，等待转机。"
+    }
+  ],
+  "否": [
+    {
+      "position": "初六",
+      "original_text": "拔茅茹，以其汇，贞吉，亨",
+      "modern_meaning": "拔茅草连带根须——连根拔除不正之事，守正则吉。",
+      "advice": "在不好的环境中要洁身自好，远离小人和是非，坚守正道。",
+      "modern_meaning_en": "初六: 拔茅草连带根须——连根拔除不正之事，守正则吉。",
+      "advice_en": "Advice: 在不好的环境中要洁身自好，远离小人和是非，坚守正道。"
+    },
+    {
+      "position": "六二",
+      "original_text": "包承，小人吉，大人否，亨",
+      "modern_meaning": "包容奉承——小人得意，大人受困，但坚守则通达。",
+      "advice": "小人当道时不与之同流合污，保持自身清正，终会否极泰来。",
+      "modern_meaning_en": "六二: 包容奉承——小人得意，大人受困，但坚守则通达。",
+      "advice_en": "Advice: 小人当道时不与之同流合污，保持自身清正，终会否极泰来。"
+    },
+    {
+      "position": "六三",
+      "original_text": "包羞",
+      "modern_meaning": "包藏羞耻——不正当的行为已到了令人不齿的地步。",
+      "advice": "不要为了一时的利益做有辱名声的事，知耻而后勇。",
+      "modern_meaning_en": "六三: 包藏羞耻——不正当的行为已到了令人不齿的地步。",
+      "advice_en": "Advice: 不要为了一时的利益做有辱名声的事，知耻而后勇。"
+    },
+    {
+      "position": "九四",
+      "original_text": "有命无咎，畴离祉",
+      "modern_meaning": "奉天命行事则无灾，众人也会分享福祉。",
+      "advice": "顺应大势、遵从正道来行动，不仅自己无恙，还能惠及他人。",
+      "modern_meaning_en": "九四: 奉天命行事则无灾，众人也会分享福祉。",
+      "advice_en": "Advice: 顺应大势、遵从正道来行动，不仅自己无恙，还能惠及他人。"
+    },
+    {
+      "position": "九五",
+      "original_text": "休否，大人吉。其亡其亡，系于苞桑",
+      "modern_meaning": "终止闭塞的局面，大人吉利。时刻警惕危亡，如同系在丛生的桑树上般稳固。",
+      "advice": "有转机出现，把握时机打破困境，同时保持危机意识，方能稳固。",
+      "modern_meaning_en": "九五: 终止闭塞的局面，大人吉利。时刻警惕危亡，如同系在丛生的桑树上般稳固。",
+      "advice_en": "Advice: 有转机出现，把握时机打破困境，同时保持危机意识，方能稳固。"
+    },
+    {
+      "position": "上九",
+      "original_text": "倾否，先否后喜",
+      "modern_meaning": "倾覆闭塞的局面，先困苦后喜悦——否极泰来。",
+      "advice": "最困难的时期即将过去，坚持住，黎明前最黑暗，否极必有泰来。",
+      "modern_meaning_en": "上九: 倾覆闭塞的局面，先困苦后喜悦——否极泰来。",
+      "advice_en": "Advice: 最困难的时期即将过去，坚持住，黎明前最黑暗，否极必有泰来。"
+    }
+  ],
+  "同人": [
+    {
+      "position": "初九",
+      "original_text": "同人于门，无咎",
+      "modern_meaning": "在门口与人同心协力，走出去结交朋友，无灾。",
+      "advice": "主动走出去广交朋友，以开放心态与人合作，平安顺遂。",
+      "modern_meaning_en": "初九: 在门口与人同心协力，走出去结交朋友，无灾。",
+      "advice_en": "Advice: 主动走出去广交朋友，以开放心态与人合作，平安顺遂。"
+    },
+    {
+      "position": "六二",
+      "original_text": "同人于宗，吝",
+      "modern_meaning": "只在宗族内部结交，视野狭窄，格局不够。",
+      "advice": "不要只在熟人圈子里打转，应该拓展视野、广纳不同背景的人才。",
+      "modern_meaning_en": "六二: 只在宗族内部结交，视野狭窄，格局不够。",
+      "advice_en": "Advice: 不要只在熟人圈子里打转，应该拓展视野、广纳不同背景的人才。"
+    },
+    {
+      "position": "九三",
+      "original_text": "伏戎于莽，升其高陵，三岁不兴",
+      "modern_meaning": "在草莽中埋伏军队，登上高陵窥伺，三年不敢动。",
+      "advice": "暗中积蓄力量但不轻举妄动，审时度势，等待最佳时机。",
+      "modern_meaning_en": "九三: 在草莽中埋伏军队，登上高陵窥伺，三年不敢动。",
+      "advice_en": "Advice: 暗中积蓄力量但不轻举妄动，审时度势，等待最佳时机。"
+    },
+    {
+      "position": "九四",
+      "original_text": "乘其墉，弗克攻，吉",
+      "modern_meaning": "登上城墙却无法攻下，最终放弃进攻，吉利。",
+      "advice": "知难而退是明智之举，不强攻不硬来，退一步反而吉利。",
+      "modern_meaning_en": "九四: 登上城墙却无法攻下，最终放弃进攻，吉利。",
+      "advice_en": "Advice: 知难而退是明智之举，不强攻不硬来，退一步反而吉利。"
+    },
+    {
+      "position": "九五",
+      "original_text": "同人，先号啕而后笑，大师克相遇",
+      "modern_meaning": "与人和同，先痛哭后欢笑——经历磨难后终成知己，大军凯旋相逢。",
+      "advice": "真诚的合作关系可能经历误解和考验，坚持信任，终会拨云见日。",
+      "modern_meaning_en": "九五: 与人和同，先痛哭后欢笑——经历磨难后终成知己，大军凯旋相逢。",
+      "advice_en": "Advice: 真诚的合作关系可能经历误解和考验，坚持信任，终会拨云见日。"
+    },
+    {
+      "position": "上九",
+      "original_text": "同人于郊，无悔",
+      "modern_meaning": "在郊野与人同心，虽未达核心但无怨悔。",
+      "advice": "即使不能进入核心圈子，在边缘保持志同道合的交往，也无怨无悔。",
+      "modern_meaning_en": "上九: 在郊野与人同心，虽未达核心但无怨悔。",
+      "advice_en": "Advice: 即使不能进入核心圈子，在边缘保持志同道合的交往，也无怨无悔。"
+    }
+  ],
+  "大有": [
+    {
+      "position": "初九",
+      "original_text": "无交害，匪咎，艰则无咎",
+      "modern_meaning": "不与人交恶，不惹麻烦，在艰难中谨慎则无灾。",
+      "advice": "富有之初保持低调，不炫耀不结怨，脚踏实地，平安长久。",
+      "modern_meaning_en": "初九: 不与人交恶，不惹麻烦，在艰难中谨慎则无灾。",
+      "advice_en": "Advice: 富有之初保持低调，不炫耀不结怨，脚踏实地，平安长久。"
+    },
+    {
+      "position": "九二",
+      "original_text": "大车以载，有攸往，无咎",
+      "modern_meaning": "以大车装载财富前行，有所往而无灾——能力大者担当大任。",
+      "advice": "有实力就大胆前行，担当重任，如大车载重稳健前行。",
+      "modern_meaning_en": "九二: 以大车装载财富前行，有所往而无灾——能力大者担当大任。",
+      "advice_en": "Advice: 有实力就大胆前行，担当重任，如大车载重稳健前行。"
+    },
+    {
+      "position": "九三",
+      "original_text": "公用亨于天子，小人弗克",
+      "modern_meaning": "公侯朝见天子受到款待，小人不能胜任——大任不可交给小人。",
+      "advice": "高位厚禄是对有能力者的认可，德不配位者必有灾殃。",
+      "modern_meaning_en": "九三: 公侯朝见天子受到款待，小人不能胜任——大任不可交给小人。",
+      "advice_en": "Advice: 高位厚禄是对有能力者的认可，德不配位者必有灾殃。"
+    },
+    {
+      "position": "九四",
+      "original_text": "匪其彭，无咎",
+      "modern_meaning": "不以盛大骄人，谦虚自抑，无灾。",
+      "advice": "富有权盛而不骄纵，懂得收敛锋芒，方可保全。",
+      "modern_meaning_en": "九四: 不以盛大骄人，谦虚自抑，无灾。",
+      "advice_en": "Advice: 富有权盛而不骄纵，懂得收敛锋芒，方可保全。"
+    },
+    {
+      "position": "六五",
+      "original_text": "厥孚交如，威如，吉",
+      "modern_meaning": "以诚信与人交往，又有威严，吉利。",
+      "advice": "诚信为立身之本，威严为御下之道，恩威并施则万事吉。",
+      "modern_meaning_en": "六五: 以诚信与人交往，又有威严，吉利。",
+      "advice_en": "Advice: 诚信为立身之本，威严为御下之道，恩威并施则万事吉。"
+    },
+    {
+      "position": "上九",
+      "original_text": "自天佑之，吉无不利",
+      "modern_meaning": "上天保佑他，吉利无所不利——顺应天道者得天佑。",
+      "advice": "顺应天理正道行事，自有福报降临，万事顺遂。",
+      "modern_meaning_en": "上九: 上天保佑他，吉利无所不利——顺应天道者得天佑。",
+      "advice_en": "Advice: 顺应天理正道行事，自有福报降临，万事顺遂。"
+    }
+  ],
+  "谦": [
+    {
+      "position": "初六",
+      "original_text": "谦谦君子，用涉大川，吉",
+      "modern_meaning": "谦而又谦的君子，可以涉过大河险阻，吉。",
+      "advice": "始终保持谦虚，即使面对巨大困难也能安然度过。",
+      "modern_meaning_en": "初六: 谦而又谦的君子，可以涉过大河险阻，吉。",
+      "advice_en": "Advice: 始终保持谦虚，即使面对巨大困难也能安然度过。"
+    },
+    {
+      "position": "六二",
+      "original_text": "鸣谦，贞吉",
+      "modern_meaning": "以谦虚之名闻名于外，守正则吉。",
+      "advice": "谦虚的美德被人认可，保持初心不变，自然会获得更多信任和机会。",
+      "modern_meaning_en": "六二: 以谦虚之名闻名于外，守正则吉。",
+      "advice_en": "Advice: 谦虚的美德被人认可，保持初心不变，自然会获得更多信任和机会。"
+    },
+    {
+      "position": "九三",
+      "original_text": "劳谦，君子有终，吉",
+      "modern_meaning": "勤劳而谦虚的君子，善始善终，吉。",
+      "advice": "既努力又谦逊是最难得的品质，持之以恒必有善终。",
+      "modern_meaning_en": "九三: 勤劳而谦虚的君子，善始善终，吉。",
+      "advice_en": "Advice: 既努力又谦逊是最难得的品质，持之以恒必有善终。"
+    },
+    {
+      "position": "六四",
+      "original_text": "无不利，撝谦",
+      "modern_meaning": "没有不利，发挥谦虚的美德。",
+      "advice": "将谦虚付诸行动，处处谦让，无往不利。",
+      "modern_meaning_en": "六四: 没有不利，发挥谦虚的美德。",
+      "advice_en": "Advice: 将谦虚付诸行动，处处谦让，无往不利。"
+    },
+    {
+      "position": "六五",
+      "original_text": "不富以其邻，利用侵伐，无不利",
+      "modern_meaning": "邻人不服而侵夺，以谦德之名出师征讨，无所不利。",
+      "advice": "谦虚不等于软弱，必要时以正义之名果断行动，名正言顺。",
+      "modern_meaning_en": "六五: 邻人不服而侵夺，以谦德之名出师征讨，无所不利。",
+      "advice_en": "Advice: 谦虚不等于软弱，必要时以正义之名果断行动，名正言顺。"
+    },
+    {
+      "position": "上六",
+      "original_text": "鸣谦，利用行师，征邑国",
+      "modern_meaning": "谦虚之名远扬，利于出兵征讨不服之地。",
+      "advice": "以德服人为主，但对方不服时，也应果断行动树立权威。",
+      "modern_meaning_en": "上六: 谦虚之名远扬，利于出兵征讨不服之地。",
+      "advice_en": "Advice: 以德服人为主，但对方不服时，也应果断行动树立权威。"
+    }
+  ],
+  "豫": [
+    {
+      "position": "初六",
+      "original_text": "鸣豫，凶",
+      "modern_meaning": "因得意忘形而到处炫耀，凶。",
+      "advice": "得意时不可忘形，炫耀招祸，低调做人。",
+      "modern_meaning_en": "初六: 因得意忘形而到处炫耀，凶。",
+      "advice_en": "Advice: 得意时不可忘形，炫耀招祸，低调做人。"
+    },
+    {
+      "position": "六二",
+      "original_text": "介于石，不终日，贞吉",
+      "modern_meaning": "坚如磐石，不过一天就觉悟——果断而清醒，守正则吉。",
+      "advice": "保持清醒和坚定的判断力，不被安乐迷惑，果断决策。",
+      "modern_meaning_en": "六二: 坚如磐石，不过一天就觉悟——果断而清醒，守正则吉。",
+      "advice_en": "Advice: 保持清醒和坚定的判断力，不被安乐迷惑，果断决策。"
+    },
+    {
+      "position": "六三",
+      "original_text": "盱豫，悔。迟有悔",
+      "modern_meaning": "阿谀奉承以求安乐，必将后悔，悔悟迟了更是后悔。",
+      "advice": "不要靠巴结奉承换取安逸，这样的安乐不会长久，早悔早改。",
+      "modern_meaning_en": "六三: 阿谀奉承以求安乐，必将后悔，悔悟迟了更是后悔。",
+      "advice_en": "Advice: 不要靠巴结奉承换取安逸，这样的安乐不会长久，早悔早改。"
+    },
+    {
+      "position": "九四",
+      "original_text": "由豫，大有得。勿疑。朋盍簪",
+      "modern_meaning": "以顺势带来安乐，大有所得。不要疑虑，朋友如簪子聚拢而来。",
+      "advice": "顺势而为、营造安乐氛围，自然会吸引志同道合的人聚集。",
+      "modern_meaning_en": "九四: 以顺势带来安乐，大有所得。不要疑虑，朋友如簪子聚拢而来。",
+      "advice_en": "Advice: 顺势而为、营造安乐氛围，自然会吸引志同道合的人聚集。"
+    },
+    {
+      "position": "六五",
+      "original_text": "贞疾，恒不死",
+      "modern_meaning": "虽患疾病但坚守不死——困境中坚持，终会渡过难关。",
+      "advice": "即使身处困境也不放弃，顽强坚持，终会转危为安。",
+      "modern_meaning_en": "六五: 虽患疾病但坚守不死——困境中坚持，终会渡过难关。",
+      "advice_en": "Advice: 即使身处困境也不放弃，顽强坚持，终会转危为安。"
+    },
+    {
+      "position": "上六",
+      "original_text": "冥豫，成有渝，无咎",
+      "modern_meaning": "沉迷于安乐到昏昧的地步，但事情已成还能改变，无灾。",
+      "advice": "沉迷享乐终有醒悟的一天，及时改变，亡羊补牢为时未晚。",
+      "modern_meaning_en": "上六: 沉迷于安乐到昏昧的地步，但事情已成还能改变，无灾。",
+      "advice_en": "Advice: 沉迷享乐终有醒悟的一天，及时改变，亡羊补牢为时未晚。"
+    }
+  ],
+  "随": [
+    {
+      "position": "初九",
+      "original_text": "官有渝，贞吉，出门交有功",
+      "modern_meaning": "职务或地位发生变化，守正则吉，走出门外与人交往会有成效。",
+      "advice": "面对变动保持心态端正，主动拓展社交圈，在变化中寻找新的机会。",
+      "modern_meaning_en": "初九: 职务或地位发生变化，守正则吉，走出门外与人交往会有成效。",
+      "advice_en": "Advice: 面对变动保持心态端正，主动拓展社交圈，在变化中寻找新的机会。"
+    },
+    {
+      "position": "六二",
+      "original_text": "系小子，失丈夫",
+      "modern_meaning": "依附于小子便会失去丈夫——因小失大，顾此失彼。",
+      "advice": "选择跟随对象时要有长远眼光，不要因贪图眼前小利而失去更大的机会。",
+      "modern_meaning_en": "六二: 依附于小子便会失去丈夫——因小失大，顾此失彼。",
+      "advice_en": "Advice: 选择跟随对象时要有长远眼光，不要因贪图眼前小利而失去更大的机会。"
+    },
+    {
+      "position": "六三",
+      "original_text": "系丈夫，失小子，随有求得，利居贞",
+      "modern_meaning": "依附于丈夫而失去小子，跟随强者有所求必得，利于安居守正。",
+      "advice": "跟随有实力的人会有收获，但不可贪求，保持本分和正直才能稳固。",
+      "modern_meaning_en": "六三: 依附于丈夫而失去小子，跟随强者有所求必得，利于安居守正。",
+      "advice_en": "Advice: 跟随有实力的人会有收获，但不可贪求，保持本分和正直才能稳固。"
+    },
+    {
+      "position": "九四",
+      "original_text": "随有获，贞凶。有孚在道，以明，何咎",
+      "modern_meaning": "跟随而有收获，但心术不正则凶。若心存诚信、走正道、光明磊落，又有何灾？",
+      "advice": "获取利益时务必光明正大，以诚信待人，否则功高震主反招祸患。",
+      "modern_meaning_en": "九四: 跟随而有收获，但心术不正则凶。若心存诚信、走正道、光明磊落，又有何灾？",
+      "advice_en": "Advice: 获取利益时务必光明正大，以诚信待人，否则功高震主反招祸患。"
+    },
+    {
+      "position": "九五",
+      "original_text": "孚于嘉，吉",
+      "modern_meaning": "以诚信施于善美之事，大吉。",
+      "advice": "对值得信赖的优秀之人坦诚相待，建立基于信任的深度合作关系。",
+      "modern_meaning_en": "九五: 以诚信施于善美之事，大吉。",
+      "advice_en": "Advice: 对值得信赖的优秀之人坦诚相待，建立基于信任的深度合作关系。"
+    },
+    {
+      "position": "上六",
+      "original_text": "拘系之，乃从维之，王用亨于西山",
+      "modern_meaning": "先拘禁束缚，再加以维系，君王因此得以在西山祭祀——极尽追随之诚。",
+      "advice": "关系已到极点，强留不如放手。真诚到极致自能感动人心，但不可勉强。",
+      "modern_meaning_en": "上六: 先拘禁束缚，再加以维系，君王因此得以在西山祭祀——极尽追随之诚。",
+      "advice_en": "Advice: 关系已到极点，强留不如放手。真诚到极致自能感动人心，但不可勉强。"
+    }
+  ],
+  "蛊": [
+    {
+      "position": "初六",
+      "original_text": "干父之蛊，有子，考无咎，厉终吉",
+      "modern_meaning": "整治父辈留下的积弊，有能干的儿子，亡父可免咎责，虽有艰险终归吉利。",
+      "advice": "接手前人的烂摊子要勇于担当，直面问题加以整顿，虽有阻力但终有好结果。",
+      "modern_meaning_en": "初六: 整治父辈留下的积弊，有能干的儿子，亡父可免咎责，虽有艰险终归吉利。",
+      "advice_en": "Advice: 接手前人的烂摊子要勇于担当，直面问题加以整顿，虽有阻力但终有好结果。"
+    },
+    {
+      "position": "九二",
+      "original_text": "干母之蛊，不可贞",
+      "modern_meaning": "整治母辈留下的积弊，不可过于刚硬固执——需柔中带刚。",
+      "advice": "处理感情或柔性关系中的问题时，不可过于强硬，宜以温和方式逐步引导。",
+      "modern_meaning_en": "九二: 整治母辈留下的积弊，不可过于刚硬固执——需柔中带刚。",
+      "advice_en": "Advice: 处理感情或柔性关系中的问题时，不可过于强硬，宜以温和方式逐步引导。"
+    },
+    {
+      "position": "九三",
+      "original_text": "干父之蛊，小有悔，无大咎",
+      "modern_meaning": "整治父辈积弊，会有些小遗憾和阻力，但没有大过失。",
+      "advice": "改革旧制难免得罪人，只要大方向正确，些许非议不必在意。",
+      "modern_meaning_en": "九三: 整治父辈积弊，会有些小遗憾和阻力，但没有大过失。",
+      "advice_en": "Advice: 改革旧制难免得罪人，只要大方向正确，些许非议不必在意。"
+    },
+    {
+      "position": "六四",
+      "original_text": "裕父之蛊，往见吝",
+      "modern_meaning": "对父辈的积弊宽容放任不予整治，继续下去则可耻。",
+      "advice": "面对积弊不能姑息纵容，一味迁就只会让问题恶化，需果断行动。",
+      "modern_meaning_en": "六四: 对父辈的积弊宽容放任不予整治，继续下去则可耻。",
+      "advice_en": "Advice: 面对积弊不能姑息纵容，一味迁就只会让问题恶化，需果断行动。"
+    },
+    {
+      "position": "六五",
+      "original_text": "干父之蛊，用誉",
+      "modern_meaning": "整治父辈积弊，采用德誉之臣辅助，赢得赞誉。",
+      "advice": "改革积弊要善用有德有才之人，以德服人，自然赢得口碑与认可。",
+      "modern_meaning_en": "六五: 整治父辈积弊，采用德誉之臣辅助，赢得赞誉。",
+      "advice_en": "Advice: 改革积弊要善用有德有才之人，以德服人，自然赢得口碑与认可。"
+    },
+    {
+      "position": "上九",
+      "original_text": "不事王侯，高尚其事",
+      "modern_meaning": "不侍奉王侯，以自己的高尚事业为追求——功成身退，不恋权位。",
+      "advice": "整顿积弊功成之后，不贪恋权位名利，坚守自己的志向和原则。",
+      "modern_meaning_en": "上九: 不侍奉王侯，以自己的高尚事业为追求——功成身退，不恋权位。",
+      "advice_en": "Advice: 整顿积弊功成之后，不贪恋权位名利，坚守自己的志向和原则。"
+    }
+  ],
+  "临": [
+    {
+      "position": "初九",
+      "original_text": "咸临，贞吉",
+      "modern_meaning": "以真诚感化之心来面对，守正则吉。",
+      "advice": "初掌事务时以真诚和热忱对待每一个人和每件事，自然会获得好结果。",
+      "modern_meaning_en": "初九: 以真诚感化之心来面对，守正则吉。",
+      "advice_en": "Advice: 初掌事务时以真诚和热忱对待每一个人和每件事，自然会获得好结果。"
+    },
+    {
+      "position": "九二",
+      "original_text": "咸临，吉，无不利",
+      "modern_meaning": "以真诚之心感化，吉而无不利。",
+      "advice": "以真心换真心，用包容和理解对待身边人，万事皆顺。",
+      "modern_meaning_en": "九二: 以真诚之心感化，吉而无不利。",
+      "advice_en": "Advice: 以真心换真心，用包容和理解对待身边人，万事皆顺。"
+    },
+    {
+      "position": "六三",
+      "original_text": "甘临，无攸利。既忧之，无咎",
+      "modern_meaning": "以甜言蜜语来笼络人心，无所获益。但若能知忧而改，则无灾。",
+      "advice": "靠花言巧语笼络人心走不长远，及时认识到问题并改正，尚可无碍。",
+      "modern_meaning_en": "六三: 以甜言蜜语来笼络人心，无所获益。但若能知忧而改，则无灾。",
+      "advice_en": "Advice: 靠花言巧语笼络人心走不长远，及时认识到问题并改正，尚可无碍。"
+    },
+    {
+      "position": "六四",
+      "original_text": "至临，无咎",
+      "modern_meaning": "以至诚之心亲临其事，没有灾祸。",
+      "advice": "亲力亲为、以诚待人，不虚情假意，自然平安顺遂。",
+      "modern_meaning_en": "六四: 以至诚之心亲临其事，没有灾祸。",
+      "advice_en": "Advice: 亲力亲为、以诚待人，不虚情假意，自然平安顺遂。"
+    },
+    {
+      "position": "六五",
+      "original_text": "知临，大君之宜，吉",
+      "modern_meaning": "以智慧来统领，是伟大君主应有的风范，吉。",
+      "advice": "做领导者要善用人才、知人善任，以智慧而非蛮力驾驭全局。",
+      "modern_meaning_en": "六五: 以智慧来统领，是伟大君主应有的风范，吉。",
+      "advice_en": "Advice: 做领导者要善用人才、知人善任，以智慧而非蛮力驾驭全局。"
+    },
+    {
+      "position": "上六",
+      "original_text": "敦临，吉，无咎",
+      "modern_meaning": "以敦厚宽仁之心来对待，吉而无灾。",
+      "advice": "身居高位时以宽厚之心待人，不骄不躁，自然吉祥平安。",
+      "modern_meaning_en": "上六: 以敦厚宽仁之心来对待，吉而无灾。",
+      "advice_en": "Advice: 身居高位时以宽厚之心待人，不骄不躁，自然吉祥平安。"
+    }
+  ],
+  "观": [
+    {
+      "position": "初六",
+      "original_text": "童观，小人无咎，君子吝",
+      "modern_meaning": "如孩童般浅薄地观察事物，对小人无碍，对君子则可耻。",
+      "advice": "看问题不可浮于表面，要有深度和高度，否则难成大事。",
+      "modern_meaning_en": "初六: 如孩童般浅薄地观察事物，对小人无碍，对君子则可耻。",
+      "advice_en": "Advice: 看问题不可浮于表面，要有深度和高度，否则难成大事。"
+    },
+    {
+      "position": "六二",
+      "original_text": "窥观，利女贞",
+      "modern_meaning": "从门缝中偷看——视野狭窄，利于女子守正（古代女子不出闺门）。",
+      "advice": "信息获取渠道有限时需保持本分，但应努力拓宽视野，不要偏听偏信。",
+      "modern_meaning_en": "六二: 从门缝中偷看——视野狭窄，利于女子守正（古代女子不出闺门）。",
+      "advice_en": "Advice: 信息获取渠道有限时需保持本分，但应努力拓宽视野，不要偏听偏信。"
+    },
+    {
+      "position": "六三",
+      "original_text": "观我生，进退",
+      "modern_meaning": "审视自己的处境和作为，以此决定进退取舍。",
+      "advice": "做重大决策前先反省自身条件和处境，知己知彼方能进退得当。",
+      "modern_meaning_en": "六三: 审视自己的处境和作为，以此决定进退取舍。",
+      "advice_en": "Advice: 做重大决策前先反省自身条件和处境，知己知彼方能进退得当。"
+    },
+    {
+      "position": "六四",
+      "original_text": "观国之光，利用宾于王",
+      "modern_meaning": "观摩国家的光辉气象，利于作为君王的宾客——见识广博可被重用。",
+      "advice": "多观察优秀团队和组织的运作，积累见识和经验，自然会获得重用机会。",
+      "modern_meaning_en": "六四: 观摩国家的光辉气象，利于作为君王的宾客——见识广博可被重用。",
+      "advice_en": "Advice: 多观察优秀团队和组织的运作，积累见识和经验，自然会获得重用机会。"
+    },
+    {
+      "position": "九五",
+      "original_text": "观我生，君子无咎",
+      "modern_meaning": "反省自身的作为和德行，君子如此则无灾。",
+      "advice": "居高位者更需时刻自省，审视自己的言行和决策，方能无愧于心。",
+      "modern_meaning_en": "九五: 反省自身的作为和德行，君子如此则无灾。",
+      "advice_en": "Advice: 居高位者更需时刻自省，审视自己的言行和决策，方能无愧于心。"
+    },
+    {
+      "position": "上九",
+      "original_text": "观其生，君子无咎",
+      "modern_meaning": "审视天下万民的生存状况，君子如此则无灾。",
+      "advice": "以天下苍生为念，关注他人福祉和社会责任，这才是君子的胸怀。",
+      "modern_meaning_en": "上九: 审视天下万民的生存状况，君子如此则无灾。",
+      "advice_en": "Advice: 以天下苍生为念，关注他人福祉和社会责任，这才是君子的胸怀。"
+    }
+  ],
+  "噬嗑": [
+    {
+      "position": "初九",
+      "original_text": "屦校灭趾，无咎",
+      "modern_meaning": "脚上戴着刑具遮住了脚趾，小惩大诫，故无灾。",
+      "advice": "犯小错时及时受罚是好事，惩戒在初期能防止犯大错，接受教训即可。",
+      "modern_meaning_en": "初九: 脚上戴着刑具遮住了脚趾，小惩大诫，故无灾。",
+      "advice_en": "Advice: 犯小错时及时受罚是好事，惩戒在初期能防止犯大错，接受教训即可。"
+    },
+    {
+      "position": "六二",
+      "original_text": "噬肤灭鼻，无咎",
+      "modern_meaning": "咬软肉连鼻子都陷进去——处罚过深但能制止犯罪，无灾。",
+      "advice": "处理问题时要够狠够到位，宁可矫枉过正也要彻底解决隐患。",
+      "modern_meaning_en": "六二: 咬软肉连鼻子都陷进去——处罚过深但能制止犯罪，无灾。",
+      "advice_en": "Advice: 处理问题时要够狠够到位，宁可矫枉过正也要彻底解决隐患。"
+    },
+    {
+      "position": "六三",
+      "original_text": "噬腊肉，遇毒，小吝，无咎",
+      "modern_meaning": "咬腊肉遇到中毒——处理棘手之事遇到阻力，有小麻烦但无大灾。",
+      "advice": "处理复杂问题可能会遇到意想不到的困难，做好心理准备，坚持到底。",
+      "modern_meaning_en": "六三: 咬腊肉遇到中毒——处理棘手之事遇到阻力，有小麻烦但无大灾。",
+      "advice_en": "Advice: 处理复杂问题可能会遇到意想不到的困难，做好心理准备，坚持到底。"
+    },
+    {
+      "position": "九四",
+      "original_text": "噬干胏，得金矢，利艰贞，吉",
+      "modern_meaning": "咬干硬的带骨肉得到金属箭头——攻坚克难获得利器，利于艰难中守正，吉。",
+      "advice": "面对最硬的骨头要迎难而上，坚持正道，攻坚之后必有收获。",
+      "modern_meaning_en": "九四: 咬干硬的带骨肉得到金属箭头——攻坚克难获得利器，利于艰难中守正，吉。",
+      "advice_en": "Advice: 面对最硬的骨头要迎难而上，坚持正道，攻坚之后必有收获。"
+    },
+    {
+      "position": "六五",
+      "original_text": "噬干肉，得黄金，贞厉，无咎",
+      "modern_meaning": "咬干肉得到黄金——处理难案有所收获，虽有危险但守正则无灾。",
+      "advice": "处理棘手事务要有黄金般的坚定意志，虽险但正道而行可平安无事。",
+      "modern_meaning_en": "六五: 咬干肉得到黄金——处理难案有所收获，虽有危险但守正则无灾。",
+      "advice_en": "Advice: 处理棘手事务要有黄金般的坚定意志，虽险但正道而行可平安无事。"
+    },
+    {
+      "position": "上九",
+      "original_text": "何校灭耳，凶",
+      "modern_meaning": "肩上扛着刑具遮住了耳朵——罪大恶极受重刑，凶。",
+      "advice": "小错不改终成大祸，积重难返时再想弥补为时已晚，务必防微杜渐。",
+      "modern_meaning_en": "上九: 肩上扛着刑具遮住了耳朵——罪大恶极受重刑，凶。",
+      "advice_en": "Advice: 小错不改终成大祸，积重难返时再想弥补为时已晚，务必防微杜渐。"
+    }
+  ],
+  "贲": [
+    {
+      "position": "初九",
+      "original_text": "贲其趾，舍车而徒",
+      "modern_meaning": "装饰脚趾，舍车不坐而步行——注重自身本色，不贪图便利。",
+      "advice": "做事重在自己踏实肯干，不要贪图捷径和外在的排场，朴素务实为上。",
+      "modern_meaning_en": "初九: 装饰脚趾，舍车不坐而步行——注重自身本色，不贪图便利。",
+      "advice_en": "Advice: 做事重在自己踏实肯干，不要贪图捷径和外在的排场，朴素务实为上。"
+    },
+    {
+      "position": "六二",
+      "original_text": "贲其须",
+      "modern_meaning": "修饰胡须——依附于下巴，须与下巴一致，装饰须随主体。",
+      "advice": "修饰和表现要与本真一致，外在形象服务于内在实质，不可本末倒置。",
+      "modern_meaning_en": "六二: 修饰胡须——依附于下巴，须与下巴一致，装饰须随主体。",
+      "advice_en": "Advice: 修饰和表现要与本真一致，外在形象服务于内在实质，不可本末倒置。"
+    },
+    {
+      "position": "九三",
+      "original_text": "贲如濡如，永贞吉",
+      "modern_meaning": "修饰得光润华美，永远保持正道则吉。",
+      "advice": "事业辉煌时要保持清醒，华而不实不可长久，以正道持守方能吉祥。",
+      "modern_meaning_en": "九三: 修饰得光润华美，永远保持正道则吉。",
+      "advice_en": "Advice: 事业辉煌时要保持清醒，华而不实不可长久，以正道持守方能吉祥。"
+    },
+    {
+      "position": "六四",
+      "original_text": "贲如皤如，白马翰如，匪寇婚媾",
+      "modern_meaning": "修饰得洁白素雅，白马飞驰而来，不是贼寇而是来求婚的。",
+      "advice": "外表朴素真诚的人值得信任，不要被表面现象迷惑，辨别真伪后再做决定。",
+      "modern_meaning_en": "六四: 修饰得洁白素雅，白马飞驰而来，不是贼寇而是来求婚的。",
+      "advice_en": "Advice: 外表朴素真诚的人值得信任，不要被表面现象迷惑，辨别真伪后再做决定。"
+    },
+    {
+      "position": "六五",
+      "original_text": "贲于丘园，束帛戋戋，吝，终吉",
+      "modern_meaning": "装饰山丘园林，礼物虽微薄（束帛很少），显得吝啬，但终归吉利。",
+      "advice": "礼轻情意重，不必铺张浪费，以朴素真诚的心意待人，最终会有好结果。",
+      "modern_meaning_en": "六五: 装饰山丘园林，礼物虽微薄（束帛很少），显得吝啬，但终归吉利。",
+      "advice_en": "Advice: 礼轻情意重，不必铺张浪费，以朴素真诚的心意待人，最终会有好结果。"
+    },
+    {
+      "position": "上九",
+      "original_text": "白贲，无咎",
+      "modern_meaning": "以素白为饰——返璞归真，最高的装饰是无装饰，无灾。",
+      "advice": "最高境界是返璞归真，放下虚荣和浮华，回归本真自然，方得自在。",
+      "modern_meaning_en": "上九: 以素白为饰——返璞归真，最高的装饰是无装饰，无灾。",
+      "advice_en": "Advice: 最高境界是返璞归真，放下虚荣和浮华，回归本真自然，方得自在。"
+    }
+  ],
+  "剥": [
+    {
+      "position": "初六",
+      "original_text": "剥床以足，蔑贞凶",
+      "modern_meaning": "剥蚀从床脚开始——根基受损，不加正视则有凶险。",
+      "advice": "问题从根基开始侵蚀时要高度重视，忽视小裂缝终将导致大崩塌。",
+      "modern_meaning_en": "初六: 剥蚀从床脚开始——根基受损，不加正视则有凶险。",
+      "advice_en": "Advice: 问题从根基开始侵蚀时要高度重视，忽视小裂缝终将导致大崩塌。"
+    },
+    {
+      "position": "六二",
+      "original_text": "剥床以辨，蔑贞凶",
+      "modern_meaning": "剥蚀已到床板——侵蚀加剧，不加正视则凶险加深。",
+      "advice": "危机正在扩大蔓延，不能再视而不见，必须立刻采取补救措施。",
+      "modern_meaning_en": "六二: 剥蚀已到床板——侵蚀加剧，不加正视则凶险加深。",
+      "advice_en": "Advice: 危机正在扩大蔓延，不能再视而不见，必须立刻采取补救措施。"
+    },
+    {
+      "position": "六三",
+      "original_text": "剥之，无咎",
+      "modern_meaning": "虽在剥落之中，但自身不被剥蚀，故无灾。",
+      "advice": "在衰败的大环境中保持自身正直，不随波逐流，可免于灾祸。",
+      "modern_meaning_en": "六三: 虽在剥落之中，但自身不被剥蚀，故无灾。",
+      "advice_en": "Advice: 在衰败的大环境中保持自身正直，不随波逐流，可免于灾祸。"
+    },
+    {
+      "position": "六四",
+      "original_text": "剥床以肤，凶",
+      "modern_meaning": "剥蚀已到床面、危及肌肤——危险迫在眉睫，凶。",
+      "advice": "危机已严重到直接威胁自身安全，必须立即采取行动自救，不可再等。",
+      "modern_meaning_en": "六四: 剥蚀已到床面、危及肌肤——危险迫在眉睫，凶。",
+      "advice_en": "Advice: 危机已严重到直接威胁自身安全，必须立即采取行动自救，不可再等。"
+    },
+    {
+      "position": "六五",
+      "original_text": "贯鱼，以宫人宠，无不利",
+      "modern_meaning": "如鱼贯排列，宫人依次受宠——有序引导各方力量，无不利。",
+      "advice": "在逆境中善于统领和协调各方，以有序的方式安排人事，可转危为安。",
+      "modern_meaning_en": "六五: 如鱼贯排列，宫人依次受宠——有序引导各方力量，无不利。",
+      "advice_en": "Advice: 在逆境中善于统领和协调各方，以有序的方式安排人事，可转危为安。"
+    },
+    {
+      "position": "上九",
+      "original_text": "硕果不食，君子得舆，小人剥庐",
+      "modern_meaning": "硕大的果实未被剥食——君子得到车乘（民众拥戴），小人则连庐舍也被剥去。",
+      "advice": "衰败到极点时君子反得民心，小人则众叛亲离。坚守正道终将东山再起。",
+      "modern_meaning_en": "上九: 硕大的果实未被剥食——君子得到车乘（民众拥戴），小人则连庐舍也被剥去。",
+      "advice_en": "Advice: 衰败到极点时君子反得民心，小人则众叛亲离。坚守正道终将东山再起。"
+    }
+  ],
+  "复": [
+    {
+      "position": "初九",
+      "original_text": "不远复，无祗悔，元吉",
+      "modern_meaning": "走偏了不远就回头，不至于后悔，大吉。",
+      "advice": "知错能改，越早回头代价越小。发现方向有误立刻纠正，善莫大焉。",
+      "modern_meaning_en": "初九: 走偏了不远就回头，不至于后悔，大吉。",
+      "advice_en": "Advice: 知错能改，越早回头代价越小。发现方向有误立刻纠正，善莫大焉。"
+    },
+    {
+      "position": "六二",
+      "original_text": "休复，吉",
+      "modern_meaning": "欣然回归正道，吉。",
+      "advice": "以愉快平和的心态回归正途，不勉强、不纠结，自然顺遂。",
+      "modern_meaning_en": "六二: 欣然回归正道，吉。",
+      "advice_en": "Advice: 以愉快平和的心态回归正途，不勉强、不纠结，自然顺遂。"
+    },
+    {
+      "position": "六三",
+      "original_text": "频复，厉无咎",
+      "modern_meaning": "屡次犯错又屡次回头——虽有危险但最终无灾。",
+      "advice": "反复犯错不可怕，可怕的是放弃改正。每次跌倒都重新站起来就好。",
+      "modern_meaning_en": "六三: 屡次犯错又屡次回头——虽有危险但最终无灾。",
+      "advice_en": "Advice: 反复犯错不可怕，可怕的是放弃改正。每次跌倒都重新站起来就好。"
+    },
+    {
+      "position": "六四",
+      "original_text": "中行独复",
+      "modern_meaning": "在众人都迷失时，独自行走在中道上回归——力排众议坚持正道。",
+      "advice": "在众人都随波逐流时敢于坚持正确方向，即使孤独也无怨无悔。",
+      "modern_meaning_en": "六四: 在众人都迷失时，独自行走在中道上回归——力排众议坚持正道。",
+      "advice_en": "Advice: 在众人都随波逐流时敢于坚持正确方向，即使孤独也无怨无悔。"
+    },
+    {
+      "position": "六五",
+      "original_text": "敦复，无悔",
+      "modern_meaning": "以敦厚之心回归正道，没有悔恨。",
+      "advice": "以真诚厚道的心态对待每一次改过自新，不敷衍不虚伪，自然无悔。",
+      "modern_meaning_en": "六五: 以敦厚之心回归正道，没有悔恨。",
+      "advice_en": "Advice: 以真诚厚道的心态对待每一次改过自新，不敷衍不虚伪，自然无悔。"
+    },
+    {
+      "position": "上六",
+      "original_text": "迷复，凶，有灾眚。用行师，终有大败，以其国君凶。至于十年不克征",
+      "modern_meaning": "迷而不返，凶险有灾。出兵必大败，国君也有凶险，十年不能恢复元气。",
+      "advice": "执迷不悟、拒绝回头是最大的危险，一意孤行会彻底失败且长期难以恢复。",
+      "modern_meaning_en": "上六: 迷而不返，凶险有灾。出兵必大败，国君也有凶险，十年不能恢复元气。",
+      "advice_en": "Advice: 执迷不悟、拒绝回头是最大的危险，一意孤行会彻底失败且长期难以恢复。"
+    }
+  ],
+  "无妄": [
+    {
+      "position": "初九",
+      "original_text": "无妄，往吉",
+      "modern_meaning": "行为不妄，合乎正道，前往则吉。",
+      "advice": "做事踏实本分、不存非分之想，大胆前行自然吉祥顺遂。",
+      "modern_meaning_en": "初九: 行为不妄，合乎正道，前往则吉。",
+      "advice_en": "Advice: 做事踏实本分、不存非分之想，大胆前行自然吉祥顺遂。"
+    },
+    {
+      "position": "六二",
+      "original_text": "不耕获，不菑畬，则利有攸往",
+      "modern_meaning": "不指望刚耕种就收获、刚开荒就熟田——不急功近利，则利于前行。",
+      "advice": "做事不要急功近利、急于求成，踏踏实实付出，自然会有回报。",
+      "modern_meaning_en": "六二: 不指望刚耕种就收获、刚开荒就熟田——不急功近利，则利于前行。",
+      "advice_en": "Advice: 做事不要急功近利、急于求成，踏踏实实付出，自然会有回报。"
+    },
+    {
+      "position": "六三",
+      "original_text": "无妄之灾，或系之牛，行人之得，邑人之灾",
+      "modern_meaning": "无端遭受灾祸——有人拴了头牛，过路人顺手牵走，村里人却蒙受冤屈。",
+      "advice": "有时灾祸不是自己造成的，纯属无辜受牵连。面对无妄之灾要冷静澄清，不可急躁。",
+      "modern_meaning_en": "六三: 无端遭受灾祸——有人拴了头牛，过路人顺手牵走，村里人却蒙受冤屈。",
+      "advice_en": "Advice: 有时灾祸不是自己造成的，纯属无辜受牵连。面对无妄之灾要冷静澄清，不可急躁。"
+    },
+    {
+      "position": "九四",
+      "original_text": "可贞，无咎",
+      "modern_meaning": "可以坚守正道，无灾。",
+      "advice": "只要行为端正、守住本分，即使身处复杂环境也能平安无事。",
+      "modern_meaning_en": "九四: 可以坚守正道，无灾。",
+      "advice_en": "Advice: 只要行为端正、守住本分，即使身处复杂环境也能平安无事。"
+    },
+    {
+      "position": "九五",
+      "original_text": "无妄之疾，勿药有喜",
+      "modern_meaning": "无端患的疾病，不用吃药自会痊愈——非自身原因的小毛病不必过度焦虑。",
+      "advice": "非自身原因造成的小问题不必过度紧张和干预，顺其自然反而恢复得更快。",
+      "modern_meaning_en": "九五: 无端患的疾病，不用吃药自会痊愈——非自身原因的小毛病不必过度焦虑。",
+      "advice_en": "Advice: 非自身原因造成的小问题不必过度紧张和干预，顺其自然反而恢复得更快。"
+    },
+    {
+      "position": "上九",
+      "original_text": "无妄，行有眚，无攸利",
+      "modern_meaning": "虽不妄为，但时运不对，强行行动必有灾殃，无所获益。",
+      "advice": "即使你做得再对，时运不济时也不可勉强行动。识时务者为俊杰，等待时机为上。",
+      "modern_meaning_en": "上九: 虽不妄为，但时运不对，强行行动必有灾殃，无所获益。",
+      "advice_en": "Advice: 即使你做得再对，时运不济时也不可勉强行动。识时务者为俊杰，等待时机为上。"
+    }
+  ],
+  "大畜": [
+    {
+      "position": "初九",
+      "original_text": "有厉，利已",
+      "modern_meaning": "有危险，利于停止——知道及时止步。",
+      "advice": "积蓄力量阶段遇到风险要及时刹车，不可冒进，保存实力比贸然行动更重要。",
+      "modern_meaning_en": "初九: 有危险，利于停止——知道及时止步。",
+      "advice_en": "Advice: 积蓄力量阶段遇到风险要及时刹车，不可冒进，保存实力比贸然行动更重要。"
+    },
+    {
+      "position": "九二",
+      "original_text": "舆说輹",
+      "modern_meaning": "车子的轮辐被卸下——主动停下来蓄力，不急于前行。",
+      "advice": "适时停下来检修和积累，磨刀不误砍柴工，做好准备再出发。",
+      "modern_meaning_en": "九二: 车子的轮辐被卸下——主动停下来蓄力，不急于前行。",
+      "advice_en": "Advice: 适时停下来检修和积累，磨刀不误砍柴工，做好准备再出发。"
+    },
+    {
+      "position": "九三",
+      "original_text": "良马逐，利艰贞，曰闲舆卫，利有攸往",
+      "modern_meaning": "良马奔驰追逐，利于在艰难中守正，勤练车马防卫之术，则利于前行。",
+      "advice": "实力已积蓄充分，可以放手追赶目标，但要同时做好风险防范和应对准备。",
+      "modern_meaning_en": "九三: 良马奔驰追逐，利于在艰难中守正，勤练车马防卫之术，则利于前行。",
+      "advice_en": "Advice: 实力已积蓄充分，可以放手追赶目标，但要同时做好风险防范和应对准备。"
+    },
+    {
+      "position": "六四",
+      "original_text": "童牛之牿，元吉",
+      "modern_meaning": "给小牛犊戴上木枷防止长角伤人——防患于未然，大吉。",
+      "advice": "在问题萌芽阶段就加以预防约束，及早规范，成本最低效果最好。",
+      "modern_meaning_en": "六四: 给小牛犊戴上木枷防止长角伤人——防患于未然，大吉。",
+      "advice_en": "Advice: 在问题萌芽阶段就加以预防约束，及早规范，成本最低效果最好。"
+    },
+    {
+      "position": "六五",
+      "original_text": "豮豕之牙，吉",
+      "modern_meaning": "阉割过的猪不再凶猛——从根本上化解危险，吉。",
+      "advice": "解决隐患要从根源入手，消除其产生危害的能力，而非硬碰硬地对抗。",
+      "modern_meaning_en": "六五: 阉割过的猪不再凶猛——从根本上化解危险，吉。",
+      "advice_en": "Advice: 解决隐患要从根源入手，消除其产生危害的能力，而非硬碰硬地对抗。"
+    },
+    {
+      "position": "上九",
+      "original_text": "何天之衢，亨",
+      "modern_meaning": "走上通达天下的康庄大道——积蓄到极致，畅行无阻。",
+      "advice": "实力和人脉积累到一定程度后，机会自然纷至沓来，大胆施展才华即可。",
+      "modern_meaning_en": "上九: 走上通达天下的康庄大道——积蓄到极致，畅行无阻。",
+      "advice_en": "Advice: 实力和人脉积累到一定程度后，机会自然纷至沓来，大胆施展才华即可。"
+    }
+  ],
+  "颐": [
+    {
+      "position": "初九",
+      "original_text": "舍尔灵龟，观我朵颐，凶",
+      "modern_meaning": "舍弃了自己如灵龟般自足的智慧，去羡慕别人大快朵颐——贪求外物，凶。",
+      "advice": "不要羡慕别人的生活而迷失自我，珍视自己已有的优势和智慧，自给自足最安稳。",
+      "modern_meaning_en": "初九: 舍弃了自己如灵龟般自足的智慧，去羡慕别人大快朵颐——贪求外物，凶。",
+      "advice_en": "Advice: 不要羡慕别人的生活而迷失自我，珍视自己已有的优势和智慧，自给自足最安稳。"
+    },
+    {
+      "position": "六二",
+      "original_text": "颠颐，拂经，于丘颐，征凶",
+      "modern_meaning": "颠倒养人之道，违背常理，向高位者求养，前往则凶。",
+      "advice": "依赖他人供养不是长久之计，更不能向上位者伸手索求，自力更生才是正道。",
+      "modern_meaning_en": "六二: 颠倒养人之道，违背常理，向高位者求养，前往则凶。",
+      "advice_en": "Advice: 依赖他人供养不是长久之计，更不能向上位者伸手索求，自力更生才是正道。"
+    },
+    {
+      "position": "六三",
+      "original_text": "拂颐，贞凶，十年勿用，无攸利",
+      "modern_meaning": "违背养正之道，即使守正也凶，十年之内不堪用，无所获益。",
+      "advice": "行为偏离正道的人长期得不到重用，务必及早纠正，否则虚度光阴毫无成就。",
+      "modern_meaning_en": "六三: 违背养正之道，即使守正也凶，十年之内不堪用，无所获益。",
+      "advice_en": "Advice: 行为偏离正道的人长期得不到重用，务必及早纠正，否则虚度光阴毫无成就。"
+    },
+    {
+      "position": "六四",
+      "original_text": "颠颐，吉。虎视眈眈，其欲逐逐，无咎",
+      "modern_meaning": "颠倒求养于下（谦逊求教于下位者），反而吉。目光专注、追求不止，无灾。",
+      "advice": "放下身段向下位者学习请教，保持强烈的求知欲和专注力，必有收获。",
+      "modern_meaning_en": "六四: 颠倒求养于下（谦逊求教于下位者），反而吉。目光专注、追求不止，无灾。",
+      "advice_en": "Advice: 放下身段向下位者学习请教，保持强烈的求知欲和专注力，必有收获。"
+    },
+    {
+      "position": "六五",
+      "original_text": "拂经，居贞吉，不可涉大川",
+      "modern_meaning": "违背常经（自身能力不足），安居守正则吉，但不可冒险渡大河。",
+      "advice": "能力不足时不可强行做大事，安守本分、稳扎稳打为好，避免冒险。",
+      "modern_meaning_en": "六五: 违背常经（自身能力不足），安居守正则吉，但不可冒险渡大河。",
+      "advice_en": "Advice: 能力不足时不可强行做大事，安守本分、稳扎稳打为好，避免冒险。"
+    },
+    {
+      "position": "上九",
+      "original_text": "由颐，厉吉，利涉大川",
+      "modern_meaning": "天下赖其养育，虽承担责任有危险但终吉，利于渡大河干大事。",
+      "advice": "有实力养育成就他人者，虽责任重大有压力，但勇于担当终有大成，可以放手一搏。",
+      "modern_meaning_en": "上九: 天下赖其养育，虽承担责任有危险但终吉，利于渡大河干大事。",
+      "advice_en": "Advice: 有实力养育成就他人者，虽责任重大有压力，但勇于担当终有大成，可以放手一搏。"
+    }
+  ],
+  "大过": [
+    {
+      "position": "初六",
+      "original_text": "藉用白茅，无咎",
+      "modern_meaning": "用洁白的茅草铺垫祭品——做事极为谨慎小心，无灾。",
+      "advice": "在非常时期做事要格外小心谨慎，宁可过度准备也不要掉以轻心。",
+      "modern_meaning_en": "初六: 用洁白的茅草铺垫祭品——做事极为谨慎小心，无灾。",
+      "advice_en": "Advice: 在非常时期做事要格外小心谨慎，宁可过度准备也不要掉以轻心。"
+    },
+    {
+      "position": "九二",
+      "original_text": "枯杨生稊，老夫得其女妻，无不利",
+      "modern_meaning": "枯杨树长出新芽，老夫娶到年轻妻子——虽反常但能焕发新生，无所不利。",
+      "advice": "看似不匹配的组合只要有活力和互补性，也能创造新生机，不必在意外界眼光。",
+      "modern_meaning_en": "九二: 枯杨树长出新芽，老夫娶到年轻妻子——虽反常但能焕发新生，无所不利。",
+      "advice_en": "Advice: 看似不匹配的组合只要有活力和互补性，也能创造新生机，不必在意外界眼光。"
+    },
+    {
+      "position": "九三",
+      "original_text": "栋桡，凶",
+      "modern_meaning": "房屋栋梁弯曲——承担过重压力而弯曲，凶。",
+      "advice": "能力不足以承担重任时硬扛必出问题，量力而行，及时寻求支援和分担。",
+      "modern_meaning_en": "九三: 房屋栋梁弯曲——承担过重压力而弯曲，凶。",
+      "advice_en": "Advice: 能力不足以承担重任时硬扛必出问题，量力而行，及时寻求支援和分担。"
+    },
+    {
+      "position": "九四",
+      "original_text": "栋隆，吉。有它吝",
+      "modern_meaning": "栋梁向上拱起——加固后承重有余，吉。但若有其他杂念则有遗憾。",
+      "advice": "实力增强后可以承担更多，但不可心有旁骛，专注本业方能持续向好。",
+      "modern_meaning_en": "九四: 栋梁向上拱起——加固后承重有余，吉。但若有其他杂念则有遗憾。",
+      "advice_en": "Advice: 实力增强后可以承担更多，但不可心有旁骛，专注本业方能持续向好。"
+    },
+    {
+      "position": "九五",
+      "original_text": "枯杨生华，老妇得其士夫，无咎无誉",
+      "modern_meaning": "枯杨开出花朵，老妇嫁得年轻丈夫——表面光鲜但难持久，无灾也无誉。",
+      "advice": "表面辉煌但根基不稳的组合难以长久，不要被一时的繁荣迷惑，需务实经营。",
+      "modern_meaning_en": "九五: 枯杨开出花朵，老妇嫁得年轻丈夫——表面光鲜但难持久，无灾也无誉。",
+      "advice_en": "Advice: 表面辉煌但根基不稳的组合难以长久，不要被一时的繁荣迷惑，需务实经营。"
+    },
+    {
+      "position": "上六",
+      "original_text": "过涉灭顶，凶，无咎",
+      "modern_meaning": "涉水过深淹没了头顶——凶险，但因出于不得已（非本意妄为），故无咎。",
+      "advice": "明知不可为而为之会陷入绝境，但若是为正义而冒险，虽败犹荣。",
+      "modern_meaning_en": "上六: 涉水过深淹没了头顶——凶险，但因出于不得已（非本意妄为），故无咎。",
+      "advice_en": "Advice: 明知不可为而为之会陷入绝境，但若是为正义而冒险，虽败犹荣。"
+    }
+  ],
+  "坎": [
+    {
+      "position": "初六",
+      "original_text": "习坎，入于坎窞，凶",
+      "modern_meaning": "陷入重重险坑之中，越陷越深，凶。",
+      "advice": "已经陷入困境时切忌越陷越深，及时止损、冷静分析脱身之策才是上策。",
+      "modern_meaning_en": "初六: 陷入重重险坑之中，越陷越深，凶。",
+      "advice_en": "Advice: 已经陷入困境时切忌越陷越深，及时止损、冷静分析脱身之策才是上策。"
+    },
+    {
+      "position": "九二",
+      "original_text": "坎有险，求小得",
+      "modern_meaning": "险坑中有危险，但求取小的收获是可能的——不求大得，先稳住。",
+      "advice": "身处困境中不要奢望大突破，先争取小的进展和收获，逐步稳住阵脚。",
+      "modern_meaning_en": "九二: 险坑中有危险，但求取小的收获是可能的——不求大得，先稳住。",
+      "advice_en": "Advice: 身处困境中不要奢望大突破，先争取小的进展和收获，逐步稳住阵脚。"
+    },
+    {
+      "position": "六三",
+      "original_text": "来之坎坎，险且枕，入于坎窞，勿用",
+      "modern_meaning": "来去都是险坑，危险且深陷其中，此时不可妄动。",
+      "advice": "前后都是困境时切忌轻举妄动，保存实力、静待时机比盲目挣扎更明智。",
+      "modern_meaning_en": "六三: 来去都是险坑，危险且深陷其中，此时不可妄动。",
+      "advice_en": "Advice: 前后都是困境时切忌轻举妄动，保存实力、静待时机比盲目挣扎更明智。"
+    },
+    {
+      "position": "六四",
+      "original_text": "樽酒簋贰，用缶，纳约自牖，终无咎",
+      "modern_meaning": "一樽酒两碗饭，用瓦器盛放，从窗户递进去——以质朴真诚之心待人，终无灾。",
+      "advice": "困境中以最朴素真诚的方式与人建立信任和联系，不搞花架子，终能度过难关。",
+      "modern_meaning_en": "六四: 一樽酒两碗饭，用瓦器盛放，从窗户递进去——以质朴真诚之心待人，终无灾。",
+      "advice_en": "Advice: 困境中以最朴素真诚的方式与人建立信任和联系，不搞花架子，终能度过难关。"
+    },
+    {
+      "position": "九五",
+      "original_text": "坎不盈，祗既平，无咎",
+      "modern_meaning": "险坑尚未填满但即将持平——危险渐退，趋于平稳，无灾。",
+      "advice": "危机正在缓解但尚未完全解除，保持谨慎继续努力，即将走出困境。",
+      "modern_meaning_en": "九五: 险坑尚未填满但即将持平——危险渐退，趋于平稳，无灾。",
+      "advice_en": "Advice: 危机正在缓解但尚未完全解除，保持谨慎继续努力，即将走出困境。"
+    },
+    {
+      "position": "上六",
+      "original_text": "系用徽纆，置于丛棘，三岁不得，凶",
+      "modern_meaning": "被绳索捆绑，置于荆棘丛中，三年不得解脱——深陷牢笼，凶。",
+      "advice": "陷入绝境且长期无法自拔，说明之前的错误极其严重，需彻底反思转变才有出路。",
+      "modern_meaning_en": "上六: 被绳索捆绑，置于荆棘丛中，三年不得解脱——深陷牢笼，凶。",
+      "advice_en": "Advice: 陷入绝境且长期无法自拔，说明之前的错误极其严重，需彻底反思转变才有出路。"
+    }
+  ],
+  "离": [
+    {
+      "position": "初九",
+      "original_text": "履错然，敬之无咎",
+      "modern_meaning": "脚步纷乱交错，以恭敬谨慎之心应对则无灾。",
+      "advice": "事务纷繁杂乱时不要慌张，以认真谨慎的态度逐一处理，自然安然无恙。",
+      "modern_meaning_en": "初九: 脚步纷乱交错，以恭敬谨慎之心应对则无灾。",
+      "advice_en": "Advice: 事务纷繁杂乱时不要慌张，以认真谨慎的态度逐一处理，自然安然无恙。"
+    },
+    {
+      "position": "六二",
+      "original_text": "黄离，元吉",
+      "modern_meaning": "黄色的光辉——中正文明之德，大吉。",
+      "advice": "以中正平和、光明磊落的姿态处事，不偏不倚，自然大吉大利。",
+      "modern_meaning_en": "六二: 黄色的光辉——中正文明之德，大吉。",
+      "advice_en": "Advice: 以中正平和、光明磊落的姿态处事，不偏不倚，自然大吉大利。"
+    },
+    {
+      "position": "九三",
+      "original_text": "日昃之离，不鼓缶而歌，则大耋之嗟，凶",
+      "modern_meaning": "日偏西的余晖——人到暮年，若不达观乐天（不击缶唱歌），就会哀叹衰老，凶。",
+      "advice": "面对人生暮年或事业衰退期，要以豁达乐观的心态面对，怨天尤人只会更糟。",
+      "modern_meaning_en": "九三: 日偏西的余晖——人到暮年，若不达观乐天（不击缶唱歌），就会哀叹衰老，凶。",
+      "advice_en": "Advice: 面对人生暮年或事业衰退期，要以豁达乐观的心态面对，怨天尤人只会更糟。"
+    },
+    {
+      "position": "九四",
+      "original_text": "突如其来如，焚如，死如，弃如",
+      "modern_meaning": "突然而来，如烈火焚烧、如死亡降临、如被抛弃——灾祸猝不及防。",
+      "advice": "突发性的灾难往往最致命，平时做好应急预案，面对突变时迅速反应方能化险。",
+      "modern_meaning_en": "九四: 突然而来，如烈火焚烧、如死亡降临、如被抛弃——灾祸猝不及防。",
+      "advice_en": "Advice: 突发性的灾难往往最致命，平时做好应急预案，面对突变时迅速反应方能化险。"
+    },
+    {
+      "position": "六五",
+      "original_text": "出涕沱若，戚嗟若，吉",
+      "modern_meaning": "泪如雨下，忧伤叹息——因能忧患反思而知警醒，终得吉利。",
+      "advice": "经历挫折后能深刻反省和忧虑警醒，这种忧患意识反而能带来转机与吉祥。",
+      "modern_meaning_en": "六五: 泪如雨下，忧伤叹息——因能忧患反思而知警醒，终得吉利。",
+      "advice_en": "Advice: 经历挫折后能深刻反省和忧虑警醒，这种忧患意识反而能带来转机与吉祥。"
+    },
+    {
+      "position": "上九",
+      "original_text": "王用出征，有嘉折首，获匪其丑，无咎",
+      "modern_meaning": "君王出兵征伐，斩杀敌首，俘获其众——雷霆手段除暴安良，无灾。",
+      "advice": "对付顽固问题要果断出手，擒贼先擒王，精准打击核心症结，不可姑息。",
+      "modern_meaning_en": "上九: 君王出兵征伐，斩杀敌首，俘获其众——雷霆手段除暴安良，无灾。",
+      "advice_en": "Advice: 对付顽固问题要果断出手，擒贼先擒王，精准打击核心症结，不可姑息。"
+    }
+  ],
+  "咸": [
+    {
+      "position": "初六",
+      "original_text": "咸其拇",
+      "modern_meaning": "感应在脚趾上——最初的好感和心动，微弱而未行动。",
+      "advice": "刚产生初步的好感或想法时还不足以行动，先观察了解再做决定。",
+      "modern_meaning_en": "初六: 感应在脚趾上——最初的好感和心动，微弱而未行动。",
+      "advice_en": "Advice: 刚产生初步的好感或想法时还不足以行动，先观察了解再做决定。"
+    },
+    {
+      "position": "六二",
+      "original_text": "咸其腓，凶，居吉",
+      "modern_meaning": "感应在小腿上——想要行动但时机不当，躁动则凶，安居则吉。",
+      "advice": "有了冲动想要行动但时机未到，按捺住急躁安心等待，贸然行动反而不利。",
+      "modern_meaning_en": "六二: 感应在小腿上——想要行动但时机不当，躁动则凶，安居则吉。",
+      "advice_en": "Advice: 有了冲动想要行动但时机未到，按捺住急躁安心等待，贸然行动反而不利。"
+    },
+    {
+      "position": "九三",
+      "original_text": "咸其股，执其随，往吝",
+      "modern_meaning": "感应在腿上——随别人而动，缺乏主见，前往则有遗憾。",
+      "advice": "不要盲目追随他人的脚步，人云亦云只会失去自我，要有独立判断。",
+      "modern_meaning_en": "九三: 感应在腿上——随别人而动，缺乏主见，前往则有遗憾。",
+      "advice_en": "Advice: 不要盲目追随他人的脚步，人云亦云只会失去自我，要有独立判断。"
+    },
+    {
+      "position": "九四",
+      "original_text": "贞吉悔亡，憧憧往来，朋从尔思",
+      "modern_meaning": "守正则吉而悔恨消除，心思往来不定，朋友终会顺从你的心意。",
+      "advice": "内心犹豫不决时要坚守正道，以真诚感化他人，用真心终能赢得认同和支持。",
+      "modern_meaning_en": "九四: 守正则吉而悔恨消除，心思往来不定，朋友终会顺从你的心意。",
+      "advice_en": "Advice: 内心犹豫不决时要坚守正道，以真诚感化他人，用真心终能赢得认同和支持。"
+    },
+    {
+      "position": "九五",
+      "original_text": "咸其脢，无悔",
+      "modern_meaning": "感应在背脊——内心有所感应但不形于外，无怨无悔。",
+      "advice": "对人对事有感触但保持克制和内敛，不过度表露，以平静心态面对则无悔。",
+      "modern_meaning_en": "九五: 感应在背脊——内心有所感应但不形于外，无怨无悔。",
+      "advice_en": "Advice: 对人对事有感触但保持克制和内敛，不过度表露，以平静心态面对则无悔。"
+    },
+    {
+      "position": "上六",
+      "original_text": "咸其辅，颊，舌",
+      "modern_meaning": "感应在口颊舌之间——只停留在口头说辞，缺少实际行动。",
+      "advice": "光说不做毫无意义，感动不能只停留在嘴上，付诸实际行动才能产生真正的连接。",
+      "modern_meaning_en": "上六: 感应在口颊舌之间——只停留在口头说辞，缺少实际行动。",
+      "advice_en": "Advice: 光说不做毫无意义，感动不能只停留在嘴上，付诸实际行动才能产生真正的连接。"
+    }
+  ],
+  "恒": [
+    {
+      "position": "初六",
+      "original_text": "浚恒，贞凶，无攸利",
+      "modern_meaning": "一味深求、急于求成，即使守正也凶，无所获益。",
+      "advice": "恒久之道在于循序渐进，急于求深反而适得其反，凡事不可操之过急。",
+      "modern_meaning_en": "初六: 一味深求、急于求成，即使守正也凶，无所获益。",
+      "advice_en": "Advice: 恒久之道在于循序渐进，急于求深反而适得其反，凡事不可操之过急。"
+    },
+    {
+      "position": "九二",
+      "original_text": "悔亡",
+      "modern_meaning": "悔恨消失——持守中道，不过不及，故无悔。",
+      "advice": "以中庸之道持之以恒，不走极端，过去的遗憾自然消散，诸事顺遂。",
+      "modern_meaning_en": "九二: 悔恨消失——持守中道，不过不及，故无悔。",
+      "advice_en": "Advice: 以中庸之道持之以恒，不走极端，过去的遗憾自然消散，诸事顺遂。"
+    },
+    {
+      "position": "九三",
+      "original_text": "不恒其德，或承之羞，贞吝",
+      "modern_meaning": "不能恒久保持自己的品德，难免招来羞辱，即使守正也有遗憾。",
+      "advice": "做人做事贵在坚持，朝三暮四、反复无常终会失去信誉，遭到他人轻视。",
+      "modern_meaning_en": "九三: 不能恒久保持自己的品德，难免招来羞辱，即使守正也有遗憾。",
+      "advice_en": "Advice: 做人做事贵在坚持，朝三暮四、反复无常终会失去信誉，遭到他人轻视。"
+    },
+    {
+      "position": "九四",
+      "original_text": "田无禽",
+      "modern_meaning": "打猎却猎不到禽兽——方向不对，努力白费。",
+      "advice": "方向错了再怎么坚持也无济于事，要审视目标是否正确，及时调整比盲目坚持更重要。",
+      "modern_meaning_en": "九四: 打猎却猎不到禽兽——方向不对，努力白费。",
+      "advice_en": "Advice: 方向错了再怎么坚持也无济于事，要审视目标是否正确，及时调整比盲目坚持更重要。"
+    },
+    {
+      "position": "六五",
+      "original_text": "恒其德，贞，妇人吉，夫子凶",
+      "modern_meaning": "恒久保持品德、坚守不变，对妇人吉（从一而终），对男子则凶（需灵活应变）。",
+      "advice": "坚持原则是好事，但要懂得区分场合。该坚守时坚守，该变通时变通，不可一成不变。",
+      "modern_meaning_en": "六五: 恒久保持品德、坚守不变，对妇人吉（从一而终），对男子则凶（需灵活应变）。",
+      "advice_en": "Advice: 坚持原则是好事，但要懂得区分场合。该坚守时坚守，该变通时变通，不可一成不变。"
+    },
+    {
+      "position": "上六",
+      "original_text": "振恒，凶",
+      "modern_meaning": "振动不安地求恒——表面维持恒久实则内心躁动，凶。",
+      "advice": "假装坚持实则心猿意马，表里不一终会败露。要恒久就必须发自内心，三心二意必败。",
+      "modern_meaning_en": "上六: 振动不安地求恒——表面维持恒久实则内心躁动，凶。",
+      "advice_en": "Advice: 假装坚持实则心猿意马，表里不一终会败露。要恒久就必须发自内心，三心二意必败。"
+    }
+  ],
+  "遁": [
+    {
+      "position": "初六",
+      "original_text": "遁尾，厉，勿用有攸往",
+      "modern_meaning": "退避落在最后，处境危险，不宜再贸然前进。",
+      "advice": "错过退避良机就别硬闯，忍耐等待比鲁莽行动更明智。",
+      "modern_meaning_en": "初六: 退避落在最后，处境危险，不宜再贸然前进。",
+      "advice_en": "Advice: 错过退避良机就别硬闯，忍耐等待比鲁莽行动更明智。"
+    },
+    {
+      "position": "六二",
+      "original_text": "执之用黄牛之革，莫之胜说",
+      "modern_meaning": "用黄牛皮绳牢牢绑住，谁也无法挣脱——坚守不动。",
+      "advice": "志向坚定、毫不动摇，用持久的毅力守住本分，不被外力左右。",
+      "modern_meaning_en": "六二: 用黄牛皮绳牢牢绑住，谁也无法挣脱——坚守不动。",
+      "advice_en": "Advice: 志向坚定、毫不动摇，用持久的毅力守住本分，不被外力左右。"
+    },
+    {
+      "position": "九三",
+      "original_text": "系遁，有疾厉，畜臣妾吉",
+      "modern_meaning": "心怀牵绊而想退避，因犹豫而有疾病危险；畜养臣妾则吉。",
+      "advice": "拖泥带水的退避最危险，要么果断了断，要么安于小事，不可大举。",
+      "modern_meaning_en": "九三: 心怀牵绊而想退避，因犹豫而有疾病危险；畜养臣妾则吉。",
+      "advice_en": "Advice: 拖泥带水的退避最危险，要么果断了断，要么安于小事，不可大举。"
+    },
+    {
+      "position": "九四",
+      "original_text": "好遁，君子吉，小人否",
+      "modern_meaning": "心甘情愿地退避，君子因此得吉，小人则做不到。",
+      "advice": "懂得适可而止是真正的高明。放下贪恋，主动退让，反而海阔天空。",
+      "modern_meaning_en": "九四: 心甘情愿地退避，君子因此得吉，小人则做不到。",
+      "advice_en": "Advice: 懂得适可而止是真正的高明。放下贪恋，主动退让，反而海阔天空。"
+    },
+    {
+      "position": "九五",
+      "original_text": "嘉遁，贞吉",
+      "modern_meaning": "完美的退避——功成身退、恰到好处，守正则吉。",
+      "advice": "在最恰当的时机优雅退出，是智慧的巅峰。功成不居，进退自如。",
+      "modern_meaning_en": "九五: 完美的退避——功成身退、恰到好处，守正则吉。",
+      "advice_en": "Advice: 在最恰当的时机优雅退出，是智慧的巅峰。功成不居，进退自如。"
+    },
+    {
+      "position": "上九",
+      "original_text": "肥遁，无不利",
+      "modern_meaning": "从容宽裕地退避，无拘无束，没有任何不利。",
+      "advice": "彻底放下、超然远引，心无挂碍地离开，一切顺遂。",
+      "modern_meaning_en": "上九: 从容宽裕地退避，无拘无束，没有任何不利。",
+      "advice_en": "Advice: 彻底放下、超然远引，心无挂碍地离开，一切顺遂。"
+    }
+  ],
+  "大壮": [
+    {
+      "position": "初九",
+      "original_text": "壮于趾，征凶，有孚",
+      "modern_meaning": "力量用在脚趾上——凭一时之勇莽撞前行，凶险。",
+      "advice": "刚有了实力就冲动冒进必招祸患，收敛锋芒、以诚信为本。",
+      "modern_meaning_en": "初九: 力量用在脚趾上——凭一时之勇莽撞前行，凶险。",
+      "advice_en": "Advice: 刚有了实力就冲动冒进必招祸患，收敛锋芒、以诚信为本。"
+    },
+    {
+      "position": "九二",
+      "original_text": "贞吉",
+      "modern_meaning": "坚守正道则吉——力量强大但能守中持正。",
+      "advice": "实力强时更要守正自律，不骄不躁，中庸行事自然吉祥。",
+      "modern_meaning_en": "九二: 坚守正道则吉——力量强大但能守中持正。",
+      "advice_en": "Advice: 实力强时更要守正自律，不骄不躁，中庸行事自然吉祥。"
+    },
+    {
+      "position": "九三",
+      "original_text": "小人用壮，君子用罔，贞厉。羝羊触藩，羸其角",
+      "modern_meaning": "小人逞强用蛮力，君子以网罗（智谋）应对，逞强如公羊撞篱笆反被缠住角。",
+      "advice": "蛮干必自困，用智不用力。力量再大也要懂得策略，否则自陷困境。",
+      "modern_meaning_en": "九三: 小人逞强用蛮力，君子以网罗（智谋）应对，逞强如公羊撞篱笆反被缠住角。",
+      "advice_en": "Advice: 蛮干必自困，用智不用力。力量再大也要懂得策略，否则自陷困境。"
+    },
+    {
+      "position": "九四",
+      "original_text": "贞吉悔亡，藩决不羸，壮于大舆之輹",
+      "modern_meaning": "守正则吉、悔恨消失；篱笆破了不再困住羊角，力量如大车的坚实车轴。",
+      "advice": "冲破障碍后力量用在正道上，根基扎实方能行远，无悔无憾。",
+      "modern_meaning_en": "九四: 守正则吉、悔恨消失；篱笆破了不再困住羊角，力量如大车的坚实车轴。",
+      "advice_en": "Advice: 冲破障碍后力量用在正道上，根基扎实方能行远，无悔无憾。"
+    },
+    {
+      "position": "六五",
+      "original_text": "丧羊于易，无悔",
+      "modern_meaning": "在边境丧失了羊——虽有所失但处之泰然，无悔。",
+      "advice": "以柔克刚，适度示弱不逞强，损失面前保持从容，终不会有憾。",
+      "modern_meaning_en": "六五: 在边境丧失了羊——虽有所失但处之泰然，无悔。",
+      "advice_en": "Advice: 以柔克刚，适度示弱不逞强，损失面前保持从容，终不会有憾。"
+    },
+    {
+      "position": "上六",
+      "original_text": "羝羊触藩，不能退，不能遂，无攸利，艰则吉",
+      "modern_meaning": "公羊撞篱笆，角被缠住，进退两难，无所利；唯有在艰难中反省则吉。",
+      "advice": "逞强到极点必然陷入困境。冷静下来、总结教训，艰险中反而能找到出路。",
+      "modern_meaning_en": "上六: 公羊撞篱笆，角被缠住，进退两难，无所利；唯有在艰难中反省则吉。",
+      "advice_en": "Advice: 逞强到极点必然陷入困境。冷静下来、总结教训，艰险中反而能找到出路。"
+    }
+  ],
+  "晋": [
+    {
+      "position": "初六",
+      "original_text": "晋如，摧如，贞吉。罔孚，裕无咎",
+      "modern_meaning": "前进却受阻退，守正则吉。尚未获得信任时，从容以待则无咎。",
+      "advice": "初入新境遇阻力正常，不必急于求成，以宽厚之心等待信任建立。",
+      "modern_meaning_en": "初六: 前进却受阻退，守正则吉。尚未获得信任时，从容以待则无咎。",
+      "advice_en": "Advice: 初入新境遇阻力正常，不必急于求成，以宽厚之心等待信任建立。"
+    },
+    {
+      "position": "六二",
+      "original_text": "晋如，愁如，贞吉。受兹介福，于其王母",
+      "modern_meaning": "前进中忧愁不安，但守正则吉，将从祖母那里受到大福。",
+      "advice": "前途虽光明但当下忧虑，坚守正道不放弃，贵人（女性长辈）相助终有福报。",
+      "modern_meaning_en": "六二: 前进中忧愁不安，但守正则吉，将从祖母那里受到大福。",
+      "advice_en": "Advice: 前途虽光明但当下忧虑，坚守正道不放弃，贵人（女性长辈）相助终有福报。"
+    },
+    {
+      "position": "六三",
+      "original_text": "众允，悔亡",
+      "modern_meaning": "获得众人信任和支持，悔恨消失。",
+      "advice": "团结众人、赢得信任，上下同心，前进路上的障碍自然消解。",
+      "modern_meaning_en": "六三: 获得众人信任和支持，悔恨消失。",
+      "advice_en": "Advice: 团结众人、赢得信任，上下同心，前进路上的障碍自然消解。"
+    },
+    {
+      "position": "九四",
+      "original_text": "晋如鼫鼠，贞厉",
+      "modern_meaning": "前进时如鼫鼠般贪而怯懦，守正也有危险。",
+      "advice": "贪婪畏缩难成大事。要晋升就必须有胆识和担当，患得患失必遭失败。",
+      "modern_meaning_en": "九四: 前进时如鼫鼠般贪而怯懦，守正也有危险。",
+      "advice_en": "Advice: 贪婪畏缩难成大事。要晋升就必须有胆识和担当，患得患失必遭失败。"
+    },
+    {
+      "position": "六五",
+      "original_text": "悔亡，失得勿恤，往吉，无不利",
+      "modern_meaning": "悔恨消失，不计较得失，勇往直前则吉，无所不利。",
+      "advice": "放下得失心，以大局为重坦然前行。无私则无畏，无往而不利。",
+      "modern_meaning_en": "六五: 悔恨消失，不计较得失，勇往直前则吉，无所不利。",
+      "advice_en": "Advice: 放下得失心，以大局为重坦然前行。无私则无畏，无往而不利。"
+    },
+    {
+      "position": "上九",
+      "original_text": "晋其角，维用伐邑，厉吉无咎，贞吝",
+      "modern_meaning": "晋升到了尽头如兽角之极，只能用来征伐自己封邑，虽厉但吉无咎，守正则吝。",
+      "advice": "到了顶峰不可再扩张，应回过头来整治内部。穷兵黩武终非长久之计。",
+      "modern_meaning_en": "上九: 晋升到了尽头如兽角之极，只能用来征伐自己封邑，虽厉但吉无咎，守正则吝。",
+      "advice_en": "Advice: 到了顶峰不可再扩张，应回过头来整治内部。穷兵黩武终非长久之计。"
+    }
+  ],
+  "明夷": [
+    {
+      "position": "初九",
+      "original_text": "明夷于飞，垂其翼。君子于行，三日不食，有攸往，主人有言",
+      "modern_meaning": "光明受损时飞翔，垂下翅膀。君子远行，三天不进食，所往之处主人有怨言。",
+      "advice": "处于黑暗时代要低调隐忍，遭遇冷遇不必计较，韬光养晦等待时机。",
+      "modern_meaning_en": "初九: 光明受损时飞翔，垂下翅膀。君子远行，三天不进食，所往之处主人有怨言。",
+      "advice_en": "Advice: 处于黑暗时代要低调隐忍，遭遇冷遇不必计较，韬光养晦等待时机。"
+    },
+    {
+      "position": "六二",
+      "original_text": "明夷，夷于左股，用拯马壮，吉",
+      "modern_meaning": "光明受损，左腿受伤，借助壮马救援则吉。",
+      "advice": "受伤后要善于借力。找到可靠的助力渡过难关，不自逞强方能转危为安。",
+      "modern_meaning_en": "六二: 光明受损，左腿受伤，借助壮马救援则吉。",
+      "advice_en": "Advice: 受伤后要善于借力。找到可靠的助力渡过难关，不自逞强方能转危为安。"
+    },
+    {
+      "position": "九三",
+      "original_text": "明夷于南狩，得其大首，不可疾贞",
+      "modern_meaning": "在黑暗中去南方狩猎，擒获了首恶，但不可操之过急，守正也不可急躁。",
+      "advice": "除弊纠偏要抓住要害、一击中的，但切勿急于求成，稳扎稳打方能成功。",
+      "modern_meaning_en": "九三: 在黑暗中去南方狩猎，擒获了首恶，但不可操之过急，守正也不可急躁。",
+      "advice_en": "Advice: 除弊纠偏要抓住要害、一击中的，但切勿急于求成，稳扎稳打方能成功。"
+    },
+    {
+      "position": "六四",
+      "original_text": "入于左腹，获明夷之心，出于门庭",
+      "modern_meaning": "深入敌方腹地，探知其核心机密，然后脱身而出。",
+      "advice": "身处险境要洞察核心真相，摸清底细后果断脱身，不可久留是非之地。",
+      "modern_meaning_en": "六四: 深入敌方腹地，探知其核心机密，然后脱身而出。",
+      "advice_en": "Advice: 身处险境要洞察核心真相，摸清底细后果断脱身，不可久留是非之地。"
+    },
+    {
+      "position": "六五",
+      "original_text": "箕子之明夷，利贞",
+      "modern_meaning": "如箕子般佯狂装疯以保全自身，利于坚守正道。",
+      "advice": "面对昏暗环境，装傻守拙是明智之举。大智若愚、隐忍待时方为上策。",
+      "modern_meaning_en": "六五: 如箕子般佯狂装疯以保全自身，利于坚守正道。",
+      "advice_en": "Advice: 面对昏暗环境，装傻守拙是明智之举。大智若愚、隐忍待时方为上策。"
+    },
+    {
+      "position": "上六",
+      "original_text": "不明晦，初登于天，后入于地",
+      "modern_meaning": "天昏地暗，最初高登于天，最终坠入地下——盛极而衰。",
+      "advice": "走到极端必然走向反面。曾经辉煌者若不修德守正，终将一败涂地。",
+      "modern_meaning_en": "上六: 天昏地暗，最初高登于天，最终坠入地下——盛极而衰。",
+      "advice_en": "Advice: 走到极端必然走向反面。曾经辉煌者若不修德守正，终将一败涂地。"
+    }
+  ],
+  "家人": [
+    {
+      "position": "初九",
+      "original_text": "闲有家，悔亡",
+      "modern_meaning": "及早立好家规、防患于未然，悔恨消失。",
+      "advice": "治家要立规矩于先，从点滴做起，防微杜渐则家庭和睦无悔。",
+      "modern_meaning_en": "初九: 及早立好家规、防患于未然，悔恨消失。",
+      "advice_en": "Advice: 治家要立规矩于先，从点滴做起，防微杜渐则家庭和睦无悔。"
+    },
+    {
+      "position": "六二",
+      "original_text": "无攸遂，在中馈，贞吉",
+      "modern_meaning": "不擅权外出，专注家中饮食操持，守正则吉。",
+      "advice": "各司其职、守好本分。家庭中做好自己的角色，踏实持家自然吉祥。",
+      "modern_meaning_en": "六二: 不擅权外出，专注家中饮食操持，守正则吉。",
+      "advice_en": "Advice: 各司其职、守好本分。家庭中做好自己的角色，踏实持家自然吉祥。"
+    },
+    {
+      "position": "九三",
+      "original_text": "家人嗃嗃，悔厉吉。妇子嘻嘻，终吝",
+      "modern_meaning": "治家严厉虽有悔恨和危险但终获吉；若妇孺嬉笑无度，终究有遗憾。",
+      "advice": "家规不可太宽也不可太严，适度严厉胜过放任纵容，过宽则家道败坏。",
+      "modern_meaning_en": "九三: 治家严厉虽有悔恨和危险但终获吉；若妇孺嬉笑无度，终究有遗憾。",
+      "advice_en": "Advice: 家规不可太宽也不可太严，适度严厉胜过放任纵容，过宽则家道败坏。"
+    },
+    {
+      "position": "六四",
+      "original_text": "富家，大吉",
+      "modern_meaning": "能使家庭富裕丰足，大吉大利。",
+      "advice": "勤俭持家、开源节流，让家庭经济稳健充裕，是大吉之道。",
+      "modern_meaning_en": "六四: 能使家庭富裕丰足，大吉大利。",
+      "advice_en": "Advice: 勤俭持家、开源节流，让家庭经济稳健充裕，是大吉之道。"
+    },
+    {
+      "position": "九五",
+      "original_text": "王假有家，勿恤吉",
+      "modern_meaning": "君王以德行感化而家道兴旺，不必忧虑则吉。",
+      "advice": "以身作则、以德服人是治家的最高境界。上行下效，家业自然昌盛。",
+      "modern_meaning_en": "九五: 君王以德行感化而家道兴旺，不必忧虑则吉。",
+      "advice_en": "Advice: 以身作则、以德服人是治家的最高境界。上行下效，家业自然昌盛。"
+    },
+    {
+      "position": "上九",
+      "original_text": "有孚威如，终吉",
+      "modern_meaning": "心存诚信又保持威严，终究获吉。",
+      "advice": "恩威并济、诚信为本。有威信但不苛刻，家庭终将和睦美满。",
+      "modern_meaning_en": "上九: 心存诚信又保持威严，终究获吉。",
+      "advice_en": "Advice: 恩威并济、诚信为本。有威信但不苛刻，家庭终将和睦美满。"
+    }
+  ],
+  "睽": [
+    {
+      "position": "初九",
+      "original_text": "悔亡，丧马勿逐，自复。见恶人无咎",
+      "modern_meaning": "悔恨消失，丢失的马不必追寻会自行归来；去见恶人也无咎。",
+      "advice": "在乖离之时不必强求，顺其自然。即使面对不和的人也要坦然接触，化解对立。",
+      "modern_meaning_en": "初九: 悔恨消失，丢失的马不必追寻会自行归来；去见恶人也无咎。",
+      "advice_en": "Advice: 在乖离之时不必强求，顺其自然。即使面对不和的人也要坦然接触，化解对立。"
+    },
+    {
+      "position": "九二",
+      "original_text": "遇主于巷，无咎",
+      "modern_meaning": "在小巷中偶遇主人，没有灾祸。",
+      "advice": "缘分不可强求，不期而遇反而更好。以平常心待人接物，意外中自有收获。",
+      "modern_meaning_en": "九二: 在小巷中偶遇主人，没有灾祸。",
+      "advice_en": "Advice: 缘分不可强求，不期而遇反而更好。以平常心待人接物，意外中自有收获。"
+    },
+    {
+      "position": "六三",
+      "original_text": "见舆曳，其牛掣，其人天且劓，无初有终",
+      "modern_meaning": "看到车被拖拽，牛向后拉，赶车人额上刺字又被割鼻，开局糟糕但终有好结果。",
+      "advice": "身处困境、备受掣肘时不要放弃，熬过艰难的开局，最终会有转机。",
+      "modern_meaning_en": "六三: 看到车被拖拽，牛向后拉，赶车人额上刺字又被割鼻，开局糟糕但终有好结果。",
+      "advice_en": "Advice: 身处困境、备受掣肘时不要放弃，熬过艰难的开局，最终会有转机。"
+    },
+    {
+      "position": "九四",
+      "original_text": "睽孤，遇元夫，交孚，厉无咎",
+      "modern_meaning": "孤独乖离之时遇到善人，以诚相交，虽有危险但终无咎。",
+      "advice": "孤立无援时主动结交志同道合者，以诚相待共渡难关，危中得安。",
+      "modern_meaning_en": "九四: 孤独乖离之时遇到善人，以诚相交，虽有危险但终无咎。",
+      "advice_en": "Advice: 孤立无援时主动结交志同道合者，以诚相待共渡难关，危中得安。"
+    },
+    {
+      "position": "六五",
+      "original_text": "悔亡，厥宗噬肤，往何咎",
+      "modern_meaning": "悔恨消失，与同宗之人亲密咬合，前往有何过错？",
+      "advice": "回归根本、团结亲族。修复裂痕，以深厚的情谊化解隔阂，前行无忧。",
+      "modern_meaning_en": "六五: 悔恨消失，与同宗之人亲密咬合，前往有何过错？",
+      "advice_en": "Advice: 回归根本、团结亲族。修复裂痕，以深厚的情谊化解隔阂，前行无忧。"
+    },
+    {
+      "position": "上九",
+      "original_text": "睽孤，见豕负涂，载鬼一车，先张之弧，后说之弧，匪寇婚媾，往遇雨则吉",
+      "modern_meaning": "孤独中疑神疑鬼：看到满身泥的猪、一车鬼怪，张弓欲射又放下，原来不是贼寇而是来求婚，前去遇雨则吉。",
+      "advice": "猜疑是矛盾之源。放下偏见冷静观察，会发现对方并非敌人，化敌为友则一切顺遂。",
+      "modern_meaning_en": "上九: 孤独中疑神疑鬼：看到满身泥的猪、一车鬼怪，张弓欲射又放下，原来不是贼寇而是来求婚，前去遇雨则吉。",
+      "advice_en": "Advice: 猜疑是矛盾之源。放下偏见冷静观察，会发现对方并非敌人，化敌为友则一切顺遂。"
+    }
+  ],
+  "蹇": [
+    {
+      "position": "初六",
+      "original_text": "往蹇，来誉",
+      "modern_meaning": "前进会遇到困难，退回来反而获得赞誉。",
+      "advice": "此路不通时别硬闯，及时回头、积蓄力量，审时度势方能趋吉避凶。",
+      "modern_meaning_en": "初六: 前进会遇到困难，退回来反而获得赞誉。",
+      "advice_en": "Advice: 此路不通时别硬闯，及时回头、积蓄力量，审时度势方能趋吉避凶。"
+    },
+    {
+      "position": "六二",
+      "original_text": "王臣蹇蹇，匪躬之故",
+      "modern_meaning": "君王的臣子历尽艰险，并非为了自身而是为君国效忠。",
+      "advice": "为了大局甘冒艰难是忠义之举，但量力而行，不可无谓牺牲。",
+      "modern_meaning_en": "六二: 君王的臣子历尽艰险，并非为了自身而是为君国效忠。",
+      "advice_en": "Advice: 为了大局甘冒艰难是忠义之举，但量力而行，不可无谓牺牲。"
+    },
+    {
+      "position": "九三",
+      "original_text": "往蹇，来反",
+      "modern_meaning": "前进会遇到困难，回来则会返回原处（安守本分）。",
+      "advice": "外部阻力大时先退守大本营，稳住根基再图后计，不可冒进。",
+      "modern_meaning_en": "九三: 前进会遇到困难，回来则会返回原处（安守本分）。",
+      "advice_en": "Advice: 外部阻力大时先退守大本营，稳住根基再图后计，不可冒进。"
+    },
+    {
+      "position": "六四",
+      "original_text": "往蹇，来连",
+      "modern_meaning": "前进会遇到困难，回来则联合众人（共克时艰）。",
+      "advice": "独自前行困难重重，回过头团结同伴、联合资源，合力突破困境。",
+      "modern_meaning_en": "六四: 前进会遇到困难，回来则联合众人（共克时艰）。",
+      "advice_en": "Advice: 独自前行困难重重，回过头团结同伴、联合资源，合力突破困境。"
+    },
+    {
+      "position": "九五",
+      "original_text": "大蹇朋来",
+      "modern_meaning": "身处大难之中，朋友们纷纷来相助。",
+      "advice": "自身端正、德行深厚，即使身处险境，也必有贵人朋友前来援助。",
+      "modern_meaning_en": "九五: 身处大难之中，朋友们纷纷来相助。",
+      "advice_en": "Advice: 自身端正、德行深厚，即使身处险境，也必有贵人朋友前来援助。"
+    },
+    {
+      "position": "上六",
+      "original_text": "往蹇，来硕，吉。利见大人",
+      "modern_meaning": "前进会遇到困难，回来则收获丰硕成果，吉。利于拜见大人。",
+      "advice": "困境将尽时回头总结，必有丰厚收获。寻求高人指点，前途光明。",
+      "modern_meaning_en": "上六: 前进会遇到困难，回来则收获丰硕成果，吉。利于拜见大人。",
+      "advice_en": "Advice: 困境将尽时回头总结，必有丰厚收获。寻求高人指点，前途光明。"
+    }
+  ],
+  "解": [
+    {
+      "position": "初六",
+      "original_text": "无咎",
+      "modern_meaning": "没有灾祸——困难刚解，安守本分则无过。",
+      "advice": "危机刚过不宜妄动，静守安分、巩固成果，维持平安局面。",
+      "modern_meaning_en": "初六: 没有灾祸——困难刚解，安守本分则无过。",
+      "advice_en": "Advice: 危机刚过不宜妄动，静守安分、巩固成果，维持平安局面。"
+    },
+    {
+      "position": "九二",
+      "original_text": "田获三狐，得黄矢，贞吉",
+      "modern_meaning": "田猎捕获三只狐狸（隐喻清除隐患），得到黄色铜箭，守正则吉。",
+      "advice": "趁势清除隐患和小人，以正直之道解决问题，果断行动方能吉祥。",
+      "modern_meaning_en": "九二: 田猎捕获三只狐狸（隐喻清除隐患），得到黄色铜箭，守正则吉。",
+      "advice_en": "Advice: 趁势清除隐患和小人，以正直之道解决问题，果断行动方能吉祥。"
+    },
+    {
+      "position": "六三",
+      "original_text": "负且乘，致寇至，贞吝",
+      "modern_meaning": "背负重物又坐大车——德不配位招来强盗，守正也有遗憾。",
+      "advice": "能力与位置要匹配，不称职的高位必招祸患。量力而行，切忌虚荣攀比。",
+      "modern_meaning_en": "六三: 背负重物又坐大车——德不配位招来强盗，守正也有遗憾。",
+      "advice_en": "Advice: 能力与位置要匹配，不称职的高位必招祸患。量力而行，切忌虚荣攀比。"
+    },
+    {
+      "position": "九四",
+      "original_text": "解而拇，朋至斯孚",
+      "modern_meaning": "解开你脚趾上的束缚（摆脱小人），朋友到来并给予信任。",
+      "advice": "果断与拖累你的人切割，远离小人，真正的朋友和好运自然到来。",
+      "modern_meaning_en": "九四: 解开你脚趾上的束缚（摆脱小人），朋友到来并给予信任。",
+      "advice_en": "Advice: 果断与拖累你的人切割，远离小人，真正的朋友和好运自然到来。"
+    },
+    {
+      "position": "六五",
+      "original_text": "君子维有解，吉。有孚于小人",
+      "modern_meaning": "君子若能化解矛盾则吉，并诚信对待小人（使之归服）。",
+      "advice": "以宽容化解恩怨，用诚信感化对手。得饶人处且饶人，化敌为友是大智慧。",
+      "modern_meaning_en": "六五: 君子若能化解矛盾则吉，并诚信对待小人（使之归服）。",
+      "advice_en": "Advice: 以宽容化解恩怨，用诚信感化对手。得饶人处且饶人，化敌为友是大智慧。"
+    },
+    {
+      "position": "上六",
+      "original_text": "公用射隼于高墉之上，获之，无不利",
+      "modern_meaning": "公在高墙之上射杀猛隼（隐喻清除祸患），一举成功，无所不利。",
+      "advice": "抓住时机，一击铲除祸根。除恶务尽、干净利落，方可长治久安。",
+      "modern_meaning_en": "上六: 公在高墙之上射杀猛隼（隐喻清除祸患），一举成功，无所不利。",
+      "advice_en": "Advice: 抓住时机，一击铲除祸根。除恶务尽、干净利落，方可长治久安。"
+    }
+  ],
+  "损": [
+    {
+      "position": "初九",
+      "original_text": "已事遄往，无咎，酌损之",
+      "modern_meaning": "停下自己的事赶快去助人，无咎。但要斟酌减损的分寸。",
+      "advice": "乐于助人但要量力而行，适度付出。过犹不及，拿捏好分寸方能双赢。",
+      "modern_meaning_en": "初九: 停下自己的事赶快去助人，无咎。但要斟酌减损的分寸。",
+      "advice_en": "Advice: 乐于助人但要量力而行，适度付出。过犹不及，拿捏好分寸方能双赢。"
+    },
+    {
+      "position": "九二",
+      "original_text": "利贞，征凶，弗损益之",
+      "modern_meaning": "利于守正，冒进则凶。不要减损自己来增益他人——守住本分。",
+      "advice": "坚守正道不盲目付出，损己利人要适度。保护好自身根基再谈奉献。",
+      "modern_meaning_en": "九二: 利于守正，冒进则凶。不要减损自己来增益他人——守住本分。",
+      "advice_en": "Advice: 坚守正道不盲目付出，损己利人要适度。保护好自身根基再谈奉献。"
+    },
+    {
+      "position": "六三",
+      "original_text": "三人行，则损一人，一人行，则得其友",
+      "modern_meaning": "三人同行则损去一人，一人独行则得到朋友——损有余而补不足。",
+      "advice": "减去多余的负担方能获得新的收获。贵精不贵多，专注比贪多更重要。",
+      "modern_meaning_en": "六三: 三人同行则损去一人，一人独行则得到朋友——损有余而补不足。",
+      "advice_en": "Advice: 减去多余的负担方能获得新的收获。贵精不贵多，专注比贪多更重要。"
+    },
+    {
+      "position": "六四",
+      "original_text": "损其疾，使遄有喜，无咎",
+      "modern_meaning": "减损自身的毛病缺点，迅速改正则可喜，无咎。",
+      "advice": "正视并克服自身弱点，雷厉风行地改正错误，自我提升则平安无过。",
+      "modern_meaning_en": "六四: 减损自身的毛病缺点，迅速改正则可喜，无咎。",
+      "advice_en": "Advice: 正视并克服自身弱点，雷厉风行地改正错误，自我提升则平安无过。"
+    },
+    {
+      "position": "六五",
+      "original_text": "或益之十朋之龟，弗克违，元吉",
+      "modern_meaning": "有人赠予价值十朋的大龟，无法推辞——上天赐福，大吉。",
+      "advice": "谦逊守正者必有上天眷顾，福报不请自来。心怀感恩，坦然接受善意。",
+      "modern_meaning_en": "六五: 有人赠予价值十朋的大龟，无法推辞——上天赐福，大吉。",
+      "advice_en": "Advice: 谦逊守正者必有上天眷顾，福报不请自来。心怀感恩，坦然接受善意。"
+    },
+    {
+      "position": "上九",
+      "original_text": "弗损益之，无咎，贞吉，利有攸往，得臣无家",
+      "modern_meaning": "不减损反而增益他人，无咎，守正则吉，利于前行，得到臣属而不限于一家。",
+      "advice": "到了极致应以增益他人为主。无私奉献、惠及天下，大公无私终成大业。",
+      "modern_meaning_en": "上九: 不减损反而增益他人，无咎，守正则吉，利于前行，得到臣属而不限于一家。",
+      "advice_en": "Advice: 到了极致应以增益他人为主。无私奉献、惠及天下，大公无私终成大业。"
+    }
+  ],
+  "益": [
+    {
+      "position": "初九",
+      "original_text": "利用为大作，元吉，无咎",
+      "modern_meaning": "利于担当大事、有所作为，大吉无咎。",
+      "advice": "时机大好，大胆放手去做。有能力就担起重任，勇于开创必有大成。",
+      "modern_meaning_en": "初九: 利于担当大事、有所作为，大吉无咎。",
+      "advice_en": "Advice: 时机大好，大胆放手去做。有能力就担起重任，勇于开创必有大成。"
+    },
+    {
+      "position": "六二",
+      "original_text": "或益之十朋之龟，弗克违，永贞吉。王用享于帝，吉",
+      "modern_meaning": "有人赠予十朋大龟无法推辞，永守正道则吉。君王以此祭祀天帝，吉。",
+      "advice": "得贵人相助是因品德深厚，永守正道方能持续受益。感恩报德，福泽绵长。",
+      "modern_meaning_en": "六二: 有人赠予十朋大龟无法推辞，永守正道则吉。君王以此祭祀天帝，吉。",
+      "advice_en": "Advice: 得贵人相助是因品德深厚，永守正道方能持续受益。感恩报德，福泽绵长。"
+    },
+    {
+      "position": "六三",
+      "original_text": "益之用凶事，无咎。有孚中行，告公用圭",
+      "modern_meaning": "将增益用于救灾等凶事则无咎。心怀诚信、中道而行，以玉圭禀告公侯。",
+      "advice": "有余力时多做善事、帮助受灾之人。诚信为怀、秉公办事，积善之家必有余庆。",
+      "modern_meaning_en": "六三: 将增益用于救灾等凶事则无咎。心怀诚信、中道而行，以玉圭禀告公侯。",
+      "advice_en": "Advice: 有余力时多做善事、帮助受灾之人。诚信为怀、秉公办事，积善之家必有余庆。"
+    },
+    {
+      "position": "六四",
+      "original_text": "中行告公从，利用为依，迁国",
+      "modern_meaning": "中道而行禀告公侯获赞同，利于依托此势迁都（重大变革）。",
+      "advice": "行正道得众人拥护，趁此良机推动重大变革。上下同心，大事可成。",
+      "modern_meaning_en": "六四: 中道而行禀告公侯获赞同，利于依托此势迁都（重大变革）。",
+      "advice_en": "Advice: 行正道得众人拥护，趁此良机推动重大变革。上下同心，大事可成。"
+    },
+    {
+      "position": "九五",
+      "original_text": "有孚惠心，勿问元吉。有孚惠我德",
+      "modern_meaning": "怀着真诚仁惠之心，不必占问即是大吉。诚信使他人也感恩戴德。",
+      "advice": "真心实意惠泽他人，不必多虑自然大吉。以德服人、以诚感人，必有厚报。",
+      "modern_meaning_en": "九五: 怀着真诚仁惠之心，不必占问即是大吉。诚信使他人也感恩戴德。",
+      "advice_en": "Advice: 真心实意惠泽他人，不必多虑自然大吉。以德服人、以诚感人，必有厚报。"
+    },
+    {
+      "position": "上九",
+      "original_text": "敦益之，无咎，贞吉，利有攸往。勿问，勿恤，莫之致而至",
+      "modern_meaning": "敦厚地增益他人，无咎，守正则吉，利于前行。不必忧虑，福报不求自至。",
+      "advice": "真诚厚道地帮助他人，不求回报。种善因自得善果，福报终将不期而至。",
+      "modern_meaning_en": "上九: 敦厚地增益他人，无咎，守正则吉，利于前行。不必忧虑，福报不求自至。",
+      "advice_en": "Advice: 真诚厚道地帮助他人，不求回报。种善因自得善果，福报终将不期而至。"
+    }
+  ],
+  "夬": [
+    {
+      "position": "初九",
+      "original_text": "壮于前趾，往不胜为咎",
+      "modern_meaning": "力量集于前脚趾——实力不足却急于前行，不胜则为咎。",
+      "advice": "力量不够时不要逞强。准备不足贸然行动只会招来失败和祸患。",
+      "modern_meaning_en": "初九: 力量集于前脚趾——实力不足却急于前行，不胜则为咎。",
+      "advice_en": "Advice: 力量不够时不要逞强。准备不足贸然行动只会招来失败和祸患。"
+    },
+    {
+      "position": "九二",
+      "original_text": "惕号，莫夜有戎，勿恤",
+      "modern_meaning": "时刻警惕呼号，暮夜有敌来犯也不必忧虑——有备无患。",
+      "advice": "保持高度警惕、做好防范，即使突发危机也能从容应对，有备无患。",
+      "modern_meaning_en": "九二: 时刻警惕呼号，暮夜有敌来犯也不必忧虑——有备无患。",
+      "advice_en": "Advice: 保持高度警惕、做好防范，即使突发危机也能从容应对，有备无患。"
+    },
+    {
+      "position": "九三",
+      "original_text": "壮于頄，有凶。君子夬夬独行遇雨，若濡有愠，无咎",
+      "modern_meaning": "怒气形于面色（颧骨）则有凶。君子果断独行，遇雨淋湿虽有不快但终无咎。",
+      "advice": "决断大事不可情绪外露。果断行动中即使遭遇不适也不必气馁，坚持正道终无咎。",
+      "modern_meaning_en": "九三: 怒气形于面色（颧骨）则有凶。君子果断独行，遇雨淋湿虽有不快但终无咎。",
+      "advice_en": "Advice: 决断大事不可情绪外露。果断行动中即使遭遇不适也不必气馁，坚持正道终无咎。"
+    },
+    {
+      "position": "九四",
+      "original_text": "臀无肤，其行次且，牵羊悔亡，闻言不信",
+      "modern_meaning": "臀部磨破皮肤，行走艰难；如同牵着羊前行可消除悔恨，但听到忠言却不信。",
+      "advice": "处境艰难犹豫不决时，要借助外力（如牵羊般顺势而为），更要听取忠告。",
+      "modern_meaning_en": "九四: 臀部磨破皮肤，行走艰难；如同牵着羊前行可消除悔恨，但听到忠言却不信。",
+      "advice_en": "Advice: 处境艰难犹豫不决时，要借助外力（如牵羊般顺势而为），更要听取忠告。"
+    },
+    {
+      "position": "九五",
+      "original_text": "苋陆夬夬，中行无咎",
+      "modern_meaning": "如苋陆草般果断决裂，中道而行则无咎。",
+      "advice": "该决断时果断利落，但不可偏激。坚守中道、公正行事，铲除奸邪不留后患。",
+      "modern_meaning_en": "九五: 如苋陆草般果断决裂，中道而行则无咎。",
+      "advice_en": "Advice: 该决断时果断利落，但不可偏激。坚守中道、公正行事，铲除奸邪不留后患。"
+    },
+    {
+      "position": "上六",
+      "original_text": "无号，终有凶",
+      "modern_meaning": "无人呼号求救（小人已孤立），最终必有凶。",
+      "advice": "邪恶势力到尽头时无需号令自会败亡。但若自身是小人位，应趁早悔改回头。",
+      "modern_meaning_en": "上六: 无人呼号求救（小人已孤立），最终必有凶。",
+      "advice_en": "Advice: 邪恶势力到尽头时无需号令自会败亡。但若自身是小人位，应趁早悔改回头。"
+    }
+  ],
+  "姤": [
+    {
+      "position": "初六",
+      "original_text": "系于金柅，贞吉。有攸往，见凶，羸豕孚蹢躅",
+      "modern_meaning": "用金属刹车器拴住（控制欲望），守正则吉。冒进则凶，如瘦猪躁动不安。",
+      "advice": "面对诱惑要及早制止，防微杜渐。小恶不制必成大祸，约束自己是最佳策略。",
+      "modern_meaning_en": "初六: 用金属刹车器拴住（控制欲望），守正则吉。冒进则凶，如瘦猪躁动不安。",
+      "advice_en": "Advice: 面对诱惑要及早制止，防微杜渐。小恶不制必成大祸，约束自己是最佳策略。"
+    },
+    {
+      "position": "九二",
+      "original_text": "包有鱼，无咎，不利宾",
+      "modern_meaning": "厨中包藏有鱼，无咎，但不适合拿来招待宾客。",
+      "advice": "掌控住局面中的隐患和小人，不要将其外传扩散。内部处理比公开更为妥当。",
+      "modern_meaning_en": "九二: 厨中包藏有鱼，无咎，但不适合拿来招待宾客。",
+      "advice_en": "Advice: 掌控住局面中的隐患和小人，不要将其外传扩散。内部处理比公开更为妥当。"
+    },
+    {
+      "position": "九三",
+      "original_text": "臀无肤，其行次且，厉，无大咎",
+      "modern_meaning": "臀部无肉行走迟缓——处境尴尬、行动困难，虽有危险但无大咎。",
+      "advice": "处境不顺、犹豫徘徊时，虽然有风险但不会有大灾。安守等待转机，不宜轻举妄动。",
+      "modern_meaning_en": "九三: 臀部无肉行走迟缓——处境尴尬、行动困难，虽有危险但无大咎。",
+      "advice_en": "Advice: 处境不顺、犹豫徘徊时，虽然有风险但不会有大灾。安守等待转机，不宜轻举妄动。"
+    },
+    {
+      "position": "九四",
+      "original_text": "包无鱼，起凶",
+      "modern_meaning": "厨中没有鱼——失去掌控、民望离散，则起凶。",
+      "advice": "失去对局势的掌控力、民心离散则凶险将至。及早察觉、挽回人心至关重要。",
+      "modern_meaning_en": "九四: 厨中没有鱼——失去掌控、民望离散，则起凶。",
+      "advice_en": "Advice: 失去对局势的掌控力、民心离散则凶险将至。及早察觉、挽回人心至关重要。"
+    },
+    {
+      "position": "九五",
+      "original_text": "以杞包瓜，含章，有陨自天",
+      "modern_meaning": "用杞柳包裹瓜果，内含美质，如同天降好运——以德感化天下。",
+      "advice": "以高尚品德包容一切，内修文采美德。修养到位，好运自然如天赐般降临。",
+      "modern_meaning_en": "九五: 用杞柳包裹瓜果，内含美质，如同天降好运——以德感化天下。",
+      "advice_en": "Advice: 以高尚品德包容一切，内修文采美德。修养到位，好运自然如天赐般降临。"
+    },
+    {
+      "position": "上九",
+      "original_text": "姤其角，吝，无咎",
+      "original_text_fix": "姤其角，吝，无咎",
+      "modern_meaning": "相遇如以角抵触——刚硬地相遇则生遗憾，但无大咎。",
+      "advice": "与人相处太刚硬则生隔阂，适当柔和谦让。虽有小憾但不至大灾，调整态度即可。",
+      "modern_meaning_en": "上九: 相遇如以角抵触——刚硬地相遇则生遗憾，但无大咎。",
+      "advice_en": "Advice: 与人相处太刚硬则生隔阂，适当柔和谦让。虽有小憾但不至大灾，调整态度即可。"
+    }
+  ],
+  "萃": [
+    {
+      "position": "初六",
+      "original_text": "有孚不终，乃乱乃萃，若号，一握为笑，勿恤，往无咎",
+      "modern_meaning": "有诚信但不能坚持，导致混乱而后聚集；若能呼号求助，一握手便欢笑释嫌，不必忧虑，前往无咎。",
+      "advice": "意志不坚导致混乱时，坦诚沟通化解误会。放下成见主动和解，重归于好便无灾祸。",
+      "modern_meaning_en": "初六: 有诚信但不能坚持，导致混乱而后聚集；若能呼号求助，一握手便欢笑释嫌，不必忧虑，前往无咎。",
+      "advice_en": "Advice: 意志不坚导致混乱时，坦诚沟通化解误会。放下成见主动和解，重归于好便无灾祸。"
+    },
+    {
+      "position": "六二",
+      "original_text": "引吉，无咎，孚乃利用禴",
+      "modern_meaning": "互相牵引而吉，无咎；心怀诚信，即使薄祭也获福。",
+      "advice": "以真诚之心团结他人，不在乎形式排场。心诚则灵，以德聚人自然吉祥。",
+      "modern_meaning_en": "六二: 互相牵引而吉，无咎；心怀诚信，即使薄祭也获福。",
+      "advice_en": "Advice: 以真诚之心团结他人，不在乎形式排场。心诚则灵，以德聚人自然吉祥。"
+    },
+    {
+      "position": "六三",
+      "original_text": "萃如嗟如，无攸利，往无咎，小吝",
+      "modern_meaning": "想聚集却只能叹息，无所利；前行无咎但有小遗憾。",
+      "advice": "暂时无法凝聚人心时不必强求，调整方向继续前行。虽有小的失落但不影响大局。",
+      "modern_meaning_en": "六三: 想聚集却只能叹息，无所利；前行无咎但有小遗憾。",
+      "advice_en": "Advice: 暂时无法凝聚人心时不必强求，调整方向继续前行。虽有小的失落但不影响大局。"
+    },
+    {
+      "position": "九四",
+      "original_text": "大吉，无咎",
+      "modern_meaning": "大吉大利，没有灾祸——聚集之位得当。",
+      "advice": "占据有利位置、把握聚集的良机，大吉之事但要居安思危，方能确保无咎。",
+      "modern_meaning_en": "九四: 大吉大利，没有灾祸——聚集之位得当。",
+      "advice_en": "Advice: 占据有利位置、把握聚集的良机，大吉之事但要居安思危，方能确保无咎。"
+    },
+    {
+      "position": "九五",
+      "original_text": "萃有位，无咎，匪孚，元永贞，悔亡",
+      "modern_meaning": "身居聚集之位无咎，但尚未获得众人信任；需永远坚守正道，悔恨方能消失。",
+      "advice": "身居高位要德位相配，以长期坚守正道来赢得信任，不可靠威权压制。",
+      "modern_meaning_en": "九五: 身居聚集之位无咎，但尚未获得众人信任；需永远坚守正道，悔恨方能消失。",
+      "advice_en": "Advice: 身居高位要德位相配，以长期坚守正道来赢得信任，不可靠威权压制。"
+    },
+    {
+      "position": "上六",
+      "original_text": "赍咨涕洟，无咎",
+      "modern_meaning": "叹息流泪（无法融入群体而悲伤），但终无咎。",
+      "advice": "不合群时不必勉强，以真诚态度面对孤独。及时调整心态，终能找到归属。",
+      "modern_meaning_en": "上六: 叹息流泪（无法融入群体而悲伤），但终无咎。",
+      "advice_en": "Advice: 不合群时不必勉强，以真诚态度面对孤独。及时调整心态，终能找到归属。"
+    }
+  ],
+  "升": [
+    {
+      "position": "初六",
+      "original_text": "允升，大吉",
+      "modern_meaning": "顺应时势而上升，大吉大利。",
+      "advice": "抓住上升的势头，脚踏实地、循序渐进。顺势而为，大吉之事自然而成。",
+      "modern_meaning_en": "初六: 顺应时势而上升，大吉大利。",
+      "advice_en": "Advice: 抓住上升的势头，脚踏实地、循序渐进。顺势而为，大吉之事自然而成。"
+    },
+    {
+      "position": "九二",
+      "original_text": "孚乃利用禴，无咎",
+      "modern_meaning": "心怀诚信，即使薄祭也获福，无咎。",
+      "advice": "上升途中以诚待人、不浮夸。真诚是最大的资本，心诚则诸事顺遂。",
+      "modern_meaning_en": "九二: 心怀诚信，即使薄祭也获福，无咎。",
+      "advice_en": "Advice: 上升途中以诚待人、不浮夸。真诚是最大的资本，心诚则诸事顺遂。"
+    },
+    {
+      "position": "九三",
+      "original_text": "升虚邑",
+      "modern_meaning": "上升进入空旷的城邑——畅通无阻、毫无阻力。",
+      "advice": "前进道路畅通无阻时大胆前行。抓住无障碍的窗口期，加快发展步伐。",
+      "modern_meaning_en": "九三: 上升进入空旷的城邑——畅通无阻、毫无阻力。",
+      "advice_en": "Advice: 前进道路畅通无阻时大胆前行。抓住无障碍的窗口期，加快发展步伐。"
+    },
+    {
+      "position": "六四",
+      "original_text": "王用亨于岐山，吉，无咎",
+      "modern_meaning": "君王在岐山举行祭祀，吉，无咎——以虔诚之心获得上天认可。",
+      "advice": "上升之时要心存敬畏，感恩天地与助力。以虔诚笃实之心经营事业，自然吉祥。",
+      "modern_meaning_en": "六四: 君王在岐山举行祭祀，吉，无咎——以虔诚之心获得上天认可。",
+      "advice_en": "Advice: 上升之时要心存敬畏，感恩天地与助力。以虔诚笃实之心经营事业，自然吉祥。"
+    },
+    {
+      "position": "六五",
+      "original_text": "贞吉，升阶",
+      "modern_meaning": "守正则吉，一步一个台阶地稳步上升。",
+      "advice": "上升要循序渐进、不可越级冒进。坚守正道，稳扎稳打，一步一个脚印终达高峰。",
+      "modern_meaning_en": "六五: 守正则吉，一步一个台阶地稳步上升。",
+      "advice_en": "Advice: 上升要循序渐进、不可越级冒进。坚守正道，稳扎稳打，一步一个脚印终达高峰。"
+    },
+    {
+      "position": "上六",
+      "original_text": "冥升，利于不息之贞",
+      "modern_meaning": "不知不觉地上升（升至极点），利于永不停息地守持正道。",
+      "advice": "到了顶峰更要警惕，不要盲目继续攀升。停止不切实际的野心，守住正道方能长久。",
+      "modern_meaning_en": "上六: 不知不觉地上升（升至极点），利于永不停息地守持正道。",
+      "advice_en": "Advice: 到了顶峰更要警惕，不要盲目继续攀升。停止不切实际的野心，守住正道方能长久。"
+    }
+  ],
+  "困": [
+    {
+      "position": "初六",
+      "original_text": "臀困于株木，入于幽谷，三岁不觌",
+      "modern_meaning": "臀部困于木桩上，退入幽暗深谷，三年不见光明——深陷困境、长期低迷。",
+      "advice": "身陷困境时不要自暴自弃。蛰伏等待时机，积蓄力量，终有重见光明之日。",
+      "modern_meaning_en": "初六: 臀部困于木桩上，退入幽暗深谷，三年不见光明——深陷困境、长期低迷。",
+      "advice_en": "Advice: 身陷困境时不要自暴自弃。蛰伏等待时机，积蓄力量，终有重见光明之日。"
+    },
+    {
+      "position": "九二",
+      "original_text": "困于酒食，朱绂方来，利用亨祀，征凶，无咎",
+      "modern_meaning": "困于酒食丰足之中（安逸也是一种困），红色祭服的荣禄将至，利于祭祀，冒进则凶，无咎。",
+      "advice": "安逸中也有隐患，不可沉溺享乐。以虔诚之心面对荣宠，不冒进则平安无咎。",
+      "modern_meaning_en": "九二: 困于酒食丰足之中（安逸也是一种困），红色祭服的荣禄将至，利于祭祀，冒进则凶，无咎。",
+      "advice_en": "Advice: 安逸中也有隐患，不可沉溺享乐。以虔诚之心面对荣宠，不冒进则平安无咎。"
+    },
+    {
+      "position": "六三",
+      "original_text": "困于石，据于蒺藜，入于其宫，不见其妻，凶",
+      "modern_meaning": "被困在岩石之间，坐在蒺藜之上，回到家中却见不到妻子——内外交困，大凶。",
+      "advice": "处境极端恶劣时要审视是否选错了道路。及时止损、反省改过，否则灾祸接踵而至。",
+      "modern_meaning_en": "六三: 被困在岩石之间，坐在蒺藜之上，回到家中却见不到妻子——内外交困，大凶。",
+      "advice_en": "Advice: 处境极端恶劣时要审视是否选错了道路。及时止损、反省改过，否则灾祸接踵而至。"
+    },
+    {
+      "position": "九四",
+      "original_text": "来徐徐，困于金车，吝，有终",
+      "modern_meaning": "缓缓而来，被金车所困（受制于权势），虽有遗憾但终有好结果。",
+      "advice": "受制于人、行动迟缓时不要急躁。虽然当下委屈，坚持下去终能走出困境。",
+      "modern_meaning_en": "九四: 缓缓而来，被金车所困（受制于权势），虽有遗憾但终有好结果。",
+      "advice_en": "Advice: 受制于人、行动迟缓时不要急躁。虽然当下委屈，坚持下去终能走出困境。"
+    },
+    {
+      "position": "九五",
+      "original_text": "劓刖，困于赤绂，乃徐有说，利用祭祀",
+      "modern_meaning": "遭受刑罚（割鼻断足），困于权势之中，但慢慢会有解脱，利于虔诚祭祀。",
+      "advice": "即使遭受重创也不可绝望。以虔诚之心反省自我，困境终将慢慢化解。",
+      "modern_meaning_en": "九五: 遭受刑罚（割鼻断足），困于权势之中，但慢慢会有解脱，利于虔诚祭祀。",
+      "advice_en": "Advice: 即使遭受重创也不可绝望。以虔诚之心反省自我，困境终将慢慢化解。"
+    },
+    {
+      "position": "上六",
+      "original_text": "困于葛藟，于臲卼，曰动悔有悔，征吉",
+      "modern_meaning": "被葛藤缠绕，动摇不安；反思行动中的悔过并加以改正，前行则吉。",
+      "advice": "困境到极点即将转变。认真反省悔过，痛定思痛后果断行动，必将转危为安。",
+      "modern_meaning_en": "上六: 被葛藤缠绕，动摇不安；反思行动中的悔过并加以改正，前行则吉。",
+      "advice_en": "Advice: 困境到极点即将转变。认真反省悔过，痛定思痛后果断行动，必将转危为安。"
+    }
+  ],
+  "井": [
+    {
+      "position": "初六",
+      "original_text": "井泥不食，旧井无禽",
+      "modern_meaning": "井底淤积泥沙不能饮用，废旧的井连飞鸟都不来——失去价值。",
+      "advice": "自身能力退化、价值降低时必须自我革新。清理积弊、恢复活力，否则将被淘汰。",
+      "modern_meaning_en": "初六: 井底淤积泥沙不能饮用，废旧的井连飞鸟都不来——失去价值。",
+      "advice_en": "Advice: 自身能力退化、价值降低时必须自我革新。清理积弊、恢复活力，否则将被淘汰。"
+    },
+    {
+      "position": "九二",
+      "original_text": "井谷射鲋，瓮敝漏",
+      "modern_meaning": "井底谷沟中只有小鱼，打水的瓮也破损漏水——事倍功半。",
+      "advice": "方向和环境不对，再努力也是白费。先修复工具和根基，找准方向再行动。",
+      "modern_meaning_en": "九二: 井底谷沟中只有小鱼，打水的瓮也破损漏水——事倍功半。",
+      "advice_en": "Advice: 方向和环境不对，再努力也是白费。先修复工具和根基，找准方向再行动。"
+    },
+    {
+      "position": "九三",
+      "original_text": "井渫不食，为我心恻，可用汲，王明，并受其福",
+      "modern_meaning": "井已淘净却无人来饮，令人心痛；井水可汲，若君王明察，众人都能受福。",
+      "advice": "有能力却不被赏识固然遗憾，但不必灰心。持续精进等待伯乐，终有大展宏图之时。",
+      "modern_meaning_en": "九三: 井已淘净却无人来饮，令人心痛；井水可汲，若君王明察，众人都能受福。",
+      "advice_en": "Advice: 有能力却不被赏识固然遗憾，但不必灰心。持续精进等待伯乐，终有大展宏图之时。"
+    },
+    {
+      "position": "六四",
+      "original_text": "井甃，无咎",
+      "modern_meaning": "用砖石修砌井壁，加固根基，无咎。",
+      "advice": "打好基础、修缮内在。先把自己的能力和根基修好，才能更好地发挥价值。",
+      "modern_meaning_en": "六四: 用砖石修砌井壁，加固根基，无咎。",
+      "advice_en": "Advice: 打好基础、修缮内在。先把自己的能力和根基修好，才能更好地发挥价值。"
+    },
+    {
+      "position": "九五",
+      "original_text": "井冽，寒泉食",
+      "modern_meaning": "井水清冽甘甜，如寒泉般可供饮用——品质达到最佳。",
+      "advice": "修养达到纯粹境界，自然有人慕名而来。高品质是最好的名片，持续精进自有回报。",
+      "modern_meaning_en": "九五: 井水清冽甘甜，如寒泉般可供饮用——品质达到最佳。",
+      "advice_en": "Advice: 修养达到纯粹境界，自然有人慕名而来。高品质是最好的名片，持续精进自有回报。"
+    },
+    {
+      "position": "上六",
+      "original_text": "井收勿幕，有孚元吉",
+      "modern_meaning": "井水汲取后不加盖，供众人共用；心怀诚信则大吉。",
+      "advice": "有能力时要无私分享、造福他人。不藏私、不垄断，大公无私终获大吉。",
+      "modern_meaning_en": "上六: 井水汲取后不加盖，供众人共用；心怀诚信则大吉。",
+      "advice_en": "Advice: 有能力时要无私分享、造福他人。不藏私、不垄断，大公无私终获大吉。"
+    }
+  ],
+  "革": [
+    {
+      "position": "初九",
+      "original_text": "巩用黄牛之革",
+      "modern_meaning": "用黄牛皮绳牢牢绑缚——变革时机尚未成熟，须稳固根基。",
+      "advice": "时机未到时不可贸然行动。先夯实基础、积蓄力量，等待变革窗口。",
+      "modern_meaning_en": "初九: 用黄牛皮绳牢牢绑缚——变革时机尚未成熟，须稳固根基。",
+      "advice_en": "Advice: 时机未到时不可贸然行动。先夯实基础、积蓄力量，等待变革窗口。"
+    },
+    {
+      "position": "六二",
+      "original_text": "己日乃孚，元亨利贞，悔亡",
+      "modern_meaning": "到了己日才取信于人，大通顺、利于守正，悔恨消失。",
+      "advice": "变革需要充分准备和时机。不可急躁，待人心归附后推行则水到渠成。",
+      "modern_meaning_en": "六二: 到了己日才取信于人，大通顺、利于守正，悔恨消失。",
+      "advice_en": "Advice: 变革需要充分准备和时机。不可急躁，待人心归附后推行则水到渠成。"
+    },
+    {
+      "position": "九三",
+      "original_text": "征凶，贞厉，革言三就，有孚",
+      "modern_meaning": "征伐则凶，守正有险；变革之事须经多次谋划方能成就，须以诚信服人。",
+      "advice": "变革非一蹴而就，需反复论证、稳步推进。急于求成必将失败。",
+      "modern_meaning_en": "九三: 征伐则凶，守正有险；变革之事须经多次谋划方能成就，须以诚信服人。",
+      "advice_en": "Advice: 变革非一蹴而就，需反复论证、稳步推进。急于求成必将失败。"
+    },
+    {
+      "position": "九四",
+      "original_text": "悔亡，有孚改命，吉",
+      "modern_meaning": "悔恨消失，以诚信改变旧制，结果吉祥。",
+      "advice": "推进变革要言出必行、以诚服众。坚定信念推行新制，终获认可。",
+      "modern_meaning_en": "九四: 悔恨消失，以诚信改变旧制，结果吉祥。",
+      "advice_en": "Advice: 推进变革要言出必行、以诚服众。坚定信念推行新制，终获认可。"
+    },
+    {
+      "position": "九五",
+      "original_text": "大人虎变，未占有孚",
+      "modern_meaning": "大人如虎纹般焕然一新，其变革气象恢弘，不须占卜已见诚信。",
+      "advice": "已到变革鼎盛之时，大胆展现新气象。大刀阔斧、雷厉风行正当其时。",
+      "modern_meaning_en": "九五: 大人如虎纹般焕然一新，其变革气象恢弘，不须占卜已见诚信。",
+      "advice_en": "Advice: 已到变革鼎盛之时，大胆展现新气象。大刀阔斧、雷厉风行正当其时。"
+    },
+    {
+      "position": "上六",
+      "original_text": "君子豹变，小人革面，征凶，居贞吉",
+      "modern_meaning": "君子如豹纹般敏捷变革，小人只是表面顺从；此时不宜激进，安居守正则吉。",
+      "advice": "变革基本完成，应巩固成果而非继续激进。引导众人真心改变，稳住阵脚。",
+      "modern_meaning_en": "上六: 君子如豹纹般敏捷变革，小人只是表面顺从；此时不宜激进，安居守正则吉。",
+      "advice_en": "Advice: 变革基本完成，应巩固成果而非继续激进。引导众人真心改变，稳住阵脚。"
+    }
+  ],
+  "鼎": [
+    {
+      "position": "初六",
+      "original_text": "鼎颠趾，利出否，得妾以其子，无咎",
+      "modern_meaning": "鼎足翻转朝上，利于倾倒旧物纳新；如同纳妾得子，虽逆而终无咎。",
+      "advice": "打破旧有格局时看似反常，实则扫除积弊。别怕颠倒，吐故方能纳新。",
+      "modern_meaning_en": "初六: 鼎足翻转朝上，利于倾倒旧物纳新；如同纳妾得子，虽逆而终无咎。",
+      "advice_en": "Advice: 打破旧有格局时看似反常，实则扫除积弊。别怕颠倒，吐故方能纳新。"
+    },
+    {
+      "position": "九二",
+      "original_text": "鼎有实，我仇有疾，不我能即，吉",
+      "modern_meaning": "鼎中已有实物，但伙伴有病不能靠近——自身充实但须防外部干扰。",
+      "advice": "自身根基已固，但要警惕身边隐患。保持距离、专注自身发展，则吉。",
+      "modern_meaning_en": "九二: 鼎中已有实物，但伙伴有病不能靠近——自身充实但须防外部干扰。",
+      "advice_en": "Advice: 自身根基已固，但要警惕身边隐患。保持距离、专注自身发展，则吉。"
+    },
+    {
+      "position": "九三",
+      "original_text": "鼎耳革，其行塞，雉膏不食，方雨亏悔，终吉",
+      "modern_meaning": "鼎耳变形移位，搬运受阻；雉膏美味无福消受，待到阴阳和合则终吉。",
+      "advice": "遇瓶颈期不可强求。耐心等待时机转化，阴阳调和后障碍自消。",
+      "modern_meaning_en": "九三: 鼎耳变形移位，搬运受阻；雉膏美味无福消受，待到阴阳和合则终吉。",
+      "advice_en": "Advice: 遇瓶颈期不可强求。耐心等待时机转化，阴阳调和后障碍自消。"
+    },
+    {
+      "position": "九四",
+      "original_text": "鼎折足，覆公餗，其形渥，凶",
+      "modern_meaning": "鼎足折断，倾覆了王公的美食，沾污满身——力不胜任必有凶险。",
+      "advice": "切勿承担超出能力之事。量力而行、知人善任，避免因小失大酿成灾祸。",
+      "modern_meaning_en": "九四: 鼎足折断，倾覆了王公的美食，沾污满身——力不胜任必有凶险。",
+      "advice_en": "Advice: 切勿承担超出能力之事。量力而行、知人善任，避免因小失大酿成灾祸。"
+    },
+    {
+      "position": "六五",
+      "original_text": "鼎黄耳金铉，利贞",
+      "modern_meaning": "鼎有黄色双耳和金属鼎杠，稳固端正，利于守正。",
+      "advice": "根基稳固、品性端正之时，正是事业黄金期。守住中道，稳步发展。",
+      "modern_meaning_en": "六五: 鼎有黄色双耳和金属鼎杠，稳固端正，利于守正。",
+      "advice_en": "Advice: 根基稳固、品性端正之时，正是事业黄金期。守住中道，稳步发展。"
+    },
+    {
+      "position": "上九",
+      "original_text": "鼎玉铉，大吉，不可涉大川",
+      "modern_meaning": "鼎配玉质鼎杠，至善至美，大吉；但不可冒险涉渡大河。",
+      "advice": "已达极致美好，宜守成不宜冒进。珍视当下成果，量力而行不贪大求全。",
+      "modern_meaning_en": "上九: 鼎配玉质鼎杠，至善至美，大吉；但不可冒险涉渡大河。",
+      "advice_en": "Advice: 已达极致美好，宜守成不宜冒进。珍视当下成果，量力而行不贪大求全。"
+    }
+  ],
+  "震": [
+    {
+      "position": "初九",
+      "original_text": "震来虩虩，笑言哑哑，震惊百里，不丧匕鬯",
+      "modern_meaning": "雷声袭来令人恐惧，却能谈笑自若；即使震惊百里之远，也不失手中祭器。",
+      "advice": "面对突变的考验保持镇定。有备则不慌，内心的定力让你处变不惊。",
+      "modern_meaning_en": "初九: 雷声袭来令人恐惧，却能谈笑自若；即使震惊百里之远，也不失手中祭器。",
+      "advice_en": "Advice: 面对突变的考验保持镇定。有备则不慌，内心的定力让你处变不惊。"
+    },
+    {
+      "position": "六二",
+      "original_text": "震来厉，亿丧贝，跻于九陵，勿逐，七日得",
+      "modern_meaning": "雷电袭来有危险，可能丧失大量财富；逃往高处避险，不必追寻，七日可复得。",
+      "advice": "危难来临时先保人身安全。财物损失不必太过纠结，时过境迁终将恢复。",
+      "modern_meaning_en": "六二: 雷电袭来有危险，可能丧失大量财富；逃往高处避险，不必追寻，七日可复得。",
+      "advice_en": "Advice: 危难来临时先保人身安全。财物损失不必太过纠结，时过境迁终将恢复。"
+    },
+    {
+      "position": "六三",
+      "original_text": "震苏苏，震行无眚",
+      "modern_meaning": "雷声令人苏苏惶恐，谨慎行事则可免于灾祸。",
+      "advice": "面对动荡不安应保持警觉谨慎。小心行事、不贸然行动，方可平安度过。",
+      "modern_meaning_en": "六三: 雷声令人苏苏惶恐，谨慎行事则可免于灾祸。",
+      "advice_en": "Advice: 面对动荡不安应保持警觉谨慎。小心行事、不贸然行动，方可平安度过。"
+    },
+    {
+      "position": "九四",
+      "original_text": "震遂泥",
+      "modern_meaning": "雷电交加使人坠入泥沼——惊慌失措、进退失据。",
+      "advice": "过度恐惧会让自己陷入更大困境。遇事冷静应对，切忌自乱阵脚。",
+      "modern_meaning_en": "九四: 雷电交加使人坠入泥沼——惊慌失措、进退失据。",
+      "advice_en": "Advice: 过度恐惧会让自己陷入更大困境。遇事冷静应对，切忌自乱阵脚。"
+    },
+    {
+      "position": "六五",
+      "original_text": "震往来厉，亿无丧，有事",
+      "modern_meaning": "雷来雷往皆有危险，但不会有大的损失，只是忙碌不宁。",
+      "advice": "动荡中虽无大碍但也难得安宁。保持镇定、稳住心神，守住已有成果。",
+      "modern_meaning_en": "六五: 雷来雷往皆有危险，但不会有大的损失，只是忙碌不宁。",
+      "advice_en": "Advice: 动荡中虽无大碍但也难得安宁。保持镇定、稳住心神，守住已有成果。"
+    },
+    {
+      "position": "上六",
+      "original_text": "震索索，视矍矍，征凶。震不于其躬，于其邻，无咎，婚媾有言",
+      "modern_meaning": "雷声令人瑟瑟发抖、目光惊惶，冒进则凶。若震不及自身而警于邻人则无咎。",
+      "advice": "从他人遭遇的变故中汲取教训，提前做好防备。居安思危方能免于祸患。",
+      "modern_meaning_en": "上六: 雷声令人瑟瑟发抖、目光惊惶，冒进则凶。若震不及自身而警于邻人则无咎。",
+      "advice_en": "Advice: 从他人遭遇的变故中汲取教训，提前做好防备。居安思危方能免于祸患。"
+    }
+  ],
+  "艮": [
+    {
+      "position": "初六",
+      "original_text": "艮其趾，无咎，利永贞",
+      "modern_meaning": "止住脚趾不动，无咎；利于长久守正。",
+      "advice": "止于初始、不轻举妄动。该停就停，固守正道方能无过。",
+      "modern_meaning_en": "初六: 止住脚趾不动，无咎；利于长久守正。",
+      "advice_en": "Advice: 止于初始、不轻举妄动。该停就停，固守正道方能无过。"
+    },
+    {
+      "position": "六二",
+      "original_text": "艮其腓，不拯其随，其心不快",
+      "modern_meaning": "止住小腿不能自控，无法拯救跟随之人，内心不快。",
+      "advice": "被动受限时难以施展抱负。接受暂时的困顿，养精蓄锐等待时机转变。",
+      "modern_meaning_en": "六二: 止住小腿不能自控，无法拯救跟随之人，内心不快。",
+      "advice_en": "Advice: 被动受限时难以施展抱负。接受暂时的困顿，养精蓄锐等待时机转变。"
+    },
+    {
+      "position": "九三",
+      "original_text": "艮其限，列其夤，厉薰心",
+      "modern_meaning": "止住腰部不动，脊背肌肉撕裂，危险如烈火灼心。",
+      "advice": "过度僵持会身心俱损。该放手时要放手，固执不化必将伤及自身。",
+      "modern_meaning_en": "九三: 止住腰部不动，脊背肌肉撕裂，危险如烈火灼心。",
+      "advice_en": "Advice: 过度僵持会身心俱损。该放手时要放手，固执不化必将伤及自身。"
+    },
+    {
+      "position": "六四",
+      "original_text": "艮其身，无咎",
+      "modern_meaning": "止住整个身体不乱动，无咎。",
+      "advice": "管住自己、不越界妄动。安守本分、自我约束，自然平安无事。",
+      "modern_meaning_en": "六四: 止住整个身体不乱动，无咎。",
+      "advice_en": "Advice: 管住自己、不越界妄动。安守本分、自我约束，自然平安无事。"
+    },
+    {
+      "position": "六五",
+      "original_text": "艮其辅，言有序，悔亡",
+      "modern_meaning": "管住嘴巴、言语谨慎有序，悔恨消失。",
+      "advice": "慎言慎语、言出有据。说话有分寸有条理，可避免许多不必要的麻烦。",
+      "modern_meaning_en": "六五: 管住嘴巴、言语谨慎有序，悔恨消失。",
+      "advice_en": "Advice: 慎言慎语、言出有据。说话有分寸有条理，可避免许多不必要的麻烦。"
+    },
+    {
+      "position": "上九",
+      "original_text": "敦艮，吉",
+      "modern_meaning": "以敦厚之德止于至善，吉祥。",
+      "advice": "修行到最高境界在于厚重踏实。守正不移、沉稳如山，终获吉祥。",
+      "modern_meaning_en": "上九: 以敦厚之德止于至善，吉祥。",
+      "advice_en": "Advice: 修行到最高境界在于厚重踏实。守正不移、沉稳如山，终获吉祥。"
+    }
+  ],
+  "渐": [
+    {
+      "position": "初六",
+      "original_text": "鸿渐于干，小子厉，有言，无咎",
+      "modern_meaning": "大雁渐飞到水边，年轻人有风险、受指责，但终无咎。",
+      "advice": "起步阶段难免困难和非议。稳扎稳打、不急于冒进，终能安然度过。",
+      "modern_meaning_en": "初六: 大雁渐飞到水边，年轻人有风险、受指责，但终无咎。",
+      "advice_en": "Advice: 起步阶段难免困难和非议。稳扎稳打、不急于冒进，终能安然度过。"
+    },
+    {
+      "position": "六二",
+      "original_text": "鸿渐于磐，饮食衎衎，吉",
+      "modern_meaning": "大雁渐飞到磐石上，饮食和乐安然，吉祥。",
+      "advice": "根基渐稳、生活安定。享受阶段性成果的同时继续踏实前行。",
+      "modern_meaning_en": "六二: 大雁渐飞到磐石上，饮食和乐安然，吉祥。",
+      "advice_en": "Advice: 根基渐稳、生活安定。享受阶段性成果的同时继续踏实前行。"
+    },
+    {
+      "position": "九三",
+      "original_text": "鸿渐于陆，夫征不复，妇孕不育，凶。利御寇",
+      "modern_meaning": "大雁渐飞到陆地，丈夫出征不归、妻子怀孕不育，凶险；利于防御外敌。",
+      "advice": "急功冒进会导致家庭和事业的失衡。按部就班不跳步，守住根本方能长久。",
+      "modern_meaning_en": "九三: 大雁渐飞到陆地，丈夫出征不归、妻子怀孕不育，凶险；利于防御外敌。",
+      "advice_en": "Advice: 急功冒进会导致家庭和事业的失衡。按部就班不跳步，守住根本方能长久。"
+    },
+    {
+      "position": "六四",
+      "original_text": "鸿渐于木，或得其桷，无咎",
+      "modern_meaning": "大雁渐飞到树上，恰得平枝栖息，无咎。",
+      "advice": "渐进中找到适合自己的位置。不强求最好，找到安稳立足点即可。",
+      "modern_meaning_en": "六四: 大雁渐飞到树上，恰得平枝栖息，无咎。",
+      "advice_en": "Advice: 渐进中找到适合自己的位置。不强求最好，找到安稳立足点即可。"
+    },
+    {
+      "position": "九五",
+      "original_text": "鸿渐于陵，妇三岁不孕，终莫之胜，吉",
+      "modern_meaning": "大雁渐飞到山陵，妻子三年不孕，但终究无人能取代她，吉祥。",
+      "advice": "暂时的不顺和等待不必焦虑。坚守信念、以德服人，最终必有所成。",
+      "modern_meaning_en": "九五: 大雁渐飞到山陵，妻子三年不孕，但终究无人能取代她，吉祥。",
+      "advice_en": "Advice: 暂时的不顺和等待不必焦虑。坚守信念、以德服人，最终必有所成。"
+    },
+    {
+      "position": "上九",
+      "original_text": "鸿渐于陆，其羽可用为仪，吉",
+      "modern_meaning": "大雁渐飞到高地，羽毛可作仪饰——功成身退、进退有序，吉祥。",
+      "advice": "循序渐进终达圆满。功成之后懂得保持风范和节操，进退皆宜。",
+      "modern_meaning_en": "上九: 大雁渐飞到高地，羽毛可作仪饰——功成身退、进退有序，吉祥。",
+      "advice_en": "Advice: 循序渐进终达圆满。功成之后懂得保持风范和节操，进退皆宜。"
+    }
+  ],
+  "归妹": [
+    {
+      "position": "初九",
+      "original_text": "归妹以娣，跛能履，征吉",
+      "modern_meaning": "以偏房身份出嫁，如跛脚之人勉强行走，出征则吉。",
+      "advice": "以低姿态入局虽不够光彩，但认清现实、做好本分也能逐步打开局面。",
+      "modern_meaning_en": "初九: 以偏房身份出嫁，如跛脚之人勉强行走，出征则吉。",
+      "advice_en": "Advice: 以低姿态入局虽不够光彩，但认清现实、做好本分也能逐步打开局面。"
+    },
+    {
+      "position": "九二",
+      "original_text": "眇能视，利幽人之贞",
+      "modern_meaning": "如同视力不佳者勉强视物，利于隐居守正之人。",
+      "advice": "条件不理想时不宜强出头。低调隐忍、守住本心，以静制动为上。",
+      "modern_meaning_en": "九二: 如同视力不佳者勉强视物，利于隐居守正之人。",
+      "advice_en": "Advice: 条件不理想时不宜强出头。低调隐忍、守住本心，以静制动为上。"
+    },
+    {
+      "position": "六三",
+      "original_text": "归妹以须，反归以娣",
+      "modern_meaning": "以轻率方式出嫁，结果被退回重作偏房——名分错位。",
+      "advice": "不守本分、急于攀高终将自取其辱。认清自己的位置，踏实做好该做的事。",
+      "modern_meaning_en": "六三: 以轻率方式出嫁，结果被退回重作偏房——名分错位。",
+      "advice_en": "Advice: 不守本分、急于攀高终将自取其辱。认清自己的位置，踏实做好该做的事。"
+    },
+    {
+      "position": "九四",
+      "original_text": "归妹愆期，迟归有时",
+      "modern_meaning": "出嫁误了佳期，推迟婚嫁反待其时。",
+      "advice": "条件不成熟时宁可不行动也不将就。等待真正合适的时机，好饭不怕晚。",
+      "modern_meaning_en": "九四: 出嫁误了佳期，推迟婚嫁反待其时。",
+      "advice_en": "Advice: 条件不成熟时宁可不行动也不将就。等待真正合适的时机，好饭不怕晚。"
+    },
+    {
+      "position": "六五",
+      "original_text": "帝乙归妹，其君之袂，不如其娣之袂良，月几望，吉",
+      "modern_meaning": "帝乙嫁女，正室的衣饰反不如偏房华美；近满月之时，吉祥。",
+      "advice": "以谦逊内敛胜过浮华张扬。品德修养重于外在排场，低调务实终获吉运。",
+      "modern_meaning_en": "六五: 帝乙嫁女，正室的衣饰反不如偏房华美；近满月之时，吉祥。",
+      "advice_en": "Advice: 以谦逊内敛胜过浮华张扬。品德修养重于外在排场，低调务实终获吉运。"
+    },
+    {
+      "position": "上六",
+      "original_text": "女承筐无实，士刲羊无血，无攸利",
+      "modern_meaning": "女子捧空筐无物，男子宰羊无血——有名无实，无所利。",
+      "advice": "形式到位但实质空虚终将一无所获。做事求真求实，切忌走过场。",
+      "modern_meaning_en": "上六: 女子捧空筐无物，男子宰羊无血——有名无实，无所利。",
+      "advice_en": "Advice: 形式到位但实质空虚终将一无所获。做事求真求实，切忌走过场。"
+    }
+  ],
+  "丰": [
+    {
+      "position": "初九",
+      "original_text": "遇其配主，虽旬无咎，往有尚",
+      "modern_meaning": "遇到与自己地位相当的主人，虽势均力敌但无咎，前往可获赞尚。",
+      "advice": "在丰盛时期遇到实力相当的伙伴。平等合作、互相尊重，携手共进。",
+      "modern_meaning_en": "初九: 遇到与自己地位相当的主人，虽势均力敌但无咎，前往可获赞尚。",
+      "advice_en": "Advice: 在丰盛时期遇到实力相当的伙伴。平等合作、互相尊重，携手共进。"
+    },
+    {
+      "position": "六二",
+      "original_text": "丰其蔀，日中见斗，往得疑疾，有孚发若，吉",
+      "modern_meaning": "遮蔽丰厚，日中竟见星斗；前往则招致猜疑，以诚信启发则吉。",
+      "advice": "盛极之中暗藏隐患，易遭误解。以真诚待人、主动沟通，消除猜忌。",
+      "modern_meaning_en": "六二: 遮蔽丰厚，日中竟见星斗；前往则招致猜疑，以诚信启发则吉。",
+      "advice_en": "Advice: 盛极之中暗藏隐患，易遭误解。以真诚待人、主动沟通，消除猜忌。"
+    },
+    {
+      "position": "九三",
+      "original_text": "丰其沛，日中见沫，折其右肱，无咎",
+      "modern_meaning": "遮蔽更厚，日中竟见小星；折断了右臂，但终无咎。",
+      "advice": "丰盛之下危机更深，可能遭受重创。接受暂时的损失，保存实力以图后举。",
+      "modern_meaning_en": "九三: 遮蔽更厚，日中竟见小星；折断了右臂，但终无咎。",
+      "advice_en": "Advice: 丰盛之下危机更深，可能遭受重创。接受暂时的损失，保存实力以图后举。"
+    },
+    {
+      "position": "九四",
+      "original_text": "丰其蔀，日中见斗，遇其夷主，吉",
+      "modern_meaning": "遮蔽丰厚，日中可见星斗；但遇到相匹的主人，吉祥。",
+      "advice": "困境中遇到志同道合者。携手合作、共同应对，终能转危为安。",
+      "modern_meaning_en": "九四: 遮蔽丰厚，日中可见星斗；但遇到相匹的主人，吉祥。",
+      "advice_en": "Advice: 困境中遇到志同道合者。携手合作、共同应对，终能转危为安。"
+    },
+    {
+      "position": "六五",
+      "original_text": "来章，有庆誉，吉",
+      "modern_meaning": "有贤德之人来归，带来福庆与美誉，吉祥。",
+      "advice": "在丰盛之时招纳贤才。礼贤下士、广聚人才，事业更上一层楼。",
+      "modern_meaning_en": "六五: 有贤德之人来归，带来福庆与美誉，吉祥。",
+      "advice_en": "Advice: 在丰盛之时招纳贤才。礼贤下士、广聚人才，事业更上一层楼。"
+    },
+    {
+      "position": "上六",
+      "original_text": "丰其屋，蔀其家，窥其户，阒其无人，三岁不觌，凶",
+      "modern_meaning": "丰大其屋室，遮蔽其家门，窥视其中空无一人，三年不见踪影，凶。",
+      "advice": "盛极而衰、自我封闭终致家破人亡。富有之时切忌骄纵隔绝，居安思危。",
+      "modern_meaning_en": "上六: 丰大其屋室，遮蔽其家门，窥视其中空无一人，三年不见踪影，凶。",
+      "advice_en": "Advice: 盛极而衰、自我封闭终致家破人亡。富有之时切忌骄纵隔绝，居安思危。"
+    }
+  ],
+  "旅": [
+    {
+      "position": "初六",
+      "original_text": "旅琐琐，斯其所取灾",
+      "modern_meaning": "旅途中琐碎猥琐，这是自取灾祸。",
+      "advice": "身处异乡或弱势时切忌卑微怯懦。保持尊严和气节，不卑不亢方能立足。",
+      "modern_meaning_en": "初六: 旅途中琐碎猥琐，这是自取灾祸。",
+      "advice_en": "Advice: 身处异乡或弱势时切忌卑微怯懦。保持尊严和气节，不卑不亢方能立足。"
+    },
+    {
+      "position": "六二",
+      "original_text": "旅即次，怀其资，得童仆，贞",
+      "modern_meaning": "旅人到了客舍，怀有资财，得到忠实的童仆，守正。",
+      "advice": "在外漂泊要备足资源、善待身边人。物质有保障、人心可靠则旅途安稳。",
+      "modern_meaning_en": "六二: 旅人到了客舍，怀有资财，得到忠实的童仆，守正。",
+      "advice_en": "Advice: 在外漂泊要备足资源、善待身边人。物质有保障、人心可靠则旅途安稳。"
+    },
+    {
+      "position": "九三",
+      "original_text": "旅焚其次，丧其童仆，贞厉",
+      "modern_meaning": "旅途中的客舍失火，丧失了童仆，守正以防危险。",
+      "advice": "在外遭遇意外变故时先求自保。接受损失、吸取教训，切忌慌乱盲动。",
+      "modern_meaning_en": "九三: 旅途中的客舍失火，丧失了童仆，守正以防危险。",
+      "advice_en": "Advice: 在外遭遇意外变故时先求自保。接受损失、吸取教训，切忌慌乱盲动。"
+    },
+    {
+      "position": "九四",
+      "original_text": "旅于处，得其资斧，我心不快",
+      "modern_meaning": "旅人暂居客处，获得资财工具，但内心不畅快。",
+      "advice": "在外虽有所得但终究不是长久之计。暂时安顿但谋划未来，寻找真正的归宿。",
+      "modern_meaning_en": "九四: 旅人暂居客处，获得资财工具，但内心不畅快。",
+      "advice_en": "Advice: 在外虽有所得但终究不是长久之计。暂时安顿但谋划未来，寻找真正的归宿。"
+    },
+    {
+      "position": "六五",
+      "original_text": "射雉，一矢亡，终以誉命",
+      "modern_meaning": "射猎野鸡，虽耗费一箭，终获美誉和任命。",
+      "advice": "在外付出必有回报。精准投入、展示实力，终将赢得认可与机遇。",
+      "modern_meaning_en": "六五: 射猎野鸡，虽耗费一箭，终获美誉和任命。",
+      "advice_en": "Advice: 在外付出必有回报。精准投入、展示实力，终将赢得认可与机遇。"
+    },
+    {
+      "position": "上九",
+      "original_text": "鸟焚其巢，旅人先笑后号咷，丧牛于易，凶",
+      "modern_meaning": "鸟巢失火，旅人先笑后哭，在边邑丧失了牛，凶险。",
+      "advice": "在外得意忘形终遭大祸。旅居异乡更要谨慎低调，居安思危方能全身而退。",
+      "modern_meaning_en": "上九: 鸟巢失火，旅人先笑后哭，在边邑丧失了牛，凶险。",
+      "advice_en": "Advice: 在外得意忘形终遭大祸。旅居异乡更要谨慎低调，居安思危方能全身而退。"
+    }
+  ],
+  "巽": [
+    {
+      "position": "初六",
+      "original_text": "进退，利武人之贞",
+      "modern_meaning": "进退犹疑，利于武人般刚毅守正。",
+      "advice": "犹豫不决时要果断行动。太过顺从反失主见，适度刚强方能成事。",
+      "modern_meaning_en": "初六: 进退犹疑，利于武人般刚毅守正。",
+      "advice_en": "Advice: 犹豫不决时要果断行动。太过顺从反失主见，适度刚强方能成事。"
+    },
+    {
+      "position": "九二",
+      "original_text": "巽在床下，用史巫纷若，吉无咎",
+      "modern_meaning": "伏顺于床下，用祝史巫师般频繁祭祀，吉祥无咎。",
+      "advice": "谦逊到了极点需要借助外力。诚恳求助、广结善缘，终获平安。",
+      "modern_meaning_en": "九二: 伏顺于床下，用祝史巫师般频繁祭祀，吉祥无咎。",
+      "advice_en": "Advice: 谦逊到了极点需要借助外力。诚恳求助、广结善缘，终获平安。"
+    },
+    {
+      "position": "九三",
+      "original_text": "频巽，吝",
+      "modern_meaning": "反复顺从退缩，令人鄙吝。",
+      "advice": "过度退让会丧失立场和尊严。该坚持时要坚持，一味退让并非美德。",
+      "modern_meaning_en": "九三: 反复顺从退缩，令人鄙吝。",
+      "advice_en": "Advice: 过度退让会丧失立场和尊严。该坚持时要坚持，一味退让并非美德。"
+    },
+    {
+      "position": "六四",
+      "original_text": "悔亡，田获三品",
+      "modern_meaning": "悔恨消失，田猎获得三种猎物——顺中有得。",
+      "advice": "以谦逊柔和之道行事也能有所收获。灵活变通、不拘一格，成效自现。",
+      "modern_meaning_en": "六四: 悔恨消失，田猎获得三种猎物——顺中有得。",
+      "advice_en": "Advice: 以谦逊柔和之道行事也能有所收获。灵活变通、不拘一格，成效自现。"
+    },
+    {
+      "position": "九五",
+      "original_text": "贞吉悔亡，无不利。无初有终，先庚三日，后庚三日，吉",
+      "modern_meaning": "守正吉祥、悔恨消失、无所不利；无初有终，先庚三日后庚三日，吉。",
+      "advice": "行事要有周密计划和缓冲。事前充分论证、事后检视总结，终得圆满。",
+      "modern_meaning_en": "九五: 守正吉祥、悔恨消失、无所不利；无初有终，先庚三日后庚三日，吉。",
+      "advice_en": "Advice: 行事要有周密计划和缓冲。事前充分论证、事后检视总结，终得圆满。"
+    },
+    {
+      "position": "上九",
+      "original_text": "巽在床下，丧其资斧，贞凶",
+      "modern_meaning": "伏顺于床下，丧失了资财工具，守正防凶。",
+      "advice": "谦卑过度反致损失。顺从要有底线和原则，否则人财两空。",
+      "modern_meaning_en": "上九: 伏顺于床下，丧失了资财工具，守正防凶。",
+      "advice_en": "Advice: 谦卑过度反致损失。顺从要有底线和原则，否则人财两空。"
+    }
+  ],
+  "兑": [
+    {
+      "position": "初九",
+      "original_text": "和兑，吉",
+      "modern_meaning": "以和悦待人，吉祥。",
+      "advice": "以真诚和善的态度与人交往。和气生财，愉悦的心情是最好的沟通桥梁。",
+      "modern_meaning_en": "初九: 以和悦待人，吉祥。",
+      "advice_en": "Advice: 以真诚和善的态度与人交往。和气生财，愉悦的心情是最好的沟通桥梁。"
+    },
+    {
+      "position": "九二",
+      "original_text": "孚兑，吉，悔亡",
+      "modern_meaning": "以诚信待人而和悦，吉祥，悔恨消失。",
+      "advice": "和悦之中须有真诚为底。以信立身、以诚待人，人际关系自然和谐。",
+      "modern_meaning_en": "九二: 以诚信待人而和悦，吉祥，悔恨消失。",
+      "advice_en": "Advice: 和悦之中须有真诚为底。以信立身、以诚待人，人际关系自然和谐。"
+    },
+    {
+      "position": "六三",
+      "original_text": "来兑，凶",
+      "modern_meaning": "主动来取悦于人，凶险。",
+      "advice": "刻意讨好谄媚终将适得其反。保持真我不卑不亢，谄媚只会丧失尊严。",
+      "modern_meaning_en": "六三: 主动来取悦于人，凶险。",
+      "advice_en": "Advice: 刻意讨好谄媚终将适得其反。保持真我不卑不亢，谄媚只会丧失尊严。"
+    },
+    {
+      "position": "九四",
+      "original_text": "商兑未宁，介疾有喜",
+      "modern_meaning": "商讨和悦之事尚未安定，但有果断之疾则终有喜。",
+      "advice": "在合作中坦诚交流、消除隔阂。果断处理分歧，不必久拖不决。",
+      "modern_meaning_en": "九四: 商讨和悦之事尚未安定，但有果断之疾则终有喜。",
+      "advice_en": "Advice: 在合作中坦诚交流、消除隔阂。果断处理分歧，不必久拖不决。"
+    },
+    {
+      "position": "九五",
+      "original_text": "孚于剥，有厉",
+      "modern_meaning": "信任善于剥取之人，有危险。",
+      "advice": "警惕巧言令色之人。花言巧语背后常藏祸心，勿被表面和悦迷惑。",
+      "modern_meaning_en": "九五: 信任善于剥取之人，有危险。",
+      "advice_en": "Advice: 警惕巧言令色之人。花言巧语背后常藏祸心，勿被表面和悦迷惑。"
+    },
+    {
+      "position": "上六",
+      "original_text": "引兑",
+      "modern_meaning": "以引诱取悦于人——被人牵制利用。",
+      "advice": "靠诱惑和手段笼络人心终非正道。以德服人而非以术驭人，方能长久。",
+      "modern_meaning_en": "上六: 以引诱取悦于人——被人牵制利用。",
+      "advice_en": "Advice: 靠诱惑和手段笼络人心终非正道。以德服人而非以术驭人，方能长久。"
+    }
+  ],
+  "涣": [
+    {
+      "position": "初六",
+      "original_text": "用拯马壮，吉",
+      "modern_meaning": "以壮马拯救涣散之势，吉祥。",
+      "advice": "面对涣散局面需要强有力的行动。及时出手、迅速应对，以实力稳定局面。",
+      "modern_meaning_en": "初六: 以壮马拯救涣散之势，吉祥。",
+      "advice_en": "Advice: 面对涣散局面需要强有力的行动。及时出手、迅速应对，以实力稳定局面。"
+    },
+    {
+      "position": "九二",
+      "original_text": "涣奔其机，悔亡",
+      "modern_meaning": "涣散之际奔向凭依之所，悔恨消失。",
+      "advice": "动荡分散时迅速找到可靠的靠山。趋利避害、择善而从，稳住阵脚。",
+      "modern_meaning_en": "九二: 涣散之际奔向凭依之所，悔恨消失。",
+      "advice_en": "Advice: 动荡分散时迅速找到可靠的靠山。趋利避害、择善而从，稳住阵脚。"
+    },
+    {
+      "position": "六三",
+      "original_text": "涣其躬，无悔",
+      "modern_meaning": "涣散自身——舍弃私利，无悔。",
+      "advice": "在涣散之际不恋私利。舍得放下、无私奉献，终无悔恨。",
+      "modern_meaning_en": "六三: 涣散自身——舍弃私利，无悔。",
+      "advice_en": "Advice: 在涣散之际不恋私利。舍得放下、无私奉献，终无悔恨。"
+    },
+    {
+      "position": "六四",
+      "original_text": "涣其群，元吉。涣有丘，匪夷所思",
+      "modern_meaning": "解散朋党小团体，大吉；涣散中有丘阜般的凝聚力，非常人所能想到。",
+      "advice": "打破小圈子利益、化解门户之见。大公无私、团结众力，成就非凡。",
+      "modern_meaning_en": "六四: 解散朋党小团体，大吉；涣散中有丘阜般的凝聚力，非常人所能想到。",
+      "advice_en": "Advice: 打破小圈子利益、化解门户之见。大公无私、团结众力，成就非凡。"
+    },
+    {
+      "position": "九五",
+      "original_text": "涣汗其大号，涣王居，无咎",
+      "modern_meaning": "涣散如汗出而不返，君王大号令散发府库财物，无咎。",
+      "advice": "果断决断、号令如汗出不可收。慷慨施惠、恩泽广布，凝聚人心。",
+      "modern_meaning_en": "九五: 涣散如汗出而不返，君王大号令散发府库财物，无咎。",
+      "advice_en": "Advice: 果断决断、号令如汗出不可收。慷慨施惠、恩泽广布，凝聚人心。"
+    },
+    {
+      "position": "上九",
+      "original_text": "涣其血，去逖出，无咎",
+      "modern_meaning": "涣散其血瘀之患，远离险境，无咎。",
+      "advice": "化解深层的矛盾和积怨。彻底根除隐患，远走高飞脱离险地。",
+      "modern_meaning_en": "上九: 涣散其血瘀之患，远离险境，无咎。",
+      "advice_en": "Advice: 化解深层的矛盾和积怨。彻底根除隐患，远走高飞脱离险地。"
+    }
+  ],
+  "节": [
+    {
+      "position": "初九",
+      "original_text": "不出户庭，无咎",
+      "modern_meaning": "不出门户庭院，无咎。",
+      "advice": "节制之道从自我约束开始。该收则收、不越雷池，守好本分则平安无事。",
+      "modern_meaning_en": "初九: 不出门户庭院，无咎。",
+      "advice_en": "Advice: 节制之道从自我约束开始。该收则收、不越雷池，守好本分则平安无事。"
+    },
+    {
+      "position": "九二",
+      "original_text": "不出门庭，凶",
+      "modern_meaning": "不出门庭院落，凶险——该出手时却缩手，错失良机。",
+      "advice": "过度节制等于自我封闭。该行动时要果断，因噎废食终将错失机遇。",
+      "modern_meaning_en": "九二: 不出门庭院落，凶险——该出手时却缩手，错失良机。",
+      "advice_en": "Advice: 过度节制等于自我封闭。该行动时要果断，因噎废食终将错失机遇。"
+    },
+    {
+      "position": "六三",
+      "original_text": "不节若，则嗟若，无咎",
+      "modern_meaning": "不能自我节制，就会唉声叹气，但终无咎。",
+      "advice": "缺乏自律会导致后悔和抱怨。趁早培养节制习惯，亡羊补牢犹未晚。",
+      "modern_meaning_en": "六三: 不能自我节制，就会唉声叹气，但终无咎。",
+      "advice_en": "Advice: 缺乏自律会导致后悔和抱怨。趁早培养节制习惯，亡羊补牢犹未晚。"
+    },
+    {
+      "position": "六四",
+      "original_text": "安节，亨",
+      "modern_meaning": "安于节制，通达顺利。",
+      "advice": "把节制变成自然而然的习惯。自我约束而不觉痛苦，生活自然顺遂。",
+      "modern_meaning_en": "六四: 安于节制，通达顺利。",
+      "advice_en": "Advice: 把节制变成自然而然的习惯。自我约束而不觉痛苦，生活自然顺遂。"
+    },
+    {
+      "position": "九五",
+      "original_text": "甘节，吉，往有尚",
+      "modern_meaning": "甘心乐意地节制，吉祥，前往可获嘉尚。",
+      "advice": "发自内心地享受节制的美好。适度自律带来高品质生活，积极践行。",
+      "modern_meaning_en": "九五: 甘心乐意地节制，吉祥，前往可获嘉尚。",
+      "advice_en": "Advice: 发自内心地享受节制的美好。适度自律带来高品质生活，积极践行。"
+    },
+    {
+      "position": "上六",
+      "original_text": "苦节，贞凶，悔亡",
+      "modern_meaning": "节制到了苦不堪言的地步，守正防凶；虽可无悔但不可取。",
+      "advice": "过度节制如同苦行，物极必反。凡事有度，走极端终将难以为继。",
+      "modern_meaning_en": "上六: 节制到了苦不堪言的地步，守正防凶；虽可无悔但不可取。",
+      "advice_en": "Advice: 过度节制如同苦行，物极必反。凡事有度，走极端终将难以为继。"
+    }
+  ],
+  "中孚": [
+    {
+      "position": "初九",
+      "original_text": "虞吉，有它不燕",
+      "modern_meaning": "安守诚信则吉，但有变故则会不安。",
+      "advice": "以诚信立身则安宁吉祥。但诚信也要灵活，遇到变故不可一味拘泥。",
+      "modern_meaning_en": "初九: 安守诚信则吉，但有变故则会不安。",
+      "advice_en": "Advice: 以诚信立身则安宁吉祥。但诚信也要灵活，遇到变故不可一味拘泥。"
+    },
+    {
+      "position": "九二",
+      "original_text": "鸣鹤在阴，其子和之，我有好爵，吾与尔靡之",
+      "modern_meaning": "鹤鸣于幽阴之处，其子和应；我有美酒佳肴，愿与你共享。",
+      "advice": "诚信能感召共鸣。以真心待人必有知音响应，分享善意、广结善缘。",
+      "modern_meaning_en": "九二: 鹤鸣于幽阴之处，其子和应；我有美酒佳肴，愿与你共享。",
+      "advice_en": "Advice: 诚信能感召共鸣。以真心待人必有知音响应，分享善意、广结善缘。"
+    },
+    {
+      "position": "六三",
+      "original_text": "得敌，或鼓或罢，或泣或歌",
+      "modern_meaning": "遇到强敌，时而击鼓、时而罢兵，时而哭泣、时而歌唱——心无定主。",
+      "advice": "内心不坚定则进退失据。守住诚信和主见，不被外界牵着鼻子走。",
+      "modern_meaning_en": "六三: 遇到强敌，时而击鼓、时而罢兵，时而哭泣、时而歌唱——心无定主。",
+      "advice_en": "Advice: 内心不坚定则进退失据。守住诚信和主见，不被外界牵着鼻子走。"
+    },
+    {
+      "position": "六四",
+      "original_text": "月几望，马匹亡，无咎",
+      "modern_meaning": "近满月之时，马匹走失，无咎——诚信之中有所失也无妨。",
+      "advice": "秉持诚信即使有损失也不必太过在意。失之东隅收之桑榆，不必焦虑。",
+      "modern_meaning_en": "六四: 近满月之时，马匹走失，无咎——诚信之中有所失也无妨。",
+      "advice_en": "Advice: 秉持诚信即使有损失也不必太过在意。失之东隅收之桑榆，不必焦虑。"
+    },
+    {
+      "position": "九五",
+      "original_text": "有孚挛如，无咎",
+      "modern_meaning": "诚信如绳索般紧系不断，无咎。",
+      "advice": "以坚定的信念维系人际纽带。始终如一、信守承诺，关系稳固则平安。",
+      "modern_meaning_en": "九五: 诚信如绳索般紧系不断，无咎。",
+      "advice_en": "Advice: 以坚定的信念维系人际纽带。始终如一、信守承诺，关系稳固则平安。"
+    },
+    {
+      "position": "上九",
+      "original_text": "翰音登于天，贞凶",
+      "modern_meaning": "鸡鸣之声升上天——名不副实，守正防凶。",
+      "advice": "诚信不可虚张声势。言行一致、名副其实，夸夸其谈终将露出破绽。",
+      "modern_meaning_en": "上九: 鸡鸣之声升上天——名不副实，守正防凶。",
+      "advice_en": "Advice: 诚信不可虚张声势。言行一致、名副其实，夸夸其谈终将露出破绽。"
+    }
+  ],
+  "小过": [
+    {
+      "position": "初六",
+      "original_text": "飞鸟以凶",
+      "modern_meaning": "飞鸟好高骛远则有凶险——小事可过，大事不可。",
+      "advice": "量力而行，切勿好高骛远。做超出能力范围的事只会招来灾祸。",
+      "modern_meaning_en": "初六: 飞鸟好高骛远则有凶险——小事可过，大事不可。",
+      "advice_en": "Advice: 量力而行，切勿好高骛远。做超出能力范围的事只会招来灾祸。"
+    },
+    {
+      "position": "六二",
+      "original_text": "过其祖，遇其妣，不及其君，遇其臣，无咎",
+      "modern_meaning": "越过祖父而遇到祖母，没赶上君王却遇到臣子，无咎——适度超越无碍。",
+      "advice": "在小事上灵活变通无妨。错过大的机遇但抓住小的也不错，不必强求完美。",
+      "modern_meaning_en": "六二: 越过祖父而遇到祖母，没赶上君王却遇到臣子，无咎——适度超越无碍。",
+      "advice_en": "Advice: 在小事上灵活变通无妨。错过大的机遇但抓住小的也不错，不必强求完美。"
+    },
+    {
+      "position": "九三",
+      "original_text": "弗过防之，从或戕之，凶",
+      "modern_meaning": "不防备过度之事，反而可能被伤害，凶险。",
+      "advice": "不可掉以轻心。凡事预则立，小过失如果不防备也会酿成大祸。",
+      "modern_meaning_en": "九三: 不防备过度之事，反而可能被伤害，凶险。",
+      "advice_en": "Advice: 不可掉以轻心。凡事预则立，小过失如果不防备也会酿成大祸。"
+    },
+    {
+      "position": "九四",
+      "original_text": "无咎，弗过遇之，往厉必戒，勿用永贞",
+      "modern_meaning": "无咎，不过度而恰到好处地应对；冒进则有险须戒，不可永久固执。",
+      "advice": "把握分寸、恰到好处。该进则进该退则退，灵活应对不拘一格。",
+      "modern_meaning_en": "九四: 无咎，不过度而恰到好处地应对；冒进则有险须戒，不可永久固执。",
+      "advice_en": "Advice: 把握分寸、恰到好处。该进则进该退则退，灵活应对不拘一格。"
+    },
+    {
+      "position": "六五",
+      "original_text": "密云不雨，自我西郊，公弋取彼在穴",
+      "modern_meaning": "密云不雨，从西郊而来；王公射猎取穴中之物——宜守不宜进。",
+      "advice": "条件不成熟时不宜大动作。耐心等待时机，做好眼前能做的小事。",
+      "modern_meaning_en": "六五: 密云不雨，从西郊而来；王公射猎取穴中之物——宜守不宜进。",
+      "advice_en": "Advice: 条件不成熟时不宜大动作。耐心等待时机，做好眼前能做的小事。"
+    },
+    {
+      "position": "上六",
+      "original_text": "弗遇过之，飞鸟离之，凶，是谓灾眚",
+      "modern_meaning": "既不遇合又过度前行，如飞鸟遭网罟之灾，凶——此乃灾眚。",
+      "advice": "不知收敛、一味冒进终将招灾。认清形势、适可而止，切勿贪进。",
+      "modern_meaning_en": "上六: 既不遇合又过度前行，如飞鸟遭网罟之灾，凶——此乃灾眚。",
+      "advice_en": "Advice: 不知收敛、一味冒进终将招灾。认清形势、适可而止，切勿贪进。"
+    }
+  ],
+  "既济": [
+    {
+      "position": "初九",
+      "original_text": "曳其轮，濡其尾，无咎",
+      "modern_meaning": "拉住车轮、沾湿了尾巴，无咎——成功之初须谨慎克制。",
+      "advice": "成功之初不可冒进。适度节制前进速度，稳扎稳打方能保住成果。",
+      "modern_meaning_en": "初九: 拉住车轮、沾湿了尾巴，无咎——成功之初须谨慎克制。",
+      "advice_en": "Advice: 成功之初不可冒进。适度节制前进速度，稳扎稳打方能保住成果。"
+    },
+    {
+      "position": "六二",
+      "original_text": "妇丧其茀，勿逐，七日得",
+      "modern_meaning": "妇人丢失了首饰，不必追寻，七日可得。",
+      "advice": "成功之后难免有小损失。不必过分焦虑，顺其自然终会失而复得。",
+      "modern_meaning_en": "六二: 妇人丢失了首饰，不必追寻，七日可得。",
+      "advice_en": "Advice: 成功之后难免有小损失。不必过分焦虑，顺其自然终会失而复得。"
+    },
+    {
+      "position": "九三",
+      "original_text": "高宗伐鬼方，三年克之，小人勿用",
+      "modern_meaning": "高宗征伐鬼方三年才胜，不可任用小人。",
+      "advice": "大事已成但巩固不易。善用贤能、远离小人，艰难取得的成果要好好守护。",
+      "modern_meaning_en": "九三: 高宗征伐鬼方三年才胜，不可任用小人。",
+      "advice_en": "Advice: 大事已成但巩固不易。善用贤能、远离小人，艰难取得的成果要好好守护。"
+    },
+    {
+      "position": "六四",
+      "original_text": "繻有衣袽，终日戒",
+      "modern_meaning": "华美衣裳中有破旧絮衣，终日戒备——居安思危。",
+      "advice": "成功之后更要警惕隐患。表面光鲜更要关注内在漏洞，时刻保持警觉。",
+      "modern_meaning_en": "六四: 华美衣裳中有破旧絮衣，终日戒备——居安思危。",
+      "advice_en": "Advice: 成功之后更要警惕隐患。表面光鲜更要关注内在漏洞，时刻保持警觉。"
+    },
+    {
+      "position": "九五",
+      "original_text": "东邻杀牛，不如西邻之禴祭，实受其福",
+      "modern_meaning": "东邻杀牛大祭，不如西邻虔诚的禴祭，实受其福。",
+      "advice": "真诚胜过排场。事业的维系在于诚心而非形式，以诚相待福泽自来。",
+      "modern_meaning_en": "九五: 东邻杀牛大祭，不如西邻虔诚的禴祭，实受其福。",
+      "advice_en": "Advice: 真诚胜过排场。事业的维系在于诚心而非形式，以诚相待福泽自来。"
+    },
+    {
+      "position": "上六",
+      "original_text": "濡其首，厉",
+      "modern_meaning": "沾湿了头部，危险——成功后懈怠则危。",
+      "advice": "成功之后切忌沾沾自喜、放松警惕。盛极而衰是常理，居安思危方能长久。",
+      "modern_meaning_en": "上六: 沾湿了头部，危险——成功后懈怠则危。",
+      "advice_en": "Advice: 成功之后切忌沾沾自喜、放松警惕。盛极而衰是常理，居安思危方能长久。"
+    }
+  ],
+  "未济": [
+    {
+      "position": "初六",
+      "original_text": "濡其尾，吝",
+      "modern_meaning": "沾湿了尾巴，有所吝惜——事未成时不宜冒进。",
+      "advice": "事业未成之时要谨慎前行。急于求成反而拖后腿，稳步推进方为上策。",
+      "modern_meaning_en": "初六: 沾湿了尾巴，有所吝惜——事未成时不宜冒进。",
+      "advice_en": "Advice: 事业未成之时要谨慎前行。急于求成反而拖后腿，稳步推进方为上策。"
+    },
+    {
+      "position": "九二",
+      "original_text": "曳其轮，贞吉",
+      "modern_meaning": "拉住车轮不急进，守正则吉。",
+      "advice": "在过渡时期要控制节奏。不急于前冲、稳住阵脚，守正道则吉祥。",
+      "modern_meaning_en": "九二: 拉住车轮不急进，守正则吉。",
+      "advice_en": "Advice: 在过渡时期要控制节奏。不急于前冲、稳住阵脚，守正道则吉祥。"
+    },
+    {
+      "position": "六三",
+      "original_text": "未济，征凶，利涉大川",
+      "modern_meaning": "事业未成，冒进则凶；但利于涉渡大河——险中有机遇。",
+      "advice": "在未完成阶段要有冒险的勇气。敢于在不确定中把握机遇，但要评估风险。",
+      "modern_meaning_en": "六三: 事业未成，冒进则凶；但利于涉渡大河——险中有机遇。",
+      "advice_en": "Advice: 在未完成阶段要有冒险的勇气。敢于在不确定中把握机遇，但要评估风险。"
+    },
+    {
+      "position": "九四",
+      "original_text": "贞吉，悔亡，震用伐鬼方，三年有赏于大国",
+      "modern_meaning": "守正吉祥、悔恨消失，以雷霆之势伐鬼方三年而获封赏。",
+      "advice": "坚持正道终将成功。即使前路漫长，持之以恒、奋发图强必有回报。",
+      "modern_meaning_en": "九四: 守正吉祥、悔恨消失，以雷霆之势伐鬼方三年而获封赏。",
+      "advice_en": "Advice: 坚持正道终将成功。即使前路漫长，持之以恒、奋发图强必有回报。"
+    },
+    {
+      "position": "六五",
+      "original_text": "贞吉，无悔，君子之光，有孚，吉",
+      "modern_meaning": "守正无悔，君子光辉照人，心怀诚信，吉祥。",
+      "advice": "以光明磊落的品格和诚信赢得尊重。君子之风自然发光，以德服人终获吉运。",
+      "modern_meaning_en": "六五: 守正无悔，君子光辉照人，心怀诚信，吉祥。",
+      "advice_en": "Advice: 以光明磊落的品格和诚信赢得尊重。君子之风自然发光，以德服人终获吉运。"
+    },
+    {
+      "position": "上九",
+      "original_text": "有孚于饮酒，无咎，濡其首，有孚失是",
+      "modern_meaning": "以诚信之心饮酒享乐无咎；但若沉溺沾湿其首，虽有诚信也失了分寸。",
+      "advice": "事业将成之时可以适度庆贺放松。但不可得意忘形，乐而有度方不失分寸。",
+      "modern_meaning_en": "上九: 以诚信之心饮酒享乐无咎；但若沉溺沾湿其首，虽有诚信也失了分寸。",
+      "advice_en": "Advice: 事业将成之时可以适度庆贺放松。但不可得意忘形，乐而有度方不失分寸。"
+    }
+  ]
+}

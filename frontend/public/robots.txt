@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+# Latestname · 此刻之名
+# © 2026 Ruihan Lin (@linmy666)
+# Crafted with ◇ in Shanghai / Hangzhou

@@ -1,0 +1,14 @@
+/* TEAM */
+Creator & Developer: Ruihan Lin
+GitHub: @linmy666
+Role: Everything (design, backend, frontend, divination algorithms)
+
+/* THANKS */
+维基文库 (Wikisource) — 周易原文
+Arthur Edward Waite & Pamela Colman Smith — Rider-Waite Tarot (1909)
+
+/* SITE */
+Last update: 2026
+Language: Chinese (Simplified) / English
+Tools: React + Vite + FastAPI + Python
+Philosophy: 确定性算法排盘，AI 只做叙事化

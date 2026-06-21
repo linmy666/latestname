@@ -1,0 +1,2842 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "name_cn": "愚者",
+    "arcana": "major",
+    "suit": null,
+    "number": 0,
+    "keywords": [
+      "新开始",
+      "自由",
+      "纯真",
+      "冒险"
+    ],
+    "keywords_reversed": [
+      "鲁莽",
+      "犹豫",
+      "迷失"
+    ],
+    "upright_meaning": "新的开始，纯粹的潜力与冒险。天真、自由、对未知的开放态度。",
+    "reversed_meaning": "鲁莽、轻率、错失良机、被表象迷惑。",
+    "element": "风",
+    "name_en": "The Fool",
+    "upright_meaning_en": "New beginnings, pure potential and adventure. Naivety, freedom, and an open attitude toward the unknown.",
+    "reversed_meaning_en": "Recklessness, hesitation, and missed opportunities. Being misled by appearances.",
+    "keywords_en": [
+      "new beginnings",
+      "freedom",
+      "innocence",
+      "adventure"
+    ],
+    "keywords_reversed_en": [
+      "recklessness",
+      "hesitation",
+      "lost"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "The Magician",
+    "name_cn": "魔术师",
+    "arcana": "major",
+    "suit": null,
+    "number": 1,
+    "keywords": [
+      "创造力",
+      "技能",
+      "主动",
+      "专注"
+    ],
+    "keywords_reversed": [
+      "操控",
+      "欺骗",
+      "犹豫"
+    ],
+    "upright_meaning": "掌握工具、化腐朽为神奇的能力。技能、意志、主动创造。",
+    "reversed_meaning": "操纵、欺骗、能力未用、优柔寡断。",
+    "element": "水星",
+    "name_en": "The Magician",
+    "upright_meaning_en": "Mastery of tools, the ability to turn the ordinary into the extraordinary. Skill, will, and proactive creation.",
+    "reversed_meaning_en": "Manipulation, deception, unused abilities, and indecisiveness.",
+    "keywords_en": [
+      "creativity",
+      "skill",
+      "initiative",
+      "focus"
+    ],
+    "keywords_reversed_en": [
+      "manipulation",
+      "deception",
+      "hesitation"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "name_cn": "女祭司",
+    "arcana": "major",
+    "suit": null,
+    "number": 2,
+    "keywords": [
+      "直觉",
+      "智慧",
+      "神秘",
+      "内省"
+    ],
+    "keywords_reversed": [
+      "忽视",
+      "表浅",
+      "心烦"
+    ],
+    "upright_meaning": "直觉、潜意识、深层智慧。安静的力量、内在的指引。",
+    "reversed_meaning": "忽视直觉、秘密暴露、表面化、喧嚣遮蔽真相。",
+    "element": "月亮",
+    "name_en": "The High Priestess",
+    "upright_meaning_en": "Intuition, subconscious, and deep wisdom. The quiet power of inner guidance.",
+    "reversed_meaning_en": "Neglecting intuition, secrets exposed, superficiality, and noise obscuring truth.",
+    "keywords_en": [
+      "intuition",
+      "wisdom",
+      "mystery",
+      "introspection"
+    ],
+    "keywords_reversed_en": [
+      "neglect",
+      "superficiality",
+      "restlessness"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Empress",
+    "name_cn": "皇后",
+    "arcana": "major",
+    "suit": null,
+    "number": 3,
+    "keywords": [
+      "丰盛",
+      "母性",
+      "美感",
+      "孕育"
+    ],
+    "keywords_reversed": [
+      "依赖",
+      "枯竭",
+      "忽视"
+    ],
+    "upright_meaning": "丰饶、母性、感官之美。创造力、自然、滋养。",
+    "reversed_meaning": "依赖、过度保护、创意枯竭、忽视自身。",
+    "element": "金星",
+    "name_en": "The Empress",
+    "upright_meaning_en": "Abundance, motherhood, and sensory beauty. Creativity, nature, and nourishment.",
+    "reversed_meaning_en": "Dependence, overprotection, creative depletion, and neglecting oneself.",
+    "keywords_en": [
+      "abundance",
+      "motherhood",
+      "beauty",
+      "fertility"
+    ],
+    "keywords_reversed_en": [
+      "dependence",
+      "depletion",
+      "neglect"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "name_cn": "皇帝",
+    "arcana": "major",
+    "suit": null,
+    "number": 4,
+    "keywords": [
+      "权威",
+      "秩序",
+      "稳定",
+      "掌控"
+    ],
+    "keywords_reversed": [
+      "专制",
+      "僵化",
+      "失控"
+    ],
+    "upright_meaning": "权威、结构、稳定、掌控。父亲般的引导与秩序。",
+    "reversed_meaning": "专制、僵化、滥用权力、失控。",
+    "element": "白羊",
+    "name_en": "The Emperor",
+    "upright_meaning_en": "Authority, structure, stability, and control. Fatherly guidance and order.",
+    "reversed_meaning_en": "Tyranny, rigidity, abuse of power, and loss of control.",
+    "keywords_en": [
+      "authority",
+      "order",
+      "stability",
+      "control"
+    ],
+    "keywords_reversed_en": [
+      "tyranny",
+      "rigidity",
+      "loss of control"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "name_cn": "教皇",
+    "arcana": "major",
+    "suit": null,
+    "number": 5,
+    "keywords": [
+      "传统",
+      "信仰",
+      "教育",
+      "传承"
+    ],
+    "keywords_reversed": [
+      "反叛",
+      "教条",
+      "虚伪"
+    ],
+    "upright_meaning": "传统、信仰、教育、体制。通过既有体系获得的智慧。",
+    "reversed_meaning": "反叛、虚伪、教条、体制压迫。",
+    "element": "金牛",
+    "name_en": "The Hierophant",
+    "upright_meaning_en": "Tradition, faith, education, and institution. Wisdom gained through established systems.",
+    "reversed_meaning_en": "Rebellion, hypocrisy, dogma, and institutional oppression.",
+    "keywords_en": [
+      "tradition",
+      "faith",
+      "education",
+      "inheritance"
+    ],
+    "keywords_reversed_en": [
+      "rebellion",
+      "dogma",
+      "hypocrisy"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The Lovers",
+    "name_cn": "恋人",
+    "arcana": "major",
+    "suit": null,
+    "number": 6,
+    "keywords": [
+      "爱情",
+      "选择",
+      "和谐",
+      "结合"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "冲突",
+      "误选"
+    ],
+    "upright_meaning": "爱、关系、价值选择。深刻的结合与抉择。",
+    "reversed_meaning": "失衡、错误选择、价值冲突、关系破裂。",
+    "element": "双子",
+    "name_en": "The Lovers",
+    "upright_meaning_en": "Love, relationships, and value choices. Deep union and decision-making.",
+    "reversed_meaning_en": "Imbalance, wrong choices, value conflicts, and relationship breakdown.",
+    "keywords_en": [
+      "love",
+      "choice",
+      "harmony",
+      "union"
+    ],
+    "keywords_reversed_en": [
+      "imbalance",
+      "conflict",
+      "wrong choice"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Chariot",
+    "name_cn": "战车",
+    "arcana": "major",
+    "suit": null,
+    "number": 7,
+    "keywords": [
+      "胜利",
+      "意志",
+      "前进",
+      "自控"
+    ],
+    "keywords_reversed": [
+      "失控",
+      "冲突",
+      "迷失"
+    ],
+    "upright_meaning": "意志、胜利、驾驭冲突。靠决心与自律达成目标。",
+    "reversed_meaning": "失控、缺乏方向、内在冲突、鲁莽冒进。",
+    "element": "巨蟹",
+    "name_en": "The Chariot",
+    "upright_meaning_en": "Will, victory, and navigating conflict. Achieving goals through determination and self-discipline.",
+    "reversed_meaning_en": "Loss of control, lack of direction, inner conflict, and reckless advancement.",
+    "keywords_en": [
+      "victory",
+      "willpower",
+      "progress",
+      "self-control"
+    ],
+    "keywords_reversed_en": [
+      "loss of control",
+      "conflict",
+      "lost"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Strength",
+    "name_cn": "力量",
+    "arcana": "major",
+    "suit": null,
+    "number": 8,
+    "keywords": [
+      "勇气",
+      "柔韧",
+      "耐心",
+      "自制"
+    ],
+    "keywords_reversed": [
+      "软弱",
+      "压抑",
+      "失控"
+    ],
+    "upright_meaning": "柔中带刚、以柔克刚的力量。耐心、慈悲、驯服本能。",
+    "reversed_meaning": "软弱、自我怀疑、压抑、失去控制。",
+    "element": "狮子",
+    "name_en": "Strength",
+    "upright_meaning_en": "Strength through gentleness, overcoming hardness with softness. Patience, compassion, and taming instincts.",
+    "reversed_meaning_en": "Weakness, self-doubt, suppression, and loss of control.",
+    "keywords_en": [
+      "courage",
+      "gentleness",
+      "patience",
+      "restraint"
+    ],
+    "keywords_reversed_en": [
+      "weakness",
+      "suppression",
+      "loss of control"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "The Hermit",
+    "name_cn": "隐者",
+    "arcana": "major",
+    "suit": null,
+    "number": 9,
+    "keywords": [
+      "内省",
+      "智慧",
+      "孤独",
+      "指引"
+    ],
+    "keywords_reversed": [
+      "孤立",
+      "封闭",
+      "逃避"
+    ],
+    "upright_meaning": "独处、内省、寻找真理的孤独旅程。内在的指引之光。",
+    "reversed_meaning": "孤立、逃避、过度封闭、迷失方向。",
+    "element": "处女",
+    "name_en": "The Hermit",
+    "upright_meaning_en": "Solitude, introspection, and the lonely journey in search of truth. The inner light of guidance.",
+    "reversed_meaning_en": "Isolation, escape, excessive withdrawal, and losing direction.",
+    "keywords_en": [
+      "introspection",
+      "wisdom",
+      "solitude",
+      "guidance"
+    ],
+    "keywords_reversed_en": [
+      "isolation",
+      "withdrawal",
+      "escape"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wheel of Fortune",
+    "name_cn": "命运之轮",
+    "arcana": "major",
+    "suit": null,
+    "number": 10,
+    "keywords": [
+      "转折",
+      "机遇",
+      "轮回",
+      "命运"
+    ],
+    "keywords_reversed": [
+      "厄运",
+      "错失",
+      "僵局"
+    ],
+    "upright_meaning": "轮回、转折、命运的起伏。把握变化中的机遇。",
+    "reversed_meaning": "厄运、抗拒变化、错失良机、恶性循环。",
+    "element": "木星",
+    "name_en": "Wheel of Fortune",
+    "upright_meaning_en": "Cycles, turning points, and the ups and downs of fate. Seizing opportunities within change.",
+    "reversed_meaning_en": "Bad luck, resisting change, missed opportunities, and vicious cycles.",
+    "keywords_en": [
+      "turning point",
+      "opportunity",
+      "cycle",
+      "destiny"
+    ],
+    "keywords_reversed_en": [
+      "misfortune",
+      "missed opportunity",
+      "stagnation"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Justice",
+    "name_cn": "正义",
+    "arcana": "major",
+    "suit": null,
+    "number": 11,
+    "keywords": [
+      "公正",
+      "真相",
+      "因果",
+      "理性"
+    ],
+    "keywords_reversed": [
+      "不公",
+      "偏颇",
+      "逃避"
+    ],
+    "upright_meaning": "公平、真相、因果报应。理性与权衡之后的裁决。",
+    "reversed_meaning": "不公、偏颇、逃避责任、失衡。",
+    "element": "天秤",
+    "name_en": "Justice",
+    "upright_meaning_en": "Fairness, truth, and karmic retribution. Ruling after rational deliberation.",
+    "reversed_meaning_en": "Injustice, bias, avoiding responsibility, and imbalance.",
+    "keywords_en": [
+      "justice",
+      "truth",
+      "karma",
+      "reason"
+    ],
+    "keywords_reversed_en": [
+      "injustice",
+      "bias",
+      "avoidance"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "The Hanged Man",
+    "name_cn": "倒吊人",
+    "arcana": "major",
+    "suit": null,
+    "number": 12,
+    "keywords": [
+      "暂停",
+      "牺牲",
+      "换位",
+      "洞见"
+    ],
+    "keywords_reversed": [
+      "徒劳",
+      "停滞",
+      "抗拒"
+    ],
+    "upright_meaning": "牺牲、换位思考、暂停中的洞见。悬而未决反而开启新视角。",
+    "reversed_meaning": "无谓牺牲、抗拒、停滞、徒劳。",
+    "element": "海王星",
+    "name_en": "The Hanged Man",
+    "upright_meaning_en": "Sacrifice, perspective shift, and insight in suspension. The unresolved opens new perspectives.",
+    "reversed_meaning_en": "Pointless sacrifice, resistance, stagnation, and futility.",
+    "keywords_en": [
+      "pause",
+      "sacrifice",
+      "new perspective",
+      "insight"
+    ],
+    "keywords_reversed_en": [
+      "futility",
+      "stagnation",
+      "resistance"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Death",
+    "name_cn": "死神",
+    "arcana": "major",
+    "suit": null,
+    "number": 13,
+    "keywords": [
+      "终结",
+      "转变",
+      "重生",
+      "放下"
+    ],
+    "keywords_reversed": [
+      "抗拒",
+      "停滞",
+      "恐惧"
+    ],
+    "upright_meaning": "结束与重生。彻底的转变，结束一段旧旅程迎向新生。",
+    "reversed_meaning": "抗拒改变、停滞、恐惧、缓慢的衰败。",
+    "element": "天蝎",
+    "name_en": "Death",
+    "upright_meaning_en": "End and rebirth. Complete transformation, ending an old journey to welcome the new.",
+    "reversed_meaning_en": "Resisting change, stagnation, fear, and slow decline.",
+    "keywords_en": [
+      "ending",
+      "transformation",
+      "rebirth",
+      "letting go"
+    ],
+    "keywords_reversed_en": [
+      "resistance",
+      "stagnation",
+      "fear"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Temperance",
+    "name_cn": "节制",
+    "arcana": "major",
+    "suit": null,
+    "number": 14,
+    "keywords": [
+      "平衡",
+      "调和",
+      "耐心",
+      "中庸"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "极端",
+      "混乱"
+    ],
+    "upright_meaning": "平衡、调和、中庸之道。耐心融合多元。",
+    "reversed_meaning": "失衡、过度、缺乏协调、极端。",
+    "element": "射手",
+    "name_en": "Temperance",
+    "upright_meaning_en": "Balance, harmony, and the middle path. Patiently integrating diversity.",
+    "reversed_meaning_en": "Imbalance, excess, lack of coordination, and extremes.",
+    "keywords_en": [
+      "balance",
+      "temperance",
+      "patience",
+      "moderation"
+    ],
+    "keywords_reversed_en": [
+      "imbalance",
+      "extremes",
+      "chaos"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Devil",
+    "name_cn": "恶魔",
+    "arcana": "major",
+    "suit": null,
+    "number": 15,
+    "keywords": [
+      "束缚",
+      "欲望",
+      "执着",
+      "上瘾"
+    ],
+    "keywords_reversed": [
+      "觉醒",
+      "解脱",
+      "自由"
+    ],
+    "upright_meaning": "束缚、欲望、执着。物质主义与上瘾的警示。",
+    "reversed_meaning": "觉醒、解脱、打破枷锁、认清真相。",
+    "element": "摩羯",
+    "name_en": "The Devil",
+    "upright_meaning_en": "Bondage, desire, and attachment. A warning against materialism and addiction.",
+    "reversed_meaning_en": "Awakening, liberation, breaking chains, and seeing truth.",
+    "keywords_en": [
+      "bondage",
+      "desire",
+      "attachment",
+      "addiction"
+    ],
+    "keywords_reversed_en": [
+      "awakening",
+      "liberation",
+      "freedom"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "The Tower",
+    "name_cn": "高塔",
+    "arcana": "major",
+    "suit": null,
+    "number": 16,
+    "keywords": [
+      "突变",
+      "崩塌",
+      "觉醒",
+      "重建"
+    ],
+    "keywords_reversed": [
+      "逃避",
+      "恐惧",
+      "崩溃"
+    ],
+    "upright_meaning": "突变、崩塌、震撼的觉醒。摧毁虚假结构以建真实。",
+    "reversed_meaning": "避免灾难、恐惧改变、渐进崩溃、固执坚守。",
+    "element": "火星",
+    "name_en": "The Tower",
+    "upright_meaning_en": "Sudden change, collapse, and shocking awakening. Destroying false structures to build truth.",
+    "reversed_meaning_en": "Avoiding disaster, fear of change, gradual collapse, and stubborn persistence.",
+    "keywords_en": [
+      "sudden change",
+      "collapse",
+      "awakening",
+      "rebuilding"
+    ],
+    "keywords_reversed_en": [
+      "avoidance",
+      "fear",
+      "breakdown"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Star",
+    "name_cn": "星星",
+    "arcana": "major",
+    "suit": null,
+    "number": 17,
+    "keywords": [
+      "希望",
+      "信念",
+      "疗愈",
+      "灵感"
+    ],
+    "keywords_reversed": [
+      "失望",
+      "迷茫",
+      "绝望"
+    ],
+    "upright_meaning": "希望、信念、疗愈。暴风雨后的宁静与方向感。",
+    "reversed_meaning": "失望、信念动摇、迷失方向、悲观。",
+    "element": "水瓶",
+    "name_en": "The Star",
+    "upright_meaning_en": "Hope, faith, and healing. Calm and direction after the storm.",
+    "reversed_meaning_en": "Disappointment, wavering faith, lost direction, and pessimism.",
+    "keywords_en": [
+      "hope",
+      "faith",
+      "healing",
+      "inspiration"
+    ],
+    "keywords_reversed_en": [
+      "disappointment",
+      "confusion",
+      "despair"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "The Moon",
+    "name_cn": "月亮",
+    "arcana": "major",
+    "suit": null,
+    "number": 18,
+    "keywords": [
+      "潜意识",
+      "幻象",
+      "直觉",
+      "迷雾"
+    ],
+    "keywords_reversed": [
+      "困惑",
+      "恐惧",
+      "破灭"
+    ],
+    "upright_meaning": "潜意识、幻象、直觉。迷雾中的路，需要聆听内在。",
+    "reversed_meaning": "困惑、恐惧浮现、幻象破灭、压抑释放。",
+    "element": "双鱼",
+    "name_en": "The Moon",
+    "upright_meaning_en": "Subconscious, illusions, and intuition. The path through fog, requiring inner listening.",
+    "reversed_meaning_en": "Confusion, rising fear, illusion shattered, and repressed feelings released.",
+    "keywords_en": [
+      "subconscious",
+      "illusion",
+      "intuition",
+      "mist"
+    ],
+    "keywords_reversed_en": [
+      "confusion",
+      "fear",
+      "disillusionment"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "The Sun",
+    "name_cn": "太阳",
+    "arcana": "major",
+    "suit": null,
+    "number": 19,
+    "keywords": [
+      "成功",
+      "喜悦",
+      "活力",
+      "光明"
+    ],
+    "keywords_reversed": [
+      "阴霾",
+      "虚妄",
+      "过度"
+    ],
+    "upright_meaning": "成功、喜悦、活力。光明、丰盛与童真的快乐。",
+    "reversed_meaning": "暂时的阴霾、过度乐观、内心不安、虚假的成功。",
+    "element": "太阳",
+    "name_en": "The Sun",
+    "upright_meaning_en": "Success, joy, and vitality. Light, abundance, and the joy of childlike innocence.",
+    "reversed_meaning_en": "Temporary shadows, excessive optimism, inner unrest, and false success.",
+    "keywords_en": [
+      "success",
+      "joy",
+      "vitality",
+      "light"
+    ],
+    "keywords_reversed_en": [
+      "shadow",
+      "falsehood",
+      "excess"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Judgement",
+    "name_cn": "审判",
+    "arcana": "major",
+    "suit": null,
+    "number": 20,
+    "keywords": [
+      "觉醒",
+      "召唤",
+      "宽恕",
+      "新生"
+    ],
+    "keywords_reversed": [
+      "怀疑",
+      "错失",
+      "悔恨"
+    ],
+    "upright_meaning": "觉醒、宽恕、召唤。内心的号角响起，迎接新生。",
+    "reversed_meaning": "自我怀疑、错失召唤、停滞不前、悔恨。",
+    "element": "冥王星",
+    "name_en": "Judgement",
+    "upright_meaning_en": "Awakening, forgiveness, and the call. The inner trumpet sounds, welcoming rebirth.",
+    "reversed_meaning_en": "Self-doubt, missing the call, stagnation, and regret.",
+    "keywords_en": [
+      "awakening",
+      "calling",
+      "forgiveness",
+      "rebirth"
+    ],
+    "keywords_reversed_en": [
+      "doubt",
+      "missed opportunity",
+      "regret"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "The World",
+    "name_cn": "世界",
+    "arcana": "major",
+    "suit": null,
+    "number": 21,
+    "keywords": [
+      "圆满",
+      "完成",
+      "整合",
+      "成就"
+    ],
+    "keywords_reversed": [
+      "未完",
+      "拖延",
+      "缺失"
+    ],
+    "upright_meaning": "圆满、完成、整合。一段旅程的完成与新的开始。",
+    "reversed_meaning": "未完成、缺乏闭环、拖延、最后一公里。",
+    "element": "土星",
+    "name_en": "The World",
+    "upright_meaning_en": "Completion, fulfillment, and integration. The completion of one journey and the beginning of another.",
+    "reversed_meaning_en": "Incomplete, lack of closure, procrastination, and the last mile.",
+    "keywords_en": [
+      "completion",
+      "fulfillment",
+      "integration",
+      "achievement"
+    ],
+    "keywords_reversed_en": [
+      "incomplete",
+      "delay",
+      "lack"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ace of Cups",
+    "name_cn": "圣杯一",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 1,
+    "keywords": [
+      "新爱",
+      "情感",
+      "纯净",
+      "萌芽"
+    ],
+    "keywords_reversed": [
+      "封闭",
+      "空虚",
+      "拒绝"
+    ],
+    "upright_meaning": "情感的新起点。爱的萌芽、纯粹情感涌出。",
+    "reversed_meaning": "情感封闭、爱流失、空虚、被拒绝。",
+    "element": "水",
+    "name_en": "Ace of Cups",
+    "upright_meaning_en": "A new beginning in emotions. The budding of love, pure emotion flowing forth.",
+    "reversed_meaning_en": "Emotional blockage, love lost, emptiness, and rejection.",
+    "keywords_en": [
+      "new love",
+      "emotion",
+      "purity",
+      "budding"
+    ],
+    "keywords_reversed_en": [
+      "blockage",
+      "empty",
+      "rejection"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Two of Cups",
+    "name_cn": "圣杯二",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 2,
+    "keywords": [
+      "结合",
+      "互惠",
+      "连结",
+      "平衡"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "破裂",
+      "误解"
+    ],
+    "upright_meaning": "互惠的结合。两人之间真实的连结与平衡。",
+    "reversed_meaning": "失衡、误解、关系破裂、错位。",
+    "element": "水",
+    "name_en": "Two of Cups",
+    "upright_meaning_en": "Partnership, mutual attraction, and emotional connection.",
+    "reversed_meaning_en": "Imbalance in relationship, broken communication, and separation.",
+    "keywords_en": [
+      "partnership",
+      "attraction",
+      "connection",
+      "unity"
+    ],
+    "keywords_reversed_en": [
+      "imbalance",
+      "conflict",
+      "separation"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Three of Cups",
+    "name_cn": "圣杯三",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 3,
+    "keywords": [
+      "友谊",
+      "庆祝",
+      "团聚",
+      "喜悦"
+    ],
+    "keywords_reversed": [
+      "孤立",
+      "疏远",
+      "八卦"
+    ],
+    "upright_meaning": "友谊、庆祝、团聚。众人的喜悦。",
+    "reversed_meaning": "孤立、过度社交、八卦、关系疏远。",
+    "element": "水",
+    "name_en": "Three of Cups",
+    "upright_meaning_en": "Celebration, friendship, and communal joy.",
+    "reversed_meaning_en": "Excessive partying, isolation, and loneliness.",
+    "keywords_en": [
+      "celebration",
+      "friendship",
+      "joy",
+      "community"
+    ],
+    "keywords_reversed_en": [
+      "excess",
+      "isolation",
+      "loneliness"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Four of Cups",
+    "name_cn": "圣杯四",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 4,
+    "keywords": [
+      "倦怠",
+      "漠然",
+      "错失",
+      "沉思"
+    ],
+    "keywords_reversed": [
+      "觉醒",
+      "新机",
+      "投入"
+    ],
+    "upright_meaning": "倦怠、冷漠、错失的机遇。对眼前的事物感到漠然。",
+    "reversed_meaning": "重新投入、新机遇出现、觉醒、接受。",
+    "element": "水",
+    "name_en": "Four of Cups",
+    "upright_meaning_en": "Apathy, contemplation, and reevaluation.",
+    "reversed_meaning_en": "Awakening, new opportunities, and acceptance.",
+    "keywords_en": [
+      "apathy",
+      "contemplation",
+      "reevaluation",
+      "boredom"
+    ],
+    "keywords_reversed_en": [
+      "awakening",
+      "opportunity",
+      "acceptance"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Five of Cups",
+    "name_cn": "圣杯五",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 5,
+    "keywords": [
+      "遗憾",
+      "失落",
+      "悲伤",
+      "聚焦"
+    ],
+    "keywords_reversed": [
+      "接受",
+      "恢复",
+      "希望"
+    ],
+    "upright_meaning": "遗憾、失落、聚焦于失去的。",
+    "reversed_meaning": "接受、向前看、从悲伤中恢复、希望重燃。",
+    "element": "水",
+    "name_en": "Five of Cups",
+    "upright_meaning_en": "Loss, grief, and focusing on what was lost.",
+    "reversed_meaning_en": "Accepting loss, moving on, and healing.",
+    "keywords_en": [
+      "loss",
+      "grief",
+      "sadness",
+      "regret"
+    ],
+    "keywords_reversed_en": [
+      "acceptance",
+      "healing",
+      "moving on"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Six of Cups",
+    "name_cn": "圣杯六",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 6,
+    "keywords": [
+      "怀旧",
+      "纯真",
+      "回忆",
+      "重逢"
+    ],
+    "keywords_reversed": [
+      "沉溺",
+      "停滞",
+      "逃避"
+    ],
+    "upright_meaning": "怀旧、纯真、过去的温柔。回忆与重逢。",
+    "reversed_meaning": "沉溺过去、不愿成长、停滞于回忆。",
+    "element": "水",
+    "name_en": "Six of Cups",
+    "upright_meaning_en": "Nostalgia, memories, and innocent joy.",
+    "reversed_meaning_en": "Living in the past, unrealistic expectations.",
+    "keywords_en": [
+      "nostalgia",
+      "memories",
+      "innocence",
+      "joy"
+    ],
+    "keywords_reversed_en": [
+      "past",
+      "unrealistic",
+      "disillusion"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Seven of Cups",
+    "name_cn": "圣杯七",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 7,
+    "keywords": [
+      "幻想",
+      "诱惑",
+      "选择",
+      "迷雾"
+    ],
+    "keywords_reversed": [
+      "清醒",
+      "决断",
+      "聚焦"
+    ],
+    "upright_meaning": "幻想、多种选择、白日梦。诱惑与不切实际。",
+    "reversed_meaning": "清醒、决断、聚焦、看清真相。",
+    "element": "水",
+    "name_en": "Seven of Cups",
+    "upright_meaning_en": "Illusion, fantasy, and many choices.",
+    "reversed_meaning_en": "Clarity, making choices, and decisiveness.",
+    "keywords_en": [
+      "illusion",
+      "fantasy",
+      "choices",
+      "dreaming"
+    ],
+    "keywords_reversed_en": [
+      "clarity",
+      "decision",
+      "reality"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Eight of Cups",
+    "name_cn": "圣杯八",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 8,
+    "keywords": [
+      "放下",
+      "寻找",
+      "离去",
+      "成长"
+    ],
+    "keywords_reversed": [
+      "停留",
+      "恐惧",
+      "被动"
+    ],
+    "upright_meaning": "放下、寻找更深意义。离开不再有共鸣的。",
+    "reversed_meaning": "停留、恐惧改变、被动、错失成长。",
+    "element": "水",
+    "name_en": "Eight of Cups",
+    "upright_meaning_en": "Walking away, seeking deeper meaning, and abandonment.",
+    "reversed_meaning_en": "Fear of change, stagnation, and avoidance.",
+    "keywords_en": [
+      "walking away",
+      "seeking",
+      "abandonment",
+      "dissatisfaction"
+    ],
+    "keywords_reversed_en": [
+      "fear",
+      "stagnation",
+      "avoidance"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Nine of Cups",
+    "name_cn": "圣杯九",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 9,
+    "keywords": [
+      "满足",
+      "圆满",
+      "幸福",
+      "心愿"
+    ],
+    "keywords_reversed": [
+      "不满足",
+      "过度",
+      "虚假"
+    ],
+    "upright_meaning": "满足、情感圆满、许愿成真。",
+    "reversed_meaning": "不满足、过度、物质化、表面快乐。",
+    "element": "水",
+    "name_en": "Nine of Cups",
+    "upright_meaning_en": "Satisfaction, fulfillment, and emotional contentment.",
+    "reversed_meaning_en": "Greed, materialism, and dissatisfaction.",
+    "keywords_en": [
+      "satisfaction",
+      "fulfillment",
+      "contentment",
+      "wish"
+    ],
+    "keywords_reversed_en": [
+      "greed",
+      "materialism",
+      "dissatisfaction"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Ten of Cups",
+    "name_cn": "圣杯十",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 10,
+    "keywords": [
+      "幸福",
+      "家庭",
+      "圆满",
+      "长久"
+    ],
+    "keywords_reversed": [
+      "不和",
+      "冲突",
+      "破碎"
+    ],
+    "upright_meaning": "家庭幸福、情感圆满、长久的爱。",
+    "reversed_meaning": "家庭不和、价值观冲突、不圆满的期待。",
+    "element": "水",
+    "name_en": "Ten of Cups",
+    "upright_meaning_en": "Harmony, family joy, and lasting happiness.",
+    "reversed_meaning_en": "Broken home, family conflict, and disharmony.",
+    "keywords_en": [
+      "harmony",
+      "family",
+      "happiness",
+      "blessing"
+    ],
+    "keywords_reversed_en": [
+      "conflict",
+      "broken",
+      "disharmony"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Page of Cups",
+    "name_cn": "圣杯侍从",
+    "arcana": "minor",
+    "suit": "cups",
+    "court_role": "page",
+    "court_role_cn": "侍从",
+    "keywords": [
+      "讯息",
+      "灵感",
+      "新鲜",
+      "敏感"
+    ],
+    "keywords_reversed": [
+      "情绪化",
+      "不成熟",
+      "受伤"
+    ],
+    "upright_meaning": "情感的讯息、新鲜的爱意、创意灵感。",
+    "reversed_meaning": "情绪化、不成熟、容易受伤、被拒绝。",
+    "element": "水",
+    "number": "",
+    "name_en": "Page of Cups",
+    "upright_meaning_en": "New emotional beginning, creative inspiration, and innocent curiosity.",
+    "reversed_meaning_en": "Emotional immaturity, disappointment, and blocked creativity.",
+    "keywords_en": [
+      "new beginning",
+      "inspiration",
+      "curiosity",
+      "messenger"
+    ],
+    "keywords_reversed_en": [
+      "immaturity",
+      "disappointment",
+      "blocked"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Knight of Cups",
+    "name_cn": "圣杯骑士",
+    "arcana": "minor",
+    "suit": "cups",
+    "court_role": "knight",
+    "court_role_cn": "骑士",
+    "keywords": [
+      "浪漫",
+      "追求",
+      "理想",
+      "行动"
+    ],
+    "keywords_reversed": [
+      "逃避",
+      "虚假",
+      "情绪"
+    ],
+    "upright_meaning": "浪漫的追求、情感的行动、理想主义。",
+    "reversed_meaning": "不切实际、逃避、情绪化、虚假承诺。",
+    "element": "水",
+    "number": "",
+    "name_en": "Knight of Cups",
+    "upright_meaning_en": "Romantic, idealistic, and pursuing dreams.",
+    "reversed_meaning_en": "Unrealistic expectations, moodiness, and being led astray.",
+    "keywords_en": [
+      "romantic",
+      "idealist",
+      "dreamer",
+      "pursuer"
+    ],
+    "keywords_reversed_en": [
+      "unrealistic",
+      "moody",
+      "astray"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Queen of Cups",
+    "name_cn": "圣杯王后",
+    "arcana": "minor",
+    "suit": "cups",
+    "court_role": "queen",
+    "court_role_cn": "王后",
+    "keywords": [
+      "滋养",
+      "直觉",
+      "同理",
+      "成熟"
+    ],
+    "keywords_reversed": [
+      "失控",
+      "依赖",
+      "敏感"
+    ],
+    "upright_meaning": "情感成熟、直觉敏锐、同理心与滋养。",
+    "reversed_meaning": "情绪失控、依赖、过度敏感、受害者心态。",
+    "element": "水",
+    "number": "",
+    "name_en": "Queen of Cups",
+    "upright_meaning_en": "Compassionate, intuitive, and emotionally secure.",
+    "reversed_meaning_en": "Emotional dependence, manipulation, and insecurity.",
+    "keywords_en": [
+      "compassion",
+      "intuition",
+      "emotional security",
+      "nurturing"
+    ],
+    "keywords_reversed_en": [
+      "dependence",
+      "manipulation",
+      "insecurity"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "King of Cups",
+    "name_cn": "圣杯国王",
+    "arcana": "minor",
+    "suit": "cups",
+    "court_role": "king",
+    "court_role_cn": "国王",
+    "keywords": [
+      "稳定",
+      "智慧",
+      "掌控",
+      "深沉"
+    ],
+    "keywords_reversed": [
+      "压抑",
+      "操控",
+      "不稳"
+    ],
+    "upright_meaning": "情感的掌控者、外冷内热、智慧与稳定。",
+    "reversed_meaning": "压抑情绪、操控、忽冷忽热、情感操控。",
+    "element": "水",
+    "number": "",
+    "name_en": "King of Cups",
+    "upright_meaning_en": "Emotional balance, maturity, and kindness.",
+    "reversed_meaning_en": "Emotional coldness, manipulation, and lack of integrity.",
+    "keywords_en": [
+      "balance",
+      "maturity",
+      "kindness",
+      "leader"
+    ],
+    "keywords_reversed_en": [
+      "coldness",
+      "manipulation",
+      "dishonesty"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Ace of Wands",
+    "name_cn": "权杖一",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 1,
+    "keywords": [
+      "灵感",
+      "启动",
+      "创造",
+      "激情"
+    ],
+    "keywords_reversed": [
+      "延迟",
+      "缺乏",
+      "错失"
+    ],
+    "upright_meaning": "新项目的火花、创造力爆发、灵感降临。",
+    "reversed_meaning": "延迟的启动、缺乏动力、错失机会。",
+    "element": "火",
+    "name_en": "Ace of Wands",
+    "upright_meaning_en": "New inspiration, creative spark, and new beginnings.",
+    "reversed_meaning_en": "Lack of direction, delay, and blocked creativity.",
+    "keywords_en": [
+      "inspiration",
+      "creativity",
+      "new beginning",
+      "potential"
+    ],
+    "keywords_reversed_en": [
+      "delay",
+      "lack of direction",
+      "blocked"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Two of Wands",
+    "name_cn": "权杖二",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 2,
+    "keywords": [
+      "规划",
+      "远见",
+      "决策",
+      "展望"
+    ],
+    "keywords_reversed": [
+      "恐惧",
+      "犹豫",
+      "错失"
+    ],
+    "upright_meaning": "规划、远见、决策。站高望远做抉择。",
+    "reversed_meaning": "恐惧未知、缺乏规划、错失机遇、犹豫。",
+    "element": "火",
+    "name_en": "Two of Wands",
+    "upright_meaning_en": "Planning, decisions, and future vision.",
+    "reversed_meaning_en": "Fear of the unknown, poor planning, and anxiety.",
+    "keywords_en": [
+      "planning",
+      "decision",
+      "vision",
+      "future"
+    ],
+    "keywords_reversed_en": [
+      "fear",
+      "poor planning",
+      "anxiety"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Three of Wands",
+    "name_cn": "权杖三",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 3,
+    "keywords": [
+      "扩展",
+      "远航",
+      "回响",
+      "等待"
+    ],
+    "keywords_reversed": [
+      "延迟",
+      "近视",
+      "错失"
+    ],
+    "upright_meaning": "扩展、远航、等待收获。先前的努力开始有回响。",
+    "reversed_meaning": "延迟、视野受限、近视、错失远方机会。",
+    "element": "火",
+    "name_en": "Three of Wands",
+    "upright_meaning_en": "Progress, expansion, and waiting for ships to come in.",
+    "reversed_meaning_en": "Obstacles, delays, and frustration.",
+    "keywords_en": [
+      "progress",
+      "expansion",
+      "preparation",
+      "anticipation"
+    ],
+    "keywords_reversed_en": [
+      "obstacles",
+      "delays",
+      "frustration"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Four of Wands",
+    "name_cn": "权杖四",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 4,
+    "keywords": [
+      "庆祝",
+      "团聚",
+      "稳定",
+      "家园"
+    ],
+    "keywords_reversed": [
+      "不稳",
+      "冲突",
+      "动摇"
+    ],
+    "upright_meaning": "庆祝、家庭团聚、稳定的根基。",
+    "reversed_meaning": "不稳定、家庭冲突、错失庆祝、根基动摇。",
+    "element": "火",
+    "name_en": "Four of Wands",
+    "upright_meaning_en": "Celebration, harmony, and coming home.",
+    "reversed_meaning_en": "Unstable home, conflict, and lack of celebration.",
+    "keywords_en": [
+      "celebration",
+      "harmony",
+      "home",
+      "rest"
+    ],
+    "keywords_reversed_en": [
+      "conflict",
+      "instability",
+      "lack"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Five of Wands",
+    "name_cn": "权杖五",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 5,
+    "keywords": [
+      "竞争",
+      "分歧",
+      "角力",
+      "混乱"
+    ],
+    "keywords_reversed": [
+      "退让",
+      "内战",
+      "共识"
+    ],
+    "upright_meaning": "竞争、冲突、分歧。多方力量的角力。",
+    "reversed_meaning": "避免冲突、内在纷争、寻求共识、退让。",
+    "element": "火",
+    "name_en": "Five of Wands",
+    "upright_meaning_en": "Conflict, competition, and tension.",
+    "reversed_meaning_en": "Avoiding conflict, compromise, and peace.",
+    "keywords_en": [
+      "conflict",
+      "competition",
+      "tension",
+      "challenge"
+    ],
+    "keywords_reversed_en": [
+      "avoidance",
+      "compromise",
+      "peace"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Six of Wands",
+    "name_cn": "权杖六",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 6,
+    "keywords": [
+      "胜利",
+      "认可",
+      "喝彩",
+      "荣耀"
+    ],
+    "keywords_reversed": [
+      "失败",
+      "孤立",
+      "自负"
+    ],
+    "upright_meaning": "胜利、认可、公众的喝彩。",
+    "reversed_meaning": "失败、缺乏认可、自负、孤立。",
+    "element": "火",
+    "name_en": "Six of Wands",
+    "upright_meaning_en": "Victory, recognition, and public triumph.",
+    "reversed_meaning_en": "Arrogance, lack of recognition, and failure.",
+    "keywords_en": [
+      "victory",
+      "recognition",
+      "triumph",
+      "pride"
+    ],
+    "keywords_reversed_en": [
+      "arrogance",
+      "failure",
+      "no recognition"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Seven of Wands",
+    "name_cn": "权杖七",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 7,
+    "keywords": [
+      "坚守",
+      "挑战",
+      "防御",
+      "立场"
+    ],
+    "keywords_reversed": [
+      "屈服",
+      "压倒",
+      "孤立"
+    ],
+    "upright_meaning": "防守、坚守、面对挑战。坚持立场。",
+    "reversed_meaning": "屈服、被压倒、防御过当、孤立无援。",
+    "element": "火",
+    "name_en": "Seven of Wands",
+    "upright_meaning_en": "Defense, persistence, and facing challenges.",
+    "reversed_meaning_en": "Exhaustion, giving up, and overwhelmed.",
+    "keywords_en": [
+      "defense",
+      "persistence",
+      "challenge",
+      "standing firm"
+    ],
+    "keywords_reversed_en": [
+      "exhaustion",
+      "surrender",
+      "overwhelmed"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Eight of Wands",
+    "name_cn": "权杖八",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 8,
+    "keywords": [
+      "快速",
+      "行动",
+      "消息",
+      "加速"
+    ],
+    "keywords_reversed": [
+      "延迟",
+      "混乱",
+      "失速"
+    ],
+    "upright_meaning": "快速行动、消息到来、加速前进。",
+    "reversed_meaning": "延迟、混乱、过度急促、错失节奏。",
+    "element": "火",
+    "name_en": "Eight of Wands",
+    "upright_meaning_en": "Fast movement, rapid progress, and swift action.",
+    "reversed_meaning_en": "Delays, frustration, and waiting.",
+    "keywords_en": [
+      "speed",
+      "progress",
+      "action",
+      "flying"
+    ],
+    "keywords_reversed_en": [
+      "delays",
+      "frustration",
+      "waiting"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Nine of Wands",
+    "name_cn": "权杖九",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 9,
+    "keywords": [
+      "坚韧",
+      "警觉",
+      "坚持",
+      "守卫"
+    ],
+    "keywords_reversed": [
+      "疲惫",
+      "放弃",
+      "孤立"
+    ],
+    "upright_meaning": "坚韧、最后的坚持、警觉的守卫。",
+    "reversed_meaning": "疲惫、放弃、过度防御、孤立坚持。",
+    "element": "火",
+    "name_en": "Nine of Wands",
+    "upright_meaning_en": "Resilience, perseverance, and near completion.",
+    "reversed_meaning_en": "Exhaustion, giving up, and paranoia.",
+    "keywords_en": [
+      "resilience",
+      "perseverance",
+      "endurance",
+      "strength"
+    ],
+    "keywords_reversed_en": [
+      "exhaustion",
+      "giving up",
+      "paranoia"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Ten of Wands",
+    "name_cn": "权杖十",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 10,
+    "keywords": [
+      "重负",
+      "责任",
+      "压迫",
+      "过载"
+    ],
+    "keywords_reversed": [
+      "卸下",
+      "委托",
+      "轻松"
+    ],
+    "upright_meaning": "重负、责任过重、压迫感。",
+    "reversed_meaning": "卸下重担、委托他人、解放、轻松。",
+    "element": "火",
+    "name_en": "Ten of Wands",
+    "upright_meaning_en": "Burden, responsibility, and heavy load.",
+    "reversed_meaning_en": "Inability to delegate, stress, and collapse.",
+    "keywords_en": [
+      "burden",
+      "responsibility",
+      "heavy load",
+      "duty"
+    ],
+    "keywords_reversed_en": [
+      "stress",
+      "inability",
+      "collapse"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Page of Wands",
+    "name_cn": "权杖侍从",
+    "arcana": "minor",
+    "suit": "wands",
+    "court_role": "page",
+    "court_role_cn": "侍从",
+    "keywords": [
+      "探索",
+      "热情",
+      "灵感",
+      "好奇"
+    ],
+    "keywords_reversed": [
+      "鲁莽",
+      "无向",
+      "中断"
+    ],
+    "upright_meaning": "热情的探索者、新闻、灵感的火花。",
+    "reversed_meaning": "鲁莽、缺乏方向、虎头蛇尾。",
+    "element": "火",
+    "number": "",
+    "name_en": "Page of Wands",
+    "upright_meaning_en": "New adventure, exploration, and creative energy.",
+    "reversed_meaning_en": "Lack of direction, laziness, and creative block.",
+    "keywords_en": [
+      "adventure",
+      "exploration",
+      "energy",
+      "messenger"
+    ],
+    "keywords_reversed_en": [
+      "laziness",
+      "no direction",
+      "block"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Knight of Wands",
+    "name_cn": "权杖骑士",
+    "arcana": "minor",
+    "suit": "wands",
+    "court_role": "knight",
+    "court_role_cn": "骑士",
+    "keywords": [
+      "大胆",
+      "冒险",
+      "能量",
+      "行动"
+    ],
+    "keywords_reversed": [
+      "冲动",
+      "鲁莽",
+      "扩张"
+    ],
+    "upright_meaning": "大胆的行动、冒险、充沛的能量。",
+    "reversed_meaning": "冲动、缺乏耐心、鲁莽、过度扩张。",
+    "element": "火",
+    "number": "",
+    "name_en": "Knight of Wands",
+    "upright_meaning_en": "Passion, action, and spontaneous adventure.",
+    "reversed_meaning_en": "Impatience, recklessness, and frustration.",
+    "keywords_en": [
+      "passion",
+      "action",
+      "adventure",
+      "pursuer"
+    ],
+    "keywords_reversed_en": [
+      "impatience",
+      "recklessness",
+      "frustration"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Queen of Wands",
+    "name_cn": "权杖王后",
+    "arcana": "minor",
+    "suit": "wands",
+    "court_role": "queen",
+    "court_role_cn": "王后",
+    "keywords": [
+      "独立",
+      "自信",
+      "魅力",
+      "热情"
+    ],
+    "keywords_reversed": [
+      "自私",
+      "嫉妒",
+      "爆发"
+    ],
+    "upright_meaning": "独立、自信、热情而有魅力。",
+    "reversed_meaning": "自私、嫉妒、过度掌控、情绪爆发。",
+    "element": "火",
+    "number": "",
+    "name_en": "Queen of Wands",
+    "upright_meaning_en": "Confidence, warmth, and fierce determination.",
+    "reversed_meaning_en": "Jealousy, insecurity, and domination.",
+    "keywords_en": [
+      "confidence",
+      "warmth",
+      "determination",
+      "nurturing"
+    ],
+    "keywords_reversed_en": [
+      "jealousy",
+      "insecurity",
+      "domination"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "King of Wands",
+    "name_cn": "权杖国王",
+    "arcana": "minor",
+    "suit": "wands",
+    "court_role": "king",
+    "court_role_cn": "国王",
+    "keywords": [
+      "远见",
+      "领导",
+      "果断",
+      "掌控"
+    ],
+    "keywords_reversed": [
+      "专制",
+      "强迫",
+      "独断"
+    ],
+    "upright_meaning": "远见、领导力、果断的掌控。",
+    "reversed_meaning": "专制、滥用权力、强迫、视野窄。",
+    "element": "火",
+    "number": "",
+    "name_en": "King of Wands",
+    "upright_meaning_en": "Leadership, vision, and inspiring authority.",
+    "reversed_meaning_en": "Domination, impulsiveness, and harshness.",
+    "keywords_en": [
+      "leadership",
+      "vision",
+      "authority",
+      "inspiration"
+    ],
+    "keywords_reversed_en": [
+      "domination",
+      "impulsiveness",
+      "harshness"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Ace of Swords",
+    "name_cn": "宝剑一",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 1,
+    "keywords": [
+      "真相",
+      "决断",
+      "清晰",
+      "胜利"
+    ],
+    "keywords_reversed": [
+      "混乱",
+      "欺骗",
+      "模糊"
+    ],
+    "upright_meaning": "心智的胜利、真相浮现、决断。",
+    "reversed_meaning": "混乱、欺骗、决断失败、思维模糊。",
+    "element": "风",
+    "name_en": "Ace of Swords",
+    "upright_meaning_en": "Truth, clarity, and mental breakthrough.",
+    "reversed_meaning_en": "Confusion, brutality, and chaotic thinking.",
+    "keywords_en": [
+      "truth",
+      "clarity",
+      "breakthrough",
+      "justice"
+    ],
+    "keywords_reversed_en": [
+      "confusion",
+      "brutality",
+      "chaos"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Two of Swords",
+    "name_cn": "宝剑二",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 2,
+    "keywords": [
+      "僵局",
+      "两难",
+      "平衡",
+      "抉择"
+    ],
+    "keywords_reversed": [
+      "逃避",
+      "决断",
+      "前行"
+    ],
+    "upright_meaning": "僵局、艰难选择、平衡的两难。",
+    "reversed_meaning": "逃避选择、真相浮现、决断前行。",
+    "element": "风",
+    "name_en": "Two of Swords",
+    "upright_meaning_en": "Difficult choice, stalemate, and avoiding decision.",
+    "reversed_meaning_en": "Information revealed, choice made, and clarity.",
+    "keywords_en": [
+      "choice",
+      "stalemate",
+      "avoidance",
+      "indecision"
+    ],
+    "keywords_reversed_en": [
+      "clarity",
+      "decision",
+      "revelation"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Three of Swords",
+    "name_cn": "宝剑三",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 3,
+    "keywords": [
+      "心碎",
+      "痛苦",
+      "悲伤",
+      "失落"
+    ],
+    "keywords_reversed": [
+      "治愈",
+      "放下",
+      "宽恕"
+    ],
+    "upright_meaning": "心碎、痛苦、悲伤的真相。",
+    "reversed_meaning": "治愈、放下、宽恕、走出阴霾。",
+    "element": "风",
+    "name_en": "Three of Swords",
+    "upright_meaning_en": "Heartbreak, grief, and emotional pain.",
+    "reversed_meaning_en": "Healing, recovery, and letting go.",
+    "keywords_en": [
+      "heartbreak",
+      "grief",
+      "pain",
+      "sorrow"
+    ],
+    "keywords_reversed_en": [
+      "healing",
+      "recovery",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Four of Swords",
+    "name_cn": "宝剑四",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 4,
+    "keywords": [
+      "休息",
+      "恢复",
+      "退守",
+      "暂停"
+    ],
+    "keywords_reversed": [
+      "焦躁",
+      "过动",
+      "焦虑"
+    ],
+    "upright_meaning": "休息、恢复、退守。暂停以备再战。",
+    "reversed_meaning": "焦躁、过度活跃、不肯休息、焦虑。",
+    "element": "风",
+    "name_en": "Four of Swords",
+    "upright_meaning_en": "Rest, recovery, and meditation.",
+    "reversed_meaning_en": "Restlessness, burnout, and exhaustion.",
+    "keywords_en": [
+      "rest",
+      "recovery",
+      "peace",
+      "tranquility"
+    ],
+    "keywords_reversed_en": [
+      "restlessness",
+      "burnout",
+      "exhaustion"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Five of Swords",
+    "name_cn": "宝剑五",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 5,
+    "keywords": [
+      "空胜",
+      "争执",
+      "自损",
+      "骄傲"
+    ],
+    "keywords_reversed": [
+      "和解",
+      "超越",
+      "放下"
+    ],
+    "upright_meaning": "空洞的胜利、争执、自损八百。",
+    "reversed_meaning": "和解、放下骄傲、真正胜利、超越。",
+    "element": "风",
+    "name_en": "Five of Swords",
+    "upright_meaning_en": "Conflict, winning at all costs, and humiliation.",
+    "reversed_meaning_en": "Reconciliation, forgiveness, and moving on.",
+    "keywords_en": [
+      "conflict",
+      "victory",
+      "humiliation",
+      "tension"
+    ],
+    "keywords_reversed_en": [
+      "reconciliation",
+      "forgiveness",
+      "peace"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Six of Swords",
+    "name_cn": "宝剑六",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 6,
+    "keywords": [
+      "过渡",
+      "前行",
+      "平静",
+      "远行"
+    ],
+    "keywords_reversed": [
+      "困住",
+      "沉溺",
+      "不愿"
+    ],
+    "upright_meaning": "过渡、离开困境、向更平静之处前行。",
+    "reversed_meaning": "困在过去、无法前行、沉溺、不愿离开。",
+    "element": "风",
+    "name_en": "Six of Swords",
+    "upright_meaning_en": "Transition, moving forward, and crossing over.",
+    "reversed_meaning_en": "Stuck, refusing to move, and emotional baggage.",
+    "keywords_en": [
+      "transition",
+      "moving on",
+      "journey",
+      "crossing"
+    ],
+    "keywords_reversed_en": [
+      "stuck",
+      "refusing",
+      "baggage"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Seven of Swords",
+    "name_cn": "宝剑七",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 7,
+    "keywords": [
+      "计谋",
+      "策略",
+      "规避",
+      "试探"
+    ],
+    "keywords_reversed": [
+      "暴露",
+      "坦白",
+      "对决"
+    ],
+    "upright_meaning": "计谋、策略、规避（带欺骗风险）。",
+    "reversed_meaning": "真相暴露、正面对决、承认、坦白。",
+    "element": "风",
+    "name_en": "Seven of Swords",
+    "upright_meaning_en": "Strategy, cunning, and deception.",
+    "reversed_meaning_en": "Confession, exposure, and coming clean.",
+    "keywords_en": [
+      "deception",
+      "strategy",
+      "stealth",
+      "trickery"
+    ],
+    "keywords_reversed_en": [
+      "confession",
+      "exposure",
+      "honesty"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Eight of Swords",
+    "name_cn": "宝剑八",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 8,
+    "keywords": [
+      "束缚",
+      "自限",
+      "困局",
+      "无助"
+    ],
+    "keywords_reversed": [
+      "释放",
+      "看清",
+      "突破"
+    ],
+    "upright_meaning": "自我设限、被困的错觉。",
+    "reversed_meaning": "自我释放、看清束缚、突破、新生。",
+    "element": "风",
+    "name_en": "Eight of Swords",
+    "upright_meaning_en": "Trapped, restricted, and feeling stuck.",
+    "reversed_meaning_en": "Freedom, release, and new perspective.",
+    "keywords_en": [
+      "trapped",
+      "restricted",
+      "victim",
+      "bound"
+    ],
+    "keywords_reversed_en": [
+      "freedom",
+      "release",
+      "breakthrough"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Nine of Swords",
+    "name_cn": "宝剑九",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 9,
+    "keywords": [
+      "焦虑",
+      "担忧",
+      "失眠",
+      "思虑"
+    ],
+    "keywords_reversed": [
+      "释然",
+      "放下",
+      "求助"
+    ],
+    "upright_meaning": "焦虑、深夜的担忧、过度思虑。",
+    "reversed_meaning": "释然、放下、寻求帮助、走出阴影。",
+    "element": "风",
+    "name_en": "Nine of Swords",
+    "upright_meaning_en": "Anxiety, worry, and nightmares.",
+    "reversed_meaning_en": "Hope, overcoming fear, and healing.",
+    "keywords_en": [
+      "anxiety",
+      "worry",
+      "fear",
+      "guilt"
+    ],
+    "keywords_reversed_en": [
+      "hope",
+      "healing",
+      "overcoming"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Ten of Swords",
+    "name_cn": "宝剑十",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 10,
+    "keywords": [
+      "结束",
+      "触底",
+      "低谷",
+      "终结"
+    ],
+    "keywords_reversed": [
+      "反弹",
+      "恢复",
+      "新生"
+    ],
+    "upright_meaning": "彻底的结束、触底、低谷之底。",
+    "reversed_meaning": "触底反弹、缓慢恢复、新生、走出最坏。",
+    "element": "风",
+    "name_en": "Ten of Swords",
+    "upright_meaning_en": "Betrayal, backstabbing, and total defeat.",
+    "reversed_meaning_en": "Recovery, healing, and rebirth.",
+    "keywords_en": [
+      "betrayal",
+      "defeat",
+      "pain",
+      "ending"
+    ],
+    "keywords_reversed_en": [
+      "recovery",
+      "rebirth",
+      "healing"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Page of Swords",
+    "name_cn": "宝剑侍从",
+    "arcana": "minor",
+    "suit": "swords",
+    "court_role": "page",
+    "court_role_cn": "侍从",
+    "keywords": [
+      "求知",
+      "警觉",
+      "新思",
+      "好奇"
+    ],
+    "keywords_reversed": [
+      "八卦",
+      "肤浅",
+      "争吵"
+    ],
+    "upright_meaning": "好奇的求知、警觉的讯息、新思想。",
+    "reversed_meaning": "八卦、肤浅、爱争吵、鲁莽言行。",
+    "element": "风",
+    "number": "",
+    "name_en": "Page of Swords",
+    "upright_meaning_en": "New ideas, curiosity, and communication.",
+    "reversed_meaning_en": "Deception, gossip, and sharp tongue.",
+    "keywords_en": [
+      "curiosity",
+      "ideas",
+      "communication",
+      "messenger"
+    ],
+    "keywords_reversed_en": [
+      "deception",
+      "gossip",
+      "sharp tongue"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Knight of Swords",
+    "name_cn": "宝剑骑士",
+    "arcana": "minor",
+    "suit": "swords",
+    "court_role": "knight",
+    "court_role_cn": "骑士",
+    "keywords": [
+      "迅猛",
+      "雄心",
+      "推进",
+      "果断"
+    ],
+    "keywords_reversed": [
+      "鲁莽",
+      "伤人",
+      "失衡"
+    ],
+    "upright_meaning": "迅猛的行动、直冲目标、雄心。",
+    "reversed_meaning": "鲁莽、言语伤人、强行推进、失衡。",
+    "element": "风",
+    "number": "",
+    "name_en": "Knight of Swords",
+    "upright_meaning_en": "Action, quick thinking, and passionate argument.",
+    "reversed_meaning_en": "Aggression, violence, and ruthless ambition.",
+    "keywords_en": [
+      "action",
+      "quick thinking",
+      "passion",
+      "pursuer"
+    ],
+    "keywords_reversed_en": [
+      "aggression",
+      "violence",
+      "ruthlessness"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Queen of Swords",
+    "name_cn": "宝剑王后",
+    "arcana": "minor",
+    "suit": "swords",
+    "court_role": "queen",
+    "court_role_cn": "王后",
+    "keywords": [
+      "清晰",
+      "独立",
+      "冷静",
+      "真相"
+    ],
+    "keywords_reversed": [
+      "冷酷",
+      "偏见",
+      "孤立"
+    ],
+    "upright_meaning": "清晰的判断、独立、冷静与真相。",
+    "reversed_meaning": "冷酷、偏见、孤立、过度批判。",
+    "element": "风",
+    "number": "",
+    "name_en": "Queen of Swords",
+    "upright_meaning_en": "Independence, sharp mind, and clear communication.",
+    "reversed_meaning_en": "Cold, bitter, and manipulative.",
+    "keywords_en": [
+      "independence",
+      "sharpness",
+      "clarity",
+      "wisdom"
+    ],
+    "keywords_reversed_en": [
+      "coldness",
+      "bitterness",
+      "manipulation"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "King of Swords",
+    "name_cn": "宝剑国王",
+    "arcana": "minor",
+    "suit": "swords",
+    "court_role": "king",
+    "court_role_cn": "国王",
+    "keywords": [
+      "理性",
+      "公正",
+      "智慧",
+      "裁决"
+    ],
+    "keywords_reversed": [
+      "专制",
+      "心狠",
+      "无情"
+    ],
+    "upright_meaning": "理性的权威、公正的裁决、智慧判断。",
+    "reversed_meaning": "专制、操控、心狠、不近人情。",
+    "element": "风",
+    "number": "",
+    "name_en": "King of Swords",
+    "upright_meaning_en": "Authority, truth, and intellectual power.",
+    "reversed_meaning_en": "Abuse of power, tyranny, and coldness.",
+    "keywords_en": [
+      "authority",
+      "truth",
+      "intellect",
+      "justice"
+    ],
+    "keywords_reversed_en": [
+      "tyranny",
+      "abuse",
+      "coldness"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Ace of Pentacles",
+    "name_cn": "钱币一",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 1,
+    "keywords": [
+      "新机",
+      "丰盛",
+      "种子",
+      "起点"
+    ],
+    "keywords_reversed": [
+      "错失",
+      "焦虑",
+      "无规"
+    ],
+    "upright_meaning": "物质的新机会、丰盛的种子、财富的起点。",
+    "reversed_meaning": "错失良机、缺乏规划、物质焦虑。",
+    "element": "土",
+    "name_en": "Ace of Pentacles",
+    "upright_meaning_en": "New opportunity, prosperity, and material gain.",
+    "reversed_meaning_en": "Lost opportunity, bad investment, and greed.",
+    "keywords_en": [
+      "opportunity",
+      "prosperity",
+      "new beginning",
+      "wealth"
+    ],
+    "keywords_reversed_en": [
+      "lost",
+      "bad investment",
+      "greed"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Two of Pentacles",
+    "name_cn": "钱币二",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 2,
+    "keywords": [
+      "平衡",
+      "灵活",
+      "协调",
+      "多面"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "过载",
+      "混乱"
+    ],
+    "upright_meaning": "平衡多重、灵活适应、玩乐中工作。",
+    "reversed_meaning": "失衡、过载、混乱、难以协调。",
+    "element": "土",
+    "name_en": "Two of Pentacles",
+    "upright_meaning_en": "Balance, adaptability, and juggling priorities.",
+    "reversed_meaning_en": "Imbalance, overwhelmed, and dropping balls.",
+    "keywords_en": [
+      "balance",
+      "adaptability",
+      "juggling",
+      "flexibility"
+    ],
+    "keywords_reversed_en": [
+      "imbalance",
+      "overwhelmed",
+      "chaos"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Three of Pentacles",
+    "name_cn": "钱币三",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 3,
+    "keywords": [
+      "合作",
+      "技艺",
+      "团队",
+      "共建"
+    ],
+    "keywords_reversed": [
+      "孤立",
+      "失败",
+      "不足"
+    ],
+    "upright_meaning": "合作、技艺、团队建设。",
+    "reversed_meaning": "孤立、缺乏认可、合作失败、技能不足。",
+    "element": "土",
+    "name_en": "Three of Pentacles",
+    "upright_meaning_en": "Teamwork, collaboration, and skill development.",
+    "reversed_meaning_en": "Lack of teamwork, poor craftsmanship, and disconnection.",
+    "keywords_en": [
+      "teamwork",
+      "collaboration",
+      "craft",
+      "skill"
+    ],
+    "keywords_reversed_en": [
+      "no teamwork",
+      "poor craft",
+      "disconnect"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Four of Pentacles",
+    "name_cn": "钱币四",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 4,
+    "keywords": [
+      "保守",
+      "囤积",
+      "安全",
+      "守成"
+    ],
+    "keywords_reversed": [
+      "放手",
+      "慷慨",
+      "冒险"
+    ],
+    "upright_meaning": "保守、囤积、安全感（但也怕失去）。",
+    "reversed_meaning": "放手、慷慨、冒险、打开心胸。",
+    "element": "土",
+    "name_en": "Four of Pentacles",
+    "upright_meaning_en": "Security, control, and holding onto wealth.",
+    "reversed_meaning_en": "Greed, materialism, and holding too tight.",
+    "keywords_en": [
+      "security",
+      "control",
+      "possession",
+      "stability"
+    ],
+    "keywords_reversed_en": [
+      "greed",
+      "materialism",
+      "holding too tight"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Five of Pentacles",
+    "name_cn": "钱币五",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 5,
+    "keywords": [
+      "困境",
+      "孤立",
+      "贫困",
+      "求援"
+    ],
+    "keywords_reversed": [
+      "帮助",
+      "恢复",
+      "新机"
+    ],
+    "upright_meaning": "物质困境、孤立感、贫困或疾病。",
+    "reversed_meaning": "寻求帮助、走出困境、恢复、新支持。",
+    "element": "土",
+    "name_en": "Five of Pentacles",
+    "upright_meaning_en": "Hardship, struggle, and financial loss.",
+    "reversed_meaning_en": "Recovery, healing, and financial improvement.",
+    "keywords_en": [
+      "hardship",
+      "struggle",
+      "poverty",
+      "isolation"
+    ],
+    "keywords_reversed_en": [
+      "recovery",
+      "healing",
+      "improvement"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Six of Pentacles",
+    "name_cn": "钱币六",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 6,
+    "keywords": [
+      "慷慨",
+      "分享",
+      "给予",
+      "平衡"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "控制",
+      "债务"
+    ],
+    "upright_meaning": "慷慨、分享、给予与接受。",
+    "reversed_meaning": "失衡的施受、控制、债务、权力不平等。",
+    "element": "土",
+    "name_en": "Six of Pentacles",
+    "upright_meaning_en": "Generosity, charity, and sharing resources.",
+    "reversed_meaning_en": "Debt, dependence, and inequality.",
+    "keywords_en": [
+      "generosity",
+      "charity",
+      "sharing",
+      "balance"
+    ],
+    "keywords_reversed_en": [
+      "debt",
+      "dependence",
+      "inequality"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Seven of Pentacles",
+    "name_cn": "钱币七",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 7,
+    "keywords": [
+      "等待",
+      "评估",
+      "耐心",
+      "反省"
+    ],
+    "keywords_reversed": [
+      "焦虑",
+      "错失",
+      "急躁"
+    ],
+    "upright_meaning": "等待收获、评估投资、耐心与反省。",
+    "reversed_meaning": "焦虑等待、错失投资、缺乏耐心。",
+    "element": "土",
+    "name_en": "Seven of Pentacles",
+    "upright_meaning_en": "Patience, investment, and long-term planning.",
+    "reversed_meaning_en": "Impatience, poor investment, and stagnation.",
+    "keywords_en": [
+      "patience",
+      "investment",
+      "planning",
+      "reward"
+    ],
+    "keywords_reversed_en": [
+      "impatience",
+      "poor investment",
+      "stagnation"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Eight of Pentacles",
+    "name_cn": "钱币八",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 8,
+    "keywords": [
+      "勤奋",
+      "精进",
+      "专注",
+      "提升"
+    ],
+    "keywords_reversed": [
+      "马虎",
+      "停滞",
+      "敷衍"
+    ],
+    "upright_meaning": "勤奋、精进手艺、自我提升。",
+    "reversed_meaning": "马虎、停滞、缺乏专注、敷衍。",
+    "element": "土",
+    "name_en": "Eight of Pentacles",
+    "upright_meaning_en": "Skill development, apprenticeship, and mastery.",
+    "reversed_meaning_en": "Lack of focus, laziness, and wasted talent.",
+    "keywords_en": [
+      "skill",
+      "apprenticeship",
+      "mastery",
+      "dedication"
+    ],
+    "keywords_reversed_en": [
+      "laziness",
+      "no focus",
+      "wasted talent"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Nine of Pentacles",
+    "name_cn": "钱币九",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 9,
+    "keywords": [
+      "自立",
+      "丰盛",
+      "享受",
+      "独立"
+    ],
+    "keywords_reversed": [
+      "依赖",
+      "假盛",
+      "孤立"
+    ],
+    "upright_meaning": "自给自足、丰盛的独立、享受成果。",
+    "reversed_meaning": "过度依赖、假丰盛、孤立的成功。",
+    "element": "土",
+    "name_en": "Nine of Pentacles",
+    "upright_meaning_en": "Financial independence, luxury, and self-sufficiency.",
+    "reversed_meaning_en": "Financial loss, dependence, and insecurity.",
+    "keywords_en": [
+      "independence",
+      "luxury",
+      "abundance",
+      "reward"
+    ],
+    "keywords_reversed_en": [
+      "loss",
+      "dependence",
+      "insecurity"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Ten of Pentacles",
+    "name_cn": "钱币十",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 10,
+    "keywords": [
+      "传承",
+      "家族",
+      "丰盛",
+      "长久"
+    ],
+    "keywords_reversed": [
+      "纷争",
+      "流失",
+      "不稳"
+    ],
+    "upright_meaning": "家族财富、传承、长期的丰盛。",
+    "reversed_meaning": "家族纷争、财富流失、根基不稳。",
+    "element": "土",
+    "name_en": "Ten of Pentacles",
+    "upright_meaning_en": "Wealth, family legacy, and long-term prosperity.",
+    "reversed_meaning_en": "Financial loss, family conflict, and instability.",
+    "keywords_en": [
+      "wealth",
+      "family",
+      "legacy",
+      "prosperity"
+    ],
+    "keywords_reversed_en": [
+      "loss",
+      "conflict",
+      "instability"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Page of Pentacles",
+    "name_cn": "钱币侍从",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "court_role": "page",
+    "court_role_cn": "侍从",
+    "keywords": [
+      "学习",
+      "勤勉",
+      "新机",
+      "务实"
+    ],
+    "keywords_reversed": [
+      "懒散",
+      "无向",
+      "浪费"
+    ],
+    "upright_meaning": "学习的开端、勤勉的学徒、新投资。",
+    "reversed_meaning": "懒散、缺乏方向、错失学习、浪费。",
+    "element": "土",
+    "number": "",
+    "name_en": "Page of Pentacles",
+    "upright_meaning_en": "New financial opportunity, practical learning, and growth.",
+    "reversed_meaning_en": "Lack of ambition, procrastination, and missed opportunity.",
+    "keywords_en": [
+      "opportunity",
+      "learning",
+      "growth",
+      "messenger"
+    ],
+    "keywords_reversed_en": [
+      "procrastination",
+      "no ambition",
+      "missed"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Knight of Pentacles",
+    "name_cn": "钱币骑士",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "court_role": "knight",
+    "court_role_cn": "骑士",
+    "keywords": [
+      "稳健",
+      "可靠",
+      "执行",
+      "踏实"
+    ],
+    "keywords_reversed": [
+      "停滞",
+      "迟缓",
+      "固执"
+    ],
+    "upright_meaning": "稳健的前进、可靠的执行、按部就班。",
+    "reversed_meaning": "停滞、迟缓、固执、缺乏弹性。",
+    "element": "土",
+    "number": "",
+    "name_en": "Knight of Pentacles",
+    "upright_meaning_en": "Reliability, patience, and steady progress.",
+    "reversed_meaning_en": "Laziness, stuck, and lack of motivation.",
+    "keywords_en": [
+      "reliability",
+      "patience",
+      "steadiness",
+      "worker"
+    ],
+    "keywords_reversed_en": [
+      "laziness",
+      "stuck",
+      "no motivation"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Queen of Pentacles",
+    "name_cn": "钱币王后",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "court_role": "queen",
+    "court_role_cn": "王后",
+    "keywords": [
+      "丰盛",
+      "务实",
+      "滋养",
+      "温暖"
+    ],
+    "keywords_reversed": [
+      "失衡",
+      "操心",
+      "物质"
+    ],
+    "upright_meaning": "丰盛与滋养、务实而有爱、家的温暖。",
+    "reversed_meaning": "失衡（事业/家庭）、过度操心、物质化。",
+    "element": "土",
+    "number": "",
+    "name_en": "Queen of Pentacles",
+    "upright_meaning_en": "Nurturing, abundance, and material security.",
+    "reversed_meaning_en": "Dependency, over-spending, and instability.",
+    "keywords_en": [
+      "nurturing",
+      "abundance",
+      "security",
+      "provider"
+    ],
+    "keywords_reversed_en": [
+      "dependency",
+      "overspending",
+      "instability"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "King of Pentacles",
+    "name_cn": "钱币国王",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "court_role": "king",
+    "court_role_cn": "国王",
+    "keywords": [
+      "掌控",
+      "成功",
+      "稳健",
+      "慷慨"
+    ],
+    "keywords_reversed": [
+      "贪婪",
+      "物质",
+      "吝啬"
+    ],
+    "upright_meaning": "财富的掌控、稳健的成功、慷慨的王者。",
+    "reversed_meaning": "贪婪、物质主义、僵化、吝啬。",
+    "element": "土",
+    "number": "",
+    "name_en": "King of Pentacles",
+    "upright_meaning_en": "Wealth, business wisdom, and material success.",
+    "reversed_meaning_en": "Greed, corruption, and financial misuse.",
+    "keywords_en": [
+      "wealth",
+      "wisdom",
+      "success",
+      "authority"
+    ],
+    "keywords_reversed_en": [
+      "greed",
+      "corruption",
+      "misuse"
+    ]
+  }
+]

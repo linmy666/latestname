@@ -1,0 +1,2840 @@
+{
+  "1": {
+    "hexagram_name": "乾",
+    "names": [
+      {
+        "name": "潜龙",
+        "source": "初九：潜龙勿用",
+        "source_type": "爻辞",
+        "meaning": "韬光养晦，待时而动",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "见龙",
+        "source": "九二：见龙在田，利见大人",
+        "source_type": "爻辞",
+        "meaning": "才华初露，德泽四方",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "飞龙",
+        "source": "九五：飞龙在天，利见大人",
+        "source_type": "爻辞",
+        "meaning": "大器已成，顺势而发",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "自强",
+        "source": "天行健，君子以自强不息",
+        "source_type": "象传",
+        "meaning": "刚健中正，永不懈怠",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "hexagram_name": "坤",
+    "names": [
+      {
+        "name": "厚德",
+        "source": "地势坤，君子以厚德载物",
+        "source_type": "象传",
+        "meaning": "包容宽厚，承载万物",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "含章",
+        "source": "六三：含章可贞",
+        "source_type": "爻辞",
+        "meaning": "内涵才华，待时而发",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "括囊",
+        "source": "六四：括囊，无咎无誉",
+        "source_type": "爻辞",
+        "meaning": "谨守本分，收敛锋芒",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "履霜",
+        "source": "初六：履霜，坚冰至",
+        "source_type": "爻辞",
+        "meaning": "见微知著，防患未然",
+        "mood_fit": [
+          "anxious",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "3": {
+    "hexagram_name": "屯",
+    "names": [
+      {
+        "name": "经纶",
+        "source": "云雷屯，君子以经纶",
+        "source_type": "象传",
+        "meaning": "乱世之中，治理经纬",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "磐桓",
+        "source": "初九：磐桓，利居贞",
+        "source_type": "爻辞",
+        "meaning": "初创之难，坚守正道",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "即鹿",
+        "source": "六三：即鹿无虞，惟入于林中",
+        "source_type": "爻辞",
+        "meaning": "贪进忘退，不如知止",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "泣血",
+        "source": "上六：泣血涟如",
+        "source_type": "爻辞",
+        "meaning": "穷途末路，悲不自胜",
+        "mood_fit": [
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "4": {
+    "hexagram_name": "蒙",
+    "names": [
+      {
+        "name": "果行",
+        "source": "山下出泉，蒙；君子以果行育德",
+        "source_type": "象传",
+        "meaning": "坚定行动，培育德行",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "发蒙",
+        "source": "初六：发蒙，利用刑人",
+        "source_type": "爻辞",
+        "meaning": "启蒙开智，树立规矩",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "包蒙",
+        "source": "九二：包蒙，吉",
+        "source_type": "爻辞",
+        "meaning": "包容蒙昧，有教无类",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "童蒙",
+        "source": "六五：童蒙，吉",
+        "source_type": "爻辞",
+        "meaning": "如童求知，纯真求教",
+        "mood_fit": [
+          "lost",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "5": {
+    "hexagram_name": "需",
+    "names": [
+      {
+        "name": "待时",
+        "source": "云上于天，需；君子以饮食宴乐",
+        "source_type": "象传",
+        "meaning": "蓄势等待，养精蓄锐",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "需郊",
+        "source": "初九：需于郊，利用恒",
+        "source_type": "爻辞",
+        "meaning": "远离险地，耐心守恒",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "需泥",
+        "source": "九三：需于泥，致寇至",
+        "source_type": "爻辞",
+        "meaning": "逼近险境，招致祸患",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "不速",
+        "source": "上六：入于穴，有不速之客三人来",
+        "source_type": "爻辞",
+        "meaning": "意外之助，敬之以吉",
+        "mood_fit": [
+          "hopeful",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "hexagram_name": "讼",
+    "names": [
+      {
+        "name": "谋始",
+        "source": "天与水违行，讼；君子以作事谋始",
+        "source_type": "象传",
+        "meaning": "凡事三思，慎防争端",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "不永",
+        "source": "初六：不永所事，小有言，终吉",
+        "source_type": "爻辞",
+        "meaning": "适可而止，不可缠讼",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "食旧",
+        "source": "六三：食旧德，贞厉，终吉",
+        "source_type": "爻辞",
+        "meaning": "安守本分，守住旧业",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "锡带",
+        "source": "上九：或锡之鞶带，终朝三褫之",
+        "source_type": "爻辞",
+        "meaning": "争来的荣华，得而复失",
+        "mood_fit": [
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "7": {
+    "hexagram_name": "师",
+    "names": [
+      {
+        "name": "容民",
+        "source": "地中有水，师；君子以容民畜众",
+        "source_type": "象传",
+        "meaning": "蓄养民力，藏兵于民",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "律令",
+        "source": "初六：师出以律，否臧凶",
+        "source_type": "爻辞",
+        "meaning": "出师必有纪律，无律必败",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "中行",
+        "source": "六五：田有禽，利执言，长子帅师，弟子舆尸，贞凶",
+        "source_type": "爻辞",
+        "meaning": "持中而行，赏罚分明",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "怀邦",
+        "source": "上六：大君有命，开国承家，小人勿用",
+        "source_type": "爻辞",
+        "meaning": "论功行赏，心怀邦国",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "8": {
+    "hexagram_name": "比",
+    "names": [
+      {
+        "name": "建邦",
+        "source": "地上有水，比；先王以建万国，亲诸侯",
+        "source_type": "象传",
+        "meaning": "亲比团结，共襄大业",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      },
+      {
+        "name": "孚比",
+        "source": "初六：有孚比之，无咎",
+        "source_type": "爻辞",
+        "meaning": "以诚相亲，自然无过",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "自内",
+        "source": "六二：比之自内，贞吉",
+        "source_type": "爻辞",
+        "meaning": "发自内心，真诚亲近",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "比首",
+        "source": "上六：比之无首，凶",
+        "source_type": "爻辞",
+        "meaning": "群龙无首，亲比难成",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "9": {
+    "hexagram_name": "小畜",
+    "names": [
+      {
+        "name": "懿德",
+        "source": "风行天上，小畜；君子以懿文德",
+        "source_type": "象传",
+        "meaning": "修养美德，蓄势以待",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "复道",
+        "source": "初九：复自道，何其咎，吉",
+        "source_type": "爻辞",
+        "meaning": "回归正道，自无灾咎",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "牵复",
+        "source": "九二：牵复，吉",
+        "source_type": "爻辞",
+        "meaning": "携手并进，共归正途",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "既雨",
+        "source": "上九：既雨既处，尚德载",
+        "source_type": "爻辞",
+        "meaning": "雨止云散，功德已成",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "10": {
+    "hexagram_name": "履",
+    "names": [
+      {
+        "name": "辨定",
+        "source": "上天下泽，履；君子以辨上下，定民志",
+        "source_type": "象传",
+        "meaning": "明辨礼序，安定人心",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "素履",
+        "source": "初九：素履往，无咎",
+        "source_type": "爻辞",
+        "meaning": "朴素而行，本色不改",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "履道",
+        "source": "九二：履道坦坦，幽人贞吉",
+        "source_type": "爻辞",
+        "meaning": "正道坦途，幽然自守",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "视履",
+        "source": "上九：视履考祥，其旋元吉",
+        "source_type": "爻辞",
+        "meaning": "回望来路，大吉圆满",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "11": {
+    "hexagram_name": "泰",
+    "names": [
+      {
+        "name": "裁成",
+        "source": "天地交，泰；后以财成天地之道",
+        "source_type": "象传",
+        "meaning": "天地交融，因势利导",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "拔茅",
+        "source": "初九：拔茅茹，以其汇，征吉",
+        "source_type": "爻辞",
+        "meaning": "连根同起，同类并进",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "包荒",
+        "source": "九二：包荒，用冯河",
+        "source_type": "爻辞",
+        "meaning": "胸怀广阔，不遗遐远",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "帝乙",
+        "source": "六五：帝乙归妹，以祉元吉",
+        "source_type": "爻辞",
+        "meaning": "下嫁以求，以柔济刚",
+        "mood_fit": [
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "12": {
+    "hexagram_name": "否",
+    "names": [
+      {
+        "name": "俭德",
+        "source": "天地不交，否；君子以俭德辟难",
+        "source_type": "象传",
+        "meaning": "收敛锋芒，避祸保身",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "拔茅",
+        "source": "初六：拔茅茹，以其汇，贞吉，亨",
+        "source_type": "爻辞",
+        "meaning": "连根同守，固本为吉",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "包承",
+        "source": "六二：包承，小人吉，大人否，亨",
+        "source_type": "爻辞",
+        "meaning": "忍辱承压，以待天时",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "倾否",
+        "source": "上九：倾否，先否后喜",
+        "source_type": "爻辞",
+        "meaning": "否极泰来，先苦后甘",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "13": {
+    "hexagram_name": "同人",
+    "names": [
+      {
+        "name": "族类",
+        "source": "天与火，同人；君子以类族辨物",
+        "source_type": "象传",
+        "meaning": "辨别异同，求同存异",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "于门",
+        "source": "初九：同人于门，无咎",
+        "source_type": "爻辞",
+        "meaning": "出门即同人，广结善缘",
+        "mood_fit": [
+          "hopeful"
+        ]
+      },
+      {
+        "name": "于宗",
+        "source": "六二：同人于宗，吝",
+        "source_type": "爻辞",
+        "meaning": "只亲同族，格局太小",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "于野",
+        "source": "上九：同人于郊，无悔",
+        "source_type": "爻辞",
+        "meaning": "旷野同聚，坦荡无私",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "14": {
+    "hexagram_name": "大有",
+    "names": [
+      {
+        "name": "遏恶",
+        "source": "火在天上，大有；君子以遏恶扬善",
+        "source_type": "象传",
+        "meaning": "除恶扬善，顺天休命",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "无交",
+        "source": "初九：无交害，匪咎，艰则无咎",
+        "source_type": "爻辞",
+        "meaning": "不与人争，自保无过",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "大车",
+        "source": "九二：大车以载，有攸往，无咎",
+        "source_type": "爻辞",
+        "meaning": "重任在肩，稳健前行",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "交如",
+        "source": "六五：厥孚交如，威如，吉",
+        "source_type": "爻辞",
+        "meaning": "诚信威严，恩威并施",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "15": {
+    "hexagram_name": "谦",
+    "names": [
+      {
+        "name": "裒多",
+        "source": "地中有山，谦；君子以裒多益寡",
+        "source_type": "象传",
+        "meaning": "损有余补不足，平衡天下",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "谦谦",
+        "source": "初六：谦谦君子，用涉大川，吉",
+        "source_type": "爻辞",
+        "meaning": "谦上加谦，可渡大险",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "鸣谦",
+        "source": "六二：鸣谦，贞吉",
+        "source_type": "爻辞",
+        "meaning": "谦德远播，名声自正",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "劳谦",
+        "source": "九三：劳谦，君子有终，吉",
+        "source_type": "爻辞",
+        "meaning": "勤劳而谦，善始善终",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "16": {
+    "hexagram_name": "豫",
+    "names": [
+      {
+        "name": "作乐",
+        "source": "雷出地奋，豫；先王以作乐崇德",
+        "source_type": "象传",
+        "meaning": "欢乐有度，崇德报功",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "鸣豫",
+        "source": "初六：鸣豫，凶",
+        "source_type": "爻辞",
+        "meaning": "得意忘形，乐极生悲",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "介于",
+        "source": "六二：介于石，不终日，贞吉",
+        "source_type": "爻辞",
+        "meaning": "坚如磐石，见微速断",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "由豫",
+        "source": "九四：由豫，大有得，勿疑",
+        "source_type": "爻辞",
+        "meaning": "欢乐之源，众所归附",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "17": {
+    "hexagram_name": "随",
+    "names": [
+      {
+        "name": "向晦",
+        "source": "泽中有雷，随；君子以向晦入宴息",
+        "source_type": "象传",
+        "meaning": "顺时而息，知止知退",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "官渝",
+        "source": "初九：官有渝，贞吉，出门交有功",
+        "source_type": "爻辞",
+        "meaning": "随时变通，出门有功",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "随时",
+        "source": "大亨贞，无咎，而天下随时",
+        "source_type": "彖传",
+        "meaning": "顺随时势，天下归从",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "孚嘉",
+        "source": "九五：孚于嘉，吉",
+        "source_type": "爻辞",
+        "meaning": "诚信向善，吉无不利",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "18": {
+    "hexagram_name": "蛊",
+    "names": [
+      {
+        "name": "振民",
+        "source": "山下有风，蛊；君子以振民育德",
+        "source_type": "象传",
+        "meaning": "振奋民心，培育德行",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "干父",
+        "source": "初六：干父之蛊，有子，考无咎",
+        "source_type": "爻辞",
+        "meaning": "承继父业，整顿积弊",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "干母",
+        "source": "九二：干母之蛊，不可贞",
+        "source_type": "爻辞",
+        "meaning": "柔中处事，不可过刚",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "高尚",
+        "source": "上九：不事王侯，高尚其事",
+        "source_type": "爻辞",
+        "meaning": "不慕权贵，志在高洁",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "19": {
+    "hexagram_name": "临",
+    "names": [
+      {
+        "name": "教思",
+        "source": "泽上有地，临；君子以教思无穷，容保民无疆",
+        "source_type": "象传",
+        "meaning": "教化无倦，包容保民",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "咸临",
+        "source": "初九：咸临，贞吉",
+        "source_type": "爻辞",
+        "meaning": "以至诚临人，守正则吉",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "甘临",
+        "source": "六三：甘临，无攸利",
+        "source_type": "爻辞",
+        "meaning": "巧言临人，终无所利",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "至临",
+        "source": "六四：至临，无咎",
+        "source_type": "爻辞",
+        "meaning": "至诚相临，自无过失",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "20": {
+    "hexagram_name": "观",
+    "names": [
+      {
+        "name": "省方",
+        "source": "风行地上，观；先王以省方观民设教",
+        "source_type": "象传",
+        "meaning": "巡视四方，观民设教",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "童观",
+        "source": "初六：童观，小人无咎，君子吝",
+        "source_type": "爻辞",
+        "meaning": "浅陋如童，所见不远",
+        "mood_fit": [
+          "lost"
+        ]
+      },
+      {
+        "name": "窥观",
+        "source": "六二：窥观，利女贞",
+        "source_type": "爻辞",
+        "meaning": "管窥蠡测，所见偏狭",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "观国",
+        "source": "六四：观国之光，利用宾于王",
+        "source_type": "爻辞",
+        "meaning": "观览国光，辅佐君王",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "21": {
+    "hexagram_name": "噬嗑",
+    "names": [
+      {
+        "name": "明罚",
+        "source": "雷电，噬嗑；先王以明罚敕法",
+        "source_type": "象传",
+        "meaning": "明正刑罚，严明法度",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "屦校",
+        "source": "初九：屦校灭趾，无咎",
+        "source_type": "爻辞",
+        "meaning": "小惩大诫，防微杜渐",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "噬肤",
+        "source": "六二：噬肤灭鼻，无咎",
+        "source_type": "爻辞",
+        "meaning": "施刑虽深，终免后患",
+        "mood_fit": [
+          "anxious",
+          "decisive"
+        ]
+      },
+      {
+        "name": "何校",
+        "source": "上九：何校灭耳，凶",
+        "source_type": "爻辞",
+        "meaning": "积恶不改，罪重刑深",
+        "mood_fit": [
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "22": {
+    "hexagram_name": "贲",
+    "names": [
+      {
+        "name": "明庶",
+        "source": "山下有火，贲；君子以明庶政，无敢折狱",
+        "source_type": "象传",
+        "meaning": "明察政务，不敢轻断",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "贲趾",
+        "source": "初九：贲其趾，舍车而徒",
+        "source_type": "爻辞",
+        "meaning": "安于步行，舍华就实",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "贲须",
+        "source": "六二：贲其须",
+        "source_type": "爻辞",
+        "meaning": "附丽而行，顺势而饰",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "白贲",
+        "source": "上九：白贲，无咎",
+        "source_type": "爻辞",
+        "meaning": "大巧若拙，返璞归真",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "23": {
+    "hexagram_name": "剥",
+    "names": [
+      {
+        "name": "厚下",
+        "source": "山附于地，剥；上以厚下安宅",
+        "source_type": "象传",
+        "meaning": "厚待下属，安居固本",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "剥床",
+        "source": "初六：剥床以足，蔑贞凶",
+        "source_type": "爻辞",
+        "meaning": "根基动摇，危机深重",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "贯鱼",
+        "source": "六五：贯鱼，以宫人宠，无不利",
+        "source_type": "爻辞",
+        "meaning": "有序排进，如贯鱼列",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "硕果",
+        "source": "上九：硕果不食，君子得舆",
+        "source_type": "爻辞",
+        "meaning": "留存硕果，终有生机",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "24": {
+    "hexagram_name": "复",
+    "names": [
+      {
+        "name": "闭关",
+        "source": "雷在地中，复；先王以至日闭关",
+        "source_type": "象传",
+        "meaning": "冬至静养，闭关蓄力",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "不远",
+        "source": "初九：不远复，无祗悔，元吉",
+        "source_type": "爻辞",
+        "meaning": "迷途知返，不远而复",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      },
+      {
+        "name": "休复",
+        "source": "六二：休复，吉",
+        "source_type": "爻辞",
+        "meaning": "安然回归，下比于仁",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "敦复",
+        "source": "六五：敦复，无悔",
+        "source_type": "爻辞",
+        "meaning": "敦厚笃实，自考而复",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "25": {
+    "hexagram_name": "无妄",
+    "names": [
+      {
+        "name": "茂对",
+        "source": "天下雷行，物与无妄；先王以茂对时育万物",
+        "source_type": "象传",
+        "meaning": "顺应天时，盛育万物",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "不耕",
+        "source": "六二：不耕获，不菑畲，则利有攸往",
+        "source_type": "爻辞",
+        "meaning": "不妄求获，顺其自然",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "可贞",
+        "source": "九四：可贞，无咎",
+        "source_type": "爻辞",
+        "meaning": "守正不妄，自无过咎",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "勿药",
+        "source": "九五：无妄之疾，勿药有喜",
+        "source_type": "爻辞",
+        "meaning": "不妄之疾，不药自愈",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "26": {
+    "hexagram_name": "大畜",
+    "names": [
+      {
+        "name": "多识",
+        "source": "天在山中，大畜；君子以多识前言往行，以畜其德",
+        "source_type": "象传",
+        "meaning": "广学多识，以畜其德",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "良马",
+        "source": "九三：良马逐，利艰贞，曰闲舆卫",
+        "source_type": "爻辞",
+        "meaning": "良马追逐，利在艰贞",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "童牛",
+        "source": "六四：童牛之牿，元吉",
+        "source_type": "爻辞",
+        "meaning": "防患未然，止恶于初",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "天衢",
+        "source": "上九：何天之衢，亨",
+        "source_type": "爻辞",
+        "meaning": "天道通达，四通八达",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "27": {
+    "hexagram_name": "颐",
+    "names": [
+      {
+        "name": "慎言",
+        "source": "山下有雷，颐；君子以慎言语，节饮食",
+        "source_type": "象传",
+        "meaning": "慎言节食，养德养身",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "灵龟",
+        "source": "初九：舍尔灵龟，观我朵颐，凶",
+        "source_type": "爻辞",
+        "meaning": "自弃灵龟，贪羡他人",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "颠颐",
+        "source": "六二：颠颐，拂经于丘颐，征凶",
+        "source_type": "爻辞",
+        "meaning": "颠倒养道，违常求养",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "由颐",
+        "source": "上九：由颐，厉吉，利涉大川",
+        "source_type": "爻辞",
+        "meaning": "天下赖养，虽厉而吉",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "28": {
+    "hexagram_name": "大过",
+    "names": [
+      {
+        "name": "独立",
+        "source": "泽灭木，大过；君子以独立不惧，遁世无闷",
+        "source_type": "象传",
+        "meaning": "卓尔独立，不惧不闷",
+        "mood_fit": [
+          "decisive",
+          "lost"
+        ]
+      },
+      {
+        "name": "白茅",
+        "source": "初六：藉用白茅，无咎",
+        "source_type": "爻辞",
+        "meaning": "至慎至洁，藉茅无过",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "枯杨",
+        "source": "九五：枯杨生华，老妇得其士夫",
+        "source_type": "爻辞",
+        "meaning": "枯杨生华，何可久也",
+        "mood_fit": [
+          "anxious",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "过涉",
+        "source": "上六：过涉灭顶，凶，无咎",
+        "source_type": "爻辞",
+        "meaning": "涉水灭顶，不可咎也",
+        "mood_fit": [
+          "anxious",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "29": {
+    "hexagram_name": "坎",
+    "names": [
+      {
+        "name": "常德",
+        "source": "水洊至，习坎；君子以常德行，习教事",
+        "source_type": "象传",
+        "meaning": "恒修德行，习练教事",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "坎窞",
+        "source": "初六：习坎，入于坎窞，凶",
+        "source_type": "爻辞",
+        "meaning": "陷入坎穴，愈陷愈深",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "求小",
+        "source": "九二：坎有险，求小得",
+        "source_type": "爻辞",
+        "meaning": "险中求存，小有所得",
+        "mood_fit": [
+          "anxious",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "樽酒",
+        "source": "六四：樽酒簋贰，用缶，纳约自牖，终无咎",
+        "source_type": "爻辞",
+        "meaning": "简朴至诚，终免于险",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "30": {
+    "hexagram_name": "离",
+    "names": [
+      {
+        "name": "明照",
+        "source": "明两作，离；大人以继明照于四方",
+        "source_type": "象传",
+        "meaning": "光明相继，照临四方",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "履错",
+        "source": "初九：履错然，敬之，无咎",
+        "source_type": "爻辞",
+        "meaning": "敬慎其行，以免差错",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "黄离",
+        "source": "六二：黄离，元吉",
+        "source_type": "爻辞",
+        "meaning": "中正文明，大吉大利",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "日昃",
+        "source": "九三：日昃之离，不鼓缶而歌",
+        "source_type": "爻辞",
+        "meaning": "日落西斜，乐天知命",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "31": {
+    "hexagram_name": "咸",
+    "names": [
+      {
+        "name": "虚受",
+        "source": "山上有泽，咸；君子以虚受人",
+        "source_type": "象传",
+        "meaning": "虚怀若谷，包容受人",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "咸拇",
+        "source": "初六：咸其拇",
+        "source_type": "爻辞",
+        "meaning": "感于微末，志在初动",
+        "mood_fit": [
+          "lost",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "咸腓",
+        "source": "六二：咸其腓，凶，居吉",
+        "source_type": "爻辞",
+        "meaning": "感而妄动，居止则吉",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "辅颊",
+        "source": "上六：咸其辅颊舌",
+        "source_type": "爻辞",
+        "meaning": "口舌之感，多言无益",
+        "mood_fit": [
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "32": {
+    "hexagram_name": "恒",
+    "names": [
+      {
+        "name": "立方",
+        "source": "雷风，恒；君子以立不易方",
+        "source_type": "象传",
+        "meaning": "立身守正，不易其方",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "浚恒",
+        "source": "初六：浚恒，贞凶，无攸利",
+        "source_type": "爻辞",
+        "meaning": "始即深求，反致凶险",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "恒德",
+        "source": "六五：恒其德，贞，妇人吉，夫子凶",
+        "source_type": "爻辞",
+        "meaning": "持之以恒，守德不渝",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "不恒",
+        "source": "九三：不恒其德，或承之羞",
+        "source_type": "爻辞",
+        "meaning": "德不持久，终受其辱",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "33": {
+    "hexagram_name": "遁",
+    "names": [
+      {
+        "name": "远小",
+        "source": "天下有山，遁；君子以远小人，不恶而严",
+        "source_type": "象传",
+        "meaning": "远离小人，威而不恶",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "遁尾",
+        "source": "初六：遁尾，厉，勿用有攸往",
+        "source_type": "爻辞",
+        "meaning": "退避在后，险而勿往",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "嘉遁",
+        "source": "九五：嘉遁，贞吉",
+        "source_type": "爻辞",
+        "meaning": "嘉美而退，进退合宜",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "肥遁",
+        "source": "上九：肥遁，无不利",
+        "source_type": "爻辞",
+        "meaning": "从容远遁，无所不利",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "34": {
+    "hexagram_name": "大壮",
+    "names": [
+      {
+        "name": "非礼",
+        "source": "雷在天上，大壮；君子以非礼弗履",
+        "source_type": "象传",
+        "meaning": "合礼而行，非礼不履",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "壮趾",
+        "source": "初九：壮于趾，征凶，有孚",
+        "source_type": "爻辞",
+        "meaning": "壮于足趾，妄动必凶",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "触藩",
+        "source": "九三：羝羊触藩，羸其角",
+        "source_type": "爻辞",
+        "meaning": "刚壮过甚，反受其困",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "藩决",
+        "source": "九四：贞吉悔亡，藩决不羸，壮于大舆之輹",
+        "source_type": "爻辞",
+        "meaning": "藩篱已破，壮往无阻",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "35": {
+    "hexagram_name": "晋",
+    "names": [
+      {
+        "name": "自昭",
+        "source": "明出地上，晋；君子以自昭明德",
+        "source_type": "象传",
+        "meaning": "自我彰显，光昭明德",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "晋摧",
+        "source": "初六：晋如，摧如，贞吉。罔孚，裕无咎",
+        "source_type": "爻辞",
+        "meaning": "进退之间，宽裕以待",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "众允",
+        "source": "六三：众允，悔亡",
+        "source_type": "爻辞",
+        "meaning": "众人信允，悔恨消亡",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      },
+      {
+        "name": "伐邑",
+        "source": "上九：晋其角，维用伐邑，厉吉无咎，贞吝",
+        "source_type": "爻辞",
+        "meaning": "精进太过，当自省治",
+        "mood_fit": [
+          "anxious",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "36": {
+    "hexagram_name": "明夷",
+    "names": [
+      {
+        "name": "莅众",
+        "source": "明入地中，明夷；君子以莅众，用晦而明",
+        "source_type": "象传",
+        "meaning": "临莅群众，用晦保明",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "垂翼",
+        "source": "初九：明夷于飞，垂其翼",
+        "source_type": "爻辞",
+        "meaning": "光明受伤，敛翼低飞",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "箕子",
+        "source": "六五：箕子之明夷，利贞",
+        "source_type": "爻辞",
+        "meaning": "内晦外明，守正不懈",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "获心",
+        "source": "六四：入于左腹，获明夷之心，于出门庭",
+        "source_type": "爻辞",
+        "meaning": "洞察幽微，得祸患之由",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "37": {
+    "hexagram_name": "家人",
+    "names": [
+      {
+        "name": "言物",
+        "source": "风自火出，家人；君子以言有物而行有恒",
+        "source_type": "象传",
+        "meaning": "言必有物，行必有恒",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "闲家",
+        "source": "初九：闲有家，悔亡",
+        "source_type": "爻辞",
+        "meaning": "防患于始，家道得正",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "中馈",
+        "source": "六二：无攸遂，在中馈，贞吉",
+        "source_type": "爻辞",
+        "meaning": "柔顺中正，主持中馈",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "王假",
+        "source": "九五：王假有家，勿恤吉",
+        "source_type": "爻辞",
+        "meaning": "君王感化，天下如家",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "38": {
+    "hexagram_name": "睽",
+    "names": [
+      {
+        "name": "同异",
+        "source": "上火下泽，睽；君子以同而异",
+        "source_type": "象传",
+        "meaning": "求同存异，和而不同",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "丧马",
+        "source": "初九：悔亡，丧马勿逐，自复",
+        "source_type": "爻辞",
+        "meaning": "失物不追，自会复归",
+        "mood_fit": [
+          "calm",
+          "lost"
+        ]
+      },
+      {
+        "name": "遇巷",
+        "source": "九二：遇主于巷，无咎",
+        "source_type": "爻辞",
+        "meaning": "邂逅于巷，不失其道",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "见豕",
+        "source": "上九：见豕负涂，载鬼一车",
+        "source_type": "爻辞",
+        "meaning": "多疑生幻，妄生猜忌",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "39": {
+    "hexagram_name": "蹇",
+    "names": [
+      {
+        "name": "反身",
+        "source": "山上有水，蹇；君子以反身修德",
+        "source_type": "象传",
+        "meaning": "反求诸己，修养德行",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "往蹇",
+        "source": "初六：往蹇，来誉",
+        "source_type": "爻辞",
+        "meaning": "往则遇险，来则有誉",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "王臣",
+        "source": "六二：王臣蹇蹇，匪躬之故",
+        "source_type": "爻辞",
+        "meaning": "王臣涉险，奋不顾身",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "来硕",
+        "source": "上六：往蹇来硕，吉，利见大人",
+        "source_type": "爻辞",
+        "meaning": "归来遇贤，大吉大利",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "40": {
+    "hexagram_name": "解",
+    "names": [
+      {
+        "name": "赦过",
+        "source": "雷雨作，解；君子以赦过宥罪",
+        "source_type": "象传",
+        "meaning": "宽赦过失，宥免罪人",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "田获",
+        "source": "九二：田获三狐，得黄矢，贞吉",
+        "source_type": "爻辞",
+        "meaning": "田猎获狐，去邪得正",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "解拇",
+        "source": "九四：解而拇，朋至斯孚",
+        "source_type": "爻辞",
+        "meaning": "解去小人，君子自来",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "公射",
+        "source": "上六：公用射隼于高墉之上，获之，无不利",
+        "source_type": "爻辞",
+        "meaning": "居高射隼，除害无不利",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "41": {
+    "hexagram_name": "损",
+    "names": [
+      {
+        "name": "惩忿",
+        "source": "山下有泽，损；君子以惩忿窒欲",
+        "source_type": "象传",
+        "meaning": "克制怒气，抑止贪欲",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "酌损",
+        "source": "初九：已事遄往，无咎，酌损之",
+        "source_type": "爻辞",
+        "meaning": "审时度势，酌量减损",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "得友",
+        "source": "六三：三人行，则损一人；一人行，则得其友",
+        "source_type": "爻辞",
+        "meaning": "损之有道，反得其友",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "弗损",
+        "source": "上九：弗损益之，无咎，贞吉",
+        "source_type": "爻辞",
+        "meaning": "不损于人，反施其益",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "42": {
+    "hexagram_name": "益",
+    "names": [
+      {
+        "name": "迁善",
+        "source": "风雷，益；君子以见善则迁，有过则改",
+        "source_type": "象传",
+        "meaning": "见善则学，有过则改",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "大作",
+        "source": "初九：利用为大作，元吉，无咎",
+        "source_type": "爻辞",
+        "meaning": "大有作为，顺势兴事",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "惠心",
+        "source": "九五：有孚惠心，勿问元吉，有孚惠我德",
+        "source_type": "爻辞",
+        "meaning": "心怀惠泽，诚信天下",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "益凶",
+        "source": "上九：莫益之，或击之，立心勿恒，凶",
+        "source_type": "爻辞",
+        "meaning": "贪求无厌，反受其害",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "43": {
+    "hexagram_name": "夬",
+    "names": [
+      {
+        "name": "施禄",
+        "source": "泽上于天，夬；君子以施禄及下，居德则忌",
+        "source_type": "象传",
+        "meaning": "决断之时，施恩天下",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "夬夬",
+        "source": "九三：君子夬夬，独行遇雨",
+        "source_type": "爻辞",
+        "meaning": "果决而行，不避嫌疑",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "牵羊",
+        "source": "九四：臀无肤，其行次且，牵羊悔亡",
+        "source_type": "爻辞",
+        "meaning": "顺势而行，从阳则吉",
+        "mood_fit": [
+          "anxious",
+          "decisive"
+        ]
+      },
+      {
+        "name": "中行",
+        "source": "九五：苋陆夬夬，中行无咎",
+        "source_type": "爻辞",
+        "meaning": "居中而行，决而不过",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "44": {
+    "hexagram_name": "姤",
+    "names": [
+      {
+        "name": "施命",
+        "source": "天下有风，姤；后以施命诰四方",
+        "source_type": "象传",
+        "meaning": "风行天下，宣化四方",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "金柅",
+        "source": "初六：系于金柅，贞吉",
+        "source_type": "爻辞",
+        "meaning": "止邪于初，防微杜渐",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "含章",
+        "source": "九五：以杞包瓜，含章，有陨自天",
+        "source_type": "爻辞",
+        "meaning": "内涵华美，天命自降",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "包鱼",
+        "source": "九二：包有鱼，无咎，不利宾",
+        "source_type": "爻辞",
+        "meaning": "包容所遇，防其蔓延",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "45": {
+    "hexagram_name": "萃",
+    "names": [
+      {
+        "name": "戎器",
+        "source": "泽上于地，萃；君子以除戎器，戒不虞",
+        "source_type": "象传",
+        "meaning": "聚众之时，修武防患",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "引吉",
+        "source": "六二：引吉，无咎，孚乃利用禴",
+        "source_type": "爻辞",
+        "meaning": "引聚以正，诚信感通",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "赍咨",
+        "source": "上六：赍咨涕洟，无咎",
+        "source_type": "爻辞",
+        "meaning": "求聚不得，悲叹流涕",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "一握",
+        "source": "初六：若号，一握为笑，勿恤，往无咎",
+        "source_type": "爻辞",
+        "meaning": "呼号相求，一笑释嫌",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "46": {
+    "hexagram_name": "升",
+    "names": [
+      {
+        "name": "积高",
+        "source": "地中生木，升；君子以顺德，积小以高大",
+        "source_type": "象传",
+        "meaning": "顺其德性，积小成大",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "允升",
+        "source": "初六：允升，大吉",
+        "source_type": "爻辞",
+        "meaning": "顺势而升，无所阻碍",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      },
+      {
+        "name": "虚邑",
+        "source": "九三：升虚邑",
+        "source_type": "爻辞",
+        "meaning": "上升入虚，畅通无阻",
+        "mood_fit": [
+          "hopeful"
+        ]
+      },
+      {
+        "name": "升阶",
+        "source": "六五：贞吉，升阶",
+        "source_type": "爻辞",
+        "meaning": "循序渐进，步步登高",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "47": {
+    "hexagram_name": "困",
+    "names": [
+      {
+        "name": "遂志",
+        "source": "泽无水，困；君子以致命遂志",
+        "source_type": "象传",
+        "meaning": "身处困境，舍命遂志",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "幽谷",
+        "source": "初六：臀困于株木，入于幽谷，三岁不觌",
+        "source_type": "爻辞",
+        "meaning": "困于幽暗，久不见光",
+        "mood_fit": [
+          "lost",
+          "anxious"
+        ]
+      },
+      {
+        "name": "酒食",
+        "source": "九二：困于酒食，朱绂方来",
+        "source_type": "爻辞",
+        "meaning": "困于丰裕，福禄将至",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "葛藟",
+        "source": "上六：困于葛藟，于臲卼，曰动悔，有悔，征吉",
+        "source_type": "爻辞",
+        "meaning": "困之极处，悔悟则吉",
+        "mood_fit": [
+          "anxious",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "48": {
+    "hexagram_name": "井",
+    "names": [
+      {
+        "name": "劳民",
+        "source": "木上有水，井；君子以劳民劝相",
+        "source_type": "象传",
+        "meaning": "劳养万民，劝勉互助",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "井渫",
+        "source": "九三：井渫不食，为我心恻，可用汲",
+        "source_type": "爻辞",
+        "meaning": "才修不用，心忧可惜",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      },
+      {
+        "name": "寒泉",
+        "source": "九五：井冽寒泉，食",
+        "source_type": "爻辞",
+        "meaning": "清冽甘泉，养人利物",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "勿幕",
+        "source": "上六：井收勿幕，有孚元吉",
+        "source_type": "爻辞",
+        "meaning": "井养不穷，诚信大吉",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "49": {
+    "hexagram_name": "革",
+    "names": [
+      {
+        "name": "明时",
+        "source": "泽中有火，革；君子以治历明时",
+        "source_type": "象传",
+        "meaning": "变革之时，顺天应时",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "己日",
+        "source": "六二：己日乃革之，征吉，无咎",
+        "source_type": "爻辞",
+        "meaning": "时机已至，果断变革",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "虎变",
+        "source": "九五：大人虎变，未占有孚",
+        "source_type": "爻辞",
+        "meaning": "大人之变，威严光明",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "豹变",
+        "source": "上六：君子豹变，小人革面",
+        "source_type": "爻辞",
+        "meaning": "君子蜕变，小人顺从",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "50": {
+    "hexagram_name": "鼎",
+    "names": [
+      {
+        "name": "凝命",
+        "source": "木上有火，鼎；君子以正位凝命",
+        "source_type": "象传",
+        "meaning": "端正其位，凝聚天命",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "出否",
+        "source": "初六：鼎颠趾，利出否",
+        "source_type": "爻辞",
+        "meaning": "倾覆旧物，以出恶秽",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "黄耳",
+        "source": "六五：鼎黄耳金铉，利贞",
+        "source_type": "爻辞",
+        "meaning": "鼎饰华美，中正可守",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "玉铉",
+        "source": "上九：鼎玉铉，大吉，无不利",
+        "source_type": "爻辞",
+        "meaning": "玉铉在上，至善大吉",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "51": {
+    "hexagram_name": "震",
+    "names": [
+      {
+        "name": "修省",
+        "source": "洊雷，震；君子以恐惧修省",
+        "source_type": "象传",
+        "meaning": "临威恐惧，修身反省",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "虩虩",
+        "source": "初九：震来虩虩，后笑言哑哑，吉",
+        "source_type": "爻辞",
+        "meaning": "先惧后安，镇定则吉",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "苏苏",
+        "source": "六三：震苏苏，震行无眚",
+        "source_type": "爻辞",
+        "meaning": "惊惧不安，慎行无灾",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "遂泥",
+        "source": "九四：震遂泥",
+        "source_type": "爻辞",
+        "meaning": "震惊失守，陷于泥淖",
+        "mood_fit": [
+          "lost",
+          "anxious"
+        ]
+      }
+    ]
+  },
+  "52": {
+    "hexagram_name": "艮",
+    "names": [
+      {
+        "name": "不出",
+        "source": "兼山，艮；君子以思不出其位",
+        "source_type": "象传",
+        "meaning": "安守本分，思不出位",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "艮趾",
+        "source": "初六：艮其趾，无咎，利永贞",
+        "source_type": "爻辞",
+        "meaning": "止于初始，永正无咎",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "艮身",
+        "source": "六四：艮其身，无咎",
+        "source_type": "爻辞",
+        "meaning": "止于其身，安而不动",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "敦艮",
+        "source": "上九：敦艮，吉",
+        "source_type": "爻辞",
+        "meaning": "敦厚而止，至善则吉",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "53": {
+    "hexagram_name": "渐",
+    "names": [
+      {
+        "name": "善俗",
+        "source": "山上有木，渐；君子以居贤德善俗",
+        "source_type": "象传",
+        "meaning": "蓄德渐进，移风易俗",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "于磐",
+        "source": "六二：鸿渐于磐，饮食衎衎，吉",
+        "source_type": "爻辞",
+        "meaning": "渐进安稳，和乐自得",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "于木",
+        "source": "六四：鸿渐于木，或得其桷，无咎",
+        "source_type": "爻辞",
+        "meaning": "渐得其位，安然栖身",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "羽仪",
+        "source": "上九：鸿渐于陆，其羽可用为仪，吉",
+        "source_type": "爻辞",
+        "meaning": "渐进至高，其仪可法",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "54": {
+    "hexagram_name": "归妹",
+    "names": [
+      {
+        "name": "永终",
+        "source": "泽上有雷，归妹；君子以永终知敝",
+        "source_type": "象传",
+        "meaning": "慎始永终，预知其弊",
+        "mood_fit": [
+          "decisive",
+          "anxious"
+        ]
+      },
+      {
+        "name": "以娣",
+        "source": "初九：归妹以娣，跛能履，征吉",
+        "source_type": "爻辞",
+        "meaning": "以偏辅正，虽弱可行",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "愆期",
+        "source": "九四：归妹愆期，迟归有时",
+        "source_type": "爻辞",
+        "meaning": "宁迟不苟，待正而归",
+        "mood_fit": [
+          "calm",
+          "anxious"
+        ]
+      },
+      {
+        "name": "几望",
+        "source": "六五：帝乙归妹，其君之袂，不如其娣之袂良；月几望，吉",
+        "source_type": "爻辞",
+        "meaning": "贵在德行，不在华饰",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "55": {
+    "hexagram_name": "丰",
+    "names": [
+      {
+        "name": "折狱",
+        "source": "雷电皆至，丰；君子以折狱致刑",
+        "source_type": "象传",
+        "meaning": "丰盛之时，明断刑罚",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "配主",
+        "source": "初九：遇其配主，虽旬无咎，往有尚",
+        "source_type": "爻辞",
+        "meaning": "遇合相当，相得益彰",
+        "mood_fit": [
+          "hopeful"
+        ]
+      },
+      {
+        "name": "日中",
+        "source": "六二：丰其蔀，日中见斗，往得疑疾，有孚发若，吉",
+        "source_type": "爻辞",
+        "meaning": "盛极而暗，诚信可明",
+        "mood_fit": [
+          "anxious",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "来章",
+        "source": "六五：来章，有庆誉，吉",
+        "source_type": "爻辞",
+        "meaning": "招致贤才，福庆美誉",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "56": {
+    "hexagram_name": "旅",
+    "names": [
+      {
+        "name": "慎刑",
+        "source": "山上有火，旅；君子以明慎用刑，而不留狱",
+        "source_type": "象传",
+        "meaning": "明察慎刑，不滞留狱",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "即次",
+        "source": "六二：旅即次，怀其资，得童仆，贞",
+        "source_type": "爻辞",
+        "meaning": "旅居安稳，柔顺得助",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "射雉",
+        "source": "六五：射雉一矢亡，终以誉命",
+        "source_type": "爻辞",
+        "meaning": "以小失大，终获美誉",
+        "mood_fit": [
+          "hopeful",
+          "decisive"
+        ]
+      },
+      {
+        "name": "焚巢",
+        "source": "上九：鸟焚其巢，旅人先笑后号咷",
+        "source_type": "爻辞",
+        "meaning": "旅高致祸，先乐后悲",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "57": {
+    "hexagram_name": "巽",
+    "names": [
+      {
+        "name": "申命",
+        "source": "随风，巽；君子以申命行事",
+        "source_type": "象传",
+        "meaning": "申明命令，推行政事",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "武人",
+        "source": "初六：进退，利武人之贞",
+        "source_type": "爻辞",
+        "meaning": "犹豫进退，宜以武断",
+        "mood_fit": [
+          "decisive"
+        ]
+      },
+      {
+        "name": "三品",
+        "source": "六四：悔亡，田获三品",
+        "source_type": "爻辞",
+        "meaning": "柔顺得位，田猎多获",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "先庚",
+        "source": "九五：贞吉，悔亡，无不利。无初有终，先庚三日，后庚三日，吉",
+        "source_type": "爻辞",
+        "meaning": "慎始慎终，变革有序",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "58": {
+    "hexagram_name": "兑",
+    "names": [
+      {
+        "name": "讲习",
+        "source": "丽泽，兑；君子以朋友讲习",
+        "source_type": "象传",
+        "meaning": "朋友相讲，学业日进",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "和兑",
+        "source": "初九：和兑，吉",
+        "source_type": "爻辞",
+        "meaning": "和而不同，悦得其正",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "孚兑",
+        "source": "九二：孚兑，吉，悔亡",
+        "source_type": "爻辞",
+        "meaning": "以诚相悦，悔恨消亡",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "介疾",
+        "source": "九四：商兑未宁，介疾有喜",
+        "source_type": "爻辞",
+        "meaning": "商度抉择，去疾有喜",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "59": {
+    "hexagram_name": "涣",
+    "names": [
+      {
+        "name": "立庙",
+        "source": "风行水上，涣；先王以享于帝，立庙",
+        "source_type": "象传",
+        "meaning": "涣散之时，聚以庙祭",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "马壮",
+        "source": "初六：用拯，马壮，吉",
+        "source_type": "爻辞",
+        "meaning": "拯济涣散，借壮马力",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "涣群",
+        "source": "六四：涣其群，元吉。涣有丘，匪夷所思",
+        "source_type": "爻辞",
+        "meaning": "涣散朋党，大公无私",
+        "mood_fit": [
+          "decisive",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "涣汗",
+        "source": "九五：涣汗其大号，涣王居，无咎",
+        "source_type": "爻辞",
+        "meaning": "号令如汗，散财济民",
+        "mood_fit": [
+          "decisive"
+        ]
+      }
+    ]
+  },
+  "60": {
+    "hexagram_name": "节",
+    "names": [
+      {
+        "name": "制度",
+        "source": "泽上有水，节；君子以制数度，议德行",
+        "source_type": "象传",
+        "meaning": "制定礼度，评议德行",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "户庭",
+        "source": "初九：不出户庭，无咎",
+        "source_type": "爻辞",
+        "meaning": "知节慎密，不轻出门",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "安节",
+        "source": "六四：安节，亨",
+        "source_type": "爻辞",
+        "meaning": "安于节度，自然通达",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "甘节",
+        "source": "九五：甘节，吉，往有尚",
+        "source_type": "爻辞",
+        "meaning": "以节为甘，行之受赏",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "61": {
+    "hexagram_name": "中孚",
+    "names": [
+      {
+        "name": "缓死",
+        "source": "泽上有风，中孚；君子以议狱缓死",
+        "source_type": "象传",
+        "meaning": "诚信感物，慎刑缓死",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "鸣鹤",
+        "source": "九二：鸣鹤在阴，其子和之；我有好爵，吾与尔靡之",
+        "source_type": "爻辞",
+        "meaning": "诚信相感，远近应和",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "挛如",
+        "source": "九五：有孚挛如，无咎",
+        "source_type": "爻辞",
+        "meaning": "诚信相连，紧密不散",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      },
+      {
+        "name": "翰音",
+        "source": "上九：翰音登于天，贞凶",
+        "source_type": "爻辞",
+        "meaning": "信非其真，虚声远播",
+        "mood_fit": [
+          "anxious",
+          "lost"
+        ]
+      }
+    ]
+  },
+  "62": {
+    "hexagram_name": "小过",
+    "names": [
+      {
+        "name": "过恭",
+        "source": "山上有雷，小过；君子以行过乎恭，丧过乎哀，用过乎俭",
+        "source_type": "象传",
+        "meaning": "小有过越，行恭丧哀",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "遇妣",
+        "source": "六二：过其祖，遇其妣；不及其君，遇其臣，无咎",
+        "source_type": "爻辞",
+        "meaning": "过阳遇阴，得其所宜",
+        "mood_fit": [
+          "calm"
+        ]
+      },
+      {
+        "name": "防戕",
+        "source": "九三：弗过防之，从或戕之，凶",
+        "source_type": "爻辞",
+        "meaning": "不防小人，反受其害",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "弋穴",
+        "source": "六五：密云不雨，自我西郊，公弋取彼在穴",
+        "source_type": "爻辞",
+        "meaning": "阴盛无阳，弋取于穴",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      }
+    ]
+  },
+  "63": {
+    "hexagram_name": "既济",
+    "names": [
+      {
+        "name": "豫防",
+        "source": "水在火上，既济；君子以思患而豫防之",
+        "source_type": "象传",
+        "meaning": "虽已成事，思患预防",
+        "mood_fit": [
+          "calm",
+          "decisive"
+        ]
+      },
+      {
+        "name": "濡尾",
+        "source": "初九：曳其轮，濡其尾，无咎",
+        "source_type": "爻辞",
+        "meaning": "慎其首尾，虽濡无咎",
+        "mood_fit": [
+          "anxious",
+          "calm"
+        ]
+      },
+      {
+        "name": "七日",
+        "source": "六二：妇丧其茀，勿逐，七日得",
+        "source_type": "爻辞",
+        "meaning": "失物不追，时来自复",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "禴祭",
+        "source": "九五：东邻杀牛，不如西邻之禴祭，实受其福",
+        "source_type": "爻辞",
+        "meaning": "诚敬胜奢，实受其福",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      }
+    ]
+  },
+  "64": {
+    "hexagram_name": "未济",
+    "names": [
+      {
+        "name": "辨方",
+        "source": "火在水上，未济；君子以慎辨物居方",
+        "source_type": "象传",
+        "meaning": "慎辨万物，各安其方",
+        "mood_fit": [
+          "decisive",
+          "calm"
+        ]
+      },
+      {
+        "name": "濡尾",
+        "source": "初六：濡其尾，吝",
+        "source_type": "爻辞",
+        "meaning": "不自量力，小有遗憾",
+        "mood_fit": [
+          "anxious"
+        ]
+      },
+      {
+        "name": "曳轮",
+        "source": "九二：曳其轮，贞吉",
+        "source_type": "爻辞",
+        "meaning": "审慎前行，守正则吉",
+        "mood_fit": [
+          "calm",
+          "hopeful"
+        ]
+      },
+      {
+        "name": "之光",
+        "source": "六五：贞吉，无悔，君子之光，有孚，吉",
+        "source_type": "爻辞",
+        "meaning": "君子之光，诚信而吉",
+        "mood_fit": [
+          "hopeful",
+          "calm"
+        ]
+      }
+    ]
+  }
+}
