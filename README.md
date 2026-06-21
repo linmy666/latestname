@@ -1,6 +1,6 @@
 # Latestname · 此刻之名
 
-> **I Ching × Tarot × Personality Archetypes — A deterministic divination engine with AI-powered interpretation.**
+> **The Eastern MBTI — Discover your Archetype Name through I Ching × Tarot divination.**
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB.svg)](https://www.python.org/)
@@ -11,11 +11,33 @@
 
 ## 🔮 What is Latestname?
 
-Latestname is not your typical fortune-telling app. It's a **deterministic divination platform** that fuses Eastern and Western esoteric traditions into a unified resonance-reading system.
+**Think MBTI, but powered by 3,000 years of Eastern philosophy.**
 
-### The Core Innovation: **Cross-System Resonance**
+Latestname is a divination platform that doesn't just tell your fortune — it gives you a **Name**. Not your birth name, but your *archetype name*: a poetic, I-Ching-grounded identity that captures who you are at your core.
 
-When you ask a question, Latestname doesn't just give you one perspective. It simultaneously:
+### 🏷️ The Signature Feature: Archetype Names (卦名)
+
+At the heart of Latestname is a **16-archetype personality system** — the Eastern answer to MBTI.
+
+Instead of four cold letters like `INTJ` or `ENFP`, you get a **Name with meaning**:
+
+| MBTI Style | Latestname Archetype | What it means |
+|-----------|---------------------|---------------|
+| The Analyst | **潜龙格** (Hidden Dragon) | Acts first, justifies later. Raw momentum incarnate. |
+| The Strategist | **日中格** (Midday Sun) | Calculates everything. Strikes only when victory is certain. |
+| The Diplomat | **坎水格** (Flowing Water) | Adapts to any container. Patience as superpower. |
+| The Sentinel | **艮山格** (Still Mountain) | Immovable. Waits. The world rearranges itself around them. |
+| ... | *12 more archetypes* | Each with poetic Chinese name + interpretation |
+
+**How it works:** A 28-question adaptive quiz maps you across 4 dimensions (Decisive/Judgment/Social/Attribution), each tied to a Bagua trigram. The result: one of 16 archetype names — your **Ground-Color Name** (底色之名).
+
+> *MBTI tells you what you are. Latestname tells you what you're **called**.*
+
+---
+
+### The Deeper Layer: Cross-System Resonance
+
+Once you know your archetype, the real divination begins. Ask any question, and Latestname simultaneously:
 
 1. **Casts an I Ching hexagram** using the authentic Coin Method (金钱卦) — 6 lines, 3 coins each, with changing lines generating a transformed hexagram
 2. **Draws Tarot cards** with Fisher-Yates shuffle, including upright/reversed positions
@@ -303,6 +325,6 @@ Contributions are welcome! Please:
 
 **Latestname · 此刻之名**
 
-*Every cast is a name. Every name is a moment.*
+*MBTI tells you what you are. Latestname tells you what you're called.*
 
 </div>
