@@ -57,11 +57,19 @@ export function PersonalityQuiz({ onComplete, apiBase = import.meta.env.VITE_API
 
   async function fetchNextQuestions(answers: typeof allAnswers) {
     try {
+      // v2.3: 自动带 token（admin 路由需要 Authorization）
+      const token = localStorage.getItem('ln_token')
+      const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+      if (token) headers['Authorization'] = `Bearer ${token}`
       const resp = await fetch(`${apiBase}/api/personality/next`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers,
         body: JSON.stringify({ answers, seed: 42 }),
       });
+      if (!resp.ok) {
+        const errBody = await resp.json().catch(() => ({}));
+        throw new Error(errBody.detail || `HTTP ${resp.status}`);
+      }
       const data = await resp.json();
       if (!isMounted.current) return;
 
@@ -90,6 +98,14 @@ export function PersonalityQuiz({ onComplete, apiBase = import.meta.env.VITE_API
       console.error('Personality quiz fetch error:', e);
       // v2.3: 把错误暴露给用户，避免无限 loading
       if (isMounted.current) {
+        // 401 时直接触发登录浮层，不要让用户面对死胡同
+        if (e?.message?.includes('登录') || e?.message?.includes('HTTP 401')) {
+          try {
+            const { triggerAuthGate } = await import('./AuthGate');
+            triggerAuthGate('login', e.message);
+            return;
+          } catch {}
+        }
         setCurrentBatch([{
           id: '__error__',
           text_zh: `加载失败：${e?.message || '网络错误'}，请刷新页面重试`,
