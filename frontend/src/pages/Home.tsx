@@ -180,9 +180,9 @@ export default function Home() {
                   lineHeight: 1.6,
                 }}>{daily.short_message}</p>
 
-                <div style={{ marginTop: '0.6rem' }}>
+                <div style={{ marginTop: '0.6rem', display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                   {daily.hexagram.keywords.map((k: string) => (
-                    <span key={k} className="glass-chip" style={{ marginRight: '0.3rem' }}>#{k}</span>
+                    <span key={k} className="glass-chip">#{k}</span>
                   ))}
                 </div>
               </div>

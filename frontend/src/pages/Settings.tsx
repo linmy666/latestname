@@ -128,7 +128,7 @@ export default function Settings() {
   }
 
   return (
-    <div className="container fade-in" style={{ maxWidth: '640px', padding: '2.5rem 0' }}>
+    <div className="container fade-in" style={{ maxWidth: '640px', paddingTop: '2.5rem', paddingBottom: '2.5rem' }}>
       {/* v2.2: Pro 用户专属标识（登录后才显示）*/}
       <ProBadgeFull />
 

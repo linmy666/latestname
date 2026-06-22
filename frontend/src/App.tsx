@@ -418,8 +418,8 @@ function ParticleBackground() {
 // MobileBottomTab — 移动端底部 Tab 栏（仅 effectiveMobile 时显示）
 // ============================================================
 function MobileBottomTab({ navItems, pathname, t, theme }: { navItems: NavItem[]; pathname: string; t: any; theme: 'dark' | 'light' }) {
-  // 只显示主导航 4 项
-  const visible = navItems.filter(i => i.path !== '/about').slice(0, 4)
+  // v2.3: 显示全部 5 项导航（包括「关于」），用户需要看到入口
+  const visible = navItems.slice(0, 5)
   return (
     <nav style={{
       position: 'fixed', bottom: 0, left: 0, right: 0,
