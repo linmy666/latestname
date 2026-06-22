@@ -38,25 +38,30 @@ export default function About() {
           ✦ {D('为什么做这个', 'Why this exists')}
         </h3>
         <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
-          2025 年我开始用现成的占卜 app。紫黑渐变、3D 塔罗牌翻转、AI 语音合成——做得很漂亮。
-          但我用的次数越来越少。因为每次看完那些「吉凶参半，宜谨慎抉择」的句子，我合上手机，心里什么都没多。
-        </p>
-        <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
-          后来我开始写自己的版本。一开始是为了搞清楚几件事：
-        </p>
-        <ul style={{ lineHeight: 2, marginBottom: '1rem', paddingLeft: '1.5rem' }}>
-          <li>六爻到底是怎么排出来的？老说"动爻生变"，但动爻是按什么规则被标记的？</li>
-          <li>塔罗抽牌的"随机"是什么分布？是真随机还是伪随机？同一个种子能复现吗？</li>
-          <li>AI 解读一段卦象时，它到底在"算"什么，还是只是把字典里的几个词拼起来？</li>
-        </ul>
-        <p className="body-text" style={{ lineHeight: 2 }}>
-          写完之后发现自己确实搞清楚了上面三个问题——算法是确定的，种子是可复现的，AI 那一层是可选的。
-          后来把它发布出来。如果你也对"它到底在算什么"这件事好奇，可以自己看代码：
-          <a href="https://github.com/linmy666/latestname" target="_blank" rel="noopener noreferrer" className="text-gold" style={{ marginLeft: '0.3em' }}>GitHub</a>。
-        </p>
-      </div>
+                  2025 年我被外派到越南。大半年一个人在陌生城市，节奏和国内完全不同。
+                </p>
+                <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
+                  那段时间下了几个占卜 app——紫黑渐变、3D 塔罗牌翻转。视觉做得确实漂亮。但用了几次之后，合上手机心里什么都没多。
+                </p>
+                <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
+                  「吉凶参半，宜谨慎抉择」——这种话读完之后是会让人更安心，还是更焦虑？反正我是后者。
+                </p>
+                <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
+                  后来我想搞清楚它到底是怎么算出来的，于是自己写了一个。
+                </p>
+                <ul style={{ lineHeight: 2, marginBottom: '1rem', paddingLeft: '1.5rem' }}>
+                  <li>我一直不懂六爻是怎么排出来的。三枚铜钱扔六次，但「动爻」具体是按什么规则被挑出来的？</li>
+                  <li>塔罗抽牌的「随机」到底随机在哪？同一个种子再抽一次会一样吗？</li>
+                  <li>AI 给的那段解卦词，它是真的「算」出来的，还是把模板里的几个词换了个排列？</li>
+                </ul>
+                <p className="body-text" style={{ lineHeight: 2 }}>
+                  写完发现，这些东西其实都不难懂。排盘就是三枚铜钱扔六次，抽牌就是固定种子下的伪随机，AI 不接也行——前面的卦象已经够看了。这个项目已经开源在
+                  <a href="https://github.com/linmy666/latestname" target="_blank" rel="noopener noreferrer" className="text-gold" style={{ marginLeft: '0.3em', marginRight: '0.3em' }}>GitHub</a>
+                  ，有问题欢迎随时交流。 ~(=^‥^)ノ
+                </p>
+              </div>
 
-      {/* === 卦象是什么 === */}
+              {/* === 卦象是结构，不是答案 === */}
       <div className="card" style={{ marginBottom: '1.5rem' }}>
         <h3 className="label" style={{ fontSize: '0.8rem', marginBottom: '1rem' }}>
           ✦ {D('卦象是结构，不是答案', 'A hexagram is a structure, not an answer')}
