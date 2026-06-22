@@ -86,8 +86,20 @@ export function PersonalityQuiz({ onComplete, apiBase = import.meta.env.VITE_API
         }
         return next;
       });
-    } catch (e) {
+    } catch (e: any) {
       console.error('Personality quiz fetch error:', e);
+      // v2.3: 把错误暴露给用户，避免无限 loading
+      if (isMounted.current) {
+        setCurrentBatch([{
+          id: '__error__',
+          text_zh: `加载失败：${e?.message || '网络错误'}，请刷新页面重试`,
+          text_en: `Load failed: ${e?.message || 'Network error'}, please refresh`,
+          dim_key: 'decisive',
+          pole_a: '重试',
+          pole_b: 'Cancel',
+        } as any]);
+        setPhase('base');
+      }
     }
   }
 
