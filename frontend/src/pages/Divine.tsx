@@ -886,7 +886,7 @@ function InputView({ question, setQuestion, mode, setMode, onStart, onQuickStart
                   onClick={async () => {
                     const p = personalityResult
                     try {
-                      const portraitUrl = `http://127.0.0.1:8765/static/personalities/${p.name}.png`
+                      const portraitUrl = `${import.meta.env.VITE_API_BASE || ''}/static/personalities/${p.name}.png`
                       const { renderPersonalityShareCard, downloadShareImage } = await import('../components/PersonalityShareCard')
                       const dataUrl = await renderPersonalityShareCard({
                         name: p.name,
@@ -979,7 +979,7 @@ function InputView({ question, setQuestion, mode, setMode, onStart, onQuickStart
           <div className="step1-companion">
             <div className="step1-companion-avatar">
               <img
-                src={`http://127.0.0.1:8765/static/personalities/${personalityResult.name}.png`}
+                src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${personalityResult.name}.png`}
                 alt={personalityResult.name}
                 onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               />
@@ -1481,7 +1481,7 @@ function RitualOpenView({ question, personalityName, personalityCode, personalit
           <div className="ritual-open-companion">
             <div className="ritual-open-companion-avatar">
               <img
-                src={`http://127.0.0.1:8765/static/personalities/${personalityPortrait}.png`}
+                src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${personalityPortrait}.png`}
                 alt={personalityName}
                 onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               />

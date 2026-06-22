@@ -87,7 +87,7 @@ export function PersonalitySelector({ onSelect, onBack }: PersonalitySelectorPro
             >
               <div className="selector-cell-portrait">
                 <img
-                  src={`http://127.0.0.1:8765/static/personalities/${t.name}.png`}
+                  src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${t.name}.png`}
                   alt={t.name}
                   className="selector-cell-img"
                   onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
@@ -105,7 +105,7 @@ export function PersonalitySelector({ onSelect, onBack }: PersonalitySelectorPro
         <div className="selector-detail scroll-card">
           <div className="selector-detail-portrait">
             <img
-              src={`http://127.0.0.1:8765/static/personalities/${detail.name}.png`}
+              src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${detail.name}.png`}
               alt={detail.name}
               className="selector-detail-img"
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}

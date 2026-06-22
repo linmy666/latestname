@@ -33,7 +33,7 @@ interface Fortune30Data {
   lowest: FortuneDay
 }
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8765'
+const API_BASE = import.meta.env.VITE_API_BASE || ''
 
 const fortuneColor = (score: number) => {
   if (score >= 8) return 'var(--fortune-good)'

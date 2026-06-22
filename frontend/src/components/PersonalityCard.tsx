@@ -60,7 +60,7 @@ export function PersonalityCard({ personality, onSelectQuestion, compact = false
     return (
       <div className="personality-companion">
         <img
-          src={`http://127.0.0.1:8765/static/personalities/${personality.name}.png`}
+          src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${personality.name}.png`}
           alt={personality.name}
           className="personality-companion-avatar"
           onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
@@ -78,7 +78,7 @@ export function PersonalityCard({ personality, onSelectQuestion, compact = false
       {/* 卦格角色形象图 */}
       <div className="scroll-portrait-wrap">
         <img
-          src={`http://127.0.0.1:8765/static/personalities/${personality.name}.png`}
+          src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${personality.name}.png`}
           alt={personality.name}
           className="scroll-portrait-img"
           onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
@@ -153,7 +153,7 @@ export function PersonalityCard({ personality, onSelectQuestion, compact = false
         <div className="voice-intro-bubble">
           <div className="voice-intro-avatar">
             <img
-              src={`http://127.0.0.1:8765/static/personalities/${personality.name}.png`}
+              src={`${import.meta.env.VITE_API_BASE || ''}/static/personalities/${personality.name}.png`}
               alt={personality.name}
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
             />

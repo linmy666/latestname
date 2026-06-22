@@ -34,7 +34,7 @@ interface PersonalityQuizProps {
   apiBase?: string;
 }
 
-export function PersonalityQuiz({ onComplete, apiBase = 'http://127.0.0.1:8765' }: PersonalityQuizProps) {
+export function PersonalityQuiz({ onComplete, apiBase = import.meta.env.VITE_API_BASE || '' }: PersonalityQuizProps) {
   const { lang } = usePrefs()
   setLang(lang)
   const [currentBatch, setCurrentBatch] = useState<Question[]>([]);
