@@ -309,13 +309,8 @@ def init_admin():
                 print(f"[auth] 已将 {ADMIN_EMAIL} 提升为管理员")
             return
         if not ADMIN_PASSWORD:
-            # v2.4: ADMIN_PASSWORD 未设置时，自动生成一个随机强密码并打印到日志
-            # 这样容器重启后管理员账户不会 lock-out，且我们能在 Railway logs 里看到
-            import secrets, string
-            generated = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(20))
-            ADMIN_PASSWORD = generated
-            print(f"[auth] ⚠ ADMIN_PASSWORD 未设置，已自动生成临时管理员密码: {generated}")
-            print(f"[auth] 强烈建议在 Railway 环境变量中设置 ADMIN_PASSWORD 以避免下次重启再次变化")
+            print("[auth] ⚠ ADMIN_PASSWORD 未设置，跳过管理员创建")
+            return
         admin = User(
             email=ADMIN_EMAIL,
             name=ADMIN_NAME,
