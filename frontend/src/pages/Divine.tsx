@@ -420,26 +420,27 @@ export default function Divine() {
     setInterpretation('')
     setInterpretError('')
 
-    // 如果用户配置了 API Key，走云端 LLM
-    if (settings.api_key && settings.api_key.length > 20) {
-      try {
-        const controller = new AbortController()
-        const timeout = setTimeout(() => controller.abort(), 120000) // 2min for streaming
-        // v2.2: 自动带 token
-        const token = localStorage.getItem('ln_token')
-        const headers: Record<string, string> = { 'Content-Type': 'application/json' }
-        if (token) headers['Authorization'] = `Bearer ${token}`
-        const res = await fetch('/api/interpret', {
-          method: 'POST',
-          headers,
-          body: JSON.stringify({
-            question,
-            divination: result,
-            llm_config: settings,
-          }),
-          signal: controller.signal,
-        })
-        clearTimeout(timeout)
+    // v2.4: 不再前置拦截 — 直接让后端判断（部署版用管理员配置，开源版用户自配）
+    try {
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 120000)
+      const token = localStorage.getItem('ln_token')
+      const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+      if (token) headers['Authorization'] = `Bearer ${token}`
+      const res = await fetch('/api/interpret', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          question,
+          divination: result,
+          // v2.4: 仅当用户在 Settings 自配时传 llm_config（部署版留空）
+          ...(settings?.api_key && settings.api_key.length > 20
+              ? { llm_config: settings }
+              : {}),
+        }),
+        signal: controller.signal,
+      })
+      clearTimeout(timeout)
 
         // v2.2: 处理 401 + 429
         if (res.status === 401) {
@@ -485,18 +486,16 @@ export default function Divine() {
           }
         }
       } catch (e: any) {
-                setInterpretError(e.message || D('解读出错', 'AI reading failed'))
-              } finally {
-                setInterpreting(false)
-                refreshQuota()  // v2.3: 解读完成后刷新配额
+        // v2.4: 后端 503（管理员没配）才显示「请联系管理员」，其他错误统一提示
+        if (e.name !== 'AbortError') {
+          // 真正错误（AbortError 是用户取消）
+          setInterpretError(e.message || D('解读出错', 'AI reading failed'))
+        }
+      } finally {
+        setInterpreting(false)
+        refreshQuota()
       }
-      return
     }
-
-    // 未配置 API Key
-    setInterpreting(false)
-    setInterpretError(D('请先在设置页配置 LLM Endpoint，或联系管理员开启 AI 服务。', 'Configure your LLM Endpoint in Settings, or ask an admin to enable AI service.'))
-  }
 
   return (
     <div className="container fade-in" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
