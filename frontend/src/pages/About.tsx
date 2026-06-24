@@ -96,8 +96,10 @@ export default function About() {
         </p>
         <p className="body-text" style={{ lineHeight: 2, marginBottom: '1rem' }}>
           但"把卦辞翻译成现代人能读的话"这件事，AI 确实比我写得好。
-          所以我把这两层分开——你可以在「设置」里接入任何 OpenAI 兼容的 API（GPT-4、Claude、本地 ollama 都可以），
-          让 AI 用你的卦象 + 卦辞 + 你的问题作为上下文，生成解读。
+          所以我把这两层分开——AI 解读作为可选的第三层，由系统统一配置；
+          你拿到的卦象 + 卦辞 + 你的问题会作为上下文发给 AI，生成解读。
+          具体用的什么模型、哪家服务、怎么计费，由管理员在后台统一安排，
+          普通用户不需要关心，也不需要自己配 key。
         </p>
         <p className="body-text" style={{ lineHeight: 2 }}>
           不配置也没关系。确定性分析本身（卦象结构、动爻生克、五行分布、五维评分）已经是一份完整的报告。
