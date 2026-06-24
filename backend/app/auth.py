@@ -309,8 +309,13 @@ def init_admin():
                 print(f"[auth] 已将 {ADMIN_EMAIL} 提升为管理员")
             return
         if not ADMIN_PASSWORD:
-            print("[auth] ⚠ ADMIN_PASSWORD 未设置，跳过管理员创建")
-            return
+            # v2.4: ADMIN_PASSWORD 未设置时，自动生成一个随机强密码并打印到日志
+            # 这样容器重启后管理员账户不会 lock-out，且我们能在 Railway logs 里看到
+            import secrets, string
+            generated = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(20))
+            ADMIN_PASSWORD = generated
+            print(f"[auth] ⚠ ADMIN_PASSWORD 未设置，已自动生成临时管理员密码: {generated}")
+            print(f"[auth] 强烈建议在 Railway 环境变量中设置 ADMIN_PASSWORD 以避免下次重启再次变化")
         admin = User(
             email=ADMIN_EMAIL,
             name=ADMIN_NAME,
@@ -1074,6 +1079,63 @@ async def admin_save_llm_config(
         api_key = existing.get("api_key", "")
     save_llm_config(db, {"base_url": req.base_url, "api_key": api_key, "model": req.model})
     return {"status": "ok", "message": "LLM 配置已保存"}
+
+
+class LLMTestRequest(BaseModel):
+    base_url: str = Field(..., description="API Base URL")
+    api_key: str = Field(..., description="API Key（即使是占位也用之测试）")
+    model: str = Field(..., description="模型名")
+
+
+@router.post("/admin/llm-test")
+async def admin_llm_test(
+    req: LLMTestRequest,
+    admin: User = Depends(require_admin),
+):
+    """用当前填写的 base_url/api_key/model 测试连通性。
+    返回 {"ok": bool, "status": int|None, "message": str, "latency_ms": int}
+    注意：不写入数据库，仅用作 UI 验证。
+    """
+    import time
+    import httpx
+
+    if not req.base_url or not req.api_key or not req.model:
+        return {"ok": False, "status": None, "message": "base_url / api_key / model 都不能为空", "latency_ms": 0}
+
+    # v2.5: 智能拼接 endpoint — 支持两种格式
+    # 格式 A: base_url 已含 /chat/completions（如 https://integrate.api.nvidia.com/v1/chat/completions）
+    # 格式 B: base_url 是根 URL（如 https://api.openai.com/v1），需要拼 /chat/completions
+    base = req.base_url.rstrip("/")
+    if base.endswith("/chat/completions"):
+        url = base
+    else:
+        url = f"{base}/chat/completions"
+
+    payload = {
+        "model": req.model,
+        "messages": [{"role": "user", "content": "ping"}],
+        "max_tokens": 8,
+        "stream": False,
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {req.api_key}",
+    }
+
+    t0 = time.time()
+    try:
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            r = await client.post(url, json=payload, headers=headers)
+        latency = int((time.time() - t0) * 1000)
+        if r.status_code == 200:
+            return {"ok": True, "status": 200, "message": f"✓ 连接成功（{latency}ms）", "latency_ms": latency}
+        else:
+            text = r.text[:300]
+            return {"ok": False, "status": r.status_code, "message": f"HTTP {r.status_code}: {text}", "latency_ms": latency}
+    except httpx.TimeoutException:
+        return {"ok": False, "status": None, "message": "请求超时（30s）", "latency_ms": 30000}
+    except Exception as e:
+        return {"ok": False, "status": None, "message": f"{type(e).__name__}: {str(e)[:200]}", "latency_ms": int((time.time() - t0) * 1000)}
 
 
 @router.get("/admin/stats")
