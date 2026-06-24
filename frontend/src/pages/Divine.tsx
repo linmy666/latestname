@@ -119,6 +119,14 @@ export default function Divine() {
     }
   }, [location.state])
 
+  // v2.5: 清理旧的 onyx_llm_config — LLM 配置已统一移到管理员后台
+  useEffect(() => {
+    if (localStorage.getItem('onyx_llm_config')) {
+      localStorage.removeItem('onyx_llm_config')
+    }
+    // /llm_config.json（前端静态文件）也不再使用，由 Admin 后端取代
+  }, [])
+
   const [breathIdx, setBreathIdx] = useState(0)
   const [error, setError] = useState('')
   const skipRef = useRef(false)
@@ -433,10 +441,7 @@ export default function Divine() {
         body: JSON.stringify({
           question,
           divination: result,
-          // v2.4: 仅当用户在 Settings 自配时传 llm_config（部署版留空）
-          ...(settings?.api_key && settings.api_key.length > 20
-              ? { llm_config: settings }
-              : {}),
+          // v2.5: 不再传 llm_config — 永远使用管理员在 Admin 后台配置的全局 LLM
         }),
         signal: controller.signal,
       })
