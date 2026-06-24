@@ -299,6 +299,8 @@ ADMIN_NAME = os.getenv("ADMIN_NAME", "管理员")
 def init_admin():
     if not AUTH_ENABLED:
         return
+    # v2.5: 必须用 global 声明，否则下面 if not ADMIN_PASSWORD 会 UnboundLocalError
+    global ADMIN_PASSWORD
     db = SessionLocal()
     try:
         admin = db.query(User).filter(User.email == ADMIN_EMAIL).first()
@@ -308,22 +310,24 @@ def init_admin():
                 db.commit()
                 print(f"[auth] 已将 {ADMIN_EMAIL} 提升为管理员")
             return
-        if not ADMIN_PASSWORD:
-            # v2.4: ADMIN_PASSWORD 未设置时，自动生成一个随机强密码并打印到日志
+        # 用局部变量避免 global 副作用
+        password = ADMIN_PASSWORD
+        if not password:
+            # ADMIN_PASSWORD 未设置时，自动生成一个随机强密码并打印到日志
             # 这样容器重启后管理员账户不会 lock-out，且我们能在 Railway logs 里看到
             import secrets, string
-            generated = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(20))
-            ADMIN_PASSWORD = generated
-            print(f"[auth] ⚠ ADMIN_PASSWORD 未设置，已自动生成临时管理员密码: {generated}")
+            password = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(20))
+            ADMIN_PASSWORD = password  # global 同步
+            print(f"[auth] ⚠ ADMIN_PASSWORD 未设置，已自动生成临时管理员密码: {password}")
             print(f"[auth] 强烈建议在 Railway 环境变量中设置 ADMIN_PASSWORD 以避免下次重启再次变化")
         admin = User(
             email=ADMIN_EMAIL,
             name=ADMIN_NAME,
-            hashed_password=hash_password(ADMIN_PASSWORD),
             is_superuser=True,
             is_verified=True,
             is_active=True,
         )
+        admin.hashed_password = hash_password(password)
         db.add(admin)
         db.commit()
         print(f"[auth] 管理员账户已创建: {ADMIN_EMAIL}")
