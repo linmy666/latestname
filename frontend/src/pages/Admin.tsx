@@ -60,6 +60,8 @@ export default function Admin() {
   const [llmForm, setLlmForm] = useState({ base_url: '', api_key: '', model: '' })
   const [saving, setSaving] = useState(false)
   const [saveMsg, setSaveMsg] = useState('')
+  const [testing, setTesting] = useState(false)
+  const [testMsg, setTestMsg] = useState('')
   const [stats, setStats] = useState<Stats | null>(null)
   const [users, setUsers] = useState<UserRow[]>([])
   const [usersTotal, setUsersTotal] = useState(0)
@@ -179,6 +181,40 @@ export default function Admin() {
     setTimeout(() => setSaveMsg(''), 3000)
   }
 
+  // v2.5: 测试当前填写的 LLM 配置连通性
+  const testLLM = async () => {
+    setTesting(true)
+    setTestMsg('')
+    try {
+      // 如果 api_key 为空但已有保存的 key，则拉取一次（仅 GET 接口不返回 key，
+      // 所以这种情况让用户主动填一次 key 再测）
+      if (!llmForm.api_key) {
+        setTestMsg(D('⚠ 请先填入 API Key 再测试（或留空保存后重测）', '⚠ Please fill in the API Key first (or save and test again)'))
+        setTesting(false)
+        return
+      }
+      const r = await fetch('/api/auth/admin/llm-test', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          base_url: llmForm.base_url,
+          api_key: llmForm.api_key,
+          model: llmForm.model,
+        }),
+      })
+      const d = await r.json()
+      if (d.ok) {
+        setTestMsg(D(`✓ 连接成功（${d.latency_ms}ms）`, `✓ Connected (${d.latency_ms}ms)`))
+      } else {
+        setTestMsg(D(`✗ ${d.message}`, `✗ ${d.message}`))
+      }
+    } catch (e: any) {
+      setTestMsg(D(`✗ 网络错误: ${e?.message || e}`, `✗ Network error: ${e?.message || e}`))
+    }
+    setTesting(false)
+    setTimeout(() => setTestMsg(''), 10000)
+  }
+
   const toggleUser = async (uid: number) => {
     const r = await fetch(`/api/auth/admin/users/${uid}/toggle-active`, {
       method: 'POST',
@@ -269,7 +305,7 @@ export default function Admin() {
               style={inputStyle}
             />
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
             <button
               onClick={saveLLM}
               disabled={saving}
@@ -286,7 +322,24 @@ export default function Admin() {
             >
               {saving ? D('保存中...', 'Saving…') : D('保存配置', 'Save Config')}
             </button>
+            <button
+              onClick={testLLM}
+              disabled={testing}
+              style={{
+                padding: '10px 24px',
+                background: 'transparent',
+                color: 'var(--accent-gold)',
+                border: '1px solid var(--accent-gold)',
+                borderRadius: '8px',
+                fontSize: '0.9rem',
+                cursor: testing ? 'wait' : 'pointer',
+                fontWeight: 500,
+              }}
+            >
+              {testing ? D('测试中...', 'Testing…') : D('测试连接', 'Test Connection')}
+            </button>
             {saveMsg && <span style={{ fontSize: '0.85rem', color: saveMsg.startsWith('✓') ? 'var(--accent-gold)' : '#e74c3c' }}>{saveMsg}</span>}
+            {testMsg && <span style={{ fontSize: '0.85rem', color: testMsg.startsWith('✓') ? 'var(--accent-gold)' : testMsg.startsWith('⚠') ? '#f39c12' : '#e74c3c' }}>{testMsg}</span>}
           </div>
           <div style={{
             padding: '16px',
@@ -298,9 +351,11 @@ export default function Admin() {
             lineHeight: 1.8,
           }}>
             <strong style={{ color: 'var(--text-main)' }}>{D('说明：', 'Notes:')}</strong><br />
-            {D('· 此处配置的 API 将用于所有用户的 AI 深度解读，用户无需自行配置', '· This API powers AI deep-reading for all users; users do not need to configure their own')}<br />
+            {D('· 此处配置的 API 是全局共享的：所有登录用户的 AI 深度解读都走这一个 key', '· This API is shared globally: all logged-in users share this single key for AI deep-reading')}<br />
+            {D('· 管理员只需在此配置一次，配置立即对所有用户生效（无需用户操作）', '· Admin only needs to configure once here; it takes effect for all users immediately')}<br />
             {D('· API Key 加密存储在数据库中，不会暴露给普通用户', '· API Key is encrypted at rest and never exposed to regular users')}<br />
-            {D('· 支持 OpenAI 兼容格式（MiniMax / DeepSeek / OpenAI / Claude 等）', '· Any OpenAI-compatible endpoint works (MiniMax / DeepSeek / OpenAI / Claude, etc.)')}
+            {D('· 支持 OpenAI 兼容格式（MiniMax / DeepSeek / OpenAI / Claude 等）', '· Any OpenAI-compatible endpoint works (MiniMax / DeepSeek / OpenAI / Claude, etc.)')}<br />
+            {D('· 配额（每日 AI 解读次数）在 /admin/stats 配置', '· Daily AI quota is configured in /admin/stats')}
           </div>
         </div>
       )}
