@@ -601,13 +601,15 @@ def divine_combined(req: CombinedRequest, request: Request):
 
 class LLMConfig(BaseModel):
     base_url: str = Field("https://api.openai.com/v1", description="OpenAI兼容API地址")
-    api_key: str = Field(..., description="API Key")
+    api_key: str = Field("", description="API Key（部署版由管理员统一配置，用户可留空）")
     model: str = Field("gpt-4o-mini", description="模型名")
 
 class InterpretRequest(BaseModel):
     question: str = Field(..., description="用户的问题")
     divination: dict = Field(..., description="完整的占卜结果（combined 返回）")
-    llm_config: LLMConfig = Field(..., description="LLM 配置")
+    # v2.4: llm_config 改为可选 — 部署版（auth enabled）由管理员统一配置，
+    # 开源版用户自配。空对象或缺失表示让后端决定。
+    llm_config: Optional[LLMConfig] = Field(None, description="LLM 配置（可选；空则使用管理员配置）")
 
 
 def _build_interpret_prompt(question: str, divination: dict) -> tuple[str, str]:
@@ -816,10 +818,13 @@ async def interpret(req: InterpretRequest, request: Request):
         llm_base_url = admin_llm_config["base_url"].rstrip("/")
         llm_api_key = admin_llm_config["api_key"]
         llm_model = admin_llm_config["model"]
-    else:
+    elif req.llm_config and req.llm_config.api_key:
+        # v2.4: 开源版（或用户显式覆盖）用前端传入的配置
         llm_base_url = req.llm_config.base_url.rstrip("/")
         llm_api_key = req.llm_config.api_key
         llm_model = req.llm_config.model
+    else:
+        raise HTTPException(status_code=503, detail="AI 解读服务暂未开启，请联系管理员")
 
     async def stream_generator() -> AsyncGenerator[str, None]:
         try:
